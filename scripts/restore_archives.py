@@ -133,6 +133,12 @@ def main():
         scratch = pathlib.Path(scratch_name)
         archives = [reassemble(source, spec, scratch) for spec in SPEC] + [supp]
         counts = [preflight(z, args.max_expanded_bytes, args.max_files) for z in archives]
+        total_entries = sum(n for n, _ in counts)
+        total_expanded = sum(b for _, b in counts)
+        if total_entries > args.max_files:
+            raise ValueError(f"Total ZIP entry limit exceeded: {total_entries} > {args.max_files}")
+        if total_expanded > args.max_expanded_bytes:
+            raise ValueError(f"Total expanded byte limit exceeded: {total_expanded} > {args.max_expanded_bytes}")
         stage_parent = output.parent
         stage = pathlib.Path(tempfile.mkdtemp(prefix=".silent-protocol-stage-", dir=stage_parent))
         try:
@@ -145,7 +151,7 @@ def main():
     files = sum(p.is_file() for p in output.rglob("*"))
     size = sum(p.stat().st_size for p in output.rglob("*") if p.is_file())
     print(f"Restored: {output}")
-    print(f"ZIP entries preflighted: {sum(n for n, _ in counts)}; expanded bytes declared: {sum(b for _, b in counts)}")
+    print(f"ZIP entries preflighted: {total_entries}; expanded bytes declared: {total_expanded}")
     print(f"Output files: {files}; bytes: {size}")
     print("Recovered work-in-progress; not a final movie.")
 
