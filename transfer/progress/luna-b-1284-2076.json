@@ -14,7 +14,7 @@
     "blob_sha": "a5d0242b280ad2fe38cb6b22bb2701787bb972fb",
     "parts": 2870
   },
-  "state": "IN_PROGRESS",
+  "state": "COMPLETE",
   "verified_local_parts": 793,
   "uploaded_remote_verified_indices": [
     1284,
@@ -816,7 +816,8 @@
     "last": 2076,
     "count": 13
   },
-  "remote_head_before": "08a8a0b4da58948ed3a75a1b6ddfb35b344ea52c",
-  "updated_utc": "2026-10-09T13:09:13.610Z",
-  "failures": []
+  "remote_head_before": "0dd35d0ffc69f7a130a66ec031d3736ff3971f2a",
+  "updated_utc": "2026-10-09T13:09:45.385Z",
+  "failures": [],
+  "verified_remote_part_count": 793
 }
