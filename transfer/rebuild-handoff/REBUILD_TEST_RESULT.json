@@ -1,0 +1,14 @@
+{
+  "status": "VERIFIED",
+  "test_date_utc": "2026-10-09",
+  "source_tar": "migration-derived/SILENT_PROTOCOL_COMPLETE_B10_REBUILT.tar",
+  "source_tar_sha256": "2f07d56ff635894e6792265e25abb3392b7896879e186c271e53407f52fc4e39",
+  "source_tar_bytes": 1128171520,
+  "recovered_source_root": "migration-derived/restored-rebuilt",
+  "matching_member_files": 905,
+  "extra_unrelated_source_files_ignored": 1,
+  "test_output": "/tmp/luna-a-deterministic-rebuild-test.tar",
+  "test_output_bytes": 1128171520,
+  "test_output_sha256": "2f07d56ff635894e6792265e25abb3392b7896879e186c271e53407f52fc4e39",
+  "byte_identical_to_source_tar": true
+}
