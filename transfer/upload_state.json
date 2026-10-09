@@ -1,5 +1,5 @@
-Warning: truncated output (original token count: 237593)
-Total output lines: 28724
+Warning: truncated output (original token count: 237872)
+Total output lines: 28735
 
 {
   "branch": "migration/2026-10-09-verified-source-audit",
@@ -7,8 +7,8 @@ Total output lines: 28724
   "archive_sha256": "2f07d56ff635894e6792265e25abb3392b7896879e186c271e53407f52fc4e39",
   "split_size_bytes": 393216,
   "part_count": 2870,
-  "verified_parts": 5,
-  "next_part_index": 6,
+  "verified_parts": 10,
+  "next_part_index": 11,
   "parts": [
     {
       "index": 1,
@@ -65,50 +65,50 @@ Total output lines: 28724
       "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part000006",
       "bytes": 393216,
       "sha256": "ecbb1f7f5e4255d7ac29dac24549d679bc28621e91ab5c5fb9f2ed7bd1028fdb",
-      "status": "PENDING",
-      "blob_sha": null,
-      "commit_sha": null,
-      "remote_verified_sha256": null
+      "status": "REMOTE_VERIFIED",
+      "blob_sha": "8d60d893c2f7964dc2f8ae180ef90234a5db4077",
+      "commit_sha": "56c07b7ca0f49f5189e4357affb1aa42b11a4d0c",
+      "remote_verified_sha256": "ecbb1f7f5e4255d7ac29dac24549d679bc28621e91ab5c5fb9f2ed7bd1028fdb"
     },
     {
       "index": 7,
       "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part000007",
       "bytes": 393216,
       "sha256": "edbdc100bcc8d782582db90ee692e2819b34fd4ce8743e80cee288fce8e5d73b",
-      "status": "PENDING",
-      "blob_sha": null,
-      "commit_sha": null,
-      "remote_verified_sha256": null
+      "status": "REMOTE_VERIFIED",
+      "blob_sha": "3940e770ddcb3eecbb5f152f7b16cbee9fb3cbbe",
+      "commit_sha": "56c07b7ca0f49f5189e4357affb1aa42b11a4d0c",
+      "remote_verified_sha256": "edbdc100bcc8d782582db90ee692e2819b34fd4ce8743e80cee288fce8e5d73b"
     },
     {
       "index": 8,
       "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part000008",
       "bytes": 393216,
       "sha256": "a86b7ef7755f8de2bb25eee67bf7ee0f2b3377d58280248dcfebbccaa20a8219",
-      "status": "PENDING",
-      "blob_sha": null,
-      "commit_sha": null,
-      "remote_verified_sha256": null
+      "status": "REMOTE_VERIFIED",
+      "blob_sha": "5c95104a4375882c13276faf22df3e2b4cad5729",
+      "commit_sha": "56c07b7ca0f49f5189e4357affb1aa42b11a4d0c",
+      "remote_verified_sha256": "a86b7ef7755f8de2bb25eee67bf7ee0f2b3377d58280248dcfebbccaa20a8219"
     },
     {
       "index": 9,
       "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part000009",
       "bytes": 393216,
       "sha256": "b5faaf2169724fd2620a5246bdae327267f74d85685a83a1129f73bf7c14beb7",
-      "status": "PENDING",
-      "blob_sha": null,
-      "commit_sha": null,
-      "remote_verified_sha256": null
+      "status": "REMOTE_VERIFIED",
+      "blob_sha": "233fd1106f840f6e3b8a7012110e72efa3c15b60",
+      "commit_sha": "56c07b7ca0f49f5189e4357affb1aa42b11a4d0c",
+      "remote_verified_sha256": "b5faaf2169724fd2620a5246bdae327267f74d85685a83a1129f73bf7c14beb7"
     },
     {
       "index": 10,
       "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part000010",
       "bytes": 393216,
       "sha256": "eb4b14944cd5e53cc859b8019909820cd40c8231dd5a3cebd37d178abd740712",
-      "status": "PENDING",
-      "blob_sha": null,
-      "commit_sha": null,
-      "remote_verified_sha256": null
+      "status": "REMOTE_VERIFIED",
+      "blob_sha": "11140873d36403808b96aedd6638982cad84ac5d",
+      "commit_sha": "56c07b7ca0f49f5189e4357affb1aa42b11a4d0c",
+      "remote_verified_sha256": "eb4b14944cd5e53cc859b8019909820cd40c8231dd5a3cebd37d178abd740712"
     },
     {
       "index": 11,
@@ -12072,41 +12072,7 @@ Total output lines: 28724
     },
     {
       "index": 1207,
-      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001207",
-      "bytes": 393216,
-      "sha256": "66771c3cedb335adab4f78e09ee8c1f0132cf046823a20a256ccbcaa039a7393",
-      "status": "PENDING",
-      "blob_sha": null,
-      "commit_sha": null,
-      "remote_verified_sha256": null
-    },
-    {
-      "index": 1208,
-      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001208",
-      "bytes": 393216,
-      "sha256": "c4d43bb179ddfe93e2e2e857e990128e61b6f20d3bb4b013a6c9e08d13d7d630",
-      "status": "PENDING",
-      "blob_sha": null,
-      "commit_sha": null,
-      "remote_verified_sha256": null
-    },
-    {
-      "index": 1209,
-      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001209",
-      "bytes": 393216,
-      "sha256": "b19edf7959e62395…37593 tokens truncated…null,
-      "commit_sha": null,
-      "remote_verified_sha256": null
-    },
-    {
-      "index": 1664,
-      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001664",
-      "bytes": 393216,
-      "sha256": "bce1382537d639a78c56cf0f3925c7b223ba352df4821becc7be17c4b34a50a9",
-      "status": "PENDING",
-      "blob_sha": null,
-      "commit_sha": null,
-      "remote_verified_sha256": null
+      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar…37872 tokens truncated…sha256": null
     },
     {
       "index": 1665,
@@ -24179,6 +24145,17 @@ Total output lines: 28724
       "failure_count": 0,
       "uploaded_bytes": 1966080,
       "next_part_index": 6,
+      "remote_readback": "base64 byte-for-byte equals local; SHA-256 matches manifest"
+    },
+    {
+      "first_part": 6,
+      "last_part": 10,
+      "commit_sha": "56c07b7ca0f49f5189e4357affb1aa42b11a4d0c",
+      "head_sha": "56c07b7ca0f49f5189e4357affb1aa42b11a4d0c",
+      "success_count": 5,
+      "failure_count": 0,
+      "uploaded_bytes": 1966080,
+      "next_part_index": 11,
       "remote_readback": "base64 byte-for-byte equals local; SHA-256 matches manifest"
     }
   ]
