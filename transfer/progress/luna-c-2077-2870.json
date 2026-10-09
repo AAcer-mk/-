@@ -2,6 +2,7 @@
   "task": "SILENT_PROTOCOL three-way migration — Luna C",
   "repository": "AAcer-mk/-",
   "branch": "migration/luna-c-2077-2870",
+  "common_base": "49fc4a4bc50f7605cf7aa446a679a7516183eb9f",
   "scope": {
     "first_part": 2077,
     "last_part": 2870,
@@ -12,22 +13,22 @@
     "sha256": "2f07d56ff635894e6792265e25abb3392b7896879e186c271e53407f52fc4e39"
   },
   "upload": {
-    "verified_remote_parts": 24,
-    "verified_through": 2100,
+    "verified_remote_parts": 34,
+    "verified_through": 2110,
     "pending_readback": [
-      2101,
-      2102,
-      2103,
-      2104,
-      2105,
-      2106,
-      2107,
-      2108,
-      2109,
-      2110
+      2111,
+      2112,
+      2113,
+      2114,
+      2115,
+      2116,
+      2117,
+      2118,
+      2119,
+      2120
     ],
     "failed_items": [],
     "status": "batch_pending_remote_readback"
   },
-  "previous_head": "b5fff63e5e3c07ce4400388c81712ff86b5775b9"
+  "previous_head": "9ffa94c4c40db1c868142aa95c2e5d8a385aaf2c"
 }
