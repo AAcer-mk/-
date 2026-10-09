@@ -13,22 +13,22 @@
     "sha256": "2f07d56ff635894e6792265e25abb3392b7896879e186c271e53407f52fc4e39"
   },
   "upload": {
-    "verified_remote_parts": 4,
-    "verified_through": 2080,
+    "verified_remote_parts": 14,
+    "verified_through": 2090,
     "pending_readback": [
-      2081,
-      2082,
-      2083,
-      2084,
-      2085,
-      2086,
-      2087,
-      2088,
-      2089,
-      2090
+      2091,
+      2092,
+      2093,
+      2094,
+      2095,
+      2096,
+      2097,
+      2098,
+      2099,
+      2100
     ],
     "failed_items": [],
     "status": "batch_pending_remote_readback"
   },
-  "previous_head": "f867bacb29e251235dcf5527686520859232fe19"
+  "previous_head": "3c059587720bbf62a97e3082d426221b35ff87ef"
 }
