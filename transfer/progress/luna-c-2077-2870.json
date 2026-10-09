@@ -15,21 +15,16 @@
     "bytes": 1128171520,
     "sha256": "2f07d56ff635894e6792265e25abb3392b7896879e186c271e53407f52fc4e39"
   },
-  "remote_manifest": {
-    "ref": "49fc4a4bc50f7605cf7aa446a679a7516183eb9f",
-    "path": "transfer/upload_state.json",
-    "parts_total": 2870,
-    "C_range_entries_verified": 794,
-    "last_part_verified_bytes": 34816
-  },
   "upload": {
-    "verified_remote_parts": 0,
+    "verified_remote_parts": 1,
+    "verified_through": 2077,
     "pending_readback": [
-      2077
+      2078,
+      2079,
+      2080
     ],
-    "test_part": 2077,
     "failed_items": [],
-    "status": "test_commit_pending_remote_readback"
+    "status": "batch_pending_remote_readback"
   },
-  "previous_head": "adc13fd33e6533178708ce6b23f5a535b74ba77e"
+  "previous_head": "158e84b5aca49065c7e0807178faebc900bbc63f"
 }
