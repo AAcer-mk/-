@@ -14,7 +14,7 @@
   "manifest_parts": 2870,
   "split_size_bytes": 393216,
   "branch": "migration/luna-a-tail-rescue-1087-1283",
-  "remote_verified_count": 70,
+  "remote_verified_count": 80,
   "remote_verified": [
     {
       "index": 1087,
@@ -645,14 +645,104 @@
       "git_blob_sha": "605825f6a32aaf92c47f6aae9ea212fd052da299",
       "upload_commit": "0729725b02e1805b92921f363d417b0f5043db69",
       "remote_content_readback": "PASS"
+    },
+    {
+      "index": 1157,
+      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001157",
+      "bytes": 393216,
+      "sha256": "dfc2e6ff2691981b15be45425e650effe5742020108f1efc4b1284f815418c36",
+      "git_blob_sha": "31002037cab30827b3fb3dc2d1ccd4013e6a2086",
+      "upload_commit": "2078737fe9b4a6cf528f1f60ecdc549e8e1dc76f",
+      "remote_content_readback": "PASS"
+    },
+    {
+      "index": 1158,
+      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001158",
+      "bytes": 393216,
+      "sha256": "9444ac6c3e402c2368f646d7e6e2faa727fa1d24dd00d65282671401538491fd",
+      "git_blob_sha": "4de4d6501923d2a2fa5785f448b8acd3c9284563",
+      "upload_commit": "2078737fe9b4a6cf528f1f60ecdc549e8e1dc76f",
+      "remote_content_readback": "PASS"
+    },
+    {
+      "index": 1159,
+      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001159",
+      "bytes": 393216,
+      "sha256": "21b7da4f564bdec544898939a9d3176c0dd80af6b958fba426b5459a343c34e2",
+      "git_blob_sha": "52d1c5121b3e28b8f2fdbc74066661b512ef75dd",
+      "upload_commit": "2078737fe9b4a6cf528f1f60ecdc549e8e1dc76f",
+      "remote_content_readback": "PASS"
+    },
+    {
+      "index": 1160,
+      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001160",
+      "bytes": 393216,
+      "sha256": "be5cd1ba167c11c21c993abdfb3bd7a8179a5fc43df307ab8a8fd9e1792b45f5",
+      "git_blob_sha": "09893a81197e4c18cbe8eb9f1667d2bbaaaeac99",
+      "upload_commit": "2078737fe9b4a6cf528f1f60ecdc549e8e1dc76f",
+      "remote_content_readback": "PASS"
+    },
+    {
+      "index": 1161,
+      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001161",
+      "bytes": 393216,
+      "sha256": "89a75c583a67b9ad5d5590e74c55a64e3fdfb1b1cba36551658b5254decb9f98",
+      "git_blob_sha": "7543d94e8f8854d1f6bcd69704d24cbdad779bb2",
+      "upload_commit": "2078737fe9b4a6cf528f1f60ecdc549e8e1dc76f",
+      "remote_content_readback": "PASS"
+    },
+    {
+      "index": 1162,
+      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001162",
+      "bytes": 393216,
+      "sha256": "bc7c5e44780f3485a3794235dc8f3b634d0a3e38d0556e507ce4d7eb9b3dc0b9",
+      "git_blob_sha": "3546204fe8a793465cd4eca6401ff094b36920dd",
+      "upload_commit": "2078737fe9b4a6cf528f1f60ecdc549e8e1dc76f",
+      "remote_content_readback": "PASS"
+    },
+    {
+      "index": 1163,
+      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001163",
+      "bytes": 393216,
+      "sha256": "85f505df037bb84b5831e2448bc8cbcb88d31e5748fb6c2d3def34ade1cc29bc",
+      "git_blob_sha": "71995b80366c546551f4cf4847b5d689334aa389",
+      "upload_commit": "2078737fe9b4a6cf528f1f60ecdc549e8e1dc76f",
+      "remote_content_readback": "PASS"
+    },
+    {
+      "index": 1164,
+      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001164",
+      "bytes": 393216,
+      "sha256": "19710e14596fe55d883877e9af4b110c8170eb8311a0c6d138ef2bbb5a6f5814",
+      "git_blob_sha": "9fc32351abb2fee203f14ba97856e50870c38523",
+      "upload_commit": "2078737fe9b4a6cf528f1f60ecdc549e8e1dc76f",
+      "remote_content_readback": "PASS"
+    },
+    {
+      "index": 1165,
+      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001165",
+      "bytes": 393216,
+      "sha256": "d82f752ded8abbb2c19c3078b17ee12a3f5fa0b2daca17f74393ad4baf9fe787",
+      "git_blob_sha": "870d5abad9b63882f89425aa0b72da7ffe2a37ed",
+      "upload_commit": "2078737fe9b4a6cf528f1f60ecdc549e8e1dc76f",
+      "remote_content_readback": "PASS"
+    },
+    {
+      "index": 1166,
+      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001166",
+      "bytes": 393216,
+      "sha256": "3f2d4a991091f13051883f32a4a2e467984aee02a5c3f843bb1c9f3edffb07fa",
+      "git_blob_sha": "1f8977e023548a6e09a49e9cdd49de1fe0dad5b8",
+      "upload_commit": "2078737fe9b4a6cf528f1f60ecdc549e8e1dc76f",
+      "remote_content_readback": "PASS"
     }
   ],
   "last_batch": {
-    "first": 1147,
-    "last": 1156,
+    "first": 1157,
+    "last": 1166,
     "count": 10,
-    "upload_commit": "0729725b02e1805b92921f363d417b0f5043db69",
-    "verified_total": 70
+    "upload_commit": "2078737fe9b4a6cf528f1f60ecdc549e8e1dc76f",
+    "verified_total": 80
   },
   "recovered_orchestration_incidents": [
     {
