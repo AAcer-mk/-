@@ -1,0 +1,39 @@
+{
+  "task": "SILENT_PROTOCOL GitHub migration Luna B",
+  "scope": {
+    "first_part": 1284,
+    "last_part": 2076,
+    "count": 793
+  },
+  "archive": {
+    "bytes": 1128171520,
+    "sha256": "2f07d56ff635894e6792265e25abb3392b7896879e186c271e53407f52fc4e39"
+  },
+  "manifest": {
+    "path": "transfer/manifest.json",
+    "blob_sha": "a5d0242b280ad2fe38cb6b22bb2701787bb972fb",
+    "parts": 2870
+  },
+  "state": "IN_PROGRESS",
+  "verified_local_parts": 793,
+  "uploaded_remote_verified_indices": [
+    1284,
+    1285,
+    1286,
+    1287,
+    1288,
+    1289,
+    1290,
+    1291,
+    1292,
+    1293
+  ],
+  "last_batch": {
+    "first": 1284,
+    "last": 1293,
+    "count": 10
+  },
+  "remote_head_before": "49fc4a4bc50f7605cf7aa446a679a7516183eb9f",
+  "updated_utc": "2026-10-09T12:24:08.507Z",
+  "failures": []
+}
