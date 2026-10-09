@@ -22,8 +22,9 @@ for prefix in SILENT_PROTOCOL_PRODUCTION_B05 SILENT_PROTOCOL_B10_P02_DELTA_FROM_
     SILENT_PROTOCOL_PRODUCTION_B05) max=6 ;;
     SILENT_PROTOCOL_B10_P02_DELTA_FROM_B05) max=21 ;;
   esac
-  for i in $(seq -w 1 "$max"); do
-    file="$TRANSFER/parts/$prefix.zip.part$i"
+  for ((i=1; i<=max; i++)); do
+    printf -v part "%02d" "$i"
+    file="$TRANSFER/parts/$prefix.zip.part$part"
     [[ -s "$file" ]] || { echo "MISSING: $file"; exit 1; }
     cp -n "$file" archives/
   done
