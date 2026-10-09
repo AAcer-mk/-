@@ -1,0 +1,69 @@
+{
+  "test_branch": "migration/app-binary-limit-test-2026-10-09",
+  "test_payloads": "Deterministic byte patterns; all uploaded as Git blobs using GitHub App.",
+  "results": [
+    {
+      "size_bytes": 65536,
+      "sha256": "f8a38b49873588eea0fa55c178b2ad20a05eb7f3eccf55623323405fdec79fe9",
+      "remote_readback": "Contents API base64",
+      "result": "PASS",
+      "commit": "bf787a5a31cb001c53065122741798aa6a0e2eac",
+      "elapsed_ms": 6454
+    },
+    {
+      "size_bytes": 262144,
+      "sha256": "f886dde13c51e59e4e47b0dbde0dbee8d6f256d06b861e4772eff091b0616457",
+      "remote_readback": "Contents API base64",
+      "result": "PASS",
+      "commit": "3ea5d981105fcaae249a2968e2445c6981081bde",
+      "elapsed_ms": 7482
+    },
+    {
+      "size_bytes": 524288,
+      "sha256": "b795b5d1f03a86ee40d8c8d3545b060a86af6519bd4251d89859ab516712055e",
+      "remote_readback": "Contents API base64",
+      "result": "PASS",
+      "commit": "9c2a656251796900292854b96c3d5df7cd729620",
+      "elapsed_ms": 7638
+    },
+    {
+      "size_bytes": 1048576,
+      "sha256": "cd4d35ccccd05652f06fb94a8d4f139ec5ec571ee3f8f182288c0f8639ba6294",
+      "remote_readback": "Contents API returned empty content above its size threshold",
+      "result": "INCOMPLETE",
+      "commit": "502b05f6eb78e9dc798aa762db2ffbdd8e624063"
+    },
+    {
+      "size_bytes": 1048576,
+      "sha256": "fc95c4b632455d6fa607007b7e6572496197737ffdf7a8a4bad6dfd36aa6162b",
+      "remote_readback": "Git Blob UTF-8 roundtrip",
+      "result": "PASS",
+      "commit": "75fd2b6d306da8a4c47c99b15f933a95e838a619",
+      "payload_pattern": "printable ASCII bytes"
+    },
+    {
+      "size_bytes": 2097152,
+      "sha256": "13b6c2748644d6bcf4dc06ca4583213449e3fad87405eceacb508a74231af96b",
+      "remote_readback": "Git Blob UTF-8 roundtrip",
+      "result": "PASS",
+      "commit": "271162855eb4876437656bb75821da3a79073604",
+      "payload_pattern": "printable ASCII bytes"
+    },
+    {
+      "size_bytes": 4194304,
+      "sha256": "aff33c8559572b94f48256fbe3d8e431c6bae60ec45c864024f247a241cf3e78",
+      "upload": "Git blob created and committed",
+      "remote_readback": "Contents API empty; Git Blob readback transport closed",
+      "result": "INCOMPLETE"
+    },
+    {
+      "size_bytes": 8388608,
+      "sha256": null,
+      "upload": "Git blob creation succeeded; blob SHA 36d0bbe33b0a3446349941fc7524ccb008024360",
+      "remote_readback": "Git Blob UTF-8 decoder rejected binary byte 0x99; no SHA-256 readback",
+      "result": "INCOMPLETE"
+    }
+  ],
+  "formal_part_size_bytes": 393216,
+  "selection_basis": "75% of the largest verified arbitrary-binary roundtrip (512 KiB); every formal part remains below the Contents API 1 MiB threshold."
+}
