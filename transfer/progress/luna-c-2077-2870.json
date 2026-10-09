@@ -15,13 +15,6 @@
     "bytes": 1128171520,
     "sha256": "2f07d56ff635894e6792265e25abb3392b7896879e186c271e53407f52fc4e39"
   },
-  "source_reconstruction": {
-    "B05": "PASS: 6 volumes, SHA-256 and ZIP CRC",
-    "B10_P02": "PASS: 21 volumes, SHA-256 and ZIP CRC",
-    "B10_E6_SUPPLEMENT": "PASS: SHA-256 and ZIP CRC",
-    "restore": "PASS: 905 files, 1127466957 bytes; B05 -> B10_P02 -> E6",
-    "deterministic_TAR": "PASS: byte length and SHA-256 match expected"
-  },
   "remote_manifest": {
     "ref": "49fc4a4bc50f7605cf7aa446a679a7516183eb9f",
     "path": "transfer/upload_state.json",
@@ -31,10 +24,12 @@
   },
   "upload": {
     "verified_remote_parts": 0,
+    "pending_readback": [
+      2077
+    ],
+    "test_part": 2077,
     "failed_items": [],
-    "status": "not_started"
+    "status": "test_commit_pending_remote_readback"
   },
-  "status": "SOURCE_AND_MANIFEST_VALIDATED; UPLOAD_BLOCKED_BY_AVAILABLE_WRITE_INTERFACE",
-  "blocker": "Current GitHub interface can create binary blobs but does not expose the base commit tree SHA or a Git push transport. The tree creation operation requires an existing tree SHA; the only local Git installation has no remote credentials. No C-volume upload has been attempted.",
-  "next_action": "Resume only with a write path that can create blobs and attach them to the existing branch tree (for example, authenticated Git push or GitHub Git Trees API with the base tree SHA). Preserve scope and verify each remote SHA."
+  "previous_head": "adc13fd33e6533178708ce6b23f5a535b74ba77e"
 }
