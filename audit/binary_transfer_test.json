@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-09",
+  "repository": "AAcer-mk/-",
+  "branch": "migration/2026-10-09-verified-source-audit",
+  "asset_path": "graphics/native_candidates/END-03_v1.png",
+  "bytes": 6108,
+  "sha256": "51e457f4207c6361d8d22571976947233d81f61b45221f4e79f79d25d0d56cf1",
+  "upload_method": "GitHub App Git Data API; ordinary Git blob (not LFS, not a release asset)",
+  "uploaded_commit": "b32c13014f24aec9ff419c7e4a3b6caa74c8d632",
+  "remote_readback": "GitHub App fetch_file returned base64; reconstructed into a fresh /tmp path",
+  "readback_verified": true,
+  "readback_bytes": 6108,
+  "readback_sha256": "51e457f4207c6361d8d22571976947233d81f61b45221f4e79f79d25d0d56cf1",
+  "media_probe": "PNG 1920x1080 RGB decoded by file(1); full image decode not separately tested",
+  "overall": "small binary round trip passed; bulk storage route and LFS quota remain blocked/unverified"
+}
