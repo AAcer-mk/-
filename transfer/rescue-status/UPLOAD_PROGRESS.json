@@ -14,7 +14,7 @@
   "manifest_parts": 2870,
   "split_size_bytes": 393216,
   "branch": "migration/luna-a-tail-rescue-1087-1283",
-  "remote_verified_count": 160,
+  "remote_verified_count": 161,
   "remote_verified": [
     {
       "index": 1087,
@@ -1455,14 +1455,23 @@
       "git_blob_sha": "89af22157bc300adbc0998afdddf12d3ce005ec5",
       "upload_commit": "3eefab9f4e7fa639a98d8c2f4cc5f2293770f882",
       "remote_content_readback": "PASS"
+    },
+    {
+      "index": 1247,
+      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001247",
+      "bytes": 393216,
+      "sha256": "ee16322c3a2f1b56839f0ba1d3636cb7a21de46a0322b53016a532132c75772e",
+      "git_blob_sha": "2f9748e6a478cd96ef7fcc85df0625c83bc74962",
+      "upload_commit": "97dabb3ee9eff6879d08b1533608699872b3285e",
+      "remote_content_readback": "PASS"
     }
   ],
   "last_batch": {
-    "first": 1237,
-    "last": 1246,
-    "count": 10,
-    "upload_commit": "3eefab9f4e7fa639a98d8c2f4cc5f2293770f882",
-    "verified_total": 160
+    "first": 1247,
+    "last": 1247,
+    "count": 1,
+    "upload_commit": "97dabb3ee9eff6879d08b1533608699872b3285e",
+    "verified_total": 161
   },
   "recovered_orchestration_incidents": [
     {
