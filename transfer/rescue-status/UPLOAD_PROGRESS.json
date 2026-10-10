@@ -14,7 +14,7 @@
   "manifest_parts": 2870,
   "split_size_bytes": 393216,
   "branch": "migration/luna-a-tail-rescue-1087-1283",
-  "remote_verified_count": 185,
+  "remote_verified_count": 191,
   "remote_verified": [
     {
       "index": 1087,
@@ -1680,14 +1680,68 @@
       "git_blob_sha": "acb1fcfec0b216b8ea38813a0acba8152599aae4",
       "upload_commit": "a6690ad41ca4386cbd91c2c33f747fbc96568a04",
       "remote_content_readback": "PASS"
+    },
+    {
+      "index": 1272,
+      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001272",
+      "bytes": 393216,
+      "sha256": "58cac13046b97b603b1a4cccfe66e241f5252d1519c1764d70a703bcb7730858",
+      "git_blob_sha": "8cc84f475037e4802ada708dd1cd3e011cffb628",
+      "upload_commit": "16e7556ede92fce1b9d6a814b8cdf6d9c4bbb737",
+      "remote_content_readback": "PASS"
+    },
+    {
+      "index": 1273,
+      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001273",
+      "bytes": 393216,
+      "sha256": "3ebdd016b0926990b1581268f4f209a6800898359d5276d149d59a9bfdbb3689",
+      "git_blob_sha": "dcc6653095c656b8af876d6405772da9da646622",
+      "upload_commit": "16e7556ede92fce1b9d6a814b8cdf6d9c4bbb737",
+      "remote_content_readback": "PASS"
+    },
+    {
+      "index": 1274,
+      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001274",
+      "bytes": 393216,
+      "sha256": "31b4b91adeab8ab626a685f3389a7c330c20a5e2390eabe3de14e6744da7ee47",
+      "git_blob_sha": "e371d3ccfba837c3c374eae086e18769f24b5506",
+      "upload_commit": "16e7556ede92fce1b9d6a814b8cdf6d9c4bbb737",
+      "remote_content_readback": "PASS"
+    },
+    {
+      "index": 1275,
+      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001275",
+      "bytes": 393216,
+      "sha256": "25104c5e3308e31088088c58b71ca0df1d8a2471188822b7d1acb3960179a28d",
+      "git_blob_sha": "61b50fa53a8fc4b07cbdb7be466f1f97a9f07508",
+      "upload_commit": "16e7556ede92fce1b9d6a814b8cdf6d9c4bbb737",
+      "remote_content_readback": "PASS"
+    },
+    {
+      "index": 1276,
+      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001276",
+      "bytes": 393216,
+      "sha256": "c1c2b40683b4bbfbdae95222c33f3d15a0c7bca60660e0362e2f29bebb89b710",
+      "git_blob_sha": "5f8ea421ffcd9cf9e9ab8b61ff65579aadc3be75",
+      "upload_commit": "16e7556ede92fce1b9d6a814b8cdf6d9c4bbb737",
+      "remote_content_readback": "PASS"
+    },
+    {
+      "index": 1277,
+      "path": "transfer/parts/SILENT_PROTOCOL_COMPLETE_B10.tar.part001277",
+      "bytes": 393216,
+      "sha256": "e9d54ae80ae2c3b4dac371790746423f739b480b61a6cfb1d7625e6d48417dac",
+      "git_blob_sha": "420f6cf2eb07f8a8ce3f1e17181d1d01d109560e",
+      "upload_commit": "16e7556ede92fce1b9d6a814b8cdf6d9c4bbb737",
+      "remote_content_readback": "PASS"
     }
   ],
   "last_batch": {
-    "first": 1266,
-    "last": 1271,
+    "first": 1272,
+    "last": 1277,
     "count": 6,
-    "upload_commit": "a6690ad41ca4386cbd91c2c33f747fbc96568a04",
-    "verified_total": 185
+    "upload_commit": "16e7556ede92fce1b9d6a814b8cdf6d9c4bbb737",
+    "verified_total": 191
   },
   "recovered_orchestration_incidents": [
     {
