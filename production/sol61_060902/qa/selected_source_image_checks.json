@@ -1,0 +1,626 @@
+[
+  {
+    "path": "qa/B07_E4-05_decoded_2.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B07_E4-05_decoded_3.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B07_E4-08_decoded.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B10_F6_encoded_09.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/artbook_source_page25.png",
+    "size": [
+      842,
+      596
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B06_E2_montage_decoded_frame_03.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B09_E5_encoded_00.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B06_E2_typography_revision_frame_05.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B06_E2_typography_revision_frame_02.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B06_E2_montage_decoded_frame_02.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B08_E5-01_actual.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B10_F6_encoded_01.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B06_E2_v4_actual_decoded_02.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B09_E5_encoded_08.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B10_F6_encoded_10.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B08_F5_v5_actual_21.1.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B06_E2_v4_actual_decoded_01.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B10_F6_encoded_11.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B06_E2_montage_decoded_frame_04.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B06_E2_montage_decoded_frame_05.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B08_F5_actual_22.65.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B06_E2_typography_revision_frame_04.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B09_E5_encoded_04.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B06_E2_v4_actual_decoded_05.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/artbook_source_page14.png",
+    "size": [
+      842,
+      596
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B09_E5_encoded_07.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B08_F5_v5_actual_23.5.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B10_F6_encoded_06.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B10_F6_encoded_03.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B10_F6_encoded_08.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B09_E5_encoded_06.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B06_E2_v4_actual_decoded_04.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B08_F5_actual_21.10.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B06_E2_v4_actual_decoded_03.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B10_F6_encoded_04.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B10_F6_exact_frame_518.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B07_E4-05_decoded_1.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/workprint_subtitle_frame.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B07_E4-06_decoded.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B09_E5_encoded_05.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B10_F6_encoded_07.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B10_F6_encoded_05.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B06_E2_typography_revision_frame_03.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B10_F6_exact_frame_519.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B10_F6_encoded_02.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B10_F6_encoded_00.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B09_E5_encoded_03.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B09_E5_encoded_01.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B09_E5_encoded_02.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B06_E2_typography_revision_frame_01.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/F1_rendered_frame.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B06_E2_montage_decoded_frame_01.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/artbook_source_page1.png",
+    "size": [
+      842,
+      596
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B08_F5_actual_23.50.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "qa/B08_F5_actual_22.50.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "docs/SILENT_PROTOCOL_POSTER.png",
+    "size": [
+      2400,
+      3600
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "graphics/native_candidates/E6-06_v2.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "graphics/native_candidates/E6-08_v3.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "graphics/native_candidates/E6-02_v1.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "graphics/native_candidates/E6-09_v2.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "graphics/native_candidates/E6-08_v1.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "graphics/native_candidates/E6-06_v3.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "graphics/native_candidates/E6-06_v1.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "graphics/native_candidates/E6-09_v3.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "graphics/native_candidates/E6-09_v1.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "graphics/native_candidates/E6-08_v2.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "graphics/native_candidates/E6-02_v2.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "graphics/native_candidates/E6-02_v3.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "art/characters/cody_restored.png",
+    "size": [
+      1776,
+      1001
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "art/scenes/texas_restored.png",
+    "size": [
+      1776,
+      1001
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "art/candidates/E6-01_v2.png",
+    "size": [
+      1670,
+      942
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "art/candidates/E6-01_v1.png",
+    "size": [
+      1670,
+      942
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "art/candidates/E6-03_v2.png",
+    "size": [
+      1670,
+      942
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "art/candidates/E6-04_v1.png",
+    "size": [
+      1447,
+      1087
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "art/candidates/E6-01_v3.png",
+    "size": [
+      1669,
+      942
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "art/candidates/E6-03_v1.png",
+    "size": [
+      1670,
+      942
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "art/candidates/E6-03_v3.png",
+    "size": [
+      1670,
+      942
+    ],
+    "decode": "PASS"
+  },
+  {
+    "path": "art/candidates/E6-04_v2.png",
+    "size": [
+      1447,
+      1087
+    ],
+    "decode": "PASS"
+  }
+]

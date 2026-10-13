@@ -1,0 +1,46 @@
+{
+  "schema": "silent-protocol-sol61-production-state-v1",
+  "branch": "production/sol61-resume-20261014-060902",
+  "base_commit": "56cee68766ea8c88a30e250586e020b55f829210",
+  "source_checkpoint_sha256": "5229b6381030dbbde55b273dd253e6eaa5c0dde4f782aea3346964582c716da0",
+  "final_film_completed": false,
+  "new_picture_shots": 3,
+  "new_unique_frames": 473,
+  "new_unique_seconds": 19.708333333333332,
+  "E6_scene_completed": false,
+  "shot_state": {
+    "E6-02": {
+      "picture": "RENDERED_TECHNICALLY_VERIFIED",
+      "creative": "SCREEN_UI_REVIEWED",
+      "movement": "STATIC_PLATE_PENDING_FINAL_CCTV_MOTION",
+      "audio": "CANNED_LAUGHTER_PENDING"
+    },
+    "E6-06": {
+      "picture": "RENDERED_AND_DECODED_FRAME_REVIEWED",
+      "audio": "SAMPLE_EXACT_WORKING_MIX_CONFORMED",
+      "subtitles": "RECOVERED_TIMING_CONFORMED",
+      "voice_performance": "PENDING_LISTENING_REVIEW"
+    },
+    "E6-09": {
+      "picture": "RENDERED_AND_REVIEWED",
+      "audio": "LOSSLESS_DECODED_ALL_ZERO",
+      "scene_boundary_qa": "PENDING_FULL_E6_ASSEMBLY"
+    }
+  },
+  "baseline_reference_coverage": {
+    "scope": "REFERENCE_COUNTS_NOT_DIRECTOR_ACCEPTANCE",
+    "shots": 140,
+    "at_least_three_references": 100,
+    "two_references": 1,
+    "no_references": 39,
+    "minimum_missing_candidate_slots": 118
+  },
+  "next_action": "Finish E6-04 candidate three, E6-05 montage and continuous E6-07/E6-08 throw/replay; integrate existing screen shots using E6_EDIT.json",
+  "director_changes": [],
+  "known_blockers": [
+    "No Runway video models on connected Free workspace",
+    "E6 laugh performance/mix and action footage missing",
+    "UTC/night conflict unresolved; retained existing design"
+  ],
+  "remote_save": "See separate REMOTE_RECEIPT.json; local commit is not used as remote proof"
+}

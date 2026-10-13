@@ -1,0 +1,59 @@
+{
+  "checks": [
+    {
+      "shot": "E6-02",
+      "decoded_frame": 0,
+      "bytes": 6220800,
+      "sha256": "3a71649fd70c6fc2996ceab8175a5f8776d3c23f0e825bdc64fa08aa59c8b3dc"
+    },
+    {
+      "shot": "E6-02",
+      "decoded_frame": 90,
+      "bytes": 6220800,
+      "sha256": "53f985443910cb52917953706b1a13de6c961569d470dd8c9c1966efcc65fec1"
+    },
+    {
+      "shot": "E6-02",
+      "decoded_frame": 179,
+      "bytes": 6220800,
+      "sha256": "cec05ec256fd544f279f1ce2efa18fbb0cda4d34801ef223124d173088ea40c3"
+    },
+    {
+      "shot": "E6-06",
+      "decoded_frame": 0,
+      "bytes": 6220800,
+      "sha256": "c74cb53e057557ce28ef5f14ccfd270d510ef3571f146c39b344812003796cf6"
+    },
+    {
+      "shot": "E6-06",
+      "decoded_frame": 90,
+      "bytes": 6220800,
+      "sha256": "7f850b907abbc4d3bc7b77564f905ccd83e4e8c6878d2cfb60e97555acb67d28"
+    },
+    {
+      "shot": "E6-06",
+      "decoded_frame": 179,
+      "bytes": 6220800,
+      "sha256": "734d7622f37876d97db8954523a224046e7de5d56ce389cecfcc2abdbb9ae3ae"
+    },
+    {
+      "shot": "E6-09",
+      "decoded_frame": 0,
+      "bytes": 6220800,
+      "sha256": "3191397b8f43917067bfca24acd4c82f3ccc68c63d416de626310336bf6dcb84"
+    },
+    {
+      "shot": "E6-09",
+      "decoded_frame": 56,
+      "bytes": 6220800,
+      "sha256": "3fd970e907ac5abaf697d19cb91ec78a31d9556784bcb2fe354f696ce67484e5"
+    },
+    {
+      "shot": "E6-09",
+      "decoded_frame": 112,
+      "bytes": 6220800,
+      "sha256": "3fd970e907ac5abaf697d19cb91ec78a31d9556784bcb2fe354f696ce67484e5"
+    }
+  ],
+  "visual_review": "Actual decoded E6-02 and bilingual E6-06 frame reviewed; first/middle/last source UI sheets reviewed. No final actor-motion claim."
+}

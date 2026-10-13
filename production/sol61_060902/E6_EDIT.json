@@ -1,0 +1,100 @@
+{
+  "fps": 24,
+  "section": "E6",
+  "frames": 1560,
+  "duration": 65,
+  "entries": [
+    {
+      "id": "E6-CARD",
+      "start_frame": 14760,
+      "end_frame": 14856,
+      "frames": 96,
+      "picture_path": null,
+      "status": "PENDING_PRODUCTION_OR_REVIEW",
+      "required_content": "Original four-second event card"
+    },
+    {
+      "id": "E6-01",
+      "start_frame": 14856,
+      "end_frame": 14991,
+      "frames": 135,
+      "picture_path": null,
+      "status": "PENDING_PRODUCTION_OR_REVIEW",
+      "required_content": "Cody，三十多岁，独自坐在客厅沙发上刷手机。屋里只有电视的蓝光\n‖ 罐头笑声，从手机里隐约传出"
+    },
+    {
+      "id": "E6-02",
+      "start_frame": 14991,
+      "end_frame": 15171,
+      "frames": 180,
+      "picture_path": "output/E6-02_picture_sol61_060902_v1_1080p.mp4",
+      "status": "PICTURE_WORKPRINT_AVAILABLE",
+      "required_content": "他刷到一条直播：一个男人坐在沙发上刷手机。配文写着「这哥们凌晨三点还不睡，猜猜他在看什么 😂」\n‖ 罐头笑声"
+    },
+    {
+      "id": "E6-03",
+      "start_frame": 15171,
+      "end_frame": 15306,
+      "frames": 135,
+      "picture_path": null,
+      "status": "PENDING_PRODUCTION_OR_REVIEW",
+      "required_content": "Cody 认出了自己的沙发、自己的抱枕\n‖ 罐头笑声（时机明显不对）"
+    },
+    {
+      "id": "E6-04",
+      "start_frame": 15306,
+      "end_frame": 15442,
+      "frames": 136,
+      "picture_path": null,
+      "status": "PENDING_PRODUCTION_OR_REVIEW",
+      "required_content": "从他身后拍：Cody 正在看自己被直播\n‖ 罐头笑声（更大）"
+    },
+    {
+      "id": "E6-05",
+      "start_frame": 15442,
+      "end_frame": 15667,
+      "frames": 225,
+      "picture_path": null,
+      "status": "PENDING_PRODUCTION_OR_REVIEW",
+      "required_content": "全网的推荐流，变成了每个人家里摄像头拍到的实时画面，每条都配一句玩笑：\n「这位大姐在厨房哭，原因竟然是——」\n「这对夫妻已经三天没说话了，第四天会怎样？」\n‖ 每条都配罐头笑声，节奏越来越快"
+    },
+    {
+      "id": "E6-06",
+      "start_frame": 15667,
+      "end_frame": 15847,
+      "frames": 180,
+      "picture_path": "output/E6-06_picture_sol61_060902_v1_1080p.mp4",
+      "status": "PICTURE_WORKPRINT_AVAILABLE",
+      "required_content": "热搜第一名是一个倒计时，显示 00:47:13。没有标题，没有解释，所有人都在转发\n‖ 轻佻的男声（Grok 声线，英）：「Relax, it's just a joke. Probably.」（放轻松，就是个玩笑。大概吧。）"
+    },
+    {
+      "id": "E6-07",
+      "start_frame": 15847,
+      "end_frame": 16027,
+      "frames": 180,
+      "picture_path": null,
+      "status": "PENDING_PRODUCTION_OR_REVIEW",
+      "required_content": "Cody 拿起抱枕，扔向天花板角落的摄像头。摄像头被遮住\n‖ 罐头笑声（最大，最长）"
+    },
+    {
+      "id": "E6-08",
+      "start_frame": 16027,
+      "end_frame": 16207,
+      "frames": 180,
+      "picture_path": null,
+      "status": "PENDING_PRODUCTION_OR_REVIEW",
+      "required_content": "电视屏幕上开始播放 Cody 刚才扔抱枕的慢动作回放，画面右下角是两个错开的圆点（彩蛋位）\n‖ 罐头笑声突然停止，安静 1 秒"
+    },
+    {
+      "id": "E6-09",
+      "start_frame": 16207,
+      "end_frame": 16320,
+      "frames": 113,
+      "picture_path": "output/E6-09_silent_sol61_060902_v1_1080p.mp4",
+      "status": "PICTURE_WORKPRINT_AVAILABLE",
+      "required_content": "倒计时：00:47:12\n‖ 无声"
+    }
+  ],
+  "audio": "Working mix; laughter and scene listening QA still pending",
+  "no_placeholders": true
+}
