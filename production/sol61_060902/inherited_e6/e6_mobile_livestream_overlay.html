@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>《静默协议》E6 手机直播界面覆盖层 (E6 Mobile Livestream Overlay)</title>
+  <style>
+    /* 电影级 24FPS 时间基线与纯净色彩规范 */
+    :root {
+      --cinema-fps: 24;
+      --live-red: #ff2a4b;
+      --accent-cyan: #00f0ff;
+      --accent-amber: #ffaa00;
+      --text-white: #ffffff;
+      --text-dim: rgba(255, 255, 255, 0.72);
+      --bg-panel: rgba(18, 22, 28, 0.65);
+      --border-panel: rgba(255, 255, 255, 0.15);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+    }
+
+    body {
+      width: 100vw;
+      height: 100vh;
+      background: transparent;
+      overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+      color: var(--text-white);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* 模拟手机竖屏安全区：1080x1920 标准 9:16 比例 */
+    .stream-container {
+      position: relative;
+      width: 1080px;
+      height: 1920px;
+      transform-origin: center center;
+      /* 视口自适应缩放 */
+      transform: scale(min(calc(100vw / 1080), calc(100vh / 1920)));
+      pointer-events: none;
+      overflow: hidden;
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    }
+
+    /* 预览模式背景控制：透明/黑底/绿幕，供视频软件直接内录或键控 */
+    .stream-container.bg-transparent { background: transparent; }
+    .stream-container.bg-black { background: #000000; }
+    .stream-container.bg-chromakey { background: #00ff00; }
+
+    /* 上下暗角遮罩，保证在明亮实拍画面上字幕依然清晰 */
+    .gradient-overlay-top {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 380px;
+      background: linear-gradient(180deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 60%, rgba(0,0,0,0) 100%);
+      z-index: 1;
+    }
+
+    .gradient-overlay-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 640px;
+      background: linear-gradient(0deg, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.5) 60%, rgba(0,0,0,0) 100%);
+      z-index: 1;
+    }
+
+    /* 顶部信息栏 */
+    .stream-header {
+      position: absolute;
+      top: 60px;
+      left: 48px;
+      right: 48px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 10;
+    }
+
+    .broadcaster-info {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: rgba(0, 0, 0, 0.55);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      padding: 10px 24px 10px 12px;
+      border-radius: 48px;
+      border: 1px solid var(--border-panel);
+    }
+
+    .avatar {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: #1c2633;
+      border: 2px solid var(--live-red);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 800;
+      font-size: 24px;
+      color: var(--accent-cyan);
+      box-shadow: 0 0 16px rgba(255, 42, 75, 0.4);
+    }
+
+    .channel-meta {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .channel-name {
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .verified-badge {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background: var(--accent-cyan);
+      border-radius: 50%;
+      color: #000;
+      font-size: 13px;
+      font-weight: 900;
+      text-align: center;
+      line-height: 20px;
+    }
+
+    .channel-id {
+      font-size: 18px;
+      color: var(--text-dim);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+
+    .header-stats {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .live-badge {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--live-red);
+      padding: 8px 18px;
+      border-radius: 20px;
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      box-shadow: 0 0 20px rgba(255, 42, 75, 0.6);
+      animation: livePulse 2s infinite ease-in-out;
+    }
+
+    .live-dot {
+      width: 12px;
+      height: 12px;
+      background: #ffffff;
+      border-radius: 50%;
+      animation: blink 1s infinite alternate steps(1);
+    }
+
+    .viewer-count {
+      background: rgba(0, 0, 0, 0.55);
+      backdrop-filter: blur(12px);
+      padding: 10px 22px;
+      border-radius: 30px;
+      font-size: 22px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border: 1px solid var(--border-panel);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+
+    .close-btn {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.55);
+      border: 1px solid var(--border-panel);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 26px;
+      color: #fff;
+    }
+
+    /* 顶部次级系统状态警告条 */
+    .system-alert-banner {
+      position: absolute;
+      top: 154px;
+      left: 48px;
+      right: 48px;
+      background: rgba(255, 170, 0, 0.15);
+      border: 1px solid rgba(255, 170, 0, 0.4);
+      backdrop-filter: blur(8px);
+      padding: 12px 24px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 10;
+    }
+
+    .alert-text {
+      font-size: 20px;
+      color: #ffe6a0;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .alert-code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 18px;
+      color: var(--accent-amber);
+      font-weight: 700;
+    }
+
+    /* 弹幕流容器（左下侧） */
+    .chat-container {
+      position: absolute;
+      bottom: 180px;
+      left: 48px;
+      width: 660px;
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      gap: 16px;
+      z-index: 10;
+      mask-image: linear-gradient(180deg, transparent 0%, rgba(0,0,0,1) 25%);
+      -webkit-mask-image: linear-gradient(180deg, transparent 0%, rgba(0,0,0,1) 25%);
+    }
+
+    .chat-message {
+      display: flex;
+      flex-direction: column;
+      background: rgba(16, 22, 30, 0.68);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 12px 20px;
+      border-radius: 16px;
+      border-left: 4px solid var(--accent-cyan);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+      animation: messageSlideIn 0.35s ease-out forwards;
+      max-width: 95%;
+    }
+
+    .chat-user-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 4px;
+    }
+
+    .user-badge {
+      font-size: 13px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 6px;
+      background: rgba(0, 240, 255, 0.2);
+      color: var(--accent-cyan);
+      border: 1px solid rgba(0, 240, 255, 0.4);
+    }
+
+    .user-name {
+      font-size: 18px;
+      font-weight: 700;
+      color: #a4c9ff;
+    }
+
+    .user-text {
+      font-size: 24px;
+      line-height: 1.4;
+      color: #ffffff;
+      font-weight: 500;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+      word-break: break-word;
+    }
+
+    /* 右侧互动与分享栏 */
+    .interaction-sidebar {
+      position: absolute;
+      right: 48px;
+      bottom: 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 36px;
+      z-index: 10;
+    }
+
+    .sidebar-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .icon-circle {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: rgba(22, 28, 36, 0.7);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--border-panel);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+
+    .icon-circle svg {
+      width: 36px;
+      height: 36px;
+      fill: #ffffff;
+    }
+
+    .sidebar-label {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--text-dim);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+
+    /* 底部输入框与状态指示栏 */
+    .stream-footer {
+      position: absolute;
+      bottom: 60px;
+      left: 48px;
+      right: 48px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      z-index: 10;
+    }
+
+    .comment-input-bar {
+      flex: 1;
+      height: 72px;
+      background: rgba(20, 26, 35, 0.75);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border-panel);
+      border-radius: 36px;
+      padding: 0 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 22px;
+    }
+
+    .footer-status-pill {
+      background: rgba(0, 0, 0, 0.6);
+      border: 1px solid var(--border-panel);
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 14px;
+      color: var(--accent-cyan);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+
+    /* 浮动点赞粒子 */
+    .floating-like {
+      position: absolute;
+      right: 68px;
+      bottom: 300px;
+      pointer-events: none;
+      animation: floatUp 2.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+      z-index: 15;
+    }
+
+    /* 关键帧动画定义 */
+    @keyframes livePulse {
+      0%, 100% { transform: scale(1); box-shadow: 0 0 16px rgba(255, 42, 75, 0.4); }
+      50% { transform: scale(1.04); box-shadow: 0 0 24px rgba(255, 42, 75, 0.8); }
+    }
+
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+
+    @keyframes messageSlideIn {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes floatUp {
+      0% { opacity: 0; transform: translateY(0) scale(0.6) rotate(0deg); }
+      20% { opacity: 1; transform: translateY(-40px) scale(1.1) rotate(-8deg); }
+      80% { opacity: 0.9; }
+      100% { opacity: 0; transform: translateY(-380px) scale(0.9) rotate(12deg); }
+    }
+
+    /* 导播控制悬浮球（仅在制作预览时可见，快捷键 H 可隐藏） */
+    .production-controls {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: rgba(0, 0, 0, 0.85);
+      border: 1px solid rgba(0, 240, 255, 0.4);
+      padding: 12px 18px;
+      border-radius: 12px;
+      z-index: 9999;
+      pointer-events: auto;
+      font-size: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      color: #fff;
+    }
+
+    .production-controls button {
+      background: #1e2633;
+      color: #00f0ff;
+      border: 1px solid #00f0ff;
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .production-controls button:hover {
+      background: #00f0ff;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 导播与后期导出辅助面板 -->
+  <div class="production-controls" id="controlPanel">
+    <div style="font-weight: bold; color: #00f0ff;">E6 手机直播图形控制器</div>
+    <div>背景模式：
+      <button onclick="setBg('bg-transparent')">透明(后期叠加)</button>
+      <button onclick="setBg('bg-chromakey')">纯绿(色度键)</button>
+      <button onclick="setBg('bg-black')">黑底(预览)</button>
+    </div>
+    <div>弹幕生成：
+      <button onclick="toggleChat()">暂停/恢复弹幕</button>
+      <button onclick="spawnLike()">注入点赞粒子</button>
+    </div>
+    <div style="font-size: 11px; color: #aaa;">按 [H] 键隐藏/呼出本控制栏</div>
+  </div>
+
+  <div class="stream-container bg-transparent" id="streamContainer">
+    <!-- 顶部和底部渐变暗部（保障白色字幕在任何实拍背景下的可视性） -->
+    <div class="gradient-overlay-top"></div>
+    <div class="gradient-overlay-bottom"></div>
+
+    <!-- 顶部状态栏 -->
+    <div class="stream-header">
+      <div class="broadcaster-info">
+        <div class="avatar">SP</div>
+        <div class="channel-meta">
+          <div class="channel-name">
+            全球链路观测站
+            <span class="verified-badge">✓</span>
+          </div>
+          <div class="channel-id">CH-GENEVA-LINK-09</div>
+        </div>
+      </div>
+
+      <div class="header-stats">
+        <div class="live-badge">
+          <span class="live-dot"></span>
+          直播
+        </div>
+        <div class="viewer-count" id="viewerCounter">
+          <svg style="width: 20px; height: 20px; fill: currentColor;" viewBox="0 0 24 24">
+            <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zm0 12.5c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+          </svg>
+          <span id="viewerNum">1,048,576</span>
+        </div>
+        <div class="close-btn">✕</div>
+      </div>
+    </div>
+
+    <!-- 突发事件警报条 -->
+    <div class="system-alert-banner">
+      <div class="alert-text">
+        <span style="color: var(--accent-amber); font-weight: bold;">⚠ 紧急信号</span>
+        <span>日内瓦骨干节点离线警报已扩散</span>
+      </div>
+      <div class="alert-code">ALERT // 03:03:14 UTC</div>
+    </div>
+
+    <!-- 左下角弹幕流 -->
+    <div class="chat-container" id="chatContainer">
+      <!-- 动态弹幕将通过 JS 依据 24FPS 时间基线循环注入 -->
+    </div>
+
+    <!-- 右侧互动控件 -->
+    <div class="interaction-sidebar">
+      <div class="sidebar-btn">
+        <div class="icon-circle" style="border-color: rgba(255, 42, 75, 0.4);">
+          <svg viewBox="0 0 24 24" style="fill: var(--live-red);"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+        </div>
+        <span class="sidebar-label" id="likeCounter">248.6万</span>
+      </div>
+
+      <div class="sidebar-btn">
+        <div class="icon-circle">
+          <svg viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18z"/></svg>
+        </div>
+        <span class="sidebar-label">4.1万</span>
+      </div>
+
+      <div class="sidebar-btn">
+        <div class="icon-circle">
+          <svg viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"/></svg>
+        </div>
+        <span class="sidebar-label">分享</span>
+      </div>
+    </div>
+
+    <!-- 底部输入框与信号条 -->
+    <div class="stream-footer">
+      <div class="comment-input-bar">
+        <span>参与全球应急讨论...</span>
+        <div class="footer-status-pill">5G 延迟 38ms</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // 电影剧情定制弹幕库（反映日内瓦机房断电、协议触发、全球节点离线的高压悬疑剧情）
+    const filmComments = [
+      { user: "极光守望者", badge: "Lv.14 核心节点", text: "日内瓦根服务器的路由心跳停止了！！" },
+      { user: "网络拓扑工兵", badge: "Lv.9 电力监测", text: "刚才直播声音里有机械闸刀开关的重击声，听到了吗？" },
+      { user: "深网观测点", badge: "Lv.21 协议审计", text: "这不是普通演习...《静默协议》真的被触发了！" },
+      { user: "K-08_Seoul", badge: "Lv.11 东亚机房", text: "首尔金融骨干网丢包率达到98%，正在脱网！" },
+      { user: "林下听风", badge: "Lv.7 现场目击", text: "倒计时...注意屏幕中央的倒计时！！" },
+      { user: "0xFE_Subnet", badge: "Lv.18 路由分析", text: "所有海底光缆都在强制执行静默降级指令！" },
+      { user: "东京备用中继", badge: "Lv.15 节点维护", text: "周宇还在机房里面吗？！为什么不切断自毁协议？" },
+      { user: "Amara_Fan", badge: "Lv.8", text: "信号开始闪烁了...大家看画面右上方！" },
+      { user: "时钟源漂移", badge: "Lv.16 NTP同步", text: "时间戳锁死在 03:03:14 UTC，物理时钟断开了！" },
+      { user: "冷线警报", badge: "Lv.19 自动化站", text: "不要断电！那是不可逆的硬件熔断！" },
+      { user: "灰质回声", badge: "Lv.12", text: "Hale 的语音通道怎么全变成粉红噪声了？" },
+      { user: "暗室观察员", badge: "Lv.22 终局见证", text: "全剧终局决断要来了...静默协议已生效！" }
+    ];
+
+    let commentIndex = 0;
+    let isChatActive = true;
+    let viewerCount = 1048576;
+    let likeCount = 2486120;
+
+    const chatContainer = document.getElementById('chatContainer');
+    const viewerNum = document.getElementById('viewerNum');
+    const likeCounter = document.getElementById('likeCounter');
+    const streamContainer = document.getElementById('streamContainer');
+    const controlPanel = document.getElementById('controlPanel');
+
+    // 添加单条弹幕函数
+    function addComment() {
+      if (!isChatActive) return;
+
+      const item = filmComments[commentIndex % filmComments.length];
+      commentIndex++;
+
+      const msg = document.createElement('div');
+      msg.className = 'chat-message';
+      msg.innerHTML = `
+        <div class="chat-user-row">
+          <span class="user-badge">${item.badge}</span>
+          <span class="user-name">${item.user}</span>
+        </div>
+        <div class="user-text">${item.text}</div>
+      `;
+
+      chatContainer.appendChild(msg);
+
+      // 保持最大 5 条弹幕，超出平滑移除
+      if (chatContainer.children.length > 5) {
+        chatContainer.removeChild(chatContainer.children[0]);
+      }
+
+      // 伴随随机点赞和观看人数攀升
+      if (Math.random() > 0.4) {
+        spawnLike();
+      }
+      viewerCount += Math.floor(Math.random() * 850) + 120;
+      viewerNum.textContent = viewerCount.toLocaleString();
+
+      likeCount += Math.floor(Math.random() * 240) + 30;
+      likeCounter.textContent = (likeCount / 10000).toFixed(1) + '万';
+
+      // 依据剧情节奏设置随机弹幕间隔 (600ms - 1800ms)
+      const nextDelay = Math.floor(Math.random() * 1200) + 600;
+      setTimeout(addComment, nextDelay);
+    }
+
+    // 浮动爱心/点赞粒子生成
+    function spawnLike() {
+      const like = document.createElement('div');
+      like.className = 'floating-like';
+      const colors = ['#ff2a4b', '#00f0ff', '#ffaa00', '#ffffff'];
+      const color = colors[Math.floor(Math.random() * colors.length)];
+      const randOffset = (Math.random() - 0.5) * 60;
+
+      like.style.right = (68 + randOffset) + 'px';
+      like.innerHTML = `
+        <svg style="width: 44px; height: 44px; fill: ${color}; filter: drop-shadow(0 0 10px ${color});" viewBox="0 0 24 24">
+          <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+        </svg>
+      `;
+
+      streamContainer.appendChild(like);
+      setTimeout(() => {
+        if (like.parentNode) like.parentNode.removeChild(like);
+      }, 2800);
+    }
+
+    // 导播控制逻辑
+    function setBg(mode) {
+      streamContainer.className = 'stream-container ' + mode;
+    }
+
+    function toggleChat() {
+      isChatActive = !isChatActive;
+      if (isChatActive) addComment();
+    }
+
+    // 快捷键 H 隐藏/显示控制台
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'h' || e.key === 'H') {
+        controlPanel.style.display = controlPanel.style.display === 'none' ? 'flex' : 'none';
+      }
+    });
+
+    // 初始化启动
+    addComment();
+  </script>
+</body>
+</html>

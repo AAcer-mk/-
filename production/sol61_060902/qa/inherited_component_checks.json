@@ -1,0 +1,58 @@
+[
+  {
+    "path": "inherited_e6/e6_broadcast_countdown.html",
+    "sha256": "b3fdc0211d624a471425b3cc3850f8080f6dfaf76b1b7d73630252f7c269acbc",
+    "script_syntax": [
+      {
+        "script": 0,
+        "syntax_exit": 0,
+        "stderr": ""
+      }
+    ],
+    "external_fetch_api_present": false,
+    "render_status": "NOT_RENDERED_AS_FINAL_FILM_COMPONENT",
+    "director_conform": "PENDING; see E6_COMPONENT_CONFORM.md"
+  },
+  {
+    "path": "inherited_e6/e6_cctv_security_overlay.html",
+    "sha256": "e56ea31caf3cf348e8bc6c358384039b4c586899810ef9260295d7168f10de51",
+    "script_syntax": [
+      {
+        "script": 0,
+        "syntax_exit": 0,
+        "stderr": ""
+      }
+    ],
+    "external_fetch_api_present": false,
+    "render_status": "NOT_RENDERED_AS_FINAL_FILM_COMPONENT",
+    "director_conform": "PENDING; see E6_COMPONENT_CONFORM.md"
+  },
+  {
+    "path": "inherited_e6/e6_mobile_livestream_overlay.html",
+    "sha256": "5a5ca63d3b92d7d1370cdf32080fb5e8e6068c01a601dbae67347d236e815116",
+    "script_syntax": [
+      {
+        "script": 0,
+        "syntax_exit": 0,
+        "stderr": ""
+      }
+    ],
+    "external_fetch_api_present": false,
+    "render_status": "NOT_RENDERED_AS_FINAL_FILM_COMPONENT",
+    "director_conform": "PENDING; see E6_COMPONENT_CONFORM.md"
+  },
+  {
+    "path": "inherited_e6/e6_tv_replay_hud.html",
+    "sha256": "eb4a62bae18993678c06ba6b31f64bb6d2a976885172ac1952a7cc379d4b6e12",
+    "script_syntax": [
+      {
+        "script": 0,
+        "syntax_exit": 0,
+        "stderr": ""
+      }
+    ],
+    "external_fetch_api_present": false,
+    "render_status": "NOT_RENDERED_AS_FINAL_FILM_COMPONENT",
+    "director_conform": "PENDING; see E6_COMPONENT_CONFORM.md"
+  }
+]

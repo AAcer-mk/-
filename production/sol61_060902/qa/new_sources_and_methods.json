@@ -1,0 +1,9 @@
+{
+  "images": "Existing fictional Cody/room plate from verified B10 source; no new generated photographic images",
+  "graphics": "Original project symbols and true-font programmatic screen compositing",
+  "audio": "Recovered B10 work mix; no new cloned or synthesized voice",
+  "Noto_font": "Original Noto Sans Mono CJK SC under original OFL license; exact restore input included",
+  "emoji_font": "System DejaVu Sans U+1F602 glyph; license preserved in qa/DejaVu_copyright.txt",
+  "new_photographic_generation": false,
+  "film_wide_licenses": "Not declared final; existing full-film source/license review remains pending"
+}

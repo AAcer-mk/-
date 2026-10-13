@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>《静默协议》E6 电视回放图形覆盖层 (E6 TV Replay HUD)</title>
+  <style>
+    :root {
+      --tv-yellow: #ffcc00;
+      --tv-red: #ff3333;
+      --tv-blue: #0088ff;
+      --tv-white: #ffffff;
+      --tv-panel-bg: rgba(12, 16, 22, 0.78);
+      --font-mono: ui-monospace, "SF Mono", "Roboto Mono", "Courier New", monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+    }
+
+    body {
+      width: 100vw;
+      height: 100vh;
+      background: transparent;
+      overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .tv-screen {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      transform-origin: center center;
+      transform: scale(min(calc(100vw / 1920), calc(100vh / 1080)));
+      overflow: hidden;
+      pointer-events: none;
+    }
+
+    .tv-screen.bg-transparent { background: transparent; }
+    .tv-screen.bg-black { background: #000000; }
+    .tv-screen.bg-chromakey { background: #00ff00; }
+
+    /* 广播电视隔行扫描场线 (Interlaced Scanlines) */
+    .interlace-lines {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: repeating-linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.22),
+        rgba(0, 0, 0, 0.22) 2px,
+        transparent 2px,
+        transparent 4px
+      );
+      pointer-events: none;
+      z-index: 6;
+      opacity: 0.8;
+    }
+
+    /* 电视屏幕暗角与边框 */
+    .crt-vignette {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      box-shadow: inset 0 0 160px rgba(0, 0, 0, 0.9);
+      pointer-events: none;
+      z-index: 5;
+    }
+
+    /* 左上角：电视台角标与录像重放提示 */
+    .tv-header-left {
+      position: absolute;
+      top: 56px;
+      left: 72px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      z-index: 10;
+    }
+
+    .channel-logo-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .station-badge {
+      background: var(--tv-red);
+      color: #fff;
+      font-weight: 900;
+      font-size: 24px;
+      padding: 4px 14px;
+      border-radius: 4px;
+      letter-spacing: 1px;
+      box-shadow: 0 0 16px rgba(255, 51, 51, 0.6);
+    }
+
+    .station-name {
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.8);
+    }
+
+    .replay-status-pill {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(255, 204, 0, 0.18);
+      border: 1.5px solid var(--tv-yellow);
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-family: var(--font-mono);
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--tv-yellow);
+      letter-spacing: 1.5px;
+      text-shadow: 0 0 10px rgba(255, 204, 0, 0.6);
+      width: fit-content;
+      animation: replayPulse 1.8s infinite ease-in-out;
+    }
+
+    /* 右上角：慢速播放速率与时间码 */
+    .tv-header-right {
+      position: absolute;
+      top: 56px;
+      right: 72px;
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      z-index: 10;
+    }
+
+    .slowmo-indicator {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 12px;
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--tv-yellow);
+      font-family: var(--font-mono);
+      letter-spacing: 2px;
+    }
+
+    .playback-timecode {
+      font-size: 32px;
+      font-weight: 700;
+      color: #ffffff;
+      font-family: var(--font-mono);
+      letter-spacing: 2px;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.9);
+    }
+
+    /* 底部控制台：专业回放控制条与字幕横幅 (Chyron) */
+    .tv-footer-container {
+      position: absolute;
+      bottom: 56px;
+      left: 72px;
+      right: 72px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      z-index: 10;
+    }
+
+    /* 新闻下压字幕条 */
+    .news-chyron {
+      display: flex;
+      align-items: stretch;
+      background: var(--tv-panel-bg);
+      backdrop-filter: blur(12px);
+      border-radius: 8px;
+      overflow: hidden;
+      border-left: 6px solid var(--tv-yellow);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.6);
+    }
+
+    .chyron-tag {
+      background: var(--tv-yellow);
+      color: #000;
+      font-weight: 900;
+      font-size: 22px;
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 1px;
+    }
+
+    .chyron-ticker {
+      flex: 1;
+      padding: 12px 24px;
+      font-size: 24px;
+      font-weight: 600;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .chyron-subtext {
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.6);
+      font-family: var(--font-mono);
+    }
+
+    /* 慢放进度条非线性轨 */
+    .scrubber-panel {
+      background: var(--tv-panel-bg);
+      backdrop-filter: blur(16px);
+      padding: 18px 28px;
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .timeline-meta-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: var(--font-mono);
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    .progress-track {
+      position: relative;
+      width: 100%;
+      height: 14px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 7px;
+      overflow: visible;
+    }
+
+    .loop-region {
+      position: absolute;
+      top: 0;
+      left: 20%;
+      width: 55%;
+      height: 100%;
+      background: rgba(0, 136, 255, 0.25);
+      border-left: 2px solid var(--tv-blue);
+      border-right: 2px solid var(--tv-blue);
+    }
+
+    .progress-fill {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 48%;
+      background: var(--tv-yellow);
+      border-radius: 7px 0 0 7px;
+      box-shadow: 0 0 10px var(--tv-yellow);
+    }
+
+    .playhead-cursor {
+      position: absolute;
+      top: -6px;
+      left: 48%;
+      width: 6px;
+      height: 26px;
+      background: #ffffff;
+      box-shadow: 0 0 12px #fff;
+      transform: translateX(-50%);
+    }
+
+    .ruler-marks {
+      display: flex;
+      justify-content: space-between;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.45);
+      margin-top: 2px;
+    }
+
+    @keyframes replayPulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.03); }
+    }
+
+    /* 控制台 */
+    .production-controls {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: rgba(0, 0, 0, 0.85);
+      border: 1px solid rgba(255, 204, 0, 0.4);
+      padding: 12px 18px;
+      border-radius: 12px;
+      z-index: 9999;
+      pointer-events: auto;
+      font-size: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      color: #fff;
+    }
+    .production-controls button {
+      background: #222211;
+      color: #ffcc00;
+      border: 1px solid #ffcc00;
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .production-controls button:hover {
+      background: #ffcc00;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="production-controls" id="controlPanel">
+    <div style="font-weight: bold; color: #ffcc00;">E6 电视回放 HUD 控制器</div>
+    <div>背景模式：
+      <button onclick="setBg('bg-transparent')">透明</button>
+      <button onclick="setBg('bg-chromakey')">纯绿</button>
+      <button onclick="setBg('bg-black')">黑底</button>
+    </div>
+    <div>播放模式：
+      <button onclick="setSpeed(0.25)">慢速 0.25X</button>
+      <button onclick="setSpeed(0.1)">超慢 0.1X</button>
+      <button onclick="togglePause()">暂停/播放</button>
+    </div>
+    <div style="font-size: 11px; color: #aaa;">按 [H] 隐藏面板</div>
+  </div>
+
+  <div class="tv-screen bg-transparent" id="tvScreen">
+    <div class="interlace-lines" id="interlaceLines"></div>
+    <div class="crt-vignette"></div>
+
+    <!-- 左上角 -->
+    <div class="tv-header-left">
+      <div class="channel-logo-row">
+        <span class="station-badge">GBC</span>
+        <span class="station-name">全球广播通讯网 · 资料库回放</span>
+      </div>
+      <div class="replay-status-pill">
+        <span>▶ 慢速审看 [REPLAY 0.25X]</span>
+      </div>
+    </div>
+
+    <!-- 右上角 -->
+    <div class="tv-header-right">
+      <div class="slowmo-indicator" id="speedTag">
+        <span>SLOW-MOTION 0.25x</span>
+      </div>
+      <div class="playback-timecode" id="tvTimecode">TC 00:02:28:14</div>
+    </div>
+
+    <!-- 底部新闻横幅与非线性回放轨 -->
+    <div class="tv-footer-container">
+      <div class="news-chyron">
+        <div class="chyron-tag">突发回放</div>
+        <div class="chyron-ticker">
+          <span>事件现场镜头逐帧回放：日内瓦服务器机房核心闸刀切断瞬间</span>
+          <span class="chyron-subtext">ARCHIVE-ID: CH9-EV-20280314</span>
+        </div>
+      </div>
+
+      <div class="scrubber-panel">
+        <div class="timeline-meta-row">
+          <span>[入点 IN] 00:02:10:00</span>
+          <span style="color: var(--tv-yellow); font-weight: bold;">[当前帧] 00:02:28:14 (FRAME 3566)</span>
+          <span>[出点 OUT] 00:02:45:12</span>
+        </div>
+
+        <div class="progress-track">
+          <div class="loop-region"></div>
+          <div class="progress-fill" id="progressFill"></div>
+          <div class="playhead-cursor" id="playheadCursor"></div>
+        </div>
+
+        <div class="ruler-marks">
+          <span>00:00:00</span>
+          <span>00:01:00</span>
+          <span>00:02:00</span>
+          <span>00:03:00</span>
+          <span>00:04:00 (MAX)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const FPS = 24;
+    let speed = 0.25; // 0.25x 慢放
+    let isPaused = false;
+    let currentFrame = (2 * 60 + 28) * 24 + 14; // 00:02:28:14
+    const inFrame = (2 * 60 + 10) * 24;
+    const outFrame = (2 * 60 + 45) * 24 + 12;
+    const maxFrames = 4 * 60 * 24; // 4分钟总长
+
+    const tvTimecode = document.getElementById('tvTimecode');
+    const progressFill = document.getElementById('progressFill');
+    const playheadCursor = document.getElementById('playheadCursor');
+    const speedTag = document.getElementById('speedTag');
+    const tvScreen = document.getElementById('tvScreen');
+    const controlPanel = document.getElementById('controlPanel');
+
+    // 依 24fps 步进，结合慢放系数
+    setInterval(() => {
+      if (!isPaused) {
+        currentFrame += speed;
+        if (currentFrame > outFrame) {
+          currentFrame = inFrame; // 循环审看区间
+        }
+
+        const intFrame = Math.floor(currentFrame);
+        const f = intFrame % FPS;
+        const totalSec = Math.floor(intFrame / FPS);
+        const s = totalSec % 60;
+        const m = Math.floor(totalSec / 60) % 60;
+        const h = Math.floor(totalSec / 3600);
+
+        tvTimecode.textContent = `TC ${pad(h)}:${pad(m)}:${pad(s)}:${pad(f)}`;
+
+        const pct = ((currentFrame / maxFrames) * 100).toFixed(2);
+        progressFill.style.width = pct + '%';
+        playheadCursor.style.left = pct + '%';
+      }
+    }, 1000 / FPS);
+
+    function pad(n) {
+      return n.toString().padStart(2, '0');
+    }
+
+    function setSpeed(s) {
+      speed = s;
+      speedTag.textContent = `SLOW-MOTION ${s}x`;
+    }
+
+    function togglePause() {
+      isPaused = !isPaused;
+    }
+
+    function setBg(mode) {
+      tvScreen.className = 'tv-screen ' + mode;
+    }
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'h' || e.key === 'H') {
+        controlPanel.style.display = controlPanel.style.display === 'none' ? 'flex' : 'none';
+      }
+    });
+  </script>
+</body>
+</html>

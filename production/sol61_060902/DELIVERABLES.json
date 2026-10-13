@@ -1,0 +1,227 @@
+{
+  "scope": "Remote intended deliverables; generated source frames and standalone WAV are reproducible local intermediates",
+  "files": [
+    {
+      "path": "production/sol61_060902/BASELINE_MEDIA_QA.json",
+      "bytes": 16705,
+      "sha256": "7c2788cfe3b9464b7502d4da2a4aa8d8bfa42859f30c047a4e476ef4363d4dd8",
+      "git_blob_sha": "e5a9b8ac9b0c69df5ab2473c44c1495ee3e179fb"
+    },
+    {
+      "path": "production/sol61_060902/E6_COMPONENT_CONFORM.md",
+      "bytes": 2476,
+      "sha256": "03082e5b7838e0062450018b4b4b26c7e6e73e20c59654d27b2f3d84880dca4b",
+      "git_blob_sha": "97cdfbbe916ccdcbc8d651fb73f3f206e7cd116b"
+    },
+    {
+      "path": "production/sol61_060902/E6_EDIT.json",
+      "bytes": 3779,
+      "sha256": "9628598959da3602d3d7ae9e3f1b0200d2589e31e8ccfd274568954d14e6d145",
+      "git_blob_sha": "ff501a90c87478bd9e18a15e50780811ed68a7fd"
+    },
+    {
+      "path": "production/sol61_060902/E6_SUPPLEMENT_RECEIPT.json",
+      "bytes": 1734,
+      "sha256": "2f5cd048bacdef12a55326086a408b974430fc568e7257adc85bde7ddea3b63f",
+      "git_blob_sha": "9fd8a8436bba2d00362ce6150eb5db1f732aae0d"
+    },
+    {
+      "path": "production/sol61_060902/PRODUCTION_STATE.json",
+      "bytes": 1795,
+      "sha256": "dbb76c52500dd278661fc6adbcdf4caa6c0132f1a23c0e8019389f0d90e519f1",
+      "git_blob_sha": "18fb3a5b53d5a7a4e6b17b10a5f63b6078f4ebac"
+    },
+    {
+      "path": "production/sol61_060902/README.md",
+      "bytes": 6816,
+      "sha256": "d586f21b50285f4094fc136be21a2659d54c1ea7037fdb5e05d866af457a37f9",
+      "git_blob_sha": "c93931468271220f9af5f27f50299a48a41e7dac"
+    },
+    {
+      "path": "production/sol61_060902/REMOTE_RECEIPT.json",
+      "bytes": 1871,
+      "sha256": "61073860e9d4ff1cddf1ec2134d75aae60d1576ff795516ca429ff41918f5f27",
+      "git_blob_sha": "e3d07d55254439ca2fb86fff443e79425cea7b1c"
+    },
+    {
+      "path": "production/sol61_060902/RESTORE_INPUTS.json",
+      "bytes": 64586,
+      "sha256": "7817b980f0cf48263377ce79fce3b3a9809ce9dcefeb1ca6fe07eca99f776acb",
+      "git_blob_sha": "3991c6038ef87001aaf8fa524da24e5452f0697b"
+    },
+    {
+      "path": "production/sol61_060902/conform_e6_06_audio.py",
+      "bytes": 5117,
+      "sha256": "afdb86c6d88ba48c1e789e26ed6c2afed8a00c3a6b34ad05abce5f23a6e35583",
+      "git_blob_sha": "2ebe105f77673991cb24747e3273b6ecf48fe9a5"
+    },
+    {
+      "path": "production/sol61_060902/inherited_e6/E6_MOTION_GRAPHICS_HANDOFF.md",
+      "bytes": 6237,
+      "sha256": "35d3fb6de37cb4e769b6c46bc2e9ccba8dde11c67ae68eabe5d15ee65525041b",
+      "git_blob_sha": "892695fc3662abb7ca05585b41dfe9cde8e279b0"
+    },
+    {
+      "path": "production/sol61_060902/inherited_e6/e6_broadcast_countdown.html",
+      "bytes": 13235,
+      "sha256": "b3fdc0211d624a471425b3cc3850f8080f6dfaf76b1b7d73630252f7c269acbc",
+      "git_blob_sha": "712132b8f8d74dd39bf0b7c5fd6c18a38eb6bfdc"
+    },
+    {
+      "path": "production/sol61_060902/inherited_e6/e6_cctv_security_overlay.html",
+      "bytes": 12895,
+      "sha256": "e56ea31caf3cf348e8bc6c358384039b4c586899810ef9260295d7168f10de51",
+      "git_blob_sha": "1f7b307984dfcb577a08652ac563216f8fdf8aa6"
+    },
+    {
+      "path": "production/sol61_060902/inherited_e6/e6_mobile_livestream_overlay.html",
+      "bytes": 20269,
+      "sha256": "5a5ca63d3b92d7d1370cdf32080fb5e8e6068c01a601dbae67347d236e815116",
+      "git_blob_sha": "57bbbfb7813e3d47878dc37f1f8d7bc02724d171"
+    },
+    {
+      "path": "production/sol61_060902/inherited_e6/e6_tv_replay_hud.html",
+      "bytes": 12212,
+      "sha256": "eb4a62bae18993678c06ba6b31f64bb6d2a976885172ac1952a7cc379d4b6e12",
+      "git_blob_sha": "39a9f2a16ab89c0a1adf2117dee7d07887136a7c"
+    },
+    {
+      "path": "production/sol61_060902/output/E6-02_picture_sol61_060902_v1_1080p.mp4",
+      "bytes": 131630,
+      "sha256": "89f1bc19882ca53b235756bfbce8a47dab5d7b179b801787658b2a2afaab55a8",
+      "git_blob_sha": "e421422be4fe53519177addce721906bcf907e89"
+    },
+    {
+      "path": "production/sol61_060902/output/E6-06_audio_conform.json",
+      "bytes": 10356,
+      "sha256": "de342af892eba8d1f372457279fe626e6b25158145725222a527b14dae655d3f",
+      "git_blob_sha": "576c9435a8ebaeac5a8f1796e42929ac46a4ef47"
+    },
+    {
+      "path": "production/sol61_060902/output/E6-06_local_bilingual.ass",
+      "bytes": 829,
+      "sha256": "c8ce187f6e933841f84087250e0c5f086e5438d94d41430594b7b2d9a5808f88",
+      "git_blob_sha": "b7c575c18f28c67b167587c88932be774fbe1df9"
+    },
+    {
+      "path": "production/sol61_060902/output/E6-06_local_bilingual.srt",
+      "bytes": 110,
+      "sha256": "2ab259bc1a42cfbca409b1ba10654afcb9664f7e1a0c145e93b372b0ea11decd",
+      "git_blob_sha": "9e444ed72d19fcecc2d832cfba2a4ebf7ba06fcd"
+    },
+    {
+      "path": "production/sol61_060902/output/E6-06_picture_sol61_060902_v1_1080p.mp4",
+      "bytes": 30358,
+      "sha256": "c420498f16ee34ee4559ad0d4fd800c22a376ed1324ab2930d2e102924773bc1",
+      "git_blob_sha": "642dc0e45deefa1dced0bf9b57d1f1a4f8d5f540"
+    },
+    {
+      "path": "production/sol61_060902/output/E6-06_review_sol61_060902_v1_aac.mp4",
+      "bytes": 146370,
+      "sha256": "681a52b65561d6a5999541455d6e4a3f2152dde72a1e53b3030a4bb53f3e56c6",
+      "git_blob_sha": "d4c7ae024733782823a5a14c3c8cb1291fd82497"
+    },
+    {
+      "path": "production/sol61_060902/output/E6-06_workprint_sol61_060902_v1_bilingual.mp4",
+      "bytes": 314270,
+      "sha256": "a64c64fa3bcae9b7c26b1d79eaf5202fa59163b5d93c4d7b69dac3de56b5bf0d",
+      "git_blob_sha": "3f606f6ec1685f97f22272b95b96e3c5b59f3f78"
+    },
+    {
+      "path": "production/sol61_060902/output/E6-06_workprint_sol61_060902_v1_clean.mp4",
+      "bytes": 305754,
+      "sha256": "1c5652f429a2cc55f0c013d9e0e15fab787d8de869d90d0927ca6a9cf1471530",
+      "git_blob_sha": "0f251d58c28e6433080ecf37ce033c8dd285656a"
+    },
+    {
+      "path": "production/sol61_060902/output/E6-09_silent_sol61_060902_v1_1080p.mp4",
+      "bytes": 18192,
+      "sha256": "3b7e59e6a385e7b3dbda71e69fdba2519d8a91747ee65da4f6954732d1f2549d",
+      "git_blob_sha": "e156d73ce82882f2e89bf9b3e8b9ffb3ec439b62"
+    },
+    {
+      "path": "production/sol61_060902/output/E6_screen_encoding.json",
+      "bytes": 11501,
+      "sha256": "4e6ddc096b65eb147c8b029ed1acc9e67f882e4e38d020ce24c45988caf1d024",
+      "git_blob_sha": "1a356dae6e33ba14e091a1d24357e344170ac8af"
+    },
+    {
+      "path": "production/sol61_060902/qa/DejaVu_copyright.txt",
+      "bytes": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9",
+      "git_blob_sha": "b3d93a1235a82213fbc451853317c40e62ed9272"
+    },
+    {
+      "path": "production/sol61_060902/qa/E6-02_decoded.jpg",
+      "bytes": 158325,
+      "sha256": "9e76b6a6b615e7e9e3fb6be546dbee66f89f0149821fb64e60bb09030bd0bb37",
+      "git_blob_sha": "61f6f3a3c0fcc01f943fc55cdc50d6e72a90ccf0"
+    },
+    {
+      "path": "production/sol61_060902/qa/E6-06_bilingual_decoded.jpg",
+      "bytes": 98042,
+      "sha256": "6d9bfcf1498db84250619b40b8f6f685bc686cb8761859218aec044cf20580dd",
+      "git_blob_sha": "eb16dfffdc525b58b06dfb31458d0ba7b5b3a484"
+    },
+    {
+      "path": "production/sol61_060902/qa/E6_screen_review_contact.jpg",
+      "bytes": 85173,
+      "sha256": "fb2f942c0e082d2209451e7d9056fbf025b66d55d98d17d65fb21f8d3fa6b45c",
+      "git_blob_sha": "b259224f8ed4ed622515003e3e886e1623469a50"
+    },
+    {
+      "path": "production/sol61_060902/qa/F5_repair_verification.json",
+      "bytes": 2592,
+      "sha256": "31e20cc987531d028bc8620fc8bbd36502bf33b8511eacb04c95f8b9322cd731",
+      "git_blob_sha": "3c5ba4d8172d083353d230cb0e678002dcdf3a9c"
+    },
+    {
+      "path": "production/sol61_060902/qa/baseline_visual_spots.jpg",
+      "bytes": 235171,
+      "sha256": "4b8ccaed9f0fba5c706d3d6e582f1039ad481527441181656663c0e469175ded",
+      "git_blob_sha": "14aa00a24d393054490b1dda798fdfb4842810aa"
+    },
+    {
+      "path": "production/sol61_060902/qa/browser_review_encoding.json",
+      "bytes": 296,
+      "sha256": "026de436b34d1ab09642a7e3daeec133a81d7282fca2fe236a8e1c9e9334db44",
+      "git_blob_sha": "f7a4cc0030a1c1dce293270adec1851f635bea64"
+    },
+    {
+      "path": "production/sol61_060902/qa/decoded_frame_checks.json",
+      "bytes": 1703,
+      "sha256": "c12f656d9727c6fafb10b50efab33b60f59d02cf8a0410743775c3b0693b17d9",
+      "git_blob_sha": "6761c4487b7c6afb49454fdd251043cf3b10fbf5"
+    },
+    {
+      "path": "production/sol61_060902/qa/inherited_component_checks.json",
+      "bytes": 1708,
+      "sha256": "87c84ea60dbba77fcacf0694ab18b22214b229cb1f0af9603e3d1f1875d56fdf",
+      "git_blob_sha": "bb4150a34c37ebd776fc252e773f678df5e58760"
+    },
+    {
+      "path": "production/sol61_060902/qa/new_sources_and_methods.json",
+      "bytes": 624,
+      "sha256": "875ffd0f6667e367707c25f9def6ef10bf3a597748699d72978b2473c537d11c",
+      "git_blob_sha": "350d5952cb2f7876544eb276d0be511c3a028942"
+    },
+    {
+      "path": "production/sol61_060902/qa/selected_source_image_checks.json",
+      "bytes": 9365,
+      "sha256": "0c1eab847b1a6fe455dd5afdcaaf5ad6599eb7ac17642804216a8da224202711",
+      "git_blob_sha": "5a2f9bfac11084a2dec30c8efb602ffe29832be3"
+    },
+    {
+      "path": "production/sol61_060902/render_e6_screens.py",
+      "bytes": 9972,
+      "sha256": "8f0539ebb6b8170a7cc2b6ba5dd6fff839c04cc5bc0e2ec6d475f6cb4bc80c64",
+      "git_blob_sha": "c35cdee2321be3ebc2abe82c38f1a6525feae214"
+    },
+    {
+      "path": "production/sol61_060902/restore_inputs.py",
+      "bytes": 3605,
+      "sha256": "647d82dd8ce28a7d3404edc67630ad7c1462b99efbf3fa2b1d0d5f45b24eb85c",
+      "git_blob_sha": "32c20595be9d0ff03d970be04b1b104dcfe6a75a"
+    }
+  ]
+}

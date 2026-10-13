@@ -1,0 +1,42 @@
+{
+  "source": "Previously supplied E6 motion-graphics package",
+  "library_file_id": "libfile_bf6f828df75c819193269665385ddbb5",
+  "archive_name": "silent_protocol_with_e6_assets.zip",
+  "archive_bytes": 119946,
+  "archive_sha256": "39a06e1f0465b7959c0eabb27f3820af9b8144322be2b33fb6da35eef949fd56",
+  "zip_crc": "PASS",
+  "existing_repo_archive_has_these_html_files": false,
+  "originals_unmodified": true,
+  "files": [
+    {
+      "archive_path": "silent_protocol/docs/E6_MOTION_GRAPHICS_HANDOFF.md",
+      "path": "inherited_e6/E6_MOTION_GRAPHICS_HANDOFF.md",
+      "bytes": 6237,
+      "sha256": "35d3fb6de37cb4e769b6c46bc2e9ccba8dde11c67ae68eabe5d15ee65525041b"
+    },
+    {
+      "archive_path": "silent_protocol/assets/screens/e6/e6_mobile_livestream_overlay.html",
+      "path": "inherited_e6/e6_mobile_livestream_overlay.html",
+      "bytes": 20269,
+      "sha256": "5a5ca63d3b92d7d1370cdf32080fb5e8e6068c01a601dbae67347d236e815116"
+    },
+    {
+      "archive_path": "silent_protocol/assets/screens/e6/e6_tv_replay_hud.html",
+      "path": "inherited_e6/e6_tv_replay_hud.html",
+      "bytes": 12212,
+      "sha256": "eb4a62bae18993678c06ba6b31f64bb6d2a976885172ac1952a7cc379d4b6e12"
+    },
+    {
+      "archive_path": "silent_protocol/assets/screens/e6/e6_broadcast_countdown.html",
+      "path": "inherited_e6/e6_broadcast_countdown.html",
+      "bytes": 13235,
+      "sha256": "b3fdc0211d624a471425b3cc3850f8080f6dfaf76b1b7d73630252f7c269acbc"
+    },
+    {
+      "archive_path": "silent_protocol/assets/screens/e6/e6_cctv_security_overlay.html",
+      "path": "inherited_e6/e6_cctv_security_overlay.html",
+      "bytes": 12895,
+      "sha256": "e56ea31caf3cf348e8bc6c358384039b4c586899810ef9260295d7168f10de51"
+    }
+  ]
+}

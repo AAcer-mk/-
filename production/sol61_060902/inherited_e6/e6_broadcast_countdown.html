@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>《静默协议》E6 直播核心倒计时图形 (E6 Broadcast Countdown HUD)</title>
+  <style>
+    :root {
+      --color-cyan: #00f0ff;
+      --color-amber: #ffaa00;
+      --color-red: #ff2a4b;
+      --color-white: #ffffff;
+      --color-bg-dark: rgba(10, 14, 20, 0.85);
+      --font-mono: ui-monospace, "SF Mono", "Roboto Mono", "Courier New", monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+    }
+
+    body {
+      width: 100vw;
+      height: 100vh;
+      background: transparent;
+      overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .countdown-screen {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      transform-origin: center center;
+      transform: scale(min(calc(100vw / 1920), calc(100vh / 1080)));
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      pointer-events: none;
+    }
+
+    .countdown-screen.bg-transparent { background: transparent; }
+    .countdown-screen.bg-black { background: #000000; }
+    .countdown-screen.bg-chromakey { background: #00ff00; }
+
+    /* 科技网格背景 (可在透明模式下独立显示或隐藏) */
+    .grid-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: 40px 40px;
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+      z-index: 1;
+    }
+
+    /* 核心倒计时卡片容器 */
+    .countdown-card {
+      position: relative;
+      width: 1180px;
+      padding: 56px 80px 48px;
+      background: var(--color-bg-dark);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-radius: 28px;
+      border: 1px solid rgba(0, 240, 255, 0.35);
+      box-shadow: 0 0 60px rgba(0, 0, 0, 0.7), inset 0 0 30px rgba(0, 240, 255, 0.08);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      z-index: 10;
+      transition: border-color 0.5s, box-shadow 0.5s;
+    }
+
+    /* 紧急状态等级变化 */
+    .countdown-card.status-nominal {
+      border-color: rgba(0, 240, 255, 0.4);
+      box-shadow: 0 0 50px rgba(0, 240, 255, 0.2);
+    }
+    .countdown-card.status-warning {
+      border-color: rgba(255, 170, 0, 0.6);
+      box-shadow: 0 0 60px rgba(255, 170, 0, 0.35);
+    }
+    .countdown-card.status-critical {
+      border-color: rgba(255, 42, 75, 0.9);
+      box-shadow: 0 0 80px rgba(255, 42, 75, 0.6);
+      animation: criticalPulse 1s infinite alternate;
+    }
+
+    /* 顶部标题区 */
+    .header-section {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      padding-bottom: 20px;
+      margin-bottom: 36px;
+    }
+
+    .main-title-block {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .title-cn {
+      font-size: 38px;
+      font-weight: 800;
+      letter-spacing: 3px;
+      color: #ffffff;
+      text-shadow: 0 2px 10px rgba(0, 240, 255, 0.5);
+    }
+
+    .title-en {
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 4px;
+      color: var(--color-cyan);
+      text-transform: uppercase;
+      font-family: var(--font-mono);
+    }
+
+    .sys-badge {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(0, 240, 255, 0.12);
+      border: 1px solid rgba(0, 240, 255, 0.3);
+      padding: 8px 18px;
+      border-radius: 20px;
+      font-family: var(--font-mono);
+      font-size: 15px;
+      color: var(--color-cyan);
+    }
+
+    .status-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--color-cyan);
+      box-shadow: 0 0 8px var(--color-cyan);
+      animation: blinkDot 1s infinite steps(1);
+    }
+
+    /* 巨型时间排版 */
+    .digits-container {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 30px;
+      font-family: var(--font-mono);
+    }
+
+    .time-unit-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .digit-block {
+      font-size: 108px;
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: -2px;
+      background: linear-gradient(180deg, #ffffff 30%, #a4e5ff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 4px 16px rgba(0, 240, 255, 0.4));
+      width: 160px;
+      text-align: center;
+    }
+
+    .unit-label {
+      font-size: 18px;
+      font-weight: 700;
+      color: rgba(255, 255, 255, 0.65);
+      letter-spacing: 2px;
+    }
+
+    .time-separator {
+      font-size: 96px;
+      font-weight: 700;
+      color: var(--color-cyan);
+      opacity: 0.8;
+      margin-bottom: 28px;
+      animation: sepBlink 1s infinite steps(1);
+    }
+
+    /* 线性进度条与刻度 */
+    .progress-wrapper {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .progress-bar-track {
+      width: 100%;
+      height: 12px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 6px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      position: relative;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      width: 68%;
+      background: linear-gradient(90deg, #0099ff, var(--color-cyan));
+      border-radius: 6px;
+      box-shadow: 0 0 16px var(--color-cyan);
+      transition: width 0.1s linear;
+    }
+
+    .progress-ticks {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 10px;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.45);
+    }
+
+    /* 底部执行预警条 */
+    .footer-alert {
+      width: 100%;
+      margin-top: 24px;
+      padding: 12px 20px;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: var(--font-mono);
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    /* 关键帧动画 */
+    @keyframes blinkDot {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0.2; }
+    }
+
+    @keyframes sepBlink {
+      0%, 49% { opacity: 0.9; }
+      50%, 100% { opacity: 0.2; }
+    }
+
+    @keyframes criticalPulse {
+      0% { transform: scale(1); filter: drop-shadow(0 0 20px rgba(255, 42, 75, 0.6)); }
+      100% { transform: scale(1.015); filter: drop-shadow(0 0 45px rgba(255, 42, 75, 0.9)); }
+    }
+
+    /* 控制面板 */
+    .production-controls {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: rgba(0, 0, 0, 0.85);
+      border: 1px solid rgba(0, 240, 255, 0.4);
+      padding: 12px 18px;
+      border-radius: 12px;
+      z-index: 9999;
+      pointer-events: auto;
+      font-size: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      color: #fff;
+    }
+    .production-controls button {
+      background: #102030;
+      color: #00f0ff;
+      border: 1px solid #00f0ff;
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .production-controls button:hover {
+      background: #00f0ff;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="production-controls" id="controlPanel">
+    <div style="font-weight: bold; color: #00f0ff;">E6 倒计时控制器 (24FPS)</div>
+    <div>背景模式：
+      <button onclick="setBg('bg-transparent')">透明</button>
+      <button onclick="setBg('bg-chromakey')">纯绿</button>
+      <button onclick="setBg('bg-black')">黑底</button>
+    </div>
+    <div>快速步进：
+      <button onclick="setSec(194)">3分14秒(初始)</button>
+      <button onclick="setSec(45)">45秒(预警)</button>
+      <button onclick="setSec(8)">8秒(绝境)</button>
+    </div>
+    <div style="font-size: 11px; color: #aaa;">按 [H] 隐藏面板</div>
+  </div>
+
+  <div class="countdown-screen bg-transparent" id="countdownScreen">
+    <div class="grid-overlay"></div>
+
+    <div class="countdown-card status-nominal" id="countdownCard">
+      <!-- 顶部系统头 -->
+      <div class="header-section">
+        <div class="main-title-block">
+          <div class="title-cn">静默协议执行倒计时</div>
+          <div class="title-en">SILENT PROTOCOL EXECUTION SEQUENCE</div>
+        </div>
+        <div class="sys-badge" id="sysBadge">
+          <span class="status-dot"></span>
+          <span id="badgeText">SEQ_STATUS: ARMED</span>
+        </div>
+      </div>
+
+      <!-- 倒计时数字主体 -->
+      <div class="digits-container">
+        <!-- 小时 -->
+        <div class="time-unit-box">
+          <div class="digit-block" id="boxHr">00</div>
+          <div class="unit-label">小时 HRS</div>
+        </div>
+
+        <div class="time-separator">:</div>
+
+        <!-- 分钟 -->
+        <div class="time-unit-box">
+          <div class="digit-block" id="boxMin">03</div>
+          <div class="unit-label">分钟 MIN</div>
+        </div>
+
+        <div class="time-separator">:</div>
+
+        <!-- 秒钟 -->
+        <div class="time-unit-box">
+          <div class="digit-block" id="boxSec">14</div>
+          <div class="unit-label">秒钟 SEC</div>
+        </div>
+
+        <div class="time-separator" style="color: rgba(255,255,255,0.4);">.</div>
+
+        <!-- 24fps 帧数 -->
+        <div class="time-unit-box">
+          <div class="digit-block" id="boxFrame" style="font-size: 88px; width: 130px; color: var(--color-cyan);">18</div>
+          <div class="unit-label">帧 FRAME (24fps)</div>
+        </div>
+      </div>
+
+      <!-- 线性进度衰减条 -->
+      <div class="progress-wrapper">
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" id="progressBar"></div>
+        </div>
+        <div class="progress-ticks">
+          <span>00:00:00 (TRIGGER)</span>
+          <span>T-02:00</span>
+          <span>T-04:00</span>
+          <span>T-06:00 (ORIGIN)</span>
+        </div>
+      </div>
+
+      <!-- 底部安全协议摘要 -->
+      <div class="footer-alert">
+        <span>TRIGGER TARGET: GENEVA POWER GRID & ALL SUB-NODES</span>
+        <span id="hashDisplay">SHA256: 2f07d5...52fc4e39</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const FPS = 24;
+    // 初始总帧数对应 3分14秒18帧
+    let totalFrames = (3 * 60 + 14) * 24 + 18;
+    const initialFrames = (6 * 60) * 24; // 假设基准全程为6分钟
+
+    const boxHr = document.getElementById('boxHr');
+    const boxMin = document.getElementById('boxMin');
+    const boxSec = document.getElementById('boxSec');
+    const boxFrame = document.getElementById('boxFrame');
+    const progressBar = document.getElementById('progressBar');
+    const countdownCard = document.getElementById('countdownCard');
+    const badgeText = document.getElementById('badgeText');
+    const countdownScreen = document.getElementById('countdownScreen');
+    const controlPanel = document.getElementById('controlPanel');
+
+    setInterval(() => {
+      if (totalFrames > 0) {
+        totalFrames--;
+      }
+
+      const frames = totalFrames % FPS;
+      const totalSec = Math.floor(totalFrames / FPS);
+      const sec = totalSec % 60;
+      const min = Math.floor(totalSec / 60) % 60;
+      const hr = Math.floor(totalSec / 3600);
+
+      boxHr.textContent = pad(hr);
+      boxMin.textContent = pad(min);
+      boxSec.textContent = pad(sec);
+      boxFrame.textContent = pad(frames);
+
+      // 计算百分比
+      const pct = Math.max(0, Math.min(100, (totalFrames / initialFrames) * 100));
+      progressBar.style.width = pct + '%';
+
+      // 阶段状态切换
+      if (totalSec <= 10) {
+        countdownCard.className = 'countdown-card status-critical';
+        badgeText.textContent = 'CRITICAL // PROTOCOL BREACH';
+        progressBar.style.background = 'linear-gradient(90deg, #ff0033, #ff2a4b)';
+      } else if (totalSec <= 60) {
+        countdownCard.className = 'countdown-card status-warning';
+        badgeText.textContent = 'WARNING // COUNTDOWN LOCK';
+        progressBar.style.background = 'linear-gradient(90deg, #cc8800, #ffaa00)';
+      } else {
+        countdownCard.className = 'countdown-card status-nominal';
+        badgeText.textContent = 'SEQ_STATUS: ARMED';
+        progressBar.style.background = 'linear-gradient(90deg, #0099ff, var(--color-cyan))';
+      }
+    }, 1000 / FPS);
+
+    function pad(n) {
+      return n.toString().padStart(2, '0');
+    }
+
+    function setSec(s) {
+      totalFrames = s * 24;
+    }
+
+    function setBg(mode) {
+      countdownScreen.className = 'countdown-screen ' + mode;
+    }
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'h' || e.key === 'H') {
+        controlPanel.style.display = controlPanel.style.display === 'none' ? 'flex' : 'none';
+      }
+    });
+  </script>
+</body>
+</html>

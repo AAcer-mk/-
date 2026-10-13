@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>《静默协议》E6 监控摄像头界面覆盖层 (E6 CCTV Security Overlay)</title>
+  <style>
+    :root {
+      --cctv-green: #00ff66;
+      --cctv-white: #ffffff;
+      --cctv-red: #ff3333;
+      --cctv-amber: #ffaa00;
+      --line-color: rgba(255, 255, 255, 0.45);
+      --font-mono: ui-monospace, "SF Mono", "Roboto Mono", "Courier New", monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+    }
+
+    body {
+      width: 100vw;
+      height: 100vh;
+      background: transparent;
+      overflow: hidden;
+      font-family: var(--font-mono);
+      color: var(--cctv-white);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* 1920x1080 电影 16:9 画幅 */
+    .cctv-canvas {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      transform-origin: center center;
+      transform: scale(min(calc(100vw / 1920), calc(100vh / 1080)));
+      overflow: hidden;
+      pointer-events: none;
+    }
+
+    .cctv-canvas.bg-transparent { background: transparent; }
+    .cctv-canvas.bg-black { background: #000000; }
+    .cctv-canvas.bg-chromakey { background: #00ff00; }
+
+    /* 扫描线与 CRT 监视器模拟纹理 */
+    .scanlines {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: repeating-linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.18),
+        rgba(0, 0, 0, 0.18) 2px,
+        transparent 2px,
+        transparent 4px
+      );
+      pointer-events: none;
+      z-index: 5;
+      opacity: 0.75;
+    }
+
+    /* 四角暗角镜头渐变 */
+    .vignette {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      box-shadow: inset 0 0 140px rgba(0, 0, 0, 0.85);
+      pointer-events: none;
+      z-index: 4;
+    }
+
+    /* 四角边框标尺 */
+    .corner-bracket {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      border: 3px solid var(--cctv-white);
+      z-index: 10;
+    }
+    .corner-top-left {
+      top: 48px;
+      left: 48px;
+      border-right: none;
+      border-bottom: none;
+    }
+    .corner-top-right {
+      top: 48px;
+      right: 48px;
+      border-left: none;
+      border-bottom: none;
+    }
+    .corner-bottom-left {
+      bottom: 48px;
+      left: 48px;
+      border-right: none;
+      border-top: none;
+    }
+    .corner-bottom-right {
+      bottom: 48px;
+      right: 48px;
+      border-left: none;
+      border-top: none;
+    }
+
+    /* 安全区域框 (Action Safe & Title Safe 虚线框) */
+    .safe-frame {
+      position: absolute;
+      top: 72px;
+      left: 72px;
+      right: 72px;
+      bottom: 72px;
+      border: 1px dashed rgba(255, 255, 255, 0.2);
+      z-index: 8;
+      pointer-events: none;
+    }
+
+    /* 监控十字瞄准线 */
+    .center-crosshair {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 80px;
+      height: 80px;
+      transform: translate(-50%, -50%);
+      z-index: 10;
+      opacity: 0.65;
+    }
+    .center-crosshair::before, .center-crosshair::after {
+      content: '';
+      position: absolute;
+      background: var(--cctv-white);
+    }
+    .center-crosshair::before {
+      top: 39px;
+      left: 0;
+      width: 80px;
+      height: 2px;
+    }
+    .center-crosshair::after {
+      top: 0;
+      left: 39px;
+      width: 2px;
+      height: 80px;
+    }
+    .center-circle {
+      position: absolute;
+      top: 24px;
+      left: 24px;
+      width: 32px;
+      height: 32px;
+      border: 1.5px solid var(--cctv-white);
+      border-radius: 50%;
+    }
+
+    /* 左上角：录制状态与精准电影时间码 (24fps) */
+    .cctv-header-left {
+      position: absolute;
+      top: 60px;
+      left: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 15;
+    }
+
+    .rec-indicator {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: var(--cctv-red);
+      text-shadow: 0 0 10px rgba(255, 51, 51, 0.7);
+    }
+
+    .rec-dot {
+      width: 18px;
+      height: 18px;
+      background: var(--cctv-red);
+      border-radius: 50%;
+      box-shadow: 0 0 14px var(--cctv-red);
+      animation: recBlink 1s infinite steps(1);
+    }
+
+    .timecode-display {
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+      color: #ffffff;
+    }
+
+    /* 右上角：摄像头标识与技术参数 */
+    .cctv-header-right {
+      position: absolute;
+      top: 60px;
+      right: 80px;
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      z-index: 15;
+    }
+
+    .cam-id {
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      color: var(--cctv-green);
+      text-shadow: 0 0 10px rgba(0, 255, 102, 0.4);
+    }
+
+    .cam-meta {
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.75);
+      letter-spacing: 1px;
+    }
+
+    /* 左下角：真实世界观绝对时间戳与地点 */
+    .cctv-footer-left {
+      position: absolute;
+      bottom: 60px;
+      left: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      z-index: 15;
+    }
+
+    .utc-timestamp {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      color: #ffffff;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+    }
+
+    .location-info {
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.75);
+      letter-spacing: 1px;
+    }
+
+    /* 右下角：传感器遥测与信号状态 */
+    .cctv-footer-right {
+      position: absolute;
+      bottom: 60px;
+      right: 80px;
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      z-index: 15;
+    }
+
+    .telemetry-row {
+      font-size: 18px;
+      letter-spacing: 1px;
+      color: rgba(255, 255, 255, 0.85);
+    }
+
+    .security-status {
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      color: var(--cctv-amber);
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 10px;
+    }
+
+    /* 信号异常/撕裂层 (Glitch) */
+    .glitch-bar {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.35);
+      z-index: 20;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .glitch-active {
+      animation: glitchStrobe 0.28s ease-in-out forwards;
+    }
+
+    @keyframes recBlink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+
+    @keyframes glitchStrobe {
+      0% { opacity: 0; transform: translateY(0); }
+      20% { opacity: 0.9; transform: translateY(180px); }
+      40% { opacity: 0.2; transform: translateY(520px); }
+      70% { opacity: 0.7; transform: translateY(340px); }
+      100% { opacity: 0; transform: translateY(800px); }
+    }
+
+    /* 控制面板 */
+    .production-controls {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: rgba(0, 0, 0, 0.85);
+      border: 1px solid rgba(0, 255, 102, 0.4);
+      padding: 12px 18px;
+      border-radius: 12px;
+      z-index: 9999;
+      pointer-events: auto;
+      font-size: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      color: #fff;
+    }
+    .production-controls button {
+      background: #112211;
+      color: #00ff66;
+      border: 1px solid #00ff66;
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .production-controls button:hover {
+      background: #00ff66;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="production-controls" id="controlPanel">
+    <div style="font-weight: bold; color: #00ff66;">E6 监控界面 HUD 控制器</div>
+    <div>背景模式：
+      <button onclick="setBg('bg-transparent')">透明(叠加)</button>
+      <button onclick="setBg('bg-chromakey')">纯绿(抠像)</button>
+      <button onclick="setBg('bg-black')">黑底(预览)</button>
+    </div>
+    <div>异常模拟：
+      <button onclick="triggerGlitch()">触发信号故障撕裂</button>
+      <button onclick="toggleScanlines()">开启/关闭扫描线</button>
+    </div>
+    <div style="font-size: 11px; color: #aaa;">按 [H] 键隐藏本面板</div>
+  </div>
+
+  <div class="cctv-canvas bg-transparent" id="cctvCanvas">
+    <div class="scanlines" id="scanlines"></div>
+    <div class="vignette"></div>
+    <div class="safe-frame"></div>
+
+    <!-- 四角准星与标尺 -->
+    <div class="corner-bracket corner-top-left"></div>
+    <div class="corner-bracket corner-top-right"></div>
+    <div class="corner-bracket corner-bottom-left"></div>
+    <div class="corner-bracket corner-bottom-right"></div>
+
+    <!-- 中心十字瞄准器 -->
+    <div class="center-crosshair">
+      <div class="center-circle"></div>
+    </div>
+
+    <!-- 信号撕裂层 -->
+    <div class="glitch-bar" id="glitchBar"></div>
+
+    <!-- 左上角 -->
+    <div class="cctv-header-left">
+      <div class="rec-indicator">
+        <span class="rec-dot"></span>
+        REC
+      </div>
+      <div class="timecode-display" id="timecodeDisplay">TC 00:14:28:16</div>
+    </div>
+
+    <!-- 右上角 -->
+    <div class="cctv-header-right">
+      <div class="cam-id">CAM-04 // VAULT_CORRIDOR_WEST</div>
+      <div class="cam-meta">OPTICAL 4K // 24.000 FPS // 50.000 ISO 800</div>
+      <div class="cam-meta" style="color: var(--cctv-amber);">PROTOCOL FEED: SP-ENCRYPTED</div>
+    </div>
+
+    <!-- 左下角：真实世界观绝对时间戳 (2028-03-14 03:03:xx UTC) -->
+    <div class="cctv-footer-left">
+      <div class="utc-timestamp" id="utcTimestamp">2028-03-14 03:03:14.67 UTC</div>
+      <div class="location-info">GENEVA UNDERGROUND VAULT · SUB-LEVEL 04 · SECTOR B</div>
+    </div>
+
+    <!-- 右下角：遥测与安防协议状态 -->
+    <div class="cctv-footer-right">
+      <div class="telemetry-row">ENV_TEMP: 16.8°C · HUMIDITY: 42% · AIR_FLOW: NOMINAL</div>
+      <div class="telemetry-row">LAT: 46°12'09"N · LON: 6°09'28"E · ALT: 375m</div>
+      <div class="security-status">
+        <span>⚠ ALERT // SILENT_PROTOCOL TRIGGERED</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // 严格 24FPS 时间基线步进计时器
+    const FPS = 24;
+    let frameCount = 14 * 60 * 24 + 28 * 24 + 16; // 初始帧数对准 TC 00:14:28:16
+
+    // 绝对时间戳基准：2028-03-14 03:03:14 UTC
+    let baseTime = new Date(Date.UTC(2028, 2, 14, 3, 3, 14, 670)).getTime();
+
+    const timecodeDisplay = document.getElementById('timecodeDisplay');
+    const utcTimestamp = document.getElementById('utcTimestamp');
+    const glitchBar = document.getElementById('glitchBar');
+    const cctvCanvas = document.getElementById('cctvCanvas');
+    const scanlines = document.getElementById('scanlines');
+    const controlPanel = document.getElementById('controlPanel');
+
+    // 24fps 间隔定时更新
+    setInterval(() => {
+      frameCount++;
+      baseTime += (1000 / FPS);
+
+      // 计算标准 SMPTE 24fps 时码 (HH:MM:SS:FF)
+      const frames = frameCount % FPS;
+      const totalSec = Math.floor(frameCount / FPS);
+      const sec = totalSec % 60;
+      const min = Math.floor(totalSec / 60) % 60;
+      const hr = Math.floor(totalSec / 3600);
+
+      const tcStr = `TC ${pad(hr)}:${pad(min)}:${pad(sec)}:${pad(frames)}`;
+      timecodeDisplay.textContent = tcStr;
+
+      // 更新 UTC 真实时间戳
+      const d = new Date(baseTime);
+      const y = d.getUTCFullYear();
+      const m = pad(d.getUTCMonth() + 1);
+      const day = pad(d.getUTCDate());
+      const hh = pad(d.getUTCHours());
+      const mm = pad(d.getUTCMinutes());
+      const ss = pad(d.getUTCSeconds());
+      const ms = Math.floor(d.getUTCMilliseconds() / 10);
+      utcTimestamp.textContent = `${y}-${m}-${day} ${hh}:${mm}:${ss}.${pad(ms)} UTC`;
+
+      // 周期性随机微小信号抖动（每隔 80-160 帧偶发一次）
+      if (frameCount % 120 === 0 && Math.random() > 0.4) {
+        triggerGlitch();
+      }
+    }, 1000 / FPS);
+
+    function pad(n) {
+      return n.toString().padStart(2, '0');
+    }
+
+    // 信号故障撕裂触发
+    function triggerGlitch() {
+      glitchBar.className = 'glitch-bar glitch-active';
+      setTimeout(() => {
+        glitchBar.className = 'glitch-bar';
+      }, 300);
+    }
+
+    function setBg(mode) {
+      cctvCanvas.className = 'cctv-canvas ' + mode;
+    }
+
+    function toggleScanlines() {
+      scanlines.style.display = scanlines.style.display === 'none' ? 'block' : 'none';
+    }
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'h' || e.key === 'H') {
+        controlPanel.style.display = controlPanel.style.display === 'none' ? 'flex' : 'none';
+      }
+    });
+  </script>
+</body>
+</html>

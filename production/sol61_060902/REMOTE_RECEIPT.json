@@ -1,0 +1,43 @@
+{
+  "schema": "silent-protocol-sol61-remote-receipt-v1",
+  "repository": "AAcer-mk/-",
+  "branch": "production/sol61-resume-20261014-060902",
+  "data_commit": "8cb53472e8eed82477f7ae1c3b7f0ff7db23270a",
+  "data_tree": "b642e6bef0f4b36cb90dddc2d8fa0b1bcae62d23",
+  "branch_ref_readback": "PASS",
+  "media": [
+    {
+      "path": "production/sol61_060902/output/E6-02_picture_sol61_060902_v1_1080p.mp4",
+      "git_blob_sha": "e421422be4fe53519177addce721906bcf907e89",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "production/sol61_060902/output/E6-06_picture_sol61_060902_v1_1080p.mp4",
+      "git_blob_sha": "642dc0e45deefa1dced0bf9b57d1f1a4f8d5f540",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "production/sol61_060902/output/E6-06_workprint_sol61_060902_v1_clean.mp4",
+      "git_blob_sha": "0f251d58c28e6433080ecf37ce033c8dd285656a",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "production/sol61_060902/output/E6-06_workprint_sol61_060902_v1_bilingual.mp4",
+      "git_blob_sha": "3f606f6ec1685f97f22272b95b96e3c5b59f3f78",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "production/sol61_060902/output/E6-06_review_sol61_060902_v1_aac.mp4",
+      "git_blob_sha": "d4c7ae024733782823a5a14c3c8cb1291fd82497",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "production/sol61_060902/output/E6-09_silent_sol61_060902_v1_1080p.mp4",
+      "git_blob_sha": "e156d73ce82882f2e89bf9b3e8b9ffb3ec439b62",
+      "remote_byte_readback": "PASS"
+    }
+  ],
+  "readback_method": "GitHub base64 content readback at immutable commit, whitespace-normalized and byte-for-byte compared to validated local files; Git blob SHA also matched.",
+  "local_git_push": "Did not succeed: no command-line credential. Data saved through authorized GitHub APIs instead.",
+  "final_film_completed": false
+}
