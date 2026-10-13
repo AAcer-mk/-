@@ -33,9 +33,9 @@
     },
     {
       "path": "production/sol61_060902/README.md",
-      "bytes": 6816,
-      "sha256": "d586f21b50285f4094fc136be21a2659d54c1ea7037fdb5e05d866af457a37f9",
-      "git_blob_sha": "c93931468271220f9af5f27f50299a48a41e7dac"
+      "bytes": 6989,
+      "sha256": "4ed61def38ecd8f5fd43b82989290b7e3676c5b487e62e75fa54d6a8ca54e683",
+      "git_blob_sha": "059941c4cf008437692ff00f1f93ce1a44393515"
     },
     {
       "path": "production/sol61_060902/REMOTE_RECEIPT.json",

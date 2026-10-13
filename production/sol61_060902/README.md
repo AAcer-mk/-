@@ -53,7 +53,7 @@ python production/sol61_060902/conform_e6_06_audio.py --source ../source-b10 --o
 
 ## 下一步生产
 
-从本分支 `REMOTE_RECEIPT.json` 所记成果提交继续，先读 `E6_EDIT.json` 和 `PRODUCTION_STATE.json`，无需再次全面审计。另已找回此前未进入 905 文件归档的四个 E6 HTML 组件及技术指南，原件保存在 `inherited_e6/`。其镜号、时间与场景描述存在冲突，不能直接套入正片；修正接入关系见 `E6_COMPONENT_CONFORM.md`，原始导演稿仍具有优先级。
+从本生产分支的最新 HEAD 继续，先读 `E6_EDIT.json` 和 `PRODUCTION_STATE.json`，无需再次全面审计。`REMOTE_RECEIPT.json` 中的 `data_commit` 是六个视频完成回读的成果提交，后续提交另加入 QA 证据和源组件，因此不要把 `data_commit` 当作本分支最终 HEAD。另已找回此前未进入 905 文件归档的四个 E6 HTML 组件及技术指南，原件保存在 `inherited_e6/`。其镜号、时间与场景描述存在冲突，不能直接套入正片；修正接入关系见 `E6_COMPONENT_CONFORM.md`，原始导演稿仍具有优先级。
 
 1. 完成 E6-04 第三候选，核对同一 Cody、沙发和两个抱枕；补 E6-05 蒙太奇和 E6-07 投掷的必要三候选。
 2. 制作 E6-07 的连续抱枕投掷及遮住摄像头动作，使用真实动作片段在 E6-08 做慢动作回放，保留两个错开圆点彩蛋。当前 Runway 为 Free、0 额度、无可用视频模型，本轮没有购买或升级；屏幕制作可继续，动作素材仍是具体阻塞。
