@@ -1,0 +1,42 @@
+{
+  "branches_unchanged": true,
+  "production_base_commit": "9cdbc23cd390fe6a5c8e5664ac496e9c3801f173",
+  "historical_branches": [
+    {
+      "branch": "claude/continuation-20261009",
+      "commit": "56cee68766ea8c88a30e250586e020b55f829210"
+    },
+    {
+      "branch": "main",
+      "commit": "df34c2dd2a77cc32c92f868b06b6c8dc37753810"
+    },
+    {
+      "branch": "migration/app-binary-limit-test-2026-10-09",
+      "commit": "9c2a656251796900292854b96c3d5df7cd729620"
+    },
+    {
+      "branch": "migration/luna-a-491-1283",
+      "commit": "045b39898f9e4559a6e5d9ff0b25ce137f3d8124"
+    },
+    {
+      "branch": "migration/luna-a-tail-rescue-1087-1283",
+      "commit": "caa6662db7b695c4ca91740a2840ae603bf0f5f5"
+    },
+    {
+      "branch": "migration/luna-b-1284-2076",
+      "commit": "887232f3456c8ce132ca98d688e6413863b0575d"
+    },
+    {
+      "branch": "migration/luna-c-2077-2870",
+      "commit": "ddceabc7c15f550a2705ca38068006bdf41dad87"
+    },
+    {
+      "branch": "migration/rebuild-exact-tar-handoff",
+      "commit": "c15958ff2701f9d41ac83044dd595eaf64ccae30"
+    },
+    {
+      "branch": "migration/2026-10-09-verified-source-audit",
+      "commit": "49fc4a4bc50f7605cf7aa446a679a7516183eb9f"
+    }
+  ]
+}

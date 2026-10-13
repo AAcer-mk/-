@@ -1,0 +1,8 @@
+{
+  "archive_original_members": 905,
+  "unique_members_byte_sha_verified": 572,
+  "full_tar_reconstructed": false,
+  "full_tar_sha_recomputed_this_round": false,
+  "source_archive_expected_sha256": "2f07d56ff635894e6792265e25abb3392b7896879e186c271e53407f52fc4e39",
+  "verification": "All selected parts and restored selected payloads matched pinned manifests. Remaining source members are inventoried only."
+}

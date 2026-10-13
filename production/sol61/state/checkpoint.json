@@ -1,5 +1,5 @@
 {
-  "stage": "E6_PART_A_AND_FINAL_SHOT_RENDERED",
+  "stage": "ROUND_R01_REMOTE_VERIFIED_READY_FOR_E6_07",
   "final_film_completed": false,
   "source_checkpoint": "B10",
   "production_branch": "production/sol61-resume",
@@ -57,5 +57,11 @@
   },
   "remote_artwork_commit": "4ca2eb1faf403f2249952201773466429a47eee6",
   "remote_artwork_readback": "23/23 byte SHA256 PASS",
-  "render_persistence": "Render payload is part of this checkpoint commit; byte readback pending its publication."
+  "render_persistence": "PASS: 42/42 remote part bytes and assembled archive SHA256 matched",
+  "remote_render_commit": "9cdbc23cd390fe6a5c8e5664ac496e9c3801f173",
+  "verified_remote_artifacts": {
+    "artwork_parts": 23,
+    "render_parts": 42,
+    "all_readback_sha256": "PASS"
+  }
 }

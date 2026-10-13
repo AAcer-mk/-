@@ -1,0 +1,43 @@
+{
+  "scope": "E6 new artwork, sampled encoded Part A, E6-09; not whole film",
+  "new_sources_viewed": [
+    "assets/E6-04_v3.png",
+    "assets/E6-05_v1.png",
+    "assets/E6-05_v2.png",
+    "assets/E6-05_v3.png"
+  ],
+  "reviewed_frames": [
+    "E6-01",
+    "E6-02",
+    "E6-03",
+    "E6-04",
+    "E6-05",
+    "E6-06",
+    "E6-09"
+  ],
+  "encoded_workprint_samples_seconds": [
+    12,
+    30,
+    38.7,
+    39.8
+  ],
+  "results": {
+    "Cody_identity_and_room": "sampled images consistent with existing references",
+    "CCTV_aspect": "4:3 embedded within 1080p",
+    "live_feed_source": "actual approved Cody ceiling-camera source, not a generic actor",
+    "screen_text": "real-font Chinese script captions, unlabelled 00:47:13 ranking, 00:47:12 final shot",
+    "E6_05_layout": "actual upper kitchen/lower couple panels reviewed; accelerated scrolling, no arbitrary quarter cuts",
+    "bilingual_subtitle": "Chinese above English, sampled encoded frame readable",
+    "E6_07_throw": "NOT_PRODUCED",
+    "E6_08_real_replay": "NOT_PRODUCED",
+    "audio_performance_and_laughter": "inherited working mix only; no new subjective performance acceptance",
+    "whole_E6": "NOT_COMPLETE",
+    "whole_film": "NOT_COMPLETE"
+  },
+  "inherited_F6_samples_seconds": [
+    1.2,
+    13.5,
+    21.5
+  ],
+  "inherited_F6_review": "terminal and keyboard shots observed; four lit screens after fifth shutdown in sampled frame, wider continuity remains pending"
+}
