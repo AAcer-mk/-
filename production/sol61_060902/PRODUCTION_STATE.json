@@ -35,12 +35,25 @@
     "no_references": 39,
     "minimum_missing_candidate_slots": 118
   },
-  "next_action": "Finish E6-04 candidate three, E6-05 montage and continuous E6-07/E6-08 throw/replay; integrate existing screen shots using E6_EDIT.json",
+  "next_action": "Reuse existing E6-04_v3 and E6-05 candidates from merged production/sol61; complete genuine E6-07 throw/occlusion and E6-08 matching slow-motion replay, then full E6 scene QA. Do not regenerate the four completed source candidates.",
   "director_changes": [],
   "known_blockers": [
     "No Runway video models on connected Free workspace",
     "E6 laugh performance/mix and action footage missing",
     "UTC/night conflict unresolved; retained existing design"
   ],
-  "remote_save": "See separate REMOTE_RECEIPT.json; local commit is not used as remote proof"
+  "remote_save": "See separate REMOTE_RECEIPT.json; local commit is not used as remote proof",
+  "merged_production_checkpoint": {
+    "commit": "9cdbc23cd390fe6a5c8e5664ac496e9c3801f173",
+    "tree": "36c6495cb4637405c6fb5663b0bd2f2058680e32",
+    "path": "production/sol61",
+    "scope": "Preserved original Git subtree; no write to source branch",
+    "E6_workprint_frames_available": 1200,
+    "E6_missing_frames": 360,
+    "at_least_three_candidate_references": 102,
+    "two_candidate_references": 0,
+    "no_candidate_references": 38,
+    "minimum_missing_candidate_slots": 114
+  },
+  "owned_running_jobs": []
 }

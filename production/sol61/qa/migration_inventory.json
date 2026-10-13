@@ -1,0 +1,19 @@
+{
+  "part_count": 2870,
+  "all_paths_and_sizes_match": true,
+  "byte_readback_scope": "selected parts only",
+  "pinned_branches": [
+    {
+      "branch": "migration/luna-a-tail-rescue-1087-1283",
+      "commit": "caa6662db7b695c4ca91740a2840ae603bf0f5f5"
+    },
+    {
+      "branch": "migration/luna-b-1284-2076",
+      "commit": "887232f3456c8ce132ca98d688e6413863b0575d"
+    },
+    {
+      "branch": "migration/luna-c-2077-2870",
+      "commit": "ddceabc7c15f550a2705ca38068006bdf41dad87"
+    }
+  ]
+}

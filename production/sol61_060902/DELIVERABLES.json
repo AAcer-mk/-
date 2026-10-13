@@ -15,9 +15,9 @@
     },
     {
       "path": "production/sol61_060902/E6_EDIT.json",
-      "bytes": 3779,
-      "sha256": "9628598959da3602d3d7ae9e3f1b0200d2589e31e8ccfd274568954d14e6d145",
-      "git_blob_sha": "ff501a90c87478bd9e18a15e50780811ed68a7fd"
+      "bytes": 4312,
+      "sha256": "aa1fbdf65e4b1c7922af6296c077a30229989d2ae9ed99bc69184ae0ee1a3bc8",
+      "git_blob_sha": "d75a413743daeef849f9d1deeae18194189c672f"
     },
     {
       "path": "production/sol61_060902/E6_SUPPLEMENT_RECEIPT.json",
@@ -27,15 +27,15 @@
     },
     {
       "path": "production/sol61_060902/PRODUCTION_STATE.json",
-      "bytes": 1795,
-      "sha256": "dbb76c52500dd278661fc6adbcdf4caa6c0132f1a23c0e8019389f0d90e519f1",
-      "git_blob_sha": "18fb3a5b53d5a7a4e6b17b10a5f63b6078f4ebac"
+      "bytes": 2414,
+      "sha256": "d58e5db763c1189b4f732bf117d9ebdb33f1b331d930f4a53e3bd81727c719d8",
+      "git_blob_sha": "f4d3dfd737167a5ec1574e7867aedf25a265d5ad"
     },
     {
       "path": "production/sol61_060902/README.md",
-      "bytes": 6989,
-      "sha256": "4ed61def38ecd8f5fd43b82989290b7e3676c5b487e62e75fa54d6a8ca54e683",
-      "git_blob_sha": "059941c4cf008437692ff00f1f93ce1a44393515"
+      "bytes": 8220,
+      "sha256": "2639e877db62470a0c4812065f8db7d8c622be3c37624941589903cfc3873499",
+      "git_blob_sha": "753cd1895e0463d70867f18a47aa1f704db215bc"
     },
     {
       "path": "production/sol61_060902/REMOTE_RECEIPT.json",
@@ -222,6 +222,42 @@
       "bytes": 3605,
       "sha256": "647d82dd8ce28a7d3404edc67630ad7c1462b99efbf3fa2b1d0d5f45b24eb85c",
       "git_blob_sha": "32c20595be9d0ff03d970be04b1b104dcfe6a75a"
+    },
+    {
+      "path": "production/sol61_060902/PARALLEL_INTEGRATION.md",
+      "bytes": 2116,
+      "sha256": "d9f9d3199e7ee73ca3c15ad1c345f8cdc8ad88bf6f779d0c91e38c44f6d7a44c",
+      "git_blob_sha": "402b8dbce303affcc6189b4e044396265296a707"
+    },
+    {
+      "path": "production/sol61_060902/qa/parallel_progress_validation.json",
+      "bytes": 41101,
+      "sha256": "7ffb81d9219233b9a771f6bd8648511a729169afe62881747addab31be3d701f",
+      "git_blob_sha": "7d27e0c286c8e1e6a8cb435723fdbfb564f6423e"
+    },
+    {
+      "path": "production/sol61_060902/qa/peer_audio_verification.json",
+      "bytes": 397,
+      "sha256": "f7aff7b285f4b6172efb7b588131ec7c4d0ae7f6cc85c8c643e5d47241f1f5c2",
+      "git_blob_sha": "f2fc4a65714e3ff7016214c841dd413d997ea9e6"
+    },
+    {
+      "path": "production/sol61_060902/qa/peer_visual_review.json",
+      "bytes": 557,
+      "sha256": "49373bdbdea0d84b21a9017ad370bee0f89dde957087ad967d438b3a6accefe8",
+      "git_blob_sha": "c934944cf95d9b738650e979839f1b048a16f928"
+    },
+    {
+      "path": "production/sol61_060902/qa/inherited_E6_visual_review.jpg",
+      "bytes": 207660,
+      "sha256": "43d5518e905532c1b90f84fa3f09daee317aedd6863b26e178f31c62fdf465eb",
+      "git_blob_sha": "dfeedd733e77a47c676e72cd8d83118848e13224"
     }
-  ]
+  ],
+  "inherited_subtree": {
+    "path": "production/sol61",
+    "sha": "36c6495cb4637405c6fb5663b0bd2f2058680e32",
+    "source_commit": "9cdbc23cd390fe6a5c8e5664ac496e9c3801f173",
+    "note": "Exact original Git subtree; all 65 payload parts identity checked against locally verified bytes and pinned remote tree"
+  }
 }

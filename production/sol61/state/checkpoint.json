@@ -1,0 +1,61 @@
+{
+  "stage": "E6_PART_A_AND_FINAL_SHOT_RENDERED",
+  "final_film_completed": false,
+  "source_checkpoint": "B10",
+  "production_branch": "production/sol61-resume",
+  "new_source_candidates": [
+    "E6-04_v3",
+    "E6-05_v1",
+    "E6-05_v2",
+    "E6-05_v3"
+  ],
+  "next_action": "Generate or provide genuine continuous E6-07 pillow pickup/throw/occlusion footage using verified Cody and room references; reuse the same action for E6-08 television slow-motion replay with grok symbol. Assemble missing 360 frames without dropping them. Then inspect full 65-second E6 scene and proceed to F7.",
+  "runway_capability": {
+    "authenticated": true,
+    "plan": "Free",
+    "credits": 0,
+    "available_video_models": []
+  },
+  "source_coverage": {
+    "original_generate_tasks": 140,
+    "old_reference_counts": {
+      "at_least_three": 100,
+      "two": 1,
+      "zero": 39
+    },
+    "new_candidates_fill": 4,
+    "current_inventory_reference_counts": {
+      "at_least_three": 102,
+      "two": 0,
+      "zero": 38
+    },
+    "current_minimum_candidate_slots_missing": 114,
+    "scope_note": "Recomputed from B10 checkpoint outputs plus four new verified source images. Most original photography only inventoried, not visually reaccepted this round."
+  },
+  "creative_constraints": "Follow complete ORIGINAL_CREATIVE_BRIEF.txt; no plot, character or ending edits.",
+  "historical_evidence": "F5-v4 probe/decode failed; retained. Later F5-v5 exists and undergoing independent decode. F6 clean and bilingual independently decoded; no rerender.",
+  "part_A": {
+    "frames": 1087,
+    "duration_seconds": 45.291666666666664,
+    "included_shots": [
+      "E6-CARD",
+      "E6-01",
+      "E6-02",
+      "E6-03",
+      "E6-04",
+      "E6-05",
+      "E6-06"
+    ],
+    "bilingual_workprint": "output/E6_PART_A_WORKPRINT_v2_1080P_BILINGUAL.mp4",
+    "lossless_master": "output/E6_PART_A_WORKPRINT_v2_MASTER.mkv"
+  },
+  "E6_09": {
+    "frames": 113,
+    "duration_seconds": 4.708333333333333,
+    "encoded_audio_all_zero": true,
+    "path": "output/E6-09_SILENT_WORKPRINT_v2_1080P.mp4"
+  },
+  "remote_artwork_commit": "4ca2eb1faf403f2249952201773466429a47eee6",
+  "remote_artwork_readback": "23/23 byte SHA256 PASS",
+  "render_persistence": "Render payload is part of this checkpoint commit; byte readback pending its publication."
+}

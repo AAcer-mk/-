@@ -9,8 +9,8 @@
       "start_frame": 14760,
       "end_frame": 14856,
       "frames": 96,
-      "picture_path": null,
-      "status": "PENDING_PRODUCTION_OR_REVIEW",
+      "picture_path": "../sol61/output/E6-CARD_PICTURE_v1_1080P.mp4",
+      "status": "INHERITED_PEER_PICTURE_WORKPRINT_AVAILABLE_AFTER_PAYLOAD_RESTORE",
       "required_content": "Original four-second event card"
     },
     {
@@ -18,8 +18,8 @@
       "start_frame": 14856,
       "end_frame": 14991,
       "frames": 135,
-      "picture_path": null,
-      "status": "PENDING_PRODUCTION_OR_REVIEW",
+      "picture_path": "../sol61/output/E6-01_PICTURE_v1_1080P.mp4",
+      "status": "INHERITED_PEER_PICTURE_WORKPRINT_AVAILABLE_AFTER_PAYLOAD_RESTORE",
       "required_content": "Cody，三十多岁，独自坐在客厅沙发上刷手机。屋里只有电视的蓝光\n‖ 罐头笑声，从手机里隐约传出"
     },
     {
@@ -36,8 +36,8 @@
       "start_frame": 15171,
       "end_frame": 15306,
       "frames": 135,
-      "picture_path": null,
-      "status": "PENDING_PRODUCTION_OR_REVIEW",
+      "picture_path": "../sol61/output/E6-03_PICTURE_v1_1080P.mp4",
+      "status": "INHERITED_PEER_PICTURE_WORKPRINT_AVAILABLE_AFTER_PAYLOAD_RESTORE",
       "required_content": "Cody 认出了自己的沙发、自己的抱枕\n‖ 罐头笑声（时机明显不对）"
     },
     {
@@ -45,8 +45,8 @@
       "start_frame": 15306,
       "end_frame": 15442,
       "frames": 136,
-      "picture_path": null,
-      "status": "PENDING_PRODUCTION_OR_REVIEW",
+      "picture_path": "../sol61/output/E6-04_PICTURE_v1_1080P.mp4",
+      "status": "INHERITED_PEER_PICTURE_WORKPRINT_AVAILABLE_AFTER_PAYLOAD_RESTORE",
       "required_content": "从他身后拍：Cody 正在看自己被直播\n‖ 罐头笑声（更大）"
     },
     {
@@ -54,8 +54,8 @@
       "start_frame": 15442,
       "end_frame": 15667,
       "frames": 225,
-      "picture_path": null,
-      "status": "PENDING_PRODUCTION_OR_REVIEW",
+      "picture_path": "../sol61/output/E6-05_PICTURE_v1_1080P.mp4",
+      "status": "INHERITED_PEER_PICTURE_WORKPRINT_AVAILABLE_AFTER_PAYLOAD_RESTORE",
       "required_content": "全网的推荐流，变成了每个人家里摄像头拍到的实时画面，每条都配一句玩笑：\n「这位大姐在厨房哭，原因竟然是——」\n「这对夫妻已经三天没说话了，第四天会怎样？」\n‖ 每条都配罐头笑声，节奏越来越快"
     },
     {
@@ -96,5 +96,6 @@
     }
   ],
   "audio": "Working mix; laughter and scene listening QA still pending",
-  "no_placeholders": true
+  "no_placeholders": true,
+  "overlapping_variants": "This directory provides alternate E6-02/E6-06/E6-09 screen shots; do not count duplicate variants as added film duration."
 }

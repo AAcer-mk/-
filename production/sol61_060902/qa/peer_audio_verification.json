@@ -1,0 +1,13 @@
+{
+  "source_commit": "9cdbc23cd390fe6a5c8e5664ac496e9c3801f173",
+  "part_A_lossless_audio_bit_exact_to_B10": true,
+  "source_sample_range": [
+    29520000,
+    31694000
+  ],
+  "stereo_sample_frames": 2174000,
+  "E6_09_AAC_decoded_sample_frames": 226304,
+  "E6_09_expected_video_sample_frames": 226000,
+  "E6_09_AAC_tail_padding_samples_per_channel": 304,
+  "E6_09_all_decoded_samples_zero": true
+}

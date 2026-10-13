@@ -1,0 +1,144 @@
+{
+  "archive": "ARTWORK_R01.tar",
+  "archive_bytes": 8847360,
+  "archive_sha256": "cc4c339f4559d5fe8f9288b19a48d1ace2bd8135b97aab0aae7e15f6d0fd9f1c",
+  "parts": [
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0001",
+      "bytes": 393216,
+      "sha256": "e6c7d3d90a8fb3f8843e95a12e2f0f8d012450db8e1cc914a0cc2fe0b963d027"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0002",
+      "bytes": 393216,
+      "sha256": "8aafa662ea199e3bd7d548dc70f3f2ddadcbc65a9b48dd4adcc5781f46a378b4"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0003",
+      "bytes": 393216,
+      "sha256": "b0e42bc821eba5d57386352a1a4d06680c7ad799365997e3aba42e080e3dc03b"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0004",
+      "bytes": 393216,
+      "sha256": "65d28db2679b0a94b13c6e9e4b6a903aed408d255fc20135778cb2091c65bc16"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0005",
+      "bytes": 393216,
+      "sha256": "b197c172127abd4d8a5e6c99fea11fcf3776f2ea22e3cd8b36efd57b6e7f946a"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0006",
+      "bytes": 393216,
+      "sha256": "8e72553163d09227ba7bed39134ba401032c6ceece3c4347900bfbb526f22867"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0007",
+      "bytes": 393216,
+      "sha256": "194cee4dba004ea76398cddbd3c33bb33c1a0553767da13c577aec61797ef9bf"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0008",
+      "bytes": 393216,
+      "sha256": "bad26065ea2f248329f54175b8afd6dad0275e54afe113c2d8c024cf29666713"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0009",
+      "bytes": 393216,
+      "sha256": "ac01b6a254c163d12f5f61a81520cdc5041b2d80d90d295b8aa91615063242c6"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0010",
+      "bytes": 393216,
+      "sha256": "b54aa7acc60b6a11048f6581c9c46dac4ee157f8704e8cb73bf4e07b0862bf99"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0011",
+      "bytes": 393216,
+      "sha256": "2ba5f5a07995355496e98100322cce35d5ba2aed4b7cf1becaa96561739d3bb8"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0012",
+      "bytes": 393216,
+      "sha256": "e832e2ac724746131863753c04034c436db82256645230bf27a7e6c96cb8fc10"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0013",
+      "bytes": 393216,
+      "sha256": "5e34fa0caa8a92880044aa5c2b8cf44ae0c9d63e57b0d5225951346073e42148"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0014",
+      "bytes": 393216,
+      "sha256": "b2150f813d02bc6b61951e8a447e6f47db30e90c865dc0693ffe50810e0a5984"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0015",
+      "bytes": 393216,
+      "sha256": "fa62176d9c09fce337eac3f51cc231a84dbccf0cb0fa7d354b52d367d2c14602"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0016",
+      "bytes": 393216,
+      "sha256": "283ec376f4b8e1c0b5c70255d268bf59bfb2f9422971f14711a13b77d1567029"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0017",
+      "bytes": 393216,
+      "sha256": "c78f42993dcbef130aec500e7df4f056d4207cbcf94f3ee50cd23426c7bed4b7"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0018",
+      "bytes": 393216,
+      "sha256": "3cc8acac4dbeb0a8eb654ebb16058b425af20f7d8d9be05b570fc7e74a00aa33"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0019",
+      "bytes": 393216,
+      "sha256": "7e6e1ff637edc99ee1a521993254967c49fb30588cbd11be4e3f480084420c5f"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0020",
+      "bytes": 393216,
+      "sha256": "c00492ddd7c404fa7079b2eddbb6c2682b74f70177d89c617eea2706700b66b2"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0021",
+      "bytes": 393216,
+      "sha256": "40db14f86061509c37af7c8b776687cfdd8ff16b212a4cf2f06dec97da6f35d7"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0022",
+      "bytes": 393216,
+      "sha256": "407519336c2b99992faa8f238ba9965f1828dc0591870accab65711ce73d8f67"
+    },
+    {
+      "path": "production/sol61/payload/round-r01/ARTWORK_R01.tar.part0023",
+      "bytes": 196608,
+      "sha256": "9acb1265f7eb6e7d3b76d049ad24d18a2be452ae13d82f6f90ca2c082e6ea7ef"
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/E6-04_v3.png",
+      "bytes": 2140772,
+      "sha256": "0afad9d3fdaa642252b3e748bf12f918d4ea35c8d29e13c934261541ec35bd1b"
+    },
+    {
+      "path": "assets/E6-05_v1.png",
+      "bytes": 2135817,
+      "sha256": "0e6afe541aa7302b4d9b2170863fe78cad3751cef1b218268ac300d13853b298"
+    },
+    {
+      "path": "assets/E6-05_v2.png",
+      "bytes": 2328036,
+      "sha256": "c3386f5daae3d7e842478e03f58571bcbeece350d7fb140617e43ccbde612981"
+    },
+    {
+      "path": "assets/E6-05_v3.png",
+      "bytes": 2234244,
+      "sha256": "44f6c3259f0b6bb2e3fd4c560223ac48639b3c51b11bf78c19f0fa7e0deca4e1"
+    }
+  ]
+}
