@@ -33,3 +33,19 @@ E6 字卡和 E6-01 到 E6-06 的原时间线合计 1087 帧 / 45.291667 秒。E6
 旧 F5-v4 残缺证据原始字节仍在迁移 TAR；本轮重新读取确认无效，F5-v5 通过独立解码。F6 clean 与双语工作版通过独立解码、三帧目检，没有重复渲染。
 
 本目录所有视频均为工作版，整片仍未完成。下一制作任务是 E6-07 → E6-08 → E6 65 秒完整段落验收；随后 F7 → E7 → F8 → E8 → F9 → E9 → END。正式终验还须修订 E1-07/E4-03、检查九屏九闸刀、Hale 异常、多语种声音和 END-03 的全黑及六秒绝对零采样。
+
+## 本轮实际视频交付
+
+`state/renders_manifest.json` 指向 `payload/round-r02/` 的 42 个分卷。恢复后可直接播放下列工作版，不需要重新渲染：
+
+```bash
+python production/sol61/project/restore_payload.py renders_manifest.json
+```
+
+- `output/E6_PART_A_WORKPRINT_v2_1080P_BILINGUAL.mp4`：45.291667 秒双语 H.264/AAC 工作版。
+- `output/E6_PART_A_WORKPRINT_v2_1080P_CLEAN.mp4`：同一段无内嵌字幕的播放工作版。
+- `output/E6_PART_A_WORKPRINT_v2_MASTER.mkv`：无损工作音频母版，2174000 个采样/声道，原 B10 区间帧数与采样长度完全匹配。
+- `output/E6-09_SILENT_WORKPRINT_v2_1080P.mp4`：113 帧，独立镜头。实际 AAC 解码采样，包括末尾编码填充，全部为零。
+- 八个独立画面段 `*_PICTURE_v1_1080P.mp4`，供后续 E6 完整合成复用。
+
+技术记录见 `qa/E6_RENDER_v2.json`。AAC 的尾部编码填充分别为 976 / 304 个采样/声道，已单列，不能把它误认为严格无损采样长度；无损母版没有此填充。实际视频帧数与原时间线完全匹配。全片声音表演、最终连续性与电影创作验收仍待完成。

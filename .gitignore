@@ -6,3 +6,4 @@ __pycache__/
 /production/sol61/output/*.mp4
 /production/sol61/payload/**/*.tar
 /production/sol61/qa/*_frame.png
+/production/sol61/output/*.mkv
