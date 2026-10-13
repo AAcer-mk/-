@@ -1,0 +1,28 @@
+{
+  "repository": "AAcer-mk/-",
+  "base_commit": "56cee68766ea8c88a30e250586e020b55f829210",
+  "production_branch": "production/sol61-resume",
+  "archive_bytes": 1128171520,
+  "archive_sha256": "2f07d56ff635894e6792265e25abb3392b7896879e186c271e53407f52fc4e39",
+  "ranges": [
+    {
+      "first": 1,
+      "last": 1283,
+      "ref": "caa6662db7b695c4ca91740a2840ae603bf0f5f5"
+    },
+    {
+      "first": 1284,
+      "last": 2076,
+      "ref": "887232f3456c8ce132ca98d688e6413863b0575d"
+    },
+    {
+      "first": 2077,
+      "last": 2870,
+      "ref": "ddceabc7c15f550a2705ca38068006bdf41dad87"
+    }
+  ],
+  "manifest_ref": "caa6662db7b695c4ca91740a2840ae603bf0f5f5",
+  "structure_ref": "c15958ff2701f9d41ac83044dd595eaf64ccae30",
+  "manifest_sha256": "005d632e80e970bf9e8a43ebc9b884b0c80e31ac8f1e9ca59116996df0ef96f8",
+  "structure_sha256": "580e40819af73d1d3c7c02429b6344c7a680ff33c7a3d35cb4d12af03f6caccd"
+}

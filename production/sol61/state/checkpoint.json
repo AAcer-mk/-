@@ -1,0 +1,37 @@
+{
+  "stage": "E6_PART_A_RENDERING",
+  "final_film_completed": false,
+  "source_checkpoint": "B10",
+  "production_branch": "production/sol61-resume",
+  "new_source_candidates": [
+    "E6-04_v3",
+    "E6-05_v1",
+    "E6-05_v2",
+    "E6-05_v3"
+  ],
+  "next_action": "Finish CARD-E6-06 picture and working-mix render. Verify E6-09 all-zero encoded audio. E6-07 and E6-08 remain blocked on continuous pillow throw footage.",
+  "runway_capability": {
+    "authenticated": true,
+    "plan": "Free",
+    "credits": 0,
+    "available_video_models": []
+  },
+  "source_coverage": {
+    "original_generate_tasks": 140,
+    "old_reference_counts": {
+      "at_least_three": 100,
+      "two": 1,
+      "zero": 39
+    },
+    "new_candidates_fill": 4,
+    "current_inventory_reference_counts": {
+      "at_least_three": 102,
+      "two": 0,
+      "zero": 38
+    },
+    "current_minimum_candidate_slots_missing": 114,
+    "scope_note": "Recomputed from B10 checkpoint outputs plus four new verified source images. Most original photography only inventoried, not visually reaccepted this round."
+  },
+  "creative_constraints": "Follow complete ORIGINAL_CREATIVE_BRIEF.txt; no plot, character or ending edits.",
+  "historical_evidence": "F5-v4 probe/decode failed; retained. Later F5-v5 exists and undergoing independent decode. F6 clean and bilingual independently decoded; no rerender."
+}

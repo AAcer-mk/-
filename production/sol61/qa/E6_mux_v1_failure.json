@@ -1,0 +1,8 @@
+{
+  "path": "production/sol61/evidence/E6_PART_A_WORKPRINT_v1_1080P_CLEAN.mp4",
+  "bytes": 3932208,
+  "sha256": "e4d61610f88b6d6908b97dc11240fd5953a8a351b121f3b13abb5c10f400c0aa",
+  "observed_error": "moov atom not found; subsequent PCM decode failed",
+  "status": "EXCLUDED_RETAINED_EVIDENCE",
+  "picture_shot_outputs": "all eight independently probed successfully"
+}

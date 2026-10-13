@@ -1,0 +1,8 @@
+/source-b10/
+/.restore-cache/
+/production/sol61/output/*.partial.mp4
+__pycache__/
+/production/sol61/assets/*.png
+/production/sol61/output/*.mp4
+/production/sol61/payload/**/*.tar
+/production/sol61/qa/*_frame.png
