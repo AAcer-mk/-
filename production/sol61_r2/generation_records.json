@@ -1,0 +1,47 @@
+[
+  {
+    "shot": "E6-07",
+    "variant": 1,
+    "prompt": "Use case: identity-preserve. Asset type: SILENT PROTOCOL E6-07_v1 original film action source frame, landscape 16:9, ONE photograph not storyboard. Image1 is exact fictional Cody identity and eye-level camera/sofa reference. Image2 is same room viewed from the ceiling camera, supporting room geometry only. Preserve Cody's exact face, short brown hair, reddish beard, gray T-shirt, black trousers and bare feet. Preserve exact gray L-shaped sofa, navy/beige striped pillow on the left, rust/beige geometric cushion originally on the right, window/curtains, entrance door, table/mug/plant, night lighting and cold blue TV illumination with only faint warm streetlight outside. Camera remains at eye level opposite sofa, slightly wider than image1 and angled enough to see the small surveillance camera high in the ceiling corner BEHIND the sofa by the window. Cody has just set the phone face-down on the coffee table and is rising slightly from his original seat, tightly gripping the SAME rust-and-beige geometric cushion with both hands at chest height, looking up toward that ceiling camera, preparing to throw it. The right sofa cushion position is now empty because it is in his hands. Natural restrained alarm, mouth closed, no comic pose. Both hands anatomically correct, two arms. Striped cushion remains on left sofa. Film photo, psychological dread, real textures, low saturation, matching darkness and room continuity. No new furniture, text, logos, UI, collage, real celebrity or fantasy. This is preparation frame, pillow has NOT yet flown or covered camera. Preserve room arrangement rather than inventing new layout.",
+    "references": [
+      "original/art/candidates/E6-01_v1.png",
+      "original/art/candidates/E6-04_v2.png"
+    ],
+    "method": "built-in image_gen; source still only, not animation",
+    "creative_review": "Viewed actual output: matching Cody face/shirt, gray sofa, navy/beige left cushion, rust/beige cushion held in two hands, blue TV light and left ceiling camera; preparation pose, camera still uncovered.",
+    "status": "SOURCE_CANDIDATE_REVIEWED_NOT_VIDEO",
+    "output": "assets/E6-07_v1.png",
+    "sha256": "47ae49822b7bf7d141b09c783037031df856ff319e00d5243b522cc4eb9f51a8",
+    "bytes": 1840000
+  },
+  {
+    "shot": "E6-07",
+    "variant": 2,
+    "prompt": "Use case: identity-preserve. SILENT PROTOCOL E6-07_v2, ONE alternate source film frame at 16:9, not a collage. Edit Image1, which is exact new E6-07 preparation plate. Image2 is original Cody/room continuity reference. Keep exactly same fictional adult man's face, reddish beard, brown hair, plain gray T-shirt, black pants, bare feet, sofa, left striped cushion, cold TVblue interior, outside amber lights, table with phone face-down, mug and plant, door and small camera in upper LEFT ceiling corner behind sofa. Preserve actual geometric rust-and-beige cushion being held, so there is no duplicate on sofa. Change only Cody's preparation pose slightly: rise about 10 cm farther from seat with natural bent knees; rotate shoulders slightly toward upper-left surveillance camera, holding cushion with TWO hands about 12 cm higher ready to hurl. His anxious, focused gaze locks on the camera. Camera framing stays exact and furniture unchanged. Show exactly two anatomically plausible arms and hands; hands gripping cushion edges rather than penetrating fabric. Pillow still in hands, no levitation, no duplicates. Maintain restrained photoreal psychological horror, low saturation and matching blue darkness. No text, UI, logos, extra people or motion diagrams. Do not redesign room, identity or lighting. A still source candidate, not a completed action shot.",
+    "references": [
+      "assets/E6-07_v1.png",
+      "original/art/candidates/E6-01_v1.png"
+    ],
+    "method": "built-in image_gen; source still only, not animation",
+    "creative_review": "Viewed actual output: matching Cody face/shirt, gray sofa, navy/beige left cushion, rust/beige cushion held in two hands, blue TV light and left ceiling camera; preparation pose, camera still uncovered.",
+    "status": "SOURCE_CANDIDATE_REVIEWED_NOT_VIDEO",
+    "output": "assets/E6-07_v2.png",
+    "sha256": "67dda49d97c0d3518924bfdba84629824bc485455e52e2db9519dd5496745a60",
+    "bytes": 1807489
+  },
+  {
+    "shot": "E6-07",
+    "variant": 3,
+    "prompt": "Use case: identity-preserve. SILENT PROTOCOL E6-07 third alternate action source candidate, one 16:9 original photorealistic film frame. Image1 exact edit target: Cody holding rust/beige patterned cushion before throw. Image2 original Cody face/room reference. Preserve fictional Cody33 face, hair, beard, grayTshirt, blackpants, barefeet, exact graysofa, striped cushion at left, window and curtain, door, table/phone/mug/plant, upper-left ceiling surveillance camera and exact coldblue/nightamber lighting. Change only preparation pose: he rises slightly and holds this SAME cushion near his right shoulder with both hands, shoulders beginning to rotate toward the upperLEFT camera. Natural strained posture, eyes fixed on camera. Show both hands clearly clasping opposite sides of cushion, exactly two arms, no duplicate pillow on sofa. This alternative is closer to a natural two-handed upward toss than hugging; hands still in contact with cushion, no flight yet. Shift camera framing 5percent closer while preserving the upperLEFT ceiling camera and room geometry. Dark restrained cinematic psychological horror, realistic skin and cloth, subdued saturation. No screaming, comedy pose, text, UI, logos, collage, extra furniture/people, fantasy or completed occlusion. A SOURCE STILL awaiting animation, not a video.",
+    "references": [
+      "assets/E6-07_v2.png",
+      "original/art/candidates/E6-01_v1.png"
+    ],
+    "method": "built-in image_gen; source still only",
+    "creative_review": "Actual output reviewed: Cody identity, wardrobe, two-hand pillow grip, left striped cushion, sofa and table/phone are consistent. This is tighter than v2 and ceiling camera is outside crop; prefer v2 for animation so the physical target remains visible.",
+    "status": "SOURCE_CANDIDATE_REVIEWED_ALTERNATIVE_FRAMING_NOT_VIDEO",
+    "output": "assets/E6-07_v3.png",
+    "sha256": "d245edc28e3c27420302910b301074d1524563d20741fa13a5b051c58fda1cac",
+    "bytes": 1812482
+  }
+]

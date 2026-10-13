@@ -1,0 +1,8 @@
+{
+  "status": "PRESERVED_DIAGNOSTIC_NOT_DELIVERY",
+  "files": [
+    "output/F7-02_WORKPRINT_r2_1080P_CLEAN.mp4"
+  ],
+  "cause": "MKV millisecond timestamp copied to MP4: 192 frames with avg_frame_rate 192000/7999 rather than exact 24/1",
+  "corrective_action": "Reconstruct CFR presentation timestamps and use 24000 Hz MP4 video timescale; outputs in verified-output only"
+}

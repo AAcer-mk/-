@@ -1,0 +1,44 @@
+{
+  "schema": "silent-protocol-r2-checkpoint",
+  "base_commit": "d61c38c91107b154b8c33b6bd31f74ac2207b1ce",
+  "branch": "production/sol61-resume-20261014-060902",
+  "new_frames": 192,
+  "new_seconds": 8,
+  "E6_available_picture_frames": 1200,
+  "E6_missing_action_frames": 360,
+  "E6_complete": false,
+  "F7_available_workprint_frames": 192,
+  "F7_missing_picture_frames": 408,
+  "F7_complete": false,
+  "E6-07": {
+    "source_candidates": 3,
+    "selected_for_future_animation": 2,
+    "actor_motion": "MISSING",
+    "camera_occlusion": "MISSING"
+  },
+  "E6-08": {
+    "true_same_action_replay": "MISSING"
+  },
+  "F7-02": {
+    "picture": "TECHNICALLY_VERIFIED_GRAY_ICON_NO_AVATAR",
+    "audio": "BIT_EXACT_INHERITED_WORK_MIX",
+    "director_voice_performance": "PENDING_LISTENING"
+  },
+  "updated_reference_coverage": {
+    "basis": "Prior 102 complete sets plus E6-07 three newly created source stills; reference count, not shot acceptance",
+    "at_least_three_references": 103,
+    "no_references": 37,
+    "minimum_missing_candidate_slots": 111
+  },
+  "blocking_capability": "Runway video models unavailable in current workspace",
+  "runtime_jobs": [],
+  "director_changes": [],
+  "final_film_completed": false,
+  "next": [
+    "Animate E6-07 with chosen v2 and validate continuous throw/occlusion",
+    "Compose E6-08 from same validated action, not a generated alternative",
+    "Complete E6 laughter, one second silence and full scene boundary QA",
+    "Produce F7-01 and F7-03; retain this F7-02 at 687–695 seconds"
+  ],
+  "remote_save": "REMOTE_RECEIPT.json is authoritative after commit and readback"
+}

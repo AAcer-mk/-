@@ -1,0 +1,12 @@
+{
+  "shot": "E6-07",
+  "variant": 3,
+  "prompt": "Use case: identity-preserve. SILENT PROTOCOL E6-07 third alternate action source candidate, one 16:9 original photorealistic film frame. Image1 exact edit target: Cody holding rust/beige patterned cushion before throw. Image2 original Cody face/room reference. Preserve fictional Cody33 face, hair, beard, grayTshirt, blackpants, barefeet, exact graysofa, striped cushion at left, window and curtain, door, table/phone/mug/plant, upper-left ceiling surveillance camera and exact coldblue/nightamber lighting. Change only preparation pose: he rises slightly and holds this SAME cushion near his right shoulder with both hands, shoulders beginning to rotate toward the upperLEFT camera. Natural strained posture, eyes fixed on camera. Show both hands clearly clasping opposite sides of cushion, exactly two arms, no duplicate pillow on sofa. This alternative is closer to a natural two-handed upward toss than hugging; hands still in contact with cushion, no flight yet. Shift camera framing 5percent closer while preserving the upperLEFT ceiling camera and room geometry. Dark restrained cinematic psychological horror, realistic skin and cloth, subdued saturation. No screaming, comedy pose, text, UI, logos, collage, extra furniture/people, fantasy or completed occlusion. A SOURCE STILL awaiting animation, not a video.",
+  "references": [
+    "assets/E6-07_v2.png",
+    "original/art/candidates/E6-01_v1.png"
+  ],
+  "method": "built-in image_gen; source still only",
+  "creative_review": "Actual output reviewed: Cody identity, wardrobe, two-hand pillow grip, left striped cushion, sofa and table/phone are consistent. This is tighter than v2 and ceiling camera is outside crop; prefer v2 for animation so the physical target remains visible.",
+  "status": "SOURCE_CANDIDATE_REVIEWED_ALTERNATIVE_FRAMING_NOT_VIDEO"
+}
