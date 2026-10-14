@@ -1,0 +1,225 @@
+{
+  "schema": "silent-protocol-r3-remote-receipt",
+  "repository": "AAcer-mk/-",
+  "branch": "production/sol61-resume-20261014-060902",
+  "data_commit": "9f7dec0630382766f7769463f15d9471abc8b3ee",
+  "data_tree": "262ae1f2a80880645dcde965930f2f55fb4d97c3",
+  "method": "Fresh immutable-commit downloads; SHA256 and Git blob verification for every part; TAR SHA and all member bytes matched local verified work",
+  "archive_bytes": 22005760,
+  "archive_sha256": "5a1b407c6a3386077951dd6849dae38e82eb45dd363906c64122d6f793904dc9",
+  "parts_read_back": 56,
+  "members": [
+    {
+      "path": "assets/F7-01_v1.png",
+      "sha256": "b9198da6abdc159588e57daec654dfa62177e3d40229dfff94f69a9088929000",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "assets/F7-01_v2.png",
+      "sha256": "f341fa4724f9677a6b5a6b6770799326d9ec8d78a6971cc4c57a155e211a2ac1",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "assets/F7-01_v3.png",
+      "sha256": "8b98ee816a9fef79debff12f0cbe9cc4d0f990eed10a682d057ddd6aa6cd22bc",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "assets/F7-01_v4.png",
+      "sha256": "760f08c5689bcdf1b95bd32201ed880be8848ed799f6c4acd3624a4030b6ad96",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "assets/F7-03_v1.png",
+      "sha256": "473b74e135180abcaf0b378f1229597c83c961d0a8601150849509ed1131b3a1",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "assets/F7-03_v2.png",
+      "sha256": "38b6f927515598d7101080a1cef5d4d46c8c2a153c8bba41fc4819d300da4af1",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "assets/F7-03_v3.png",
+      "sha256": "af74b7735a63bba94c56a4a74479d55681c5fd7d38453bd24b01e5d16391a74e",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "assets/F7-03_v4.png",
+      "sha256": "a84435d70477ceb544460ba5f8150f70552cfc679f91872f6648267b0bf381cd",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "qa/F6_original_extra_handle_evidence.png",
+      "sha256": "25166afc3cde93ada231ef305aa1f243482f712b78fba4e08ed983b2a8446f1f",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "qa/F7-01_end_handle_review.png",
+      "sha256": "b1d08a53d2cbf46295286600f46c2d9be25575127e88bc7c50ecd822da464764",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "qa/LOCAL_DIAGNOSTICS.json",
+      "sha256": "53b6cfee0eedc11b4aa7decb9d1f8901d0aef44096d488c24057c885675782c0",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "qa/VISUAL_REVIEW.json",
+      "sha256": "7344ec22c371c350a373fcb0df4565057ea4361a3b7f1a1fbdfa2fb7c01ab700",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v2/F7_arm_transition_decoded_zoom.jpg",
+      "sha256": "48bc2ab77999ee5d152f66c993af01fe6abfbb39ddd60e70e79993d7453327c9",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v2/F7_decoded_contact.jpg",
+      "sha256": "40f05259a11b31ce377c1f8fdab8607b2b6ae4e82b0909505b83d7b1a44c4361",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7-01_PICTURE_r3_1080P.mp4",
+      "sha256": "e3a1fe7d7dda2519ccbe994acc1ccbd2588eeee5aa595e961402a0e80ac41cc9",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7-03_PICTURE_r3_1080P.mp4",
+      "sha256": "92b1c46859df9f8c28696128e453b65d825df80676c086b1e049995bb29f2895",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_QA.json",
+      "sha256": "12df7780fb38d2a7b5c94b1bc16f83dc1789d62901bb0de6ea6e41fd14e68a58",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_SEQUENCE_WORKPRINT_r3_1080P_BILINGUAL.mp4",
+      "sha256": "f42f700e91a06518558d3c6571977edafdff9f1fa9eebc14aa58a31723d8632d",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_SEQUENCE_WORKPRINT_r3_1080P_CLEAN.mp4",
+      "sha256": "10dc6a6c393d73a3f20173abdc794d8ac512c2f22e2458f296e66a15a5c502c5",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_SEQUENCE_WORKPRINT_r3_MASTER.mkv",
+      "sha256": "5b99ca15c7a072234beb38fa9d61722e0a1de3c5d1a521ea8e678d3a957a4387",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_corrected_motion_zoom.jpg",
+      "sha256": "9152ff23937eb3a95d46d1e0c56b9fef8bef466f9222539f5bd4fe4b409d2378",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_decoded_contact.jpg",
+      "sha256": "4adbacbead344a5e211a0d90e6cc5afdc2745a973bbdb9ac701705042215ef35",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_decoded_frame_0024.jpg",
+      "sha256": "07fc4b42f26883780bf64feccd63c54570a690ffd666cc27460c07bb9ee98784",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_decoded_frame_0029.jpg",
+      "sha256": "7831e275875c0f0a47a4673668765c83ba3e4b8e76d759325ee1622bb1db46f9",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_decoded_frame_0033.jpg",
+      "sha256": "72d17e63915ab1ab137d6e6df10d2f04b72e8abf1db436621c34168f7c35dc6e",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_decoded_frame_0038.jpg",
+      "sha256": "faaa852ffbd413dadb16328afd3ddc77e11e6267c67bcce4ad35de0835caea4e",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_decoded_frame_0039.jpg",
+      "sha256": "df1eed68dd013b35dbc1f038a9631ebfb2525fd8330a03c60a4615d7524fef1a",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_decoded_frame_0044.jpg",
+      "sha256": "cd8d2f02adc290c21f206ed4fdb3548ebb18fb5398e2a6f790b7058b930e37b9",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_decoded_frame_0160.jpg",
+      "sha256": "92152bbf4422a1f7587ec6c5af4f30d628c6f1b130772bd90126fc5a7015b697",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_decoded_frame_0168.jpg",
+      "sha256": "3eb1febf62376c728e4f8ebdd2787df3187155ba0c24b3c6c10d4ce3c1968b2a",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_decoded_frame_0180.jpg",
+      "sha256": "aa4cf2435bf211357b786bd7b855e4c0205e4de2b42aed8d8c04f9933477f2f9",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_decoded_frame_0359.jpg",
+      "sha256": "8d491fad0db32921a8797aa4c0f149d219eb608e437d551253123f8027180383",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_decoded_frame_0360.jpg",
+      "sha256": "e0269eb498d9d6e292963e26646cde47a149e126a87d30cd491665830f2ba41f",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_decoded_frame_0373.jpg",
+      "sha256": "2b9467ae0c2b80d8c71cbc87036fa4384b39f3e1f06e4ff9cdfb17149e9cceb4",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_decoded_frame_0394.jpg",
+      "sha256": "455c1f36519fe418e8b0c4d3e48ad9b15ecd988f0ebc936b2117c16125622e7f",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_decoded_frame_0418.jpg",
+      "sha256": "80d8fd1d03dd1d0bbac901ffb90eebae58c6d03388a9ee4cdafe49dcde72b837",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_decoded_frame_0456.jpg",
+      "sha256": "2d6ffcdf95856969a677f0fe3ad9fe9c57b66161f7a07c9a4e608203d6de3009",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_decoded_frame_0485.jpg",
+      "sha256": "9b416a638cac75139d9c05022e431e4b3f5222c5c89e3977872e87c97d3c4de4",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_decoded_frame_0535.jpg",
+      "sha256": "2bb20811b7325dc7b51229a867ca6639eca3081ccf8f13132c45f4f3ee3eba71",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_decoded_frame_0580.jpg",
+      "sha256": "e409120821bdbc85d8e129a314bc9e12b9809cb8eac8b7cbf2607728c82e5c2d",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F7_local_bilingual.ass",
+      "sha256": "cbe11cb766a6ebd7beef01617eadacea91d8ee51a18540740523565ada04c144",
+      "remote_byte_readback": "PASS"
+    }
+  ],
+  "all_member_bytes_match": true,
+  "branch_ref_readback": "PASS before binary verification",
+  "F7_workprint_frames": 600,
+  "F7_workprint_seconds": 25,
+  "new_unique_picture_frames": 408,
+  "actor_and_voice_final_acceptance": false,
+  "final_film_completed": false
+}
