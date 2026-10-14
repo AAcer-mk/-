@@ -1,0 +1,266 @@
+{
+  "schema": "silent-protocol-r4-remote-receipt",
+  "repository": "AAcer-mk/-",
+  "branch": "production/sol61-resume-20261014-060902",
+  "data_commit": "6ac2d1ae926596f8b106227de377a7a2731790b2",
+  "data_tree": "14847fa4f768d3fce61cefb5a874a023d584e17f",
+  "method": "Fresh immutable-commit downloads; SHA256 and Git blob verification for every part; TAR SHA and all member bytes matched local verified work",
+  "archive_bytes": 38379520,
+  "archive_sha256": "c26148499152f8e5b5c44dd4367cffb14703288a4bc92c2d0be4737d937ec7bf",
+  "parts_read_back": 98,
+  "members": [
+    {
+      "path": "assets/E7-02_han_v1.png",
+      "sha256": "ccd593d779f55cbce602c4c6c9ad47618cdc491b7a70ee92a3936330d3c67df7",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "assets/E7-02_han_v2.png",
+      "sha256": "cd6cf231ec3ba593defa39cd3f393f3e7b2fa142468239e1bcf8e96ef8356da3",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "assets/E7-02_han_v3.png",
+      "sha256": "fa56798af06e309eba1f2287f3b6aa6ce8d895e7ad21cb7064080557b2d51861",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "assets/E7-07_printer_v1.png",
+      "sha256": "0e6b0742c0f2dc101ca9bf37829568378476b0e9e78de6f347c1f511a58dab7f",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "assets/E7-07_printer_v2.png",
+      "sha256": "4be5bba5c40e7e5fd6d62a34edb30a3e84b77bc2fb09a680d88cfcfabbc20105",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "assets/E7-07_printer_v3.png",
+      "sha256": "a92e31dea8f60b5760ab2f1049162a61c9e38493313d003c6919c229f5db262e",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "assets/F6-04_extra_unit_removed_v1.png",
+      "sha256": "26100ec3a37c22d9fbaee5e63f0a94e473ac64f38bd21a22bcf9996b2f9f6011",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/E7-02_HAN_REFERENCE_CONTACT.jpg",
+      "sha256": "2410ad28ff9895dd79c91f91553449b91825d4e8544a4417c248c36628851b30",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/E7_APPROVAL_INSERTS_WORKPRINT_r4_MASTER.mkv",
+      "sha256": "cac1082237e41328c9dfac86d6bff3886853bf7c9cf989c90789551f1d168c56",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/E7_APPROVAL_INSERTS_decoded_10.100.jpg",
+      "sha256": "db5c8e6beb1266982bf12b039a04a5f89c6d5cdf2422f3295ad8bb786841dfd9",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/E7_APPROVAL_INSERTS_decoded_12.900.jpg",
+      "sha256": "8693ae05bb24f5fe1fb695e9a913460fc10742f1acf9dea955e9be58c58970dd",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/E7_APPROVAL_INSERTS_decoded_2.500.jpg",
+      "sha256": "29ae10401d684bb308ceb2b6f4b4d04bff235a72cf134b50ecff4cb65106d8a3",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/E7_APPROVAL_INSERTS_decoded_6.150.jpg",
+      "sha256": "170d198f6a11ad48de13809a36ba0c948fa1ca6fb42e06aa5b44dc271c76bfeb",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/E7_APPROVAL_INSERTS_decoded_8.150.jpg",
+      "sha256": "78a6cfa16de61b5229fd3cc059a3faf2bd9372c63341b378b0f4f620857c5d15",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/E7_APPROVAL_INSERTS_local_bilingual.ass",
+      "sha256": "85d5c30c5ce6d7a107b35bec92c95c090439e6f5c41f59422f41d8aa2b68953a",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/E7_CARD_WORKPRINT_r4_MASTER.mkv",
+      "sha256": "d4a44714f09b893172ea4bb900ecae635b6bd5ca39d599c728e769c93c13e901",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/E7_CARD_decoded_3.850.jpg",
+      "sha256": "0cbf88065444c47f47be74320fad93695cc651fa9108260f2daa09506ce4fa56",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/E7_CARD_local_bilingual.ass",
+      "sha256": "85d5c30c5ce6d7a107b35bec92c95c090439e6f5c41f59422f41d8aa2b68953a",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/E7_NATIVE_CANDIDATES.jpg",
+      "sha256": "9447bd0a2f31f2f30b9a7736f212923ea8cee8d3af2f9dd0c8be46be83d00b23",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/E7_NONCONTIGUOUS_INSERT_REEL_r4_1080P.mp4",
+      "sha256": "b20b3834ec218863e8d6c3117a443bcf93d457df9552b2a6d8f69ece44dc4f6c",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/E7_PRINTER_LCD_WORKPRINT_r4_MASTER.mkv",
+      "sha256": "77b8c3f80135fd351e6036202d5540d80e8021fd1136ec2e6d532a1d6d0d2d4e",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/E7_PRINTER_LCD_decoded_0.300.jpg",
+      "sha256": "59ae51d146046224aadb782284243b50a8d14061e470f4563c3ec62bd605fb8d",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/E7_PRINTER_LCD_decoded_5.400.jpg",
+      "sha256": "6eadb48d3e08e6a124581f74744efdbb8e1a3ac6e226438aaf1d85ff6baa5a3e",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/E7_PRINTER_LCD_decoded_5.400.jpg.zoom.jpg",
+      "sha256": "f67c7852c4bebc45d1cd684f7ee258195128679d69e169e7decafb009bbbe8a8",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/E7_PRINTER_LCD_local_bilingual.ass",
+      "sha256": "85d5c30c5ce6d7a107b35bec92c95c090439e6f5c41f59422f41d8aa2b68953a",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F6_SEQUENCE_PATCH_WORKPRINT_r4_1080P_BILINGUAL.mp4",
+      "sha256": "0a8eb3aa24b5a75ce36a1080c9423bb58c9b4c09168fc0b8534287737ac38bea",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F6_SEQUENCE_PATCH_WORKPRINT_r4_MASTER.mkv",
+      "sha256": "2fd73ff87037e3bcb5afe6ae3a148da5e98a3041b29fb8dbba8249d1ed61d63d",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F6_SEQUENCE_PATCH_decoded_13.000.jpg",
+      "sha256": "4b4e588bc1adc46d230d8b3a76bb938c6414fd02b8ccc50e1f41bdfb96562b2a",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F6_SEQUENCE_PATCH_decoded_19.000.jpg",
+      "sha256": "47e0812b7e0d1b133af50e93429645645ce1f9f2cabf9edff8a6162a8477002b",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F6_SEQUENCE_PATCH_decoded_20.000.jpg",
+      "sha256": "a5c354eb3b367889ffc1d498fdbbe83c1987cfce8ebbda3ae6ac7d0229d57b44",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F6_SEQUENCE_PATCH_decoded_21.580.jpg",
+      "sha256": "57e2953e4843b712f70196bbd8f39f4ff329ab0b8c41ce39b91b2867a474b5ff",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F6_SEQUENCE_PATCH_decoded_21.625.jpg",
+      "sha256": "1414e9ff217da180dc6dc197a95b8a541e938895bc907fc428c2bed0e2c31eeb",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F6_SEQUENCE_PATCH_decoded_23.000.jpg",
+      "sha256": "a426bb320a98b437900906f3bb35f898c99ff961d3da7fc096c6893b501e51c0",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F6_SEQUENCE_PATCH_decoded_24.958.jpg",
+      "sha256": "41f7f18025ee9fd8607e36da7da32cc05000737a12fd505a4f2371076d8cff0b",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F6_SEQUENCE_PATCH_decoded_24.958.jpg.zoom.jpg",
+      "sha256": "1986723c18a28f42f9f12ff76686e940393c2f719a0bf5c7462dfbbe76d9d9db",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F6_SEQUENCE_PATCH_local_bilingual.ass",
+      "sha256": "85d5c30c5ce6d7a107b35bec92c95c090439e6f5c41f59422f41d8aa2b68953a",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F6_after_compositor_frame599.jpg",
+      "sha256": "84783d43f65ec0b07d8d1fcc39bf6a851f2cc20168130525ad6ca5659e34da31",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/F6_before_frame599.jpg",
+      "sha256": "5d946fecf348a76a95bf394b4b3b4f4fbc9f6a1708ee88cdfb4e94de669abd33",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/R4_ACTUAL_ENCODED_CONTACT.jpg",
+      "sha256": "ffd59fcff05964c575e83968e0a65f1b3152bad8511fefc107084a5b6d0d1e98",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/R4_QA.json",
+      "sha256": "ca2e3cb3085f7fc5b1b48190cd4adf6b2472987e12ae27da26427bb19f566f81",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/native_refs/E7-04_NATIVE_CANDIDATE_v1.jpg",
+      "sha256": "a6cb63c6dad1552bffe76f6c3f45d085045ab308f657b9179b8fc594ea928551",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/native_refs/E7-04_NATIVE_CANDIDATE_v2.jpg",
+      "sha256": "3aee6c1d8c8cbe698a3ed59cc19b4fbac7e7a4890bc96d3a9d5d19699ddddb7a",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/native_refs/E7-04_NATIVE_CANDIDATE_v3.jpg",
+      "sha256": "4a734a576d423f7cb7bc3b3c185ab77871832ffc119f2ccae159145b2cc5c665",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/native_refs/E7-05_NATIVE_CANDIDATE_v1.jpg",
+      "sha256": "48059e214e031a4c32228842d8c5dafe59c732711e7e681e23f83162fd2d7633",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/native_refs/E7-05_NATIVE_CANDIDATE_v2.jpg",
+      "sha256": "83a0d46aa039e2a523c1b3bb85d669a2c3be43dcc65340145fbe354550b9ffae",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/native_refs/E7-05_NATIVE_CANDIDATE_v3.jpg",
+      "sha256": "89b7e57ecfe28f22ed6a44c733c3e78cec4ea71b80c1205918c1d041f38d5f6f",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/native_refs/E7-07_NATIVE_CANDIDATE_v1.jpg",
+      "sha256": "1ad8bd4b1b7533abf2918840d2326fce9ff403a04c52d0d75fe1222922d6d2ae",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/native_refs/E7-07_NATIVE_CANDIDATE_v2.jpg",
+      "sha256": "f8cb3d0692c600912efe96b2075d67a8e33f646ffba4264b624a2284dfa3c343",
+      "remote_byte_readback": "PASS"
+    },
+    {
+      "path": "render-v3/native_refs/E7-07_NATIVE_CANDIDATE_v3.jpg",
+      "sha256": "2bb20a44804ceb48e7692c88389bea60dde4ef654bd482487f2bc0e96eb33f94",
+      "remote_byte_readback": "PASS"
+    }
+  ],
+  "all_member_bytes_match": true,
+  "branch_ref_readback": "PASS before binary verification",
+  "E7_new_unique_picture_frames": 546,
+  "E7_new_unique_picture_seconds": 22.75,
+  "E7_complete": false,
+  "F6_repair_frames": 600,
+  "actor_and_voice_final_acceptance": false,
+  "final_film_completed": false
+}
