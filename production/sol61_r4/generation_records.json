@@ -1,0 +1,107 @@
+[
+  {
+    "shot": "E7-07",
+    "variant": 1,
+    "prompt": "Use case: photorealistic-natural. Asset: SILENT PROTOCOL original E7-07 printer LCD insert source, variant1. Reference image1 establishes exact Beijing government service office corridor, gray stone, after-hours dim red emergency light, countless paper sheets and bulky gray laser printers. Generate ONE cinematic 2.39:1 photograph of ONE of these same realistic aging gray office laser printers, CLOSE-UP at slightly oblique angle, not an illustration or interface mockup. The printer's physical control panel and recessed small rectangular green-gray backlit LCD occupy center frame, with worn gray plastic, dusty seams, a few unlabeled physical buttons to the right. LCD completely EMPTY uniform dark olive/gray lit glass, NO letters, symbols, digits or marks, sharp enough for typography to be composited later. The inner LCD is a nearly front-facing quadrilateral, approximate corners x700,y240 to x1250,y525 on a1940x810 composition. Around it real printer body visible, paper tray bottom edge, soft focus piles of white paper and dark office corridor behind. Tense bureaucratic horror, photoreal practical low exposure, desaturated palette saturation30percent; tiny faint red reflection from established corridor light, not neon/cyberpunk. No people, hands, newstoryobjects, logos, branding, words or watermark. One landscape still, not collage/contactsheet.",
+    "output": "assets/E7-07_printer_v1.png",
+    "review": "SELECTED: near-front LCD; physical body/corridor match original reference.",
+    "method": "built-in image_gen",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 1772510,
+    "sha256": "0e6b0742c0f2dc101ca9bf37829568378476b0e9e78de6f347c1f511a58dab7f",
+    "dimensions": [
+      1916,
+      821
+    ]
+  },
+  {
+    "shot": "E7-07",
+    "variant": 2,
+    "prompt": "Use case: photorealistic-natural. Asset: SILENT PROTOCOL original E7-07 printer LCD insert source, variant1. Reference image1 establishes exact Beijing government service office corridor, gray stone, after-hours dim red emergency light, countless paper sheets and bulky gray laser printers. Generate ONE cinematic 2.39:1 photograph of ONE of these same realistic aging gray office laser printers, CLOSE-UP at slightly oblique angle, not an illustration or interface mockup. The printer's physical control panel and recessed small rectangular green-gray backlit LCD occupy center frame, with worn gray plastic, dusty seams, a few unlabeled physical buttons to the right. LCD completely EMPTY uniform dark olive/gray lit glass, NO letters, symbols, digits or marks, sharp enough for typography to be composited later. The inner LCD is a nearly front-facing quadrilateral, approximate corners x700,y240 to x1250,y525 on a1940x810 composition. Around it real printer body visible, paper tray bottom edge, soft focus piles of white paper and dark office corridor behind. Tense bureaucratic horror, photoreal practical low exposure, desaturated palette saturation30percent; tiny faint red reflection from established corridor light, not neon/cyberpunk. No people, hands, newstoryobjects, logos, branding, words or watermark. One landscape still, not collage/contactsheet. Variant2: same established printer and same LCD proportions/materials, camera 8 centimeters further right; preserve empty LCD and no generated typography. Slightly shallower depth of field, main panel still sharply focused.",
+    "output": "assets/E7-07_printer_v2.png",
+    "review": "Accepted alternate physical insert, not selected.",
+    "method": "built-in image_gen",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 1804568,
+    "sha256": "4be5bba5c40e7e5fd6d62a34edb30a3e84b77bc2fb09a680d88cfcfabbc20105",
+    "dimensions": [
+      1916,
+      821
+    ]
+  },
+  {
+    "shot": "E7-07",
+    "variant": 3,
+    "prompt": "Use case: photorealistic-natural. Asset: SILENT PROTOCOL original E7-07 printer LCD insert source, variant1. Reference image1 establishes exact Beijing government service office corridor, gray stone, after-hours dim red emergency light, countless paper sheets and bulky gray laser printers. Generate ONE cinematic 2.39:1 photograph of ONE of these same realistic aging gray office laser printers, CLOSE-UP at slightly oblique angle, not an illustration or interface mockup. The printer's physical control panel and recessed small rectangular green-gray backlit LCD occupy center frame, with worn gray plastic, dusty seams, a few unlabeled physical buttons to the right. LCD completely EMPTY uniform dark olive/gray lit glass, NO letters, symbols, digits or marks, sharp enough for typography to be composited later. The inner LCD is a nearly front-facing quadrilateral, approximate corners x700,y240 to x1250,y525 on a1940x810 composition. Around it real printer body visible, paper tray bottom edge, soft focus piles of white paper and dark office corridor behind. Tense bureaucratic horror, photoreal practical low exposure, desaturated palette saturation30percent; tiny faint red reflection from established corridor light, not neon/cyberpunk. No people, hands, newstoryobjects, logos, branding, words or watermark. One landscape still, not collage/contactsheet. Variant3 of SAME printer: camera a few centimeters to LEFT of variant1, LCD blank matte backlit surface unchanged, tiny dust highlights but NO writing/logo/people; exact same natural bureaucratic-horror photograph style and low light, physical machinery, cropped close insert.",
+    "output": "assets/E7-07_printer_v3.png",
+    "review": "Accepted alternate physical insert, not selected.",
+    "method": "built-in image_gen",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 1746592,
+    "sha256": "a92e31dea8f60b5760ab2f1049162a61c9e38493313d003c6919c229f5db262e",
+    "dimensions": [
+      1916,
+      821
+    ]
+  },
+  {
+    "shot": "F6-04",
+    "variant": 1,
+    "prompt": "Use case: precise-object-edit. SILENT PROTOCOL F6-04 narrow technical repair. Image1 is EDIT TARGET 1670x942 original locked camera END photograph. Delete ONLY the EXTRA upright physical lever apparatus centered x925,y610: its red upright grip x916..936,y551..606, narrow metal shaft below, complete black rectangular base x903..947,y600..661 and screws belonging to that base. Replace this ONE unit region with continuous matching aged scratched warm bronze metal of the existing console, smoothly respecting horizontal panel seam. EXACT final NINE physical units: four down atfarleft344/437/529/619, FIFTH down underLin's existing hands near831, FOUR stillUP at1025/1120/1220/1320. Do not change the held fifth handle, hands,arms,grayhoodie, face,hair,watch,lanyard,feet,room,cables,lighting,camera,panel's overallgeometry or any other lever. AllNINE wall monitor rectangles unchanged: firstFIVEBLACK,lastFOURGREEN. Absolutely NO movement/change towoman or otherobjects, no newbase/screw/switch/grip replacingdeletedunit. Just plain realistic matching panel in region x897..954,y534..674. Preserve exactphoto1670x942 geometry outside thissmallregion, no words/UI, noaddedlabels/collage/watermark. Purpose is eliminate tenth lever inherited by actual old F6video while retaining physical action/audio/keyboard exactly.",
+    "output": "assets/F6-04_extra_unit_removed_v1.png",
+    "review": "Selected narrow video-compositing patch only. Full generated image has collateral changes and must NOT replace the whole frame.",
+    "method": "built-in image_gen",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 1711640,
+    "sha256": "26100ec3a37c22d9fbaee5e63f0a94e473ac64f38bd21a22bcf9996b2f9f6011",
+    "dimensions": [
+      1670,
+      942
+    ]
+  },
+  {
+    "shot": "E7-02",
+    "variant": 1,
+    "prompt": "Use case: identity-preserve / photorealistic-natural. SILENT PROTOCOL original E7-02 candidate1, source STILL only. Input1 is identity/costume reference sheet of fictional Lao Han, a Chinese night guard in his fifties. Input2 is established Beijing government office service building interior. Generate ONE1920x1080 16:9 cinematic PHOTO, not collage. Medium shot knee-up of EXACT same Han at the service building lobby threshold, holding a practical small black flashlight in his right hand angled into the lobby, caught at beginning of one cautious step. Same short gray-black hair, lined fifty-something face, navy plain zip-front work jacket, matching navy trousers, black shoes; no police uniform, shoulder rank,badge,name label or hat. He looks deeper into the unfamiliar lit office with quiet concern, restrained face, no smile/overacting. Night outside windows; gray stone floor/walls, doorway opens toward established paper-filled corridor with realistic old gray laser printers visible in distance and scattered white sheets, NOT yet a knee-deep paper sea here. Preserve reference architecture, dim red sign far down corridor and fluorescent overhead practical lights softly glowing in lobby, desaturated30percent cinematic palette. Composition: Han center-left, lobby/corridor open space right, visible flashlight and anatomical hands, natural shallow depth of field35mm camera at chest height. No extra people, inventedstoryobjects, logos, generatedwriting, subtitles or watermark. This is exact original shot '夜班保安老韩，五十多岁，拿着手电筒走进大厅' preparation/reference; not a claim of complete walking action.",
+    "output": "assets/E7-02_han_v1.png",
+    "method": "built-in image_gen",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "review": "Wide source; usable medium framing via documented camera crop, not selected.",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "bytes": 2077187,
+    "sha256": "ccd593d779f55cbce602c4c6c9ad47618cdc491b7a70ee92a3936330d3c67df7"
+  },
+  {
+    "shot": "E7-02",
+    "variant": 2,
+    "prompt": "Use case: identity-preserve. SILENT PROTOCOL E7-02 candidate2. Image1 is previous E7-02 source photograph, exact Han/flashlight/costume/office continuity reference; image2 is Han original identity reference. Change framing to original MEDIUM SHOT: camera closer, head to lower thighs, no shoes or feet in frame. Exact same Han Chinese nightguard in his fifties, navy zip-front plain workjacket/trousers, identical linedface/salt-and-pepperhair, restrained cautious expression, right hand holding same black flashlight aimed downward/right across lobby. Han onleft half offrame, same graystone doorframe andglassnightwindows visibleleft, matching red-litoffice corridor andworking oldgrayprinters withankledeep paper insoftfocusright. He has just entered lobby threshold; normalanatomicalhands, flashlightgripnatural, no otherpeople/badges/namepatch/logos/newobjects. Photorealistic originalbureaucratichorror, saturation30percent, fluorescentpractical overheads softlylit, deepred practicalsign atfarend, nightoutside. One1670x942 16:9still, not collage,no text orwatermark. Keep identity/style/wardrobe/scene fixed; precise mediumframing, face andflashlightbothsharp enoughforreference. This remains sourcecandidate awaitingcontinuouswalkingaction.",
+    "output": "assets/E7-02_han_v2.png",
+    "method": "built-in image_gen",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "review": "SELECTED medium-shot preparation source; identity/costume/flashlight/corridor reviewed. Continuous walking action PENDING.",
+    "dimensions": [
+      1670,
+      942
+    ],
+    "bytes": 1882447,
+    "sha256": "cd6cf231ec3ba593defa39cd3f393f3e7b2fa142468239e1bcf8e96ef8356da3"
+  },
+  {
+    "shot": "E7-02",
+    "variant": 3,
+    "prompt": "Use case: precise-object-edit / identity-preserve. SILENT PROTOCOL E7-02 candidate3. EDIT this exact successful1670x942 MEDIUMshot photograph. Keep camera,crop,nightgraystonegovernmentlobby,corridorprinters/ankledeepwhitepapers,redfarpracticalsign,overheadfluorescents andallobjects fixed. Keep identical fifty-somethingChineseHan face, grayblackhair,navyplainzipfrontworkclothes,anatomy,hands,shoulders/bodyandright-handblackflashlight. Change ONLY right forearm/flashlight aim about5degrees further toward the corridor onviewerright, naturally keep grip, beam follows thissmallaimchange. Han's pupils lookslightlymoretoward the farcorridor, samequietconcern andface/headorientation. No exaggerated acting,newpeople,uniformpatches/logos/text/symbols,watches,watermark,collage. Same photorealistic dimofficebureaucratic-horror style,saturation30percent, exactlockedmediumcomposition. This is third sourcecandidate/reference, not a walking movie or lip-sync result.",
+    "output": "assets/E7-02_han_v3.png",
+    "method": "built-in image_gen",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "review": "Accepted alternate medium reference; no walking action generated.",
+    "dimensions": [
+      1670,
+      942
+    ],
+    "bytes": 1836455,
+    "sha256": "fa56798af06e309eba1f2287f3b6aa6ce8d895e7ad21cb7064080557b2d51861"
+  }
+]
