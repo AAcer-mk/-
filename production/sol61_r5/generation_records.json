@@ -1,0 +1,182 @@
+[
+  {
+    "shot": "E7-01",
+    "variant": 1,
+    "prompt": "Use case: photorealistic-natural. SILENT PROTOCOL E7-01 lit endpoint candidate1. Image1 establishes gray stone architecture/night palette of fictional Beijing government service building INTERIOR; infer a matching realistic unbranded EXTERIOR, do not copy interior corridor onto facade. ONE1920x1080 16:9 cinematic photograph, extreme wide establishing shot at night from across empty plaza. Full seven-story municipal service office block visible, roof and ground-floor entrance in frame, restrained late20th-century gray granite/concrete with repetitive RECTANGULAR office window grid, flat roof, simple glass entry, plain unlettered entrance plaque. Frontal threequarter with only modest perspective so each floor and each window clearly distinguishable. Building occupies about70percent width and65percent height, foreground empty darkgray plaza andsmallcity-contextbackground, no people or cars moving. ALL seven floors including entrance now lit simultaneously: every regular office window glows pale neutral fluorescent, believable interior desks visible in only nearbywindows, modest glow on stonewindowrecesses. Distant neighboring buildings remain dim natural night; no dawn,sun,neon,dramaticred sky,fire,smoke orfuturisticcyberpunk. Originalfilm lowexposure saturation30percent, practical sodium streetlight subtle, coolfluorescent offices. No readablewriting,logos,officialemblems,nationalflags orsymbols,no subtitle/watermark/collage. This is source lit endpoint; later edit produces unlit endpoint with identical camera/architecture for simultaneous light-on video composition.",
+    "output": "assets/E7-01_v1_LIT.png",
+    "review": "Selected lighting source; every floor lit.",
+    "method": "built-in image_gen",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 2070279,
+    "sha256": "d23624ffeb44433a5c50f4e736fe1f58d12e0e8afcfea7e05d6f273a66bff971",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  {
+    "shot": "E7-01",
+    "variant": 2,
+    "prompt": "Use case: lighting-weather / precise-object-edit. SILENT PROTOCOL E7-01 UNLIT endpoint candidate2. Edit this exact1672x941 night exterior photograph. LOCK every pixel of building geometry,roof/windowgrid/frames,granitewalls,steps,entranceglass,trees/planters,streetlamps,neighboringbuildings,camera/plaza/sky,composition. Change ONLY the mainbuilding's electric INTERIOR LIGHTING fromallON toallOFF: all seven floors' officewindow fluorescentceilings OFF, windows become verydark reflectiveglass showingfaintunlitinteriors; mainbuilding entrance interior and undercanopyelectriclights OFF too. NO illuminatedofficewindow in mainbuilding. Surrounding streetlamps andneighboringbuildingfewlights stayON exactly asoriginal. Plaża puddle reflections from mainbuilding electriclights decrease naturally, but samewetpavingtexture andgeometry. Keep wholebuilding recognizable inambientnightlight, doNOT turnpictureblack, no daylight,newfacade/panels,nofire/smoke,nomovedobjects orpeople. Exactlysamecameraand1672x941framing; no words/emblems/logos/collage/watermark. Purpose is match pre-switch darkness endpoint, laterfilmcomposition controlsallfloors' switch simultaneously in one frame; no architecturalmorphing.",
+    "output": "assets/E7-01_v2_UNLIT.png",
+    "review": "Selected locked base, unlit windows. Only controlled positive lighting difference enters video.",
+    "method": "built-in image_gen",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 1803089,
+    "sha256": "7f165e24dc6ce1bff399212f7b3f8b670ee723b8c3336e83926f7ce7253c8e6e",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  {
+    "shot": "E7-01",
+    "variant": 3,
+    "prompt": "Use case: lighting-weather. SILENT PROTOCOL E7-01 candidate3 alternative LIT hold. Edit exact image1 originalfullyLIT1672x941photograph. All sevenfloors' windows, entrance andcanopy lights remainON, same brightness. Change only fluorescentofficecolor minutely5percent COOLER neutralwhite. Preserveexact camera,roof,wall/windowgrid/glass,tree/plants/ground/steps,plaza reflections,streetlamps/neighbors,nightcloudysky andgeometry. No fixture/windowcountchange ornewlights, nopeoplecarswordsflagslogosemblems/collage. Restrained photorealisticrealworldgovernmentserviceblock sameoriginalpalette. This is third alternative reference, not newscene, notvideo. Lockedcamera iscriticalforinstantall-flooractivationcomposition.",
+    "output": "assets/E7-01_v3_ALT_LIT.png",
+    "review": "Alternate lit reference, not selected.",
+    "method": "built-in image_gen",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 1986872,
+    "sha256": "c7ed653445fb314ef55e1fdd80e3e058fa5712d1a27c99161dedc2eb20226c01",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  {
+    "shot": "E7-09",
+    "variant": 1,
+    "prompt": "Use case: photorealistic-natural / identity-preserve. SILENT PROTOCOL E7-09 radio insert candidate1, ONE1670x942 16:9 movie photograph. Image1 is exact fictional LaoHan navy zip-front workjacket/graystoneoffice identity+costume continuity. Image2 is established Beijing municipal servicebuilding corridor with graylaserprinters and whitepapers. CLOSE-UP of his practical worn black unbranded WALKIE-TALKIE clipped at his LEFT WAIST justbelow navyjackethem, ordinary securityguard nylonbelt; only lower navyjacket/navytrouser upperhip and handset visible, noface/mouth/hands. Radio occupies central-left half, clearly has vertical flexibleantenna, blackspeakergrille,topvolumeknob, physicalPTTsidebutton,one tiny currentlyUNLIT indicatorLED abovegrille. No readable text/logo,digits,displayUI,brandedparts ornametag. Radioisreceiving incomingcalmvoice, nobodypressestransmit. Deep softlyblurred background same old graystoneofficehall, darkredpracticalglowfaraway, piles ofpaper towardlowerframe, exactlyoriginaldesaturated30percentbureaucratichorrorvisualstyle; dimoverheadfluorescentpracticalillumination, tactileagedplasticandnavyfabric,paperseaoutoffocus. Cameraatbeltlevel, handset andfabricsharp, anatomy/costumerealistic. Noadditionalpeople/objects,newstorymessage,policepatches,flags,artifacts,subtitle,watermark orcollage. This is propclose-upsource; originalvoiceline andtinyreceivingLEDwillbecomposedintheworkprintlater. No actingvideo claim.",
+    "output": "assets/E7-09_v1.png",
+    "review": "Selected same navy jacket/left waist radio. No face or transmit action.",
+    "method": "built-in image_gen",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 2126557,
+    "sha256": "9ef695cd2894a27914932386f43aed2bfaa20d3d981eba972d8c8d3c00b4c67f",
+    "dimensions": [
+      1670,
+      942
+    ]
+  },
+  {
+    "shot": "E7-09",
+    "variant": 2,
+    "prompt": "Use case: precise-object-edit. SILENT PROTOCOL E7-09 candidate2 alternative closer camera. Input image is source reference. Generateone1670x942cinematicclose-up ofsame EXACT wornblackwalkie-talkie onHanLEFTwaist clippedsameblacknylonbelt belowidenticalnavyplainzipfrontworkjacket. Cameracomesabout15percentcloser sohandsetoccupiesmoreframe whileantenna/topknob/fullspeakerbodyremainvisible andleftwaistnavyfabricvisible. SamephysicalPTTsidebutton andone tinyUNLITreceiverindicatorLED abovespeaker; noUI/text/logo/face/hands/newobjects. Same Beijinggraystone/redfarpracticalofficecorridor,papersea blurredbelowframe,knee-levelpaperforegroundnotvisiblebecausebeltcrop. Desaturated30percentphotoreal nightfluorescentpracticalhorrorpalette, noaddedglows orcyberpunk. Exactsameprop/costumecontinuity; doNOT movespeakerbuttonpositions orinventnewcontrols. Sourcecandidate only, no video or dialogue generated.",
+    "output": "assets/E7-09_v2.png",
+    "review": "Alternate closer view, not selected; background paper depth obscured by focus.",
+    "method": "built-in image_gen",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 2277051,
+    "sha256": "3dd37b9f44ac72605942964edb56ae18d80bd67f6935a9d45b9c359fc5af0e5c",
+    "dimensions": [
+      1670,
+      942
+    ]
+  },
+  {
+    "shot": "E7-09",
+    "variant": 3,
+    "prompt": "Use case: precise-object-edit. SILENT PROTOCOL E7-09 candidate3 receiving endpoint. Edit image1 EXACT original1670x942radioatHanleftwaist photograph. Change ONLY tinyindicator roundcircle centerapproximatelyx755,y383 onupperfrontradioface to dim GREEN receivingLED, minuscule believablephysicalgreen light, nolargehalo. Maintaincircle'ssize/position andall identicalradioantenna/knob/grille/PTTbutton/scratches/shape,identicalnavyjacket,trousers,belt,graystoneblurredpaperfilledcorridorredfarpracticalbackground, exactcamera/light/colorsandcomposition. No other controls, writing, names,face,hands,logos orobjects appear. Keep originaltinycircle atx721,y370 BLACK as itsunchangedfasteningscrew. Onlyreceiverindicatornearx755,y383 GREEN; nothingflashingelsewhere. Singlephotorealistic source frame, no UI,captions,collage/watermark. Original calmvoiceline willbe reused separately; no newaudiooractorperformance generated.",
+    "output": "assets/E7-09_v3_RECEIVING.png",
+    "review": "Only tiny receiving LED patch selected; remainder not used.",
+    "method": "built-in image_gen",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 2024176,
+    "sha256": "c8974f8dc78a5b0d1e8e83174d8da4f7a44f35254fa3e831c3258ed8c4c13b8b",
+    "dimensions": [
+      1670,
+      942
+    ]
+  },
+  {
+    "shot": "E7-06",
+    "variant": 1,
+    "prompt": "Use case: identity-preserve / photorealistic-natural. SILENT PROTOCOL E7-06 sourcecandidate1, ONE1670x94216:9 close-shotphoto. Input1 exact fictional LaoHan face/costumeandgovernmentofficecontinuity. Input2 establishedgraystonepaper-filledBeijingservicecorridor. LaoHan inplainnavyzipfrontworkjacket has justpickedupONEofficepaper andholdsit atchestheight withbothnaturalaginghands touchingonlyleft/rightLOWERedges. Cameraoverhisforearm lookingat paper face, chest/shoulder/lowerchin partlyinleftbackground, faceoptionalsoftfocusbutidentityfixedifvisible. MainforegroundmatteoffwhiteA4PAPER islarge andsharp, blankfacefortypographicpostproduction, approximatelyquad[(620,170),(1390,230),(1330,855),(535,770)] in1670x942. Fullpaperplane clearlyvisible, nofingersacrosscentralreadingarea, noadditionalhand/arm,fivefingersperhandnaturalgrip. Graystone/redfarpracticalofficecorridor andabundantpapers/grayprintersblurredbehind, samecanonalcostume/light, quietbureaucratichorror,saturation30percent. PaperCOMPLETELYBLANK,no generatedcharacters,stamps,lines,blackbar or logos; exactrequestbar and'同意。立即执行。'willbeprojectedlaterwithoriginalfont. NopeoplebesidesHan,newplotclues,officialseal/badge/names,facebeautification/collage/watermark/subtitle. Thisispost-picksource/reference ONLY, actualbending/retrievingactionstillmissing, notacompletedactingvideo.",
+    "output": "assets/E7-06_v1.png",
+    "review": "Selected post-pick paper hold reference; native redaction/type preview added separately; actual pickup action absent.",
+    "method": "built-in image_gen",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 1734105,
+    "sha256": "6c88bf3ae54f5a347b532d78e3681aa97ba5d5fbdced20145679ce2d2616d886",
+    "dimensions": [
+      1669,
+      942
+    ]
+  },
+  {
+    "shot": "E7-06",
+    "variant": 2,
+    "prompt": "Use case: precise-object-edit / identity-preserve. SILENT PROTOCOL E7-06 candidate2 alternate papergrip. Edit exact1670x942sourcephoto. Keep Hanface/hair/costume/head/body,camera,stoneoffice/redfarpractical/corridorpaperprinters,light/colors fixed. Keep sameblankA4paperplane EXACT cornersapprox[(862,212),(1325,285),(1181,862),(686,741)] andsamepapertexture; no writing,stamps/blackbars/generatedlabels. Change ONLY lefthandthumb touchingpaperleftedge aroundx775,y585: thumbslightlyloosens andmovesabout5pixelsdownalongedge withnaturalagedskin/fingerjoints. DoNOT add/extrude fingers ormove wrist/arm; righthandandthumbfixed,papercornersandmainfaceblankfixed,Anatomicallycorrecttwohands. Singlephotorealisticoriginalcinematicreference, noanimationdiagram,text/logos/newpeople/watermark/collage. Thisisalternateheld-paperframe, notactualpickingaction orcompletedE7-06.",
+    "output": "assets/E7-06_v2.png",
+    "review": "Alternate held-paper reference, natural two hands.",
+    "method": "built-in image_gen",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 1726403,
+    "sha256": "ed2aa54b379810f9e8a72acb43d71ca537ff3813b3e6a74c3afbb773eb9d3a90",
+    "dimensions": [
+      1670,
+      942
+    ]
+  },
+  {
+    "shot": "E7-06",
+    "variant": 3,
+    "prompt": "Use case: identity-preserve / precise-object-edit. SILENT PROTOCOL E7-06 candidate3. Edit exact1670x942FIRST originalheldblankpaperphoto. Keepcamera/background/costume/lighting/graystonecorridorpaperprinters,blankA4geometryandtextureandcornersapproximately[(862,212),(1325,285),(1181,862),(686,741)],twohands/grip/arms fixed. ChangeONLY Han's pupilsgaze veryslightly down towardlowerhalfofpaper, head/chinabout2degreeslower; samefictionalChinese50sface/hair/skinlines,quietconcern,noopenmouth/shouting. DoNOT shiftshoulders orpaper, addfingersorpeople, generateanywriting,redstamps,blackbar,names,logos,UI,subtitle,watermark,collage. Photorealisticcanonicalrestrainednightofficestyle desaturated30percent. Newheld-paperreferenceonly; notactualpickingmovie, formalactorperformanceorE7-06completion. Precisetypographicink/redactionwillbeaddedindependently later.",
+    "output": "assets/E7-06_v3.png",
+    "review": "Alternate held-paper gaze; no continuous action generated.",
+    "method": "built-in image_gen",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 1756594,
+    "sha256": "5819d731cdebfc0c19239d35be7f14dab8e21bf32bc59c244e4cf8581ef41722",
+    "dimensions": [
+      1670,
+      942
+    ]
+  },
+  {
+    "shot": "E7-08",
+    "variant": 1,
+    "prompt": "Use case: identity-preserve / photorealistic-natural. SILENT PROTOCOL E7-08 START photograph, candidate1. Image1 exact fictional LaoHan identity/costume50s navyzipfrontworkjacket/trousers. Image2 canonicalgraystoneBeijingmunicipalservicebuildingcorridor witholdgraylaserprinters,papers andfarredpracticalsign. ONE1670x94216:9 WIDEshot fromcenterhall. Han stands quietlycentralmiddle-distance, headnearx850,y230, waistnear y480, LEGS entirelyburiedin looseofficepaperaboveKNEES aroundy650; unmistakableKNEE-DEEPpapersea, notankle-depth. Identicalshortgrayblackhair,lined50sChineseFace, plainnavyoutfit; nohat,pollcebadge/uniformchange. Right hand hangswithsameblackflashlight aimeddown; left hand holdsoneoffwhitepaperlowatwaist, writingnotreadablebecausewide. Blackplainwalkie-talkieclippedleftwaistbelowjackethem. FOURclearlyvisiblematchingoldgraylaserprinters aroundhim, twoforegroundleft/right andtwomid-distanceleft/right. EachprinterejectsoneWHITEpaper sheet into surroundingpapersea; visiblepaperexitmouthandcurledshortsheetunderit. Keepinputarchitecture/windowframes/graystone/redfarpracticallight, dimfluorescentoverheads, lowexposurecolor30percentbureaucraticpsychologicalhorror. Wallonrightuppermiddlehasone SMALL darkemptyrectangularelectronicscreen facingcamera, noexistingletters/symbols: later originalsquare/checkglyphwillbecomposedthere. Lens35mmwideenoughforfourprintersandwholehumanstandingpose; foreground paperdepthrich,tactilecrumpledloosesheets. Noothers/newplotclues,readableforms,officialseals/logos,names/emblems,subtitle,watermark/collage. Singlecinematicphoto. Thisisworking source forcamera pullbackandonlypaper-regionmotion; no actoraction/lipsync generated.",
+    "output": "assets/E7-08_v1.png",
+    "method": "built-in image_gen",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "review": "Selected locked standing/knee-deep paper source; native GLM mark composited on physical wall display.",
+    "bytes": 2044806,
+    "sha256": "5b94e20147e989d840568b6bf839c5f69d6fb8a115a4dfa3081781d72cf1487e",
+    "dimensions": [
+      1670,
+      942
+    ]
+  },
+  {
+    "shot": "E7-08",
+    "variant": 2,
+    "prompt": "Use case: precise-object-edit. SILENT PROTOCOL E7-08 candidate2 printing-END endpoint. EDIT exact1670x942firstsourcephoto. LOCK Han'sface/hair/head/gaze/mouth/body/standingpose/knee-depthpaperocclusion/navyoutfit/blackflashlight/oneblankpaperheldinleft/walkieatleftwaist; LOCK camera/architecture/lights/screens/entirefloorpapersea/ALLprinterBODYshapespositions. ChangeONLY whitepapersheets EMERGING fromfourmostvisibleprinterexitmouths, naturallyasifrollershavefedmorepaperforward. ForegroundLEFT curledpaperstartsnearx100,y488 andhangstoaroundy731: itsfreebottomedgeextends40pixelsfartherdown, preservingupperrootlockedatexitslot andnaturalrollcurvature/fold. ForegroundRIGHT sheetstartsnearx1518,y495 andbottomnearx1435,y691: extendfreebottomedge40pixelsdown, naturalgravity/nohorizontalbounce. MiddistanceLEFTpapernearx654,y430..489 andRIGHTnearx1090,y430..505 eachfreeedgetips20pixelsfurtherdown. EXACTsamepapersheetwidth/texture, realisticuncreasedwhitemattepaper, noalienstretch/artifact/levitation; printerrollerscontinuetofeedwhileHanisstill. Onlythese4paperregionschange, noarm/bodymovement,newobjects/people/printerunits,blackbar/text/logo/symbol/watermark/collage. Preserve allpixels outside4paperregions ascloselyaspossible. Thisislocalpaper-motion endpoint, notgeneratedwalkingoractorperformance.",
+    "output": "assets/E7-08_v2.png",
+    "method": "built-in image_gen",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "review": "Selected paper-feed endpoint ONLY in four paper masks; actor/body/background collateral changes ignored.",
+    "bytes": 1977147,
+    "sha256": "c52d7818b96b8a093f1e15f073e533e6bb80efe8102890be558b422a29537706",
+    "dimensions": [
+      1670,
+      942
+    ]
+  },
+  {
+    "shot": "E7-08",
+    "variant": 3,
+    "prompt": "Use case: precise-object-edit. SILENT PROTOCOL E7-08 third alternatepaperfeedreference. Edit exactfirstSTARTsourcephoto1670x942. PreserveHanface/pose/navywardrobe/flashlight/heldblankpaper/left-waistradio,knee-deeppapersea,allgraystoneoffice/camera/lights/4printerbodies/screen,allfloorpapers EXACT. ChangeONLY foregroundLEFT andRIGHT danglingwhiteprinterpapersheets'freebottomedges: tiniest2-degree naturalcurlvariation asfreshpaperisfed. Rootsatexitslotfixed,samewidth, edgesextendonlyabout15pixels, whitepapertexture/anatomicalhumanstable. No bodyaction/newprops/people/printers/words/logos/stamps/glyphs/extraarms/facechanges/collage/watermark. Singlephotorealisticcanonicalnightbureaucratichorrorsourcevariant, notgeneratedactorvideo. SmallblackrightwallscreenstaysEMPTY becauseoriginalsquare/checkmarkispostproducedlater.",
+    "output": "assets/E7-08_v3.png",
+    "method": "built-in image_gen",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "review": "Alternate reference only; not selected for motion.",
+    "bytes": 1980377,
+    "sha256": "d88d9cf0cce603efe1f2ad6bb5f99e8ed2e9f88d5d973041bf0a8eba96a31af1",
+    "dimensions": [
+      1670,
+      942
+    ]
+  }
+]
