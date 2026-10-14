@@ -1,0 +1,130 @@
+[
+  {
+    "shot": "F7-01",
+    "variant": 1,
+    "key": "r3_prompt_start",
+    "review": "Accepted pre-pull endpoint. Reviewed nine visible units (five down plus four up), four green displays; actor targets sixth upright unit. Actual normalized grip x1008 differs from initial requested x925; renderer uses actual reviewed geometry.",
+    "prompt": "Use case: precise-object-edit / identity-preserve. SILENT PROTOCOL F7-01 START endpoint, ONE 1670x942 landscape film photograph, exact locked camera. Image1 is F6 last physical lever frame and edit target. Image2 identity ref for fictional LinWu34. Preserve exact industrialGenevaB4 concrete room, tungsten light, all cables, nine monitor rectangles, metalconsole, grayhoodie, blue lanyard, blackshortbob, tiredAsianwomanface, darkjeans, oldwatchonLEFTwrist. IMPORTANT SOURCE DEFECT CORRECTION: target currently has TEN visible lever units (four down left, one held down at x830, FIVE up right x925/1025/1120/1220/1320). Remove ONLY the extra upright whole unit centered x1025,y610, replacing that unit with matching continuous scratched metal panel. Final exactly NINE units in left-to-right order: x344,x437,x529,x619,x831,x925,x1120,x1220,x1320. No additional handles, bases or phantom unit behind Lin. Keep other nine units and all nine screens geometrically fixed. Screens1–5 remainBLACK; screens6–9 remainGREEN. Firstfive handlesDOWN; rightfour handlesUP. Lin is now preparing to lower SIXTH handle centeredx925: keep feet/torso/costume/face the same, move only her arms forward/right so both hands naturally grip the upright sixth red handle near x925,y570; LEFTwatch correct. Fifth handle atx831 remainsDOWN and visible now vacated by hands. Her body can shift a few centimeters right if anatomically needed but console/camera must not shift. SIXTH remainsUP andGREEN; no actual pull yet. Keep exactly four GREEN screens onright. Photorealistic restrained darkcinematic scene matching priorphotograph; no words, symbols, logo, UI, extrafigure, collage. This is new F7 working endpoint, original F6 source remains preserved.",
+    "method": "built-in image_gen",
+    "output": "assets/F7-01_v1.png",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 1705687,
+    "sha256": "b9198da6abdc159588e57daec654dfa62177e3d40229dfff94f69a9088929000",
+    "dimensions": [
+      1669,
+      942
+    ]
+  },
+  {
+    "shot": "F7-01",
+    "variant": 2,
+    "key": "r3_prompt_end",
+    "review": "Rejected: phantom extra held handle/base near x910/973 while the intended sixth down unit was at x1015. Original PNG preserved as diagnostic only.",
+    "prompt": "Use case: precise-object-edit / identity-preserve. SILENT PROTOCOL F7-01 END endpoint. Edit this exact1670x942 firstimage. Keep camera,background,Linidentity,costume,blue lanyard,feet/torso/headpositions, nine monitorrectangles, exact NINE physical lever units and left wrist watch unchanged. Change ONLY sixth handle with natural accompanying hand/forearm lowering, and sixthscreen state. The handle being gripped by Lin is the SIXTH among the nine, approxx1008,y570 in this image; lower that held red grip DOWN to y652, like five DOWN handles at farleft. Her two hands follow this handle to its lowered position, elbows bend naturally; noextraarms or phantom lever behind her. The sixthscreen is the first green display atx900..1008,y344..455, immediatelyright of fiveblackleftscreens: change that FULL innerrectangle to BLACK matching fifthblackdisplay. Keep far-right THREE displays(x1027..1136,x1157..1265,x1283..1393) GREEN, nottwo orfour. Finalexactcount: NINE screens, firstSIXblack/lastTHREEgreen; NINE handles, firstSIX DOWN/lastTHREE UP. Threeupright redhandles approxx1118,x1219,x1319 unchanged. No additional switches or bases. Maintain exact metalpanel scratches and lockedcomposition, tungstenphotographiclighting; no global dimming yet (composited at click later). No writing, symbols, UI,logo,newobjects orpeople. One natural photographic post-pull frame, not collage, anatomycorrect.",
+    "method": "built-in image_gen",
+    "output": "assets/F7-01_v2.png",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 1699909,
+    "sha256": "f341fa4724f9677a6b5a6b6770799326d9ec8d78a6971cc4c57a155e211a2ac1",
+    "dimensions": [
+      1669,
+      942
+    ]
+  },
+  {
+    "shot": "F7-01",
+    "variant": 3,
+    "key": "r3_prompt_fixed_end",
+    "review": "Accepted selected end: extra unit removed, both hands grip real sixth lowered unit; five other left units down, last three up, six black screens/three green.",
+    "prompt": "Use case: precise-object-edit. Correct ONLY the extra lever and hand grip in FIRSTimage (F7-01 attempted END). SECONDimage is correct intended PRE state and exact sixth unit location. LOCK all camera, room, woman identity/costume/body/head, NINE screens (firstsix BLACK/lastthree GREEN), remaining levers and lighting. Critical error in FIRSTimage: Lin is holding a phantom extra lowered red grip aroundx973,y663 backed by an extra black base atx910,y607, while the REAL sixth lowered handle is immediatelyRIGHT atx1015,y654. REMOVE the PHANTOM extra lever, its black rectangular base centeredx909,y634 and any red grip/stem aroundx973,y670, leaving plain scratchedmetal panel behind her arms. Move ONLY both hands about40pixel RIGHT so they clearly grasp the REAL sixth red handle atx1015,y650, naturally bend wrists/elbows, oldwatch stays on herLEFT wrist. The actual existing REAL sixth unit has blackbase approxx990..1035,y614..675. Do NOT create a third unit. Exactly NINE physicalunits: five DOWN toleft(x344,437,529,619,704), actual sixth DOWN atx1015 held by her, three UP atx1120,1220,1320. No switch on metalarea x860..985 except her arms; no hidden extra blackbase there. All nine monitorrectangles remain unchanged with SIXblack/THREEgreen. No extra mechanicalpart, extraarm orhand. Maintain darkwarmphotorealistic plate1670x942 and exact composition. This is precise technical correction, not new design. Singlephoto, no writing/logos/diagram.",
+    "method": "built-in image_gen",
+    "output": "assets/F7-01_v3.png",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 1701354,
+    "sha256": "8b98ee816a9fef79debff12f0cbe9cc4d0f990eed10a682d057ddd6aa6cd22bc",
+    "dimensions": [
+      1670,
+      942
+    ]
+  },
+  {
+    "shot": "F7-01",
+    "variant": 4,
+    "key": "r3_prompt_hold",
+    "review": "Accepted alternate end hold; nine units and three green screens retained. Not needed for final rendering.",
+    "prompt": "Use case: precise-object-edit / identity-preserve. SILENT PROTOCOL F7-01 fourth alternate source candidate. Edit this exact successful END photograph1670x942. Change ONLY Lin's fingergrip minutely: her fingers loosen just slightly after completing the pull, hands still touching the SAME sixth DOWN redhandle. Keepforearmposition,wristwatch,pose,face/hair/costume/camera exactlyfixed. NO new switches or parts, keep EXACT NINE physicalleverunits: five DOWN left, sixth DOWN atx1008 heldbyLin, three UP atx1120/1220/1320. Metalarea x860..985 stays EMPTY behindherarms with no phantom blackbase or redhandle. Nine walldisplayrectangles stay exactlyfirstSIXBLACK/lastTHREEGREEN. Preserve all otherpixels and lighting. Singlephotorealisticdarkwarmimage, no writing/logos/UI/collage. This is alternateholdsource, not an actionmovie.",
+    "method": "built-in image_gen",
+    "output": "assets/F7-01_v4.png",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 1694216,
+    "sha256": "760f08c5689bcdf1b95bd32201ed880be8848ed799f6c4acd3624a4030b6ad96",
+    "dimensions": [
+      1670,
+      942
+    ]
+  },
+  {
+    "shot": "F7-03",
+    "variant": 1,
+    "key": "r3_prompt_gaze1",
+    "review": "Accepted initial still: actor identity/wardrobe/watch, right voice monitor back and left photographed note. Three green status panels visible. No UI pasted onto monitor back.",
+    "prompt": "Use case: identity-preserve / photorealistic-natural. SILENT PROTOCOL F7-03 initial close-shot source, ONE 1670x942 cinematic photograph. Image1 exact fictional LinWu identity costume reference; Image2 establishedGenevaB4 room photograph; Image3 current lever-camera continuity for same tungsten basement room. Do NOT draw referencecollages. Lin34 is exactly shortblackbob,tiredundereyes,Chinese woman, grayhoodie, blueworklanyard, darkjeans, oldanalogwatch withtinycrackedcrystal on herLEFTwrist only. Camera at eyeheight from front-right of industrial controlconsole, chest-and-face close shot: Lin centrally framed, rightthreequarterface, watch/leftforearm resting onconsolelowerframe; she looks cautiously toward a small unbranded dark VOICE monitor in rightforeground. This voice display must be a FLAT blank dark charcoal rectangle, no face/portrait/UI/text; grayvoiceicon willbecomposedlater. Leftforeground on consoleleft monitor/frame edge has one familiar small square fadedcream stickyNOTE with blank paper face angledslightly, curled corner and oldadhesive, no generated writing. Both voice screen and note clearly visible in foreground, Lin's eyeline currently toward voice screen at her RIGHT (viewerright), not towardnote yet; subsequent edit will redirectgazeleft to note. Same industrial concrete/cables/serverracks/tungstenwarm palette as references, lighting verydim following six outages, only subduedgreen remnant fromthree wallstatusscreens in softfocusbackground; do notadd newpeople or new lamps. Empty/offscreenotherstatusscreens remain black, exactlythree smallsoftgreen rectangles if visible. Restrained distrust,tiredness,noshouting,nocrying. Photorealistic horrorfilm, no cyberpunkglow, no logos, readableletters, symbols, collage. Main storyline 2.39:1 usable composition centered in landscape; avoid placing face/note/screen in extreme top/bottom. This is a photographic actor source awaiting local motion, not a finished acting video.",
+    "method": "built-in image_gen",
+    "output": "assets/F7-03_v1.png",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 1867260,
+    "sha256": "473b74e135180abcaf0b378f1229597c83c961d0a8601150849509ed1131b3a1",
+    "dimensions": [
+      1940,
+      810
+    ]
+  },
+  {
+    "shot": "F7-03",
+    "variant": 2,
+    "key": "r3_prompt_gaze2",
+    "review": "Accepted alternate still looking left, but entire head interpolation from variant 1 failed motion QA. Not selected for final animation.",
+    "prompt": "Use case: identity-preserve / precise-object-edit. SILENT PROTOCOL F7-03 gaze END endpoint. Edit the exact firstimage, same1940x811 2.39:1 photograph. Preserve all pixels of industrialbackground, monitors/cables/metalconsole, left blank fadedcream stickyNOTE, rightforeground black monitor BACK (do not draw UI on its plastic back), all lighting, Lin grayhoodie, blueworklanyard, leftwristanalogwatch, both restingforearms/hands/shoulders. Change ONLY fictional Lin's face/head/gaze: she has slowly turned her attention AWAY from rightmonitor toward the familiar stickyNOTE on her LEFT (viewer'sLEFT). Her pupils clearly look DOWN-LEFT toward this paper, her face rotates left only about12degrees, slightloweredchin. Keep EXACT short black hair cut and identical tired34-year-old Chinese face, no beautification, same skin/eye bags. Quiet suspicion, lips just slightly parted as if very softly beginning to ask a question, nooveracting orcrying. Don't movebody or shiftcamera, do not alterpaper/objects/threegreenbackgroundscreens. Exactlysame photographcomposition and pixelgeometry outside smallheadregion; single source frame, nocollage,no writing/logos, noanimationdiagram. This is motion endpoint, not complete acting video.",
+    "method": "built-in image_gen",
+    "output": "assets/F7-03_v2.png",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 1842495,
+    "sha256": "38b6f927515598d7101080a1cef5d4d46c8c2a153c8bba41fc4819d300da4af1",
+    "dimensions": [
+      1940,
+      811
+    ]
+  },
+  {
+    "shot": "F7-03",
+    "variant": 3,
+    "key": "r3_prompt_gaze3",
+    "review": "Accepted alternate closed-mouth still, but not selected for final animation after head-turn morph was rejected.",
+    "prompt": "Use case: precise-object-edit / identity-preserve. SILENT PROTOCOL F7-03 third photographic endpoint for the quiet hold after Lin's question. Edit this exact1940x811 frame. Change ONLY her lips from slightly parted to gently CLOSED with relaxed jaw; tiny restrained concern stays. Preserve exact eyes looking DOWN-LEFT toward stickyNOTE, pupils, faceidentity, headangle, blackhair, tiredskin, shoulders, grayhoodie, blue lanyard, LEFTwristwatch and restingarms. Do not beautify, changeexpression to anger, ormovebody/camera. All backgroundthreeGREENscreens/blackothers and rack/consoledetails unchanged; leftcreamnote staysblank for realwritingpostproduction; rightforegroundmonitor BACK has no UI. Single identical cinematic warmdarkphoto with only mouth closure, no text/logos/collage. This remains an acting source endpoint, not lip-sync video.",
+    "method": "built-in image_gen",
+    "output": "assets/F7-03_v3.png",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 1815065,
+    "sha256": "af74b7735a63bba94c56a4a74479d55681c5fd7d38453bd24b01e5d16391a74e",
+    "dimensions": [
+      1940,
+      811
+    ]
+  },
+  {
+    "shot": "F7-03",
+    "variant": 4,
+    "key": "r3_prompt_gaze4",
+    "review": "Accepted selected gaze-only endpoint: pupils move down-left with head geometry preserved. Final rendering changes only eye region; phoneme lip sync not generated.",
+    "prompt": "Use case: precise-object-edit. SILENT PROTOCOL F7-03 corrected GAZE-ONLY endpoint. Edit firstimage EXACTLY1940x811. Change ONLY the directions of both eyes/pupils within their existing eye sockets: fictional Lin now glances DOWN and to her LEFT, toward the creamstickyNOTE at imageleft. Eye-onlymotion, no HEAD movement. VERY IMPORTANT: DO NOT rotate, turn, tilt or move her HEAD, nose, mouth, ears, hair, jaw, neck or shoulders AT ALL. Preserve EVERY facialfeature/outline/pose and all existing lighting from input. Face must remain facing its original slightlyRIGHT direction, while eyes glanceDOWN-LEFT; possible natural side-eye. Both pupils shift about6pixels LEFT and2pixels DOWN at image resolution, upper/lower eyelids may adjust minimally for a natural glance. No crossedeyes, new iris, beautification or expressionchange. Mouth stays gentlyclosed exactlyasinput, gaze cautiousandfatigued. All objects/background, threegreenscreens, grayhoodie, bluebadge, leftwristwatch, leftblanknote, rightmonitorBACK unchanged. No writing, logo or UI. SameONEphoto, not collage, no animated/arrowsdiagram. This minimal eye-direction endpoint replaces a head-turn morph that failed QA; only the eyes should differ.",
+    "method": "built-in image_gen",
+    "output": "assets/F7-03_v4.png",
+    "role": "SOURCE_STILL_NOT_GENERATED_VIDEO",
+    "bytes": 1831584,
+    "sha256": "a84435d70477ceb544460ba5f8150f70552cfc679f91872f6648267b0bf381cd",
+    "dimensions": [
+      1939,
+      811
+    ]
+  }
+]
