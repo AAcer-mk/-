@@ -1,0 +1,54 @@
+{
+  "schema": "silent-protocol-r6-sound",
+  "source_mix_sha256": "dea9e85e012b9a75cf1d3327c63126df5a86be4bb799b2257a1787144e54f645",
+  "new_picture_frames": 0,
+  "picture_H264_elementary_sha256": "62d972476af0d98b7473573b797a8ba8c16d9695cca5c7fc5359a7a30004bb5c",
+  "picture_stream_byte_identical": true,
+  "E7_audio_sample_frames": 3120000,
+  "E7_audio_seconds": 65,
+  "E7_original_global_seconds": [
+    705,
+    770
+  ],
+  "exterior_stamp_count": 1,
+  "exterior_stamp_absolute_seconds": 709.2,
+  "lights_first_ON_seconds": 709.2083333333334,
+  "stamp_to_picture_offset_seconds": 0.008333333333333331,
+  "heartbeat_hard_stop_seconds": 765.125,
+  "heartbeat_stop_sample": 2886000,
+  "heartbeat_samples_after_stop_all_zero": true,
+  "printing_after_stop_RMS": 0.003155074699986502,
+  "mix_peak_dBFS": -10.608954798051656,
+  "four_times_oversampled_peak_dBFS": -10.593995423325921,
+  "clipped_samples": 0,
+  "radio_source": "Inherited mixed window, same Chinese line and time; 240–3600Hz EQ and12ms edge ramp; NOT isolated dialogue or new voice acting",
+  "radio_candidates": 3,
+  "selected_radio_candidate": 2,
+  "radio_residual_background_final_QA": "PENDING",
+  "outside_E7_PCM_exact": true,
+  "before_region": {
+    "sample_frames": 33840000,
+    "pcm_sha256": "0aea1f2d4d47f3d0f40150d9fea305c6110b0fce75f0a076f69e3c3aa5f586b7",
+    "nonzero_samples": 55652883
+  },
+  "after_region": {
+    "sample_frames": 15600000,
+    "pcm_sha256": "8080c30d35cd9da1a7613ddc5eea5e168040ba05a06351346371f793ec9de205",
+    "nonzero_samples": 25753254
+  },
+  "END_03": {
+    "sample_frames": 288000,
+    "pcm_sha256": "0d2039545940e7775d22c8d82079282c91be29af0203faa77e2bff78a67bed0f",
+    "nonzero_samples": 0
+  },
+  "full_mix": "Verified local regenerable derivative, not duplicated in binary delivery; script reconstructs from original B10 plus saved E7 segment",
+  "cue_count": 260,
+  "formal_director_sound_acceptance": false,
+  "subjective_listening_final_QA": "PENDING",
+  "E7_picture_frames": 1019,
+  "E7_missing_picture_frames": 541,
+  "E7_complete": false,
+  "final_film_completed": false,
+  "final_flac_complete_decode": "PASS:14 final files; pending artifacts excluded",
+  "next_priority": "E7-02/03/06 continuous actor action once video capability available; sound listening and radio background review"
+}
