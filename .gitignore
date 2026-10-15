@@ -1,0 +1,15 @@
+# Restored inherited payloads are already preserved in their SHA manifests.
+/production/sol61/art/
+/production/sol61/assets/
+/production/sol61/output/
+/production/sol61_r*/assets/
+/production/sol61_r*/render*/
+/production/sol61_r*/verified-output/
+/production/sol61_r*/sound-v*/
+/production/sol61_r*/qa/*.png
+/production/sol61_r*/qa/*.jpg
+/production/sol61_r3/qa/
+# Content-addressed render cache; curated deliverables are committed separately.
+/production/codex_pipeline/output/
+__pycache__/
+*.pyc

@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "film": "SILENT PROTOCOL",
+  "branch": "codex/animation-pipeline-20261015",
+  "source_commit": "7fbcaebba95371d6f7cb16bb75a7b8f6e29c1edb",
+  "final_film_completed": false,
+  "timeline": {
+    "fps": 24,
+    "frames": 26280,
+    "seconds": 1095
+  },
+  "recovery": {
+    "baseline_parts": 2870,
+    "baseline_files": 905,
+    "sha256_pass": true,
+    "round_2_to_6_files": 186
+  },
+  "audit": "RUNNING_FULL_MEDIA_CHECKS",
+  "animation_pipeline": "RUNNING_PHYSICAL_SCENE_COMPARISONS",
+  "new_accepted_final_shots": [],
+  "next_tasks": [
+    "Finish media QA and real playback comparisons",
+    "Render F4-01 as real 3D at authored 192 frames",
+    "Conform original audio by exact sample range",
+    "Extend supported 3D screen and printer inserts"
+  ],
+  "remaining_actor_requirements": [
+    "Identity-consistent rigged characters",
+    "E6 pillow throw and same-action slow replay",
+    "E7 walk, hallway follow and paper pickup",
+    "Facial performance and phoneme synchronization"
+  ],
+  "automatic_cross_session_execution": false
+}
