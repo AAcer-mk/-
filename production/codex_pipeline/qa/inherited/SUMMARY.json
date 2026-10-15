@@ -1,0 +1,49 @@
+{
+  "audio_video_files": 128,
+  "full_decode_pass": 125,
+  "failed_files": [
+    {
+      "path": "/workspace/silent-protocol-source/evidence/B05_failed_ipod_mux_FLAC.m4a",
+      "error": "[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5612e1b62000] moov atom not found\n/workspace/silent-protocol-source/evidence/B05_failed_ipod_mux_FLAC.m4a: Invalid data found when processing input\n"
+    },
+    {
+      "path": "/workspace/silent-protocol-source/output/sections/F5_picture_clean_v4_1080p.mp4",
+      "error": "[mov,mp4,m4a,3gp,3g2,mj2 @ 0x563dbe97c040] moov atom not found\n/workspace/silent-protocol-source/output/sections/F5_picture_clean_v4_1080p.mp4: Invalid data found when processing input\n"
+    },
+    {
+      "path": "/workspace/silent-protocol-source/qa/END03_ALAC_CODEC_REHEARSAL_NOT_FILM.mp4",
+      "error": "[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55c3fa7de040] moov atom not found\n/workspace/silent-protocol-source/qa/END03_ALAC_CODEC_REHEARSAL_NOT_FILM.mp4: Invalid data found when processing input\n"
+    }
+  ],
+  "images": 562,
+  "images_pass": 558,
+  "failed_images": [
+    {
+      "path": "/workspace/silent-protocol-source/evidence/E3-08_v1_DERIVATIVE_TRUNCATED.png",
+      "decode": "FAIL",
+      "error": "image file is truncated"
+    },
+    {
+      "path": "/workspace/silent-protocol-source/evidence/E6-02_v2_DERIVATIVE_TRUNCATED.png",
+      "decode": "FAIL",
+      "error": "image file is truncated"
+    },
+    {
+      "path": "/workspace/silent-protocol-source/evidence/E9-07_v2_TRUNCATED_original.png",
+      "decode": "FAIL",
+      "error": "image file is truncated"
+    },
+    {
+      "path": "/workspace/silent-protocol-source/evidence/E9-07_v1_DERIVATIVE_TRUNCATED.png",
+      "decode": "FAIL",
+      "error": "image file is truncated"
+    }
+  ],
+  "motion_measured_files": 81,
+  "motion_is_not_acceptance": true,
+  "manually_viewed_contacts": [
+    "f42f700e91a06518.jpg",
+    "d5ddae0360d9b12f.jpg",
+    "0a8eb3aa24b5a75c.jpg"
+  ]
+}

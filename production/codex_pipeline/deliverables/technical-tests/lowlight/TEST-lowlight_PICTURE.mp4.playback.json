@@ -1,0 +1,14 @@
+{
+  "file": "/workspace/-/production/codex_pipeline/output/TEST-lowlight/f0ce96375e2d/TEST-lowlight_PICTURE.mp4",
+  "width": 640,
+  "height": 360,
+  "duration": 1,
+  "ended": true,
+  "time": 1,
+  "error": null,
+  "decodedFrames": 24,
+  "droppedFrames": 0,
+  "callbacks": 23,
+  "status": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+  "creative_acceptance": false
+}

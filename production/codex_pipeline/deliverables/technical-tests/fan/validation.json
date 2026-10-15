@@ -1,0 +1,13 @@
+{
+  "path": "/workspace/-/production/codex_pipeline/output/TEST-fan/4dedf72540b5/TEST-fan_PICTURE.mp4",
+  "sha256": "7b8670a495184060784a709b2e885c5b1d33859695ed0ef829bd16b160058c8a",
+  "bytes": 277387,
+  "frames": 24,
+  "fps": "24/1",
+  "width": 640,
+  "height": 360,
+  "full_decode": "PASS",
+  "visual_acceptance": "PENDING_CONTACT_AND_TEMPORAL_REVIEW",
+  "voice_acceptance": "NOT_EVALUATED",
+  "final_film": false
+}

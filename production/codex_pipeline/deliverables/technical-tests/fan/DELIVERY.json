@@ -1,0 +1,83 @@
+{
+  "shot": "TEST-fan",
+  "type": "TECHNICAL_TEST",
+  "configuration": {
+    "shot": "TEST-fan",
+    "mode": "fan",
+    "frames": 24,
+    "width": 640,
+    "samples": 8,
+    "engine": "BLENDER_EEVEE_NEXT",
+    "scene_script": "29aca3b7ae895a9327b8d2eba10e0e16dc70aea468052342003019b9ddcec6a9",
+    "runner": "b067334e5a32665b077022e91a8dd1b7e18db64a597ba7532e18cfa0f1cf1317",
+    "timeline": "97e3005fac111a52001d73df6349a187e3422fe4df10a6ee4e30edf6840ad799",
+    "sample": true
+  },
+  "all_files": [
+    {
+      "path": "SCENE_SOURCE.json",
+      "bytes": 178,
+      "sha256": "0bcad4bc4a6b1e72c8a6287e0816f99afae4c24e20d212b2693324067827cb7d"
+    },
+    {
+      "path": "TEST-fan_PICTURE.mp4",
+      "bytes": 277387,
+      "sha256": "7b8670a495184060784a709b2e885c5b1d33859695ed0ef829bd16b160058c8a"
+    },
+    {
+      "path": "TEST-fan_PICTURE.mp4.playback.json",
+      "bytes": 342,
+      "sha256": "7cfb7a96c3e76a926ef5cecab718974d3a9c6322c2bcc6ca6e6b284028eec996"
+    },
+    {
+      "path": "TEST-fan_PICTURE.mp4.playback.png",
+      "bytes": 563221,
+      "sha256": "60c69ed94e62aea6dadfa09e2dc87c329ae0e7706535750830512eaab4760905"
+    },
+    {
+      "path": "keyframes/000001.png",
+      "bytes": 256113,
+      "sha256": "8dbee091540d84877d5cb045d5ee71fe70edd5b59f128a8ea70da93270811d1e"
+    },
+    {
+      "path": "keyframes/000012.png",
+      "bytes": 258774,
+      "sha256": "19aa6726da04a6046167f08c42d9b2e5fc12921cd20613e456fb420ae28f6c16"
+    },
+    {
+      "path": "keyframes/000024.png",
+      "bytes": 257394,
+      "sha256": "9bff0dea9783550c09c4fc775fa9982ed9981257d43990d648f36b31147ee983"
+    },
+    {
+      "path": "scene-source.blend",
+      "bytes": 2599940,
+      "sha256": "16618d0d00122fe977d4d0f14ba2f7d1d94585413b2fd1491e3ad09b90646720"
+    },
+    {
+      "path": "scene.blend",
+      "bytes": 2572580,
+      "sha256": "6e3327490024420925d30c0cd04ef43ef5926bb6d1ea779b7c2b2cd73fe7ac89"
+    },
+    {
+      "path": "state.json",
+      "bytes": 3151,
+      "sha256": "5ccf3a3b57f60fa043f94dfaec23c0cf0937d891b695ddd08f80ef7134934012"
+    },
+    {
+      "path": "timing.json",
+      "bytes": 1422,
+      "sha256": "af3c74761cd67a7b0d0047b4b2c5dcfc0b04d67816b869bbb6bcc18d2769d086"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 418,
+      "sha256": "7b521688470bba1ac4ca414e9db2edaf2c3bdc931b165b20a8ba6b848922a123"
+    }
+  ],
+  "final_film": false,
+  "director_final_acceptance": false,
+  "source_scene_portable": true,
+  "all_dynamic_textures_included": true,
+  "native_frame_cache_retained_locally": true
+}

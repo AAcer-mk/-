@@ -1,0 +1,14 @@
+{
+  "file": "/workspace/-/production/sol61_r6/sound-v2/E7_SEVEN_SHOT_SOUND_CONFORM_r6_1080P_BILINGUAL.mp4",
+  "width": 1920,
+  "height": 1080,
+  "duration": 42.458333,
+  "ended": true,
+  "time": 42.458333,
+  "error": null,
+  "decodedFrames": 1019,
+  "droppedFrames": 0,
+  "callbacks": 1017,
+  "status": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+  "creative_acceptance": false
+}

@@ -1,0 +1,13 @@
+{
+  "path": "/workspace/-/production/codex_pipeline/output/TEST-room/1f7f76949347/TEST-room_PICTURE.mp4",
+  "sha256": "63da6955340684814304a8020db40551b69dceab252a4746923729ccc07eb6dc",
+  "bytes": 64078,
+  "frames": 24,
+  "fps": "24/1",
+  "width": 640,
+  "height": 360,
+  "full_decode": "PASS",
+  "visual_acceptance": "PENDING_CONTACT_AND_TEMPORAL_REVIEW",
+  "voice_acceptance": "NOT_EVALUATED",
+  "final_film": false
+}

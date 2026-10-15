@@ -154,15 +154,35 @@ def main():
     p.add_argument('--output',type=Path,default=HERE/'output')
     commands=p.add_subparsers(dest='command',required=True)
     commands.add_parser('status');commands.add_parser('next')
+    auto=commands.add_parser('produce');auto.add_argument('--width',type=int,default=1920);auto.add_argument('--samples',type=int,default=8);auto.add_argument('--engine',default='BLENDER_EEVEE_NEXT',choices=['CYCLES','BLENDER_EEVEE_NEXT'])
     preview=commands.add_parser('samples');preview.add_argument('--width',type=int,default=640);preview.add_argument('--frames',type=int,default=48);preview.add_argument('--samples',type=int,default=12);preview.add_argument('--engine',default='BLENDER_EEVEE_NEXT',choices=['CYCLES','BLENDER_EEVEE_NEXT'])
     r=commands.add_parser('render');r.add_argument('shot',choices=list(MODES));r.add_argument('--width',type=int,default=1920);r.add_argument('--samples',type=int,default=32);r.add_argument('--engine',default='BLENDER_EEVEE_NEXT',choices=['CYCLES','BLENDER_EEVEE_NEXT'])
     args=p.parse_args();timeline=json.loads((args.source/'project/full_picture_timeline.json').read_text())
     if args.command in ['status','next']:
+        completed=[]
+        for shot in MODES:
+            for state_file in (args.output/shot).glob('*/state.json'):
+                state=json.loads(state_file.read_text())
+                picture=state.get('picture',{})
+                path=Path(picture.get('path',''))
+                if path.is_file() and digest(path)==picture.get('sha256'):completed.append(shot);break
         print(json.dumps({'supported_shots':{r['id']:{'frames':r['end_frame']-r['start_frame'],'mode':MODES[r['id']]} for r in timeline if r['id'] in MODES},
-                          'next':'F4-01','actor_rig_status':'UNAPPROVED_TECHNICAL_STUDY','final_film':False},indent=2));return
+                          'next':next((s for s in MODES if s not in completed),None),'technically_rendered':completed,
+                          'actor_rig_status':'UNAPPROVED_TECHNICAL_STUDY','final_film':False},indent=2));return
     if args.command=='samples':
         for mode in ['room','screen','interaction','lowlight','fan']:
             render(args.source,args.output,'TEST-'+mode,mode,args.frames,args.width,args.samples,engine=args.engine,sample=True)
+    elif args.command=='produce':
+        for shot,mode in MODES.items():
+            row=next(r for r in timeline if r['id']==shot)
+            folder=render(args.source,args.output,shot,mode,row['end_frame']-row['start_frame'],args.width,args.samples,engine=args.engine)
+            run([sys.executable,HERE/'conform_audio.py','--source',args.source,'--shot',shot,
+                 '--picture',folder/(shot+'_PICTURE.mp4'),'--output',folder/'conformed',
+                 '--e7-mix',HERE.parent/'sol61_r6/sound-v2/E7_SOUND_CONFORM_r6_65S.flac'])
+            run(['node',HERE/'browser_playback.cjs',folder/'conformed'/(shot+'_3D_REVIEW.mp4')])
+            atomic_json(args.output/'queue.json',{'last_finished':shot,'folder':str(folder),'final_acceptance':False,
+                        'remaining_implemented':[s for s in list(MODES)[list(MODES).index(shot)+1:]],
+                        'unsupported_actor_tasks':'Require identity-consistent rig and verified performance'})
     else:
         row=next(r for r in timeline if r['id']==args.shot)
         render(args.source,args.output,args.shot,MODES[args.shot],row['end_frame']-row['start_frame'],args.width,args.samples,engine=args.engine)

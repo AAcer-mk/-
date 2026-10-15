@@ -1,0 +1,203 @@
+{
+  "shot": "TEST-screen",
+  "type": "TECHNICAL_TEST",
+  "configuration": {
+    "shot": "TEST-screen",
+    "mode": "screen",
+    "frames": 24,
+    "width": 640,
+    "samples": 8,
+    "engine": "BLENDER_EEVEE_NEXT",
+    "scene_script": "29aca3b7ae895a9327b8d2eba10e0e16dc70aea468052342003019b9ddcec6a9",
+    "runner": "4a083d9ff71dee7c59b979b7b29430d35541ed4f4c2505c85ea6f56e5951a5e8",
+    "timeline": "97e3005fac111a52001d73df6349a187e3422fe4df10a6ee4e30edf6840ad799",
+    "sample": true
+  },
+  "all_files": [
+    {
+      "path": "SCENE_SOURCE.json",
+      "bytes": 178,
+      "sha256": "f7dad5a10e94e4c1ba229eef847113939776d9be1a85e69b448cd5c71b19c983"
+    },
+    {
+      "path": "TEST-screen_PICTURE.mp4",
+      "bytes": 39605,
+      "sha256": "6ed0e5631bff742f31280bb42b7efe6149e7558283e2a901775be90702435cb0"
+    },
+    {
+      "path": "TEST-screen_PICTURE.mp4.playback.json",
+      "bytes": 348,
+      "sha256": "d5448e3e802d34684cd301d00f7fb4da912218d7a9f5e9df4133d273fada496c"
+    },
+    {
+      "path": "TEST-screen_PICTURE.mp4.playback.png",
+      "bytes": 157834,
+      "sha256": "f202611673adafcc4e727cf14788e07d15ca297583a1c5fa21c4bf6a003c3dec"
+    },
+    {
+      "path": "keyframes/000001.png",
+      "bytes": 148520,
+      "sha256": "d3fb273bd07ef42392b2f0a57f15c6ccef510c56556a56f31513275defc0d336"
+    },
+    {
+      "path": "keyframes/000012.png",
+      "bytes": 149782,
+      "sha256": "a87e606264b55a0ca794d4ece11ae387f24e383fbfa307a2ac351021dc8b0b3d"
+    },
+    {
+      "path": "keyframes/000024.png",
+      "bytes": 151324,
+      "sha256": "25fcac866b6ce2dabf5794683ecef94279b450c07f817982588c817cd117b7ff"
+    },
+    {
+      "path": "scene-source.blend",
+      "bytes": 550672,
+      "sha256": "61ca3d1c048a9190b736cc7fed12b229687a55d780b206a1080587b519fb3ad7"
+    },
+    {
+      "path": "scene.blend",
+      "bytes": 523312,
+      "sha256": "633eb92f5336049f22a9d0fc484b5c91ec0987c6466f5a5aeb197197e5d46884"
+    },
+    {
+      "path": "state.json",
+      "bytes": 3163,
+      "sha256": "56d140374309d530560c775abd07d3f4dfda5faa2eb3f688f7e661f8f642a6d9"
+    },
+    {
+      "path": "textures/000001.png",
+      "bytes": 12596,
+      "sha256": "65ef0e4c9fb87a9842fcd0d3e1f7afd03ac7be22f1a7914209172c9957145040"
+    },
+    {
+      "path": "textures/000002.png",
+      "bytes": 12583,
+      "sha256": "c23d9360b87dbf01b846d72420645e0f022668ac1a34a9044d457ae570313c05"
+    },
+    {
+      "path": "textures/000003.png",
+      "bytes": 12557,
+      "sha256": "4a2eb8e1c82cd19cd41658d5645f94de9837202610733fc7cf5a4cc1d59309f7"
+    },
+    {
+      "path": "textures/000004.png",
+      "bytes": 12551,
+      "sha256": "4ff7ce2c172fe85ea58172663ad809022694e83ea98358011c0fde2c0512fae9"
+    },
+    {
+      "path": "textures/000005.png",
+      "bytes": 12560,
+      "sha256": "4aac4b9fb6045bf57c88c4fcd97687fe3fbf3afc4466e844117bd243c9c87239"
+    },
+    {
+      "path": "textures/000006.png",
+      "bytes": 12584,
+      "sha256": "c0a07d65cd64f4a98be1a99399ea43036cbdc53251793bf4b55b90d974a14011"
+    },
+    {
+      "path": "textures/000007.png",
+      "bytes": 12586,
+      "sha256": "ff8677def6bbd9ca66f0ba2590448c848ad9911af38ed58cd704433e51e590ee"
+    },
+    {
+      "path": "textures/000008.png",
+      "bytes": 12585,
+      "sha256": "794b9dd16f3d01ce97bb77c8eb57d30a0511375267cc4b60198f163c261abee0"
+    },
+    {
+      "path": "textures/000009.png",
+      "bytes": 12572,
+      "sha256": "beebd4a2a5625f297e3f6facd241574e8d29659ce3fe50da2f73d1fad2193c95"
+    },
+    {
+      "path": "textures/000010.png",
+      "bytes": 12556,
+      "sha256": "fe9394426ae0eab1cb557b9946fc5e3c12769559566af29da27ca4c1defcfb6e"
+    },
+    {
+      "path": "textures/000011.png",
+      "bytes": 12558,
+      "sha256": "0f9e3fe1755e4fbc0b7c9946837980bfa750aaed2d745af10e58ad965b31db8e"
+    },
+    {
+      "path": "textures/000012.png",
+      "bytes": 12572,
+      "sha256": "d69bea5bd61f33687796d5e22ebbf74afee28118c92ea9b9200bc87a378bdee7"
+    },
+    {
+      "path": "textures/000013.png",
+      "bytes": 12582,
+      "sha256": "010b82539b9af8dbaa67681f3f8db49566582c089244f3638fb0bb49b75e976e"
+    },
+    {
+      "path": "textures/000014.png",
+      "bytes": 12583,
+      "sha256": "e26c198477687a43d6d9d31d16a3730e7bd5dac2ff3b04056df2a0bf3d7d2479"
+    },
+    {
+      "path": "textures/000015.png",
+      "bytes": 12583,
+      "sha256": "930344af06743866c9e5c7095f1f350f174dbf6d5591728e6ab540db984a6cc0"
+    },
+    {
+      "path": "textures/000016.png",
+      "bytes": 12558,
+      "sha256": "831130f71b97e9b704160b66aaafdf5bd80ab969731013cb4cf52ba2728fc78e"
+    },
+    {
+      "path": "textures/000017.png",
+      "bytes": 12558,
+      "sha256": "6d707bbb179891d86b40c7e9a44d8733355a24c7b8ffabf7dff46a4b9642628b"
+    },
+    {
+      "path": "textures/000018.png",
+      "bytes": 12558,
+      "sha256": "43bd91a0214657959f848b0a05516cbeadedda41e0c49ac3729c98b3cea9942e"
+    },
+    {
+      "path": "textures/000019.png",
+      "bytes": 12583,
+      "sha256": "d1001254629fdd559114648e45a5daf5e0cb6f548232fb1af29eadfa002b11c0"
+    },
+    {
+      "path": "textures/000020.png",
+      "bytes": 12595,
+      "sha256": "65166e8f89aae32b8610dc9ad35a9143484f21d225b242a3a42f487e63b5a6f8"
+    },
+    {
+      "path": "textures/000021.png",
+      "bytes": 12582,
+      "sha256": "7e861bc642f67d41618bddd39342a2f25255b976645c5c1dd5c809b8078b3a62"
+    },
+    {
+      "path": "textures/000022.png",
+      "bytes": 12557,
+      "sha256": "610d3bb80a11fa4120d1f823c24c48324307ac36d397db4b18997a41e726dcb8"
+    },
+    {
+      "path": "textures/000023.png",
+      "bytes": 12553,
+      "sha256": "7024a6c2992da045766810ac07440762cd3cc394fcbd38dfac46a2f8ec448507"
+    },
+    {
+      "path": "textures/000024.png",
+      "bytes": 12555,
+      "sha256": "269b627aba9dfda4b0e66388f68afd8b51b1c7ad7ff9ff33424fa17adc20e6c4"
+    },
+    {
+      "path": "timing.json",
+      "bytes": 1426,
+      "sha256": "401580b6bc6d68c2b272735a3611aa1497dadf64a4d0064f9b99d2751fd08fdd"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 423,
+      "sha256": "340f9171155ef70acebfef243a0d7d5ac1bf87b4dc1494ab3a7de80d763e7bfc"
+    }
+  ],
+  "final_film": false,
+  "director_final_acceptance": false,
+  "source_scene_portable": true,
+  "all_dynamic_textures_included": true,
+  "native_frame_cache_retained_locally": true
+}

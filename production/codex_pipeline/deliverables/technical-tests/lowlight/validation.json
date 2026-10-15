@@ -1,0 +1,13 @@
+{
+  "path": "/workspace/-/production/codex_pipeline/output/TEST-lowlight/f0ce96375e2d/TEST-lowlight_PICTURE.mp4",
+  "sha256": "ba09e5af8aab69cf60036fe70a8172afba13d5ac8af39e2ee9f8e9e6e3ac19c9",
+  "bytes": 40460,
+  "frames": 24,
+  "fps": "24/1",
+  "width": 640,
+  "height": 360,
+  "full_decode": "PASS",
+  "visual_acceptance": "PENDING_CONTACT_AND_TEMPORAL_REVIEW",
+  "voice_acceptance": "NOT_EVALUATED",
+  "final_film": false
+}

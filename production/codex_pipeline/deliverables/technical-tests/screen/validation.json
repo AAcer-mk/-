@@ -1,0 +1,13 @@
+{
+  "path": "/workspace/-/production/codex_pipeline/output/TEST-screen/6094221cb1bc/TEST-screen_PICTURE.mp4",
+  "sha256": "6ed0e5631bff742f31280bb42b7efe6149e7558283e2a901775be90702435cb0",
+  "bytes": 39605,
+  "frames": 24,
+  "fps": "24/1",
+  "width": 640,
+  "height": 360,
+  "full_decode": "PASS",
+  "visual_acceptance": "PENDING_CONTACT_AND_TEMPORAL_REVIEW",
+  "voice_acceptance": "NOT_EVALUATED",
+  "final_film": false
+}

@@ -1,0 +1,4486 @@
+[
+  {
+    "path": "/workspace/silent-protocol-source/qa/B06_E2_v4_actual_decoded_05.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B09_E5_encoded_07.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B06_E2_montage_decoded_frame_05.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B10_F6_encoded_03.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/artbook_source_page25.png",
+    "decode": "PASS",
+    "size": [
+      842,
+      596
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B08_F5_motion_contact.jpg",
+    "decode": "PASS",
+    "size": [
+      1280,
+      770
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B10_F6_exact_frame_518.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B08_F5_v5_actual_21.1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B06_geneva_contact_review_03.jpg",
+    "decode": "PASS",
+    "size": [
+      1800,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/F1_rendered_frame.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/workprint_subtitle_frame.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B09_E5_preencode_contact.jpg",
+    "decode": "PASS",
+    "size": [
+      1440,
+      810
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B06_E2_v4_actual_decoded_02.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B09_E5_encoded_05.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B10_F6_encoded_06.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B09_E5_encoded_02.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B09_E5_encoded_01.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B06_E2_v4_actual_decoded_04.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B07_E4-06_decoded.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B10_F6_encoded_04.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B06_E2_montage_decoded_frame_02.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B06_geneva_contact_review_02.jpg",
+    "decode": "PASS",
+    "size": [
+      1800,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B10_F6_encoded_09.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B06_geneva_contact_review_01.jpg",
+    "decode": "PASS",
+    "size": [
+      1800,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B06_E2_typography_revision_frame_01.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B08_E5-01_actual.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/candidate_contact_F234_000.jpg",
+    "decode": "PASS",
+    "size": [
+      1440,
+      990
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B09_E5_encoded_contact.jpg",
+    "decode": "PASS",
+    "size": [
+      1440,
+      810
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B10_F6_encoded_01.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B09_E5_encoded_04.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B10_F6_exact_frame_519.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B06_E2_montage_decoded_frame_04.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B09_E5_encoded_03.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B07_E4-05_decoded_3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B10_F6_encoded_00.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B10_F6_encoded_07.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/candidate_contact_E1_000.jpg",
+    "decode": "PASS",
+    "size": [
+      1800,
+      1020
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B10_F6_encoded_02.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B09_E5_encoded_06.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/candidate_contact_E4_000.jpg",
+    "decode": "PASS",
+    "size": [
+      1440,
+      990
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B07_E4-05_decoded_2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B06_E2_typography_revision_frame_05.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B08_F5_actual_21.10.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B08_F5_v5_actual_23.5.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B10_F6_preencode_contact.jpg",
+    "decode": "PASS",
+    "size": [
+      1440,
+      810
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/artbook_source_page14.png",
+    "decode": "PASS",
+    "size": [
+      842,
+      596
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B06_E2_montage_decoded_frame_01.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B06_E2_v4_actual_decoded_01.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B08_F5_actual_23.50.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B10_F6_encoded_contact.jpg",
+    "decode": "PASS",
+    "size": [
+      1440,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B06_E2_montage_decoded_frame_03.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B06_E2_typography_revision_frame_04.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B06_E2_typography_revision_frame_03.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B08_F5_actual_22.65.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/artbook_source_page1.png",
+    "decode": "PASS",
+    "size": [
+      842,
+      596
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B10_F6_encoded_08.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B06_E2_v4_actual_decoded_03.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B10_F6_encoded_11.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B10_F6_encoded_10.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B07_E4-08_decoded.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/candidate_contact_E1_018.jpg",
+    "decode": "PASS",
+    "size": [
+      1800,
+      1020
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/candidate_contact_F234_018.jpg",
+    "decode": "PASS",
+    "size": [
+      1440,
+      990
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B09_E5_encoded_08.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B09_E5_encoded_00.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B08_F5_actual_22.50.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B07_E4-05_decoded_1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B08_restored_images_contact.jpg",
+    "decode": "PASS",
+    "size": [
+      1100,
+      700
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B06_E2_typography_revision_frame_02.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/qa/B10_F6_encoded_05.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/evidence/E3-08_v1_DERIVATIVE_TRUNCATED.png",
+    "decode": "FAIL",
+    "error": "image file is truncated"
+  },
+  {
+    "path": "/workspace/silent-protocol-source/evidence/E6-02_v2_DERIVATIVE_TRUNCATED.png",
+    "decode": "FAIL",
+    "error": "image file is truncated"
+  },
+  {
+    "path": "/workspace/silent-protocol-source/evidence/E9-07_v2_TRUNCATED_original.png",
+    "decode": "FAIL",
+    "error": "image file is truncated"
+  },
+  {
+    "path": "/workspace/silent-protocol-source/evidence/E9-07_v1_DERIVATIVE_TRUNCATED.png",
+    "decode": "FAIL",
+    "error": "image file is truncated"
+  },
+  {
+    "path": "/workspace/silent-protocol-source/docs/SILENT_PROTOCOL_POSTER.png",
+    "decode": "PASS",
+    "size": [
+      2400,
+      3600
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/characters/zhou_yu_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/characters/cody_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/characters/han_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/characters/amara_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/characters/xiaoman_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/characters/arthur_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/characters/ajie_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/characters/ethan_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/characters/lin_wu_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/characters/sato_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/characters/jiwoo_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/characters/henrik_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/characters/diane_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/scenes/hangzhou_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/scenes/tokyo_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/scenes/london_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/scenes/geneva_b4_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/scenes/texas_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/scenes/san_francisco_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/scenes/beijing_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/scenes/shenzhen_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/scenes/shanghai_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/scenes/seoul_restored.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-06_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-10_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E6-03_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E2-08_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E3-03_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E5-06_v1.png",
+    "decode": "PASS",
+    "size": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E2-02_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      940
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-02_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-04_v4.png",
+    "decode": "PASS",
+    "size": [
+      1182,
+      1330
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F1-01_v2_new.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F6-04_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-04_v5.png",
+    "decode": "PASS",
+    "size": [
+      941,
+      1672
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F5-04_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-06_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E6-03_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-09_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-01_v6.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F4-02_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-05_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-06_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-04_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-08_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-05_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-07_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-01_v2.png",
+    "decode": "PASS",
+    "size": [
+      941,
+      1672
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-02_v1.png",
+    "decode": "PASS",
+    "size": [
+      1916,
+      821
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E3-02_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-04_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-07_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F2-04_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-03_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F4-01_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-03_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F2-03_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-04_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E3-01_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F4-03_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E2-06_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E5-01_v6.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F3-01_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-10_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-03_v4.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F6-03_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E3-07_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-02_v3.png",
+    "decode": "PASS",
+    "size": [
+      1930,
+      815
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-01_v1.png",
+    "decode": "PASS",
+    "size": [
+      941,
+      1672
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-10_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E3-07_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-06_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E5-04_v1.png",
+    "decode": "PASS",
+    "size": [
+      1776,
+      1001
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E2-01_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-03_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-05_v4.png",
+    "decode": "PASS",
+    "size": [
+      965,
+      1629
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-03_v6.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E5-06_v2.png",
+    "decode": "PASS",
+    "size": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E5-01_v5.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-05_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-07_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E5-06_v3.png",
+    "decode": "PASS",
+    "size": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E5-08_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F6-02_v1.png",
+    "decode": "PASS",
+    "size": [
+      1940,
+      811
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F6-02_v2.png",
+    "decode": "PASS",
+    "size": [
+      1935,
+      812
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E2-05_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-02_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F6-03_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-07_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F1-01_v1.png",
+    "decode": "PASS",
+    "size": [
+      1935,
+      812
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-06_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-03_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E5-08_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-04_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F1-01_v2.png",
+    "decode": "PASS",
+    "size": [
+      1933,
+      813
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E2-01_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-01_v2.png",
+    "decode": "PASS",
+    "size": [
+      1916,
+      821
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E6-01_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F2-02_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E6-04_v1.png",
+    "decode": "PASS",
+    "size": [
+      1447,
+      1087
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-03_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-08_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-06_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F3-03_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F3-01_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E3-01_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F2-02_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E5-01_v4.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E3-06_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E2-09_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      940
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E3-07_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-02_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F2-02_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-09_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E6-01_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F4-02_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E6-04_v2.png",
+    "decode": "PASS",
+    "size": [
+      1447,
+      1087
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-02_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      940
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F6-03_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-05_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-05_v3.png",
+    "decode": "PASS",
+    "size": [
+      941,
+      1672
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-05_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E2-01_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-01_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-04_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F1-03_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E2-06_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F4-03_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F6-02_v3.png",
+    "decode": "PASS",
+    "size": [
+      1935,
+      812
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-04_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-06_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-06_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      940
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F1-03_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F6-04_v4.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-09_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F4-01_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E3-05_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-09_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-07_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      940
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E3-05_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-09_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E2-05_v1.png",
+    "decode": "PASS",
+    "size": [
+      1669,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E2-05_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E2-08_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-01_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-06_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F5-02_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E3-03_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F5-02_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F5-04_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E2-09_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F3-03_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F5-02_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-01_v3.png",
+    "decode": "PASS",
+    "size": [
+      941,
+      1672
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E6-01_v3.png",
+    "decode": "PASS",
+    "size": [
+      1669,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F1-03_v1.png",
+    "decode": "PASS",
+    "size": [
+      1935,
+      812
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-03_v5.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E5-04_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F5-04_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E5-03_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F4-03_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F2-03_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F3-01_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E6-03_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F4-02_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E2-02_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      940
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E5-01_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F2-04_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E5-04_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F1-01_v3.png",
+    "decode": "PASS",
+    "size": [
+      1933,
+      814
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E2-09_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-05_v3.png",
+    "decode": "PASS",
+    "size": [
+      1669,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-01_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E5-06_v4.png",
+    "decode": "PASS",
+    "size": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E3-02_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F6-04_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-03_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E3-03_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E2-06_v3.png",
+    "decode": "PASS",
+    "size": [
+      1671,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E2-02_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-01_v5.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E5-01_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E5-03_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E3-05_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F6-04_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-02_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-01_v4.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-03_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-05_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-01_v3.png",
+    "decode": "PASS",
+    "size": [
+      1916,
+      821
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-10_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-04_v6.png",
+    "decode": "PASS",
+    "size": [
+      1182,
+      1330
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-01_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-09_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F4-01_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E3-01_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-02_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-10_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-05_v2.png",
+    "decode": "PASS",
+    "size": [
+      965,
+      1629
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E5-08_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F2-04_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E3-02_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E5-01_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-10_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-02_v2.png",
+    "decode": "PASS",
+    "size": [
+      1916,
+      821
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E3-06_v2.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      940
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E2-08_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F2-03_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/C-03_v1.png",
+    "decode": "PASS",
+    "size": [
+      1916,
+      821
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E5-03_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-08_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F5-04_v4.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E1-07_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E3-06_v3.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/E4-03_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/art/candidates/F3-03_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      941
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E2-03_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E6-02_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F5-01_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E6-02_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F2-01_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/END-14_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F6-01_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E5-07_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E5-07_v4.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E8-02_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E6-09_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E1-04_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E6-02_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F8-03_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F7-02_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E8-08_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E2-04_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E4-09_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E9-06_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F9-04_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E6-08_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/END-03_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E1-08_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E7-04_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E5-02_v4.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/C-11_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F1-02_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E5-05_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F5-03_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E4-09_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/END-08_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E2-03_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E3-08_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F6-01_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/END-08_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E4-09_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E8-10_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F1-02_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E3-04_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E9-08_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/C-12_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E7-04_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E5-07_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F6-03_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E8-02_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/C-08_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E2-07_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E5-02_v6.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F7-02_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E9-02_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/END-14_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/C-11_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F3-02_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F3-02_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F6-03_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E8-10_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F1-04_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E9-02_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E9-06_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E4-07_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F6-01_v6.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/C-08_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E3-08_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E5-07_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E6-08_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F1-04_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E5-02_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F7-02_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F1-02_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E2-03_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E6-06_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E3-08_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/END-03_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E7-04_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/C-12_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E5-07_v6.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F5-01_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E6-06_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F6-03_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E9-06_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F5-03_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E1-08_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E4-07_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F5-01_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F9-04_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E1-08_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E9-08_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F1-04_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/C-08_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/END-08_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E2-07_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E9-07_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E5-05_v5.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E5-07_v5.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E9-08_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F5-03_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E4-07_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E6-06_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F8-03_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/END-14_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/C-12_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/C-11_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E8-02_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E5-02_v5.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E5-02_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F8-03_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F6-01_v5.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E7-05_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E9-07_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E1-04_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/END-03_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E2-04_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E7-05_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E2-04_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F6-01_v4.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E5-05_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E1-04_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E5-05_v4.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E5-05_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F2-01_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E5-02_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F9-04_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E7-07_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E9-02_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E5-05_v6.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E9-07_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F2-01_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F3-02_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E7-05_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E7-07_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E8-08_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E8-10_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E6-09_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E8-08_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E2-07_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E6-08_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E3-04_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E6-09_v2.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/F6-01_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E7-07_v1.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "/workspace/silent-protocol-source/graphics/native_candidates/E3-04_v3.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61/assets/E6-05_v2.png",
+    "decode": "PASS",
+    "size": [
+      941,
+      1672
+    ]
+  },
+  {
+    "path": "production/sol61/assets/E6-05_v1.png",
+    "decode": "PASS",
+    "size": [
+      941,
+      1672
+    ]
+  },
+  {
+    "path": "production/sol61/assets/E6-04_v3.png",
+    "decode": "PASS",
+    "size": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "path": "production/sol61/assets/E6-05_v3.png",
+    "decode": "PASS",
+    "size": [
+      941,
+      1672
+    ]
+  },
+  {
+    "path": "production/sol61_r2/verified-output/decoded_review.jpg",
+    "decode": "PASS",
+    "size": [
+      960,
+      1475
+    ]
+  },
+  {
+    "path": "production/sol61_r2/verified-output/E6_PART_A_decoded_21.0.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r2/verified-output/F7-02_decoded_4.0.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r2/verified-output/E6_PART_A_decoded_40.0.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r2/verified-output/F7-02_decoded_1.8.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r2/verified-output/F7-02_inherited_plate.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r2/verified-output/F7-02_decoded_7.9.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r2/verified-output/F7-02_decoded_0.2.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r2/verified-output/E6_PART_A_decoded_5.0.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r2/verified-output/E6_PART_A_decoded_29.0.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r2/verified-output/E6_PART_A_decoded_13.0.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r2/verified-output/E6_PART_A_decoded_44.0.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r2/assets/E6-07_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r2/assets/E6-07_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r2/assets/E6-07_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_decoded_frame_0535.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_decoded_frame_0456.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_decoded_frame_0359.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_decoded_frame_0180.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_decoded_contact.jpg",
+    "decode": "PASS",
+    "size": [
+      1440,
+      1800
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_decoded_frame_0360.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_decoded_frame_0038.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_decoded_frame_0168.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_decoded_frame_0418.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_decoded_frame_0394.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_corrected_motion_zoom.jpg",
+    "decode": "PASS",
+    "size": [
+      1110,
+      945
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_decoded_frame_0033.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_decoded_frame_0039.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_decoded_frame_0024.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_decoded_frame_0373.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_decoded_frame_0044.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_decoded_frame_0580.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_decoded_frame_0485.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_decoded_frame_0029.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v3/F7_decoded_frame_0160.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r3/qa/F7-01_end_handle_review.png",
+    "decode": "PASS",
+    "size": [
+      1410,
+      495
+    ]
+  },
+  {
+    "path": "production/sol61_r3/qa/F6_original_extra_handle_evidence.png",
+    "decode": "PASS",
+    "size": [
+      1732,
+      262
+    ]
+  },
+  {
+    "path": "production/sol61_r3/assets/F7-01_v1.png",
+    "decode": "PASS",
+    "size": [
+      1669,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r3/assets/F7-01_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r3/assets/F7-01_v2.png",
+    "decode": "PASS",
+    "size": [
+      1669,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r3/assets/F7-03_v3.png",
+    "decode": "PASS",
+    "size": [
+      1940,
+      811
+    ]
+  },
+  {
+    "path": "production/sol61_r3/assets/F7-01_v4.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r3/assets/F7-03_v1.png",
+    "decode": "PASS",
+    "size": [
+      1940,
+      810
+    ]
+  },
+  {
+    "path": "production/sol61_r3/assets/F7-03_v2.png",
+    "decode": "PASS",
+    "size": [
+      1940,
+      811
+    ]
+  },
+  {
+    "path": "production/sol61_r3/assets/F7-03_v4.png",
+    "decode": "PASS",
+    "size": [
+      1939,
+      811
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v2/F7_decoded_contact.jpg",
+    "decode": "PASS",
+    "size": [
+      1440,
+      1800
+    ]
+  },
+  {
+    "path": "production/sol61_r3/render-v2/F7_arm_transition_decoded_zoom.jpg",
+    "decode": "PASS",
+    "size": [
+      1110,
+      630
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/R4_ACTUAL_ENCODED_CONTACT.jpg",
+    "decode": "PASS",
+    "size": [
+      960,
+      2440
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/F6_SEQUENCE_PATCH_decoded_24.958.jpg.zoom.jpg",
+    "decode": "PASS",
+    "size": [
+      160,
+      200
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/E7_APPROVAL_INSERTS_decoded_12.900.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/F6_SEQUENCE_PATCH_decoded_13.000.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/F6_SEQUENCE_PATCH_decoded_24.958.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/E7_APPROVAL_INSERTS_decoded_10.100.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/F6_before_frame599.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/E7_APPROVAL_INSERTS_decoded_2.500.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/E7-02_HAN_REFERENCE_CONTACT.jpg",
+    "decode": "PASS",
+    "size": [
+      1440,
+      445
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/E7_PRINTER_LCD_decoded_5.400.jpg.zoom.jpg",
+    "decode": "PASS",
+    "size": [
+      830,
+      380
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/E7_NATIVE_CANDIDATES.jpg",
+    "decode": "PASS",
+    "size": [
+      960,
+      1525
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/F6_after_compositor_frame599.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/F6_SEQUENCE_PATCH_decoded_21.625.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/E7_CARD_decoded_3.850.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/E7_APPROVAL_INSERTS_decoded_6.150.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/F6_SEQUENCE_PATCH_decoded_21.580.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/F6_SEQUENCE_PATCH_decoded_23.000.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/E7_PRINTER_LCD_decoded_0.300.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/F6_SEQUENCE_PATCH_decoded_20.000.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/E7_APPROVAL_INSERTS_decoded_8.150.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/E7_PRINTER_LCD_decoded_5.400.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/F6_SEQUENCE_PATCH_decoded_19.000.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/assets/E7-07_printer_v2.png",
+    "decode": "PASS",
+    "size": [
+      1916,
+      821
+    ]
+  },
+  {
+    "path": "production/sol61_r4/assets/E7-02_han_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r4/assets/F6-04_extra_unit_removed_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r4/assets/E7-07_printer_v3.png",
+    "decode": "PASS",
+    "size": [
+      1916,
+      821
+    ]
+  },
+  {
+    "path": "production/sol61_r4/assets/E7-07_printer_v1.png",
+    "decode": "PASS",
+    "size": [
+      1916,
+      821
+    ]
+  },
+  {
+    "path": "production/sol61_r4/assets/E7-02_han_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r4/assets/E7-02_han_v1.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/native_refs/E7-04_NATIVE_CANDIDATE_v1.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/native_refs/E7-07_NATIVE_CANDIDATE_v2.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/native_refs/E7-05_NATIVE_CANDIDATE_v2.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/native_refs/E7-05_NATIVE_CANDIDATE_v1.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/native_refs/E7-04_NATIVE_CANDIDATE_v2.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/native_refs/E7-07_NATIVE_CANDIDATE_v3.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/native_refs/E7-07_NATIVE_CANDIDATE_v1.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/native_refs/E7-05_NATIVE_CANDIDATE_v3.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r4/render-v3/native_refs/E7-04_NATIVE_CANDIDATE_v3.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r5/assets/E7-09_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r5/assets/E7-01_v1_LIT.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "production/sol61_r5/assets/E7-09_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r5/assets/E7-08_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r5/assets/E7-08_v1.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r5/assets/E7-09_v3_RECEIVING.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r5/assets/E7-01_v2_UNLIT.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "production/sol61_r5/assets/E7-08_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r5/assets/E7-06_v1.png",
+    "decode": "PASS",
+    "size": [
+      1669,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r5/assets/E7-01_v3_ALT_LIT.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "production/sol61_r5/assets/E7-06_v3.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r5/assets/E7-06_v2.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-08_decoded_frame179.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-06_TYPED_HOLD_REFERENCE_v2.jpg",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-01_decoded_frame005.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-01_decoded_frame000.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-08_decoded_frame000.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-08_decoded_frame135.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-08_PAPER_MOTION_ZOOM_135.jpg",
+    "decode": "PASS",
+    "size": [
+      370,
+      425
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-08_GLM_ENCODED_ZOOM.jpg",
+    "decode": "PASS",
+    "size": [
+      500,
+      650
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-09_decoded_frame112.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-06_TYPED_REFERENCE_CONTACT.jpg",
+    "decode": "PASS",
+    "size": [
+      960,
+      610
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-08_decoded_frame045.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-08_PAPER_MOTION_ZOOM_000.jpg",
+    "decode": "PASS",
+    "size": [
+      370,
+      425
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/R5_SOURCE_CONTACT.jpg",
+    "decode": "PASS",
+    "size": [
+      960,
+      1830
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-08_PAPER_MOTION_ZOOM_090.jpg",
+    "decode": "PASS",
+    "size": [
+      370,
+      425
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-06_TYPED_HOLD_REFERENCE_v3.jpg",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-08_PAPER_MOTION_MASK.png",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-01_LIGHT_TRANSFER_MASK.png",
+    "decode": "PASS",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-09_decoded_frame000.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-08_PAPER_MOTION_ZOOM_045.jpg",
+    "decode": "PASS",
+    "size": [
+      370,
+      425
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-09_decoded_frame060.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/R5_ACTUAL_ENCODED_CONTACT.jpg",
+    "decode": "PASS",
+    "size": [
+      960,
+      2440
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-01_decoded_frame015.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-08_PAPER_MOTION_ZOOM_179.jpg",
+    "decode": "PASS",
+    "size": [
+      370,
+      425
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-09_decoded_frame100.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-09_decoded_frame024.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-08_decoded_frame090.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-01_decoded_frame179.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-06_TYPED_HOLD_REFERENCE_v1.jpg",
+    "decode": "PASS",
+    "size": [
+      1670,
+      942
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-09_decoded_frame012.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/sol61_r5/render-v2/E7-01_decoded_frame004.jpg",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  }
+]

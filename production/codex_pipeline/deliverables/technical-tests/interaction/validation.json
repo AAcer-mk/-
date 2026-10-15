@@ -1,0 +1,13 @@
+{
+  "path": "/workspace/-/production/codex_pipeline/output/TEST-interaction/be32713c3296/TEST-interaction_PICTURE.mp4",
+  "sha256": "dc449b2ffe57487cdc5db36da90d520880c8cbe39dda7b39e390a193268ddcb0",
+  "bytes": 113123,
+  "frames": 24,
+  "fps": "24/1",
+  "width": 640,
+  "height": 360,
+  "full_decode": "PASS",
+  "visual_acceptance": "PENDING_CONTACT_AND_TEMPORAL_REVIEW",
+  "voice_acceptance": "NOT_EVALUATED",
+  "final_film": false
+}

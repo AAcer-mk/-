@@ -1,0 +1,14 @@
+{
+  "file": "/workspace/-/production/sol61_r3/render-v3/F7_SEQUENCE_WORKPRINT_r3_1080P_BILINGUAL.mp4",
+  "width": 1920,
+  "height": 1080,
+  "duration": 25,
+  "ended": true,
+  "time": 25,
+  "error": null,
+  "decodedFrames": 600,
+  "droppedFrames": 1,
+  "callbacks": 597,
+  "status": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+  "creative_acceptance": false
+}

@@ -15,8 +15,8 @@
     "sha256_pass": true,
     "round_2_to_6_files": 186
   },
-  "audit": "RUNNING_FULL_MEDIA_CHECKS",
-  "animation_pipeline": "RUNNING_PHYSICAL_SCENE_COMPARISONS",
+  "audit": "COMPLETE_WITH_DOCUMENTED_FAILURES",
+  "animation_pipeline": "PHYSICAL_SCENE_COMPARISONS_VERIFIED",
   "new_accepted_final_shots": [],
   "next_tasks": [
     "Finish media QA and real playback comparisons",
@@ -30,5 +30,37 @@
     "E7 walk, hallway follow and paper pickup",
     "Facial performance and phoneme synchronization"
   ],
-  "automatic_cross_session_execution": false
+  "automatic_cross_session_execution": false,
+  "production_queue": "RUNNING_AUTHORED_SHOTS",
+  "inherited_QA": {
+    "images_checked": 562,
+    "images_pass": 558,
+    "media_checked": 128,
+    "media_full_decode_pass": 125,
+    "excluded_images": 4,
+    "excluded_media": 3,
+    "timeline_entries": 152
+  },
+  "tests": {
+    "playable_3D_samples": 5,
+    "sample_frames_each": 24,
+    "browser_samples_passed": 5,
+    "guard_tests_passed": 6,
+    "portable_scene_frame_12_pixel_exact": true,
+    "pinned_environment_pip_check": "PASS",
+    "END_03_zero_sample_frames": 288000
+  },
+  "queue_implemented": [
+    "F4-01",
+    "E7-07",
+    "F9-04"
+  ],
+  "active_render": {
+    "shot": "F4-01",
+    "status": "RENDERING",
+    "verified_frame_cache_count": 86,
+    "frames_required": 192,
+    "state": "production/codex_pipeline/output/F4-01/418008816882/state.json",
+    "not_final_output": true
+  }
 }

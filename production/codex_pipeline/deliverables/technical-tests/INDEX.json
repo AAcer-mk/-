@@ -1,0 +1,67 @@
+[
+  {
+    "test": "fan",
+    "video": "production/codex_pipeline/deliverables/technical-tests/fan/TEST-fan_PICTURE.mp4",
+    "sha256": "7b8670a495184060784a709b2e885c5b1d33859695ed0ef829bd16b160058c8a",
+    "frames": 24,
+    "duration": 1.0,
+    "resolution": [
+      640,
+      360
+    ],
+    "final_shot": false,
+    "quality": "TECHNICAL_TEST_ONLY"
+  },
+  {
+    "test": "screen",
+    "video": "production/codex_pipeline/deliverables/technical-tests/screen/TEST-screen_PICTURE.mp4",
+    "sha256": "6ed0e5631bff742f31280bb42b7efe6149e7558283e2a901775be90702435cb0",
+    "frames": 24,
+    "duration": 1.0,
+    "resolution": [
+      640,
+      360
+    ],
+    "final_shot": false,
+    "quality": "TECHNICAL_TEST_ONLY"
+  },
+  {
+    "test": "room",
+    "video": "production/codex_pipeline/deliverables/technical-tests/room/TEST-room_PICTURE.mp4",
+    "sha256": "63da6955340684814304a8020db40551b69dceab252a4746923729ccc07eb6dc",
+    "frames": 24,
+    "duration": 1.0,
+    "resolution": [
+      640,
+      360
+    ],
+    "final_shot": false,
+    "quality": "TECHNICAL_TEST_ONLY"
+  },
+  {
+    "test": "lowlight",
+    "video": "production/codex_pipeline/deliverables/technical-tests/lowlight/TEST-lowlight_PICTURE.mp4",
+    "sha256": "ba09e5af8aab69cf60036fe70a8172afba13d5ac8af39e2ee9f8e9e6e3ac19c9",
+    "frames": 24,
+    "duration": 1.0,
+    "resolution": [
+      640,
+      360
+    ],
+    "final_shot": false,
+    "quality": "TECHNICAL_TEST_ONLY"
+  },
+  {
+    "test": "interaction",
+    "video": "production/codex_pipeline/deliverables/technical-tests/interaction/TEST-interaction_PICTURE.mp4",
+    "sha256": "dc449b2ffe57487cdc5db36da90d520880c8cbe39dda7b39e390a193268ddcb0",
+    "frames": 24,
+    "duration": 1.0,
+    "resolution": [
+      640,
+      360
+    ],
+    "final_shot": false,
+    "quality": "REJECTED_ACTOR_GEOMETRY"
+  }
+]

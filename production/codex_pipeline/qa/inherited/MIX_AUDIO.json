@@ -1,0 +1,28 @@
+{
+  "file": "/workspace/silent-protocol-source/output/SILENT_PROTOCOL_MIX_SCENE_REVIEW_B10_v1_18M15S.flac",
+  "file_sha256": "dea9e85e012b9a75cf1d3327c63126df5a86be4bb799b2257a1787144e54f645",
+  "sample_rate": 48000,
+  "channels": 2,
+  "sample_frames": 52560000,
+  "duration_seconds": 1095.0,
+  "pcm_sha256": "c86297cff9fb16d12fdc8811dcabb0c2671b0aec1df24b3b7b68b509c39627ff",
+  "sample_peak_dBFS": -6.865602281736654,
+  "full_scale_samples": 0,
+  "END_03": {
+    "global_frames": [
+      23460,
+      23604
+    ],
+    "sample_range": [
+      46920000,
+      47208000
+    ],
+    "sample_frames": 288000,
+    "all_zero": true,
+    "nonzero_samples": 0
+  },
+  "new_voice_recording": false,
+  "dialogue_performance_acceptance": "NOT_CLAIMED",
+  "rights_chain_complete": false,
+  "final_film_audio_acceptance": false
+}

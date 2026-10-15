@@ -1,0 +1,11 @@
+{
+  "frame": 12,
+  "frames_total": 24,
+  "width": 640,
+  "source": "deliverables/technical-tests/screen/scene.blend",
+  "external_cache_dependency": false,
+  "dynamic_textures_relative": true,
+  "rerender_success": true,
+  "RGB_MAE_from_original": 0.0,
+  "comparison_scope": "same Blender and current software graphics backend"
+}

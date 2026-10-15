@@ -1,7 +1,15 @@
 {
-  "schema": 1,
+  "schema": 2,
   "fps": 24,
   "frames": 26280,
+  "status_counts": {
+    "部分完成": 116,
+    "部分完成/连续表演缺失": 5,
+    "完全缺失画面资产": 29,
+    "仅有配置，未渲染": 2
+  },
+  "final_accepted_shots": 0,
+  "scope": "All 152 authored timeline entries, 140 photographic descriptions",
   "shots": [
     {
       "id": "DECLARATION",
@@ -11,10 +19,14 @@
       "section": "DECLARATION",
       "start": 0.0,
       "end": 4.0,
-      "audit_status": "仅有占位/原生图形配置",
+      "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "原生图形可按脚本重建，需核对对应实际输出",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [],
+      "inherited_decoded_media": [
+        "baseline/output/sections/DECLARATION_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -31,12 +43,16 @@
       "end": 12.708333333333334,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/C-01_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/C-01_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/C-01_v3.png"
+        "baseline/art/candidates/C-01_v2.png",
+        "baseline/art/candidates/C-01_v1.png",
+        "baseline/art/candidates/C-01_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -53,12 +69,16 @@
       "end": 19.958333333333332,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/C-02_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/C-02_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/C-02_v2.png"
+        "baseline/art/candidates/C-02_v1.png",
+        "baseline/art/candidates/C-02_v3.png",
+        "baseline/art/candidates/C-02_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -75,12 +95,16 @@
       "end": 25.75,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/C-03_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/C-03_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/C-03_v1.png"
+        "baseline/art/candidates/C-03_v2.png",
+        "baseline/art/candidates/C-03_v3.png",
+        "baseline/art/candidates/C-03_v1.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -97,12 +121,16 @@
       "end": 34.458333333333336,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/C-04_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/C-04_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/C-04_v3.png"
+        "baseline/art/candidates/C-04_v1.png",
+        "baseline/art/candidates/C-04_v2.png",
+        "baseline/art/candidates/C-04_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -119,12 +147,16 @@
       "end": 46.041666666666664,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/C-05_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/C-05_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/C-05_v2.png"
+        "baseline/art/candidates/C-05_v1.png",
+        "baseline/art/candidates/C-05_v3.png",
+        "baseline/art/candidates/C-05_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -141,12 +173,16 @@
       "end": 60.541666666666664,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/C-06_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/C-06_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/C-06_v3.png"
+        "baseline/art/candidates/C-06_v2.png",
+        "baseline/art/candidates/C-06_v1.png",
+        "baseline/art/candidates/C-06_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -163,12 +199,16 @@
       "end": 69.25,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/C-07_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/C-07_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/C-07_v2.png"
+        "baseline/art/candidates/C-07_v3.png",
+        "baseline/art/candidates/C-07_v1.png",
+        "baseline/art/candidates/C-07_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -185,12 +225,16 @@
       "end": 80.83333333333333,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/C-08_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/C-08_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/C-08_v3.png"
+        "baseline/graphics/native_candidates/C-08_v2.png",
+        "baseline/graphics/native_candidates/C-08_v1.png",
+        "baseline/graphics/native_candidates/C-08_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -207,12 +251,16 @@
       "end": 89.54166666666667,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/C-09_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/C-09_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/C-09_v3.png"
+        "baseline/art/candidates/C-09_v1.png",
+        "baseline/art/candidates/C-09_v2.png",
+        "baseline/art/candidates/C-09_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -229,12 +277,16 @@
       "end": 101.16666666666667,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/C-10_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/C-10_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/C-10_v2.png"
+        "baseline/art/candidates/C-10_v3.png",
+        "baseline/art/candidates/C-10_v1.png",
+        "baseline/art/candidates/C-10_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -251,12 +303,16 @@
       "end": 115.66666666666667,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/C-11_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/C-11_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/C-11_v3.png"
+        "baseline/graphics/native_candidates/C-11_v1.png",
+        "baseline/graphics/native_candidates/C-11_v2.png",
+        "baseline/graphics/native_candidates/C-11_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -273,12 +329,16 @@
       "end": 120.0,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/C-12_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/C-12_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/C-12_v3.png"
+        "baseline/graphics/native_candidates/C-12_v1.png",
+        "baseline/graphics/native_candidates/C-12_v2.png",
+        "baseline/graphics/native_candidates/C-12_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -291,10 +351,14 @@
       "section": "TITLE",
       "start": 120.0,
       "end": 132.0,
-      "audit_status": "仅有占位/原生图形配置",
+      "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "原生图形可按脚本重建，需核对对应实际输出",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [],
+      "inherited_decoded_media": [
+        "baseline/output/sections/TITLE_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -311,13 +375,17 @@
       "end": 140.0,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/F1-01_v2_new.png",
-        "/workspace/silent-protocol-source/art/candidates/F1-01_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/F1-01_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/F1-01_v3.png"
+        "baseline/art/candidates/F1-01_v2_new.png",
+        "baseline/art/candidates/F1-01_v1.png",
+        "baseline/art/candidates/F1-01_v2.png",
+        "baseline/art/candidates/F1-01_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F1_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -334,12 +402,16 @@
       "end": 146.0,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/F1-02_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F1-02_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F1-02_v2.png"
+        "baseline/graphics/native_candidates/F1-02_v3.png",
+        "baseline/graphics/native_candidates/F1-02_v1.png",
+        "baseline/graphics/native_candidates/F1-02_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F1_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -356,12 +428,16 @@
       "end": 154.0,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/F1-03_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/F1-03_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/F1-03_v1.png"
+        "baseline/art/candidates/F1-03_v3.png",
+        "baseline/art/candidates/F1-03_v2.png",
+        "baseline/art/candidates/F1-03_v1.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F1_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -378,12 +454,16 @@
       "end": 160.0,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/F1-04_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F1-04_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F1-04_v3.png"
+        "baseline/graphics/native_candidates/F1-04_v1.png",
+        "baseline/graphics/native_candidates/F1-04_v2.png",
+        "baseline/graphics/native_candidates/F1-04_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F1_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -402,10 +482,14 @@
       ],
       "start": 160.0,
       "end": 164.0,
-      "audit_status": "仅有占位/原生图形配置",
+      "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "原生图形可按脚本重建，需核对对应实际输出",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -422,12 +506,16 @@
       "end": 169.66666666666666,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E1-01_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E1-01_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E1-01_v3.png"
+        "baseline/art/candidates/E1-01_v2.png",
+        "baseline/art/candidates/E1-01_v1.png",
+        "baseline/art/candidates/E1-01_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -444,12 +532,16 @@
       "end": 174.375,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E1-02_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E1-02_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E1-02_v2.png"
+        "baseline/art/candidates/E1-02_v3.png",
+        "baseline/art/candidates/E1-02_v1.png",
+        "baseline/art/candidates/E1-02_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -466,12 +558,16 @@
       "end": 180.04166666666666,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E1-03_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E1-03_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E1-03_v3.png"
+        "baseline/art/candidates/E1-03_v1.png",
+        "baseline/art/candidates/E1-03_v2.png",
+        "baseline/art/candidates/E1-03_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -488,12 +584,16 @@
       "end": 184.75,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E1-04_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E1-04_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E1-04_v1.png"
+        "baseline/graphics/native_candidates/E1-04_v2.png",
+        "baseline/graphics/native_candidates/E1-04_v3.png",
+        "baseline/graphics/native_candidates/E1-04_v1.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -510,12 +610,16 @@
       "end": 192.29166666666666,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E1-05_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E1-05_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E1-05_v3.png"
+        "baseline/art/candidates/E1-05_v2.png",
+        "baseline/art/candidates/E1-05_v1.png",
+        "baseline/art/candidates/E1-05_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -532,12 +636,16 @@
       "end": 197.95833333333334,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E1-06_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E1-06_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E1-06_v1.png"
+        "baseline/art/candidates/E1-06_v2.png",
+        "baseline/art/candidates/E1-06_v3.png",
+        "baseline/art/candidates/E1-06_v1.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -554,12 +662,16 @@
       "end": 207.375,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E1-07_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E1-07_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E1-07_v3.png"
+        "baseline/art/candidates/E1-07_v2.png",
+        "baseline/art/candidates/E1-07_v1.png",
+        "baseline/art/candidates/E1-07_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -576,12 +688,16 @@
       "end": 214.91666666666666,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E1-08_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E1-08_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E1-08_v3.png"
+        "baseline/graphics/native_candidates/E1-08_v1.png",
+        "baseline/graphics/native_candidates/E1-08_v2.png",
+        "baseline/graphics/native_candidates/E1-08_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -598,12 +714,16 @@
       "end": 220.58333333333334,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E1-09_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E1-09_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E1-09_v1.png"
+        "baseline/art/candidates/E1-09_v2.png",
+        "baseline/art/candidates/E1-09_v3.png",
+        "baseline/art/candidates/E1-09_v1.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -620,12 +740,16 @@
       "end": 230.0,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E1-10_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E1-10_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E1-10_v1.png"
+        "baseline/art/candidates/E1-10_v3.png",
+        "baseline/art/candidates/E1-10_v2.png",
+        "baseline/art/candidates/E1-10_v1.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -642,12 +766,16 @@
       "end": 236.0,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/F2-01_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F2-01_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F2-01_v1.png"
+        "baseline/graphics/native_candidates/F2-01_v3.png",
+        "baseline/graphics/native_candidates/F2-01_v2.png",
+        "baseline/graphics/native_candidates/F2-01_v1.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F2_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -664,12 +792,16 @@
       "end": 242.0,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/F2-02_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/F2-02_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/F2-02_v3.png"
+        "baseline/art/candidates/F2-02_v1.png",
+        "baseline/art/candidates/F2-02_v2.png",
+        "baseline/art/candidates/F2-02_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F2_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -686,12 +818,16 @@
       "end": 246.0,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/F2-03_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/F2-03_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/F2-03_v3.png"
+        "baseline/art/candidates/F2-03_v1.png",
+        "baseline/art/candidates/F2-03_v2.png",
+        "baseline/art/candidates/F2-03_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F2_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -708,12 +844,16 @@
       "end": 250.0,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/F2-04_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/F2-04_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/F2-04_v1.png"
+        "baseline/art/candidates/F2-04_v3.png",
+        "baseline/art/candidates/F2-04_v2.png",
+        "baseline/art/candidates/F2-04_v1.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F2_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -732,10 +872,16 @@
       ],
       "start": 250.0,
       "end": 254.0,
-      "audit_status": "仅有占位/原生图形配置",
+      "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "原生图形可按脚本重建，需核对对应实际输出",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -752,12 +898,18 @@
       "end": 260.125,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E2-01_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E2-01_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E2-01_v2.png"
+        "baseline/art/candidates/E2-01_v3.png",
+        "baseline/art/candidates/E2-01_v1.png",
+        "baseline/art/candidates/E2-01_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -774,12 +926,18 @@
       "end": 264.75,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E2-02_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E2-02_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E2-02_v2.png"
+        "baseline/art/candidates/E2-02_v3.png",
+        "baseline/art/candidates/E2-02_v1.png",
+        "baseline/art/candidates/E2-02_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -796,12 +954,18 @@
       "end": 270.875,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E2-03_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E2-03_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E2-03_v2.png"
+        "baseline/graphics/native_candidates/E2-03_v3.png",
+        "baseline/graphics/native_candidates/E2-03_v1.png",
+        "baseline/graphics/native_candidates/E2-03_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -818,12 +982,18 @@
       "end": 275.5,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E2-04_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E2-04_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E2-04_v2.png"
+        "baseline/graphics/native_candidates/E2-04_v1.png",
+        "baseline/graphics/native_candidates/E2-04_v3.png",
+        "baseline/graphics/native_candidates/E2-04_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -840,12 +1010,18 @@
       "end": 283.1666666666667,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E2-05_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E2-05_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E2-05_v3.png"
+        "baseline/art/candidates/E2-05_v2.png",
+        "baseline/art/candidates/E2-05_v1.png",
+        "baseline/art/candidates/E2-05_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -862,12 +1038,18 @@
       "end": 289.2916666666667,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E2-06_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E2-06_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E2-06_v3.png"
+        "baseline/art/candidates/E2-06_v2.png",
+        "baseline/art/candidates/E2-06_v1.png",
+        "baseline/art/candidates/E2-06_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -884,12 +1066,18 @@
       "end": 309.2916666666667,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E2-07_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E2-07_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E2-07_v3.png"
+        "baseline/graphics/native_candidates/E2-07_v1.png",
+        "baseline/graphics/native_candidates/E2-07_v2.png",
+        "baseline/graphics/native_candidates/E2-07_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -906,12 +1094,18 @@
       "end": 315.4166666666667,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E2-08_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E2-08_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E2-08_v1.png"
+        "baseline/art/candidates/E2-08_v2.png",
+        "baseline/art/candidates/E2-08_v3.png",
+        "baseline/art/candidates/E2-08_v1.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -928,12 +1122,18 @@
       "end": 320.0,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E2-09_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E2-09_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E2-09_v2.png"
+        "baseline/art/candidates/E2-09_v3.png",
+        "baseline/art/candidates/E2-09_v1.png",
+        "baseline/art/candidates/E2-09_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -950,12 +1150,16 @@
       "end": 326.0,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/F3-01_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/F3-01_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/F3-01_v2.png"
+        "baseline/art/candidates/F3-01_v3.png",
+        "baseline/art/candidates/F3-01_v1.png",
+        "baseline/art/candidates/F3-01_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F3_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -972,12 +1176,16 @@
       "end": 334.0,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/F3-02_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F3-02_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F3-02_v3.png"
+        "baseline/graphics/native_candidates/F3-02_v1.png",
+        "baseline/graphics/native_candidates/F3-02_v2.png",
+        "baseline/graphics/native_candidates/F3-02_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F3_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -994,12 +1202,16 @@
       "end": 340.0,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/F3-03_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/F3-03_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/F3-03_v3.png"
+        "baseline/art/candidates/F3-03_v1.png",
+        "baseline/art/candidates/F3-03_v2.png",
+        "baseline/art/candidates/F3-03_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F3_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1018,10 +1230,14 @@
       ],
       "start": 340.0,
       "end": 344.0,
-      "audit_status": "仅有占位/原生图形配置",
+      "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "原生图形可按脚本重建，需核对对应实际输出",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E3_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1038,12 +1254,16 @@
       "end": 353.375,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E3-01_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E3-01_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E3-01_v1.png"
+        "baseline/art/candidates/E3-01_v3.png",
+        "baseline/art/candidates/E3-01_v2.png",
+        "baseline/art/candidates/E3-01_v1.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E3_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1060,12 +1280,16 @@
       "end": 359.0,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E3-02_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E3-02_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E3-02_v2.png"
+        "baseline/art/candidates/E3-02_v3.png",
+        "baseline/art/candidates/E3-02_v1.png",
+        "baseline/art/candidates/E3-02_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E3_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1082,12 +1306,16 @@
       "end": 366.5416666666667,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E3-03_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E3-03_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E3-03_v3.png"
+        "baseline/art/candidates/E3-03_v1.png",
+        "baseline/art/candidates/E3-03_v2.png",
+        "baseline/art/candidates/E3-03_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E3_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1104,12 +1332,16 @@
       "end": 372.1666666666667,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E3-04_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E3-04_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E3-04_v3.png"
+        "baseline/graphics/native_candidates/E3-04_v1.png",
+        "baseline/graphics/native_candidates/E3-04_v2.png",
+        "baseline/graphics/native_candidates/E3-04_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E3_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1126,12 +1358,16 @@
       "end": 379.6666666666667,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E3-05_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E3-05_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E3-05_v2.png"
+        "baseline/art/candidates/E3-05_v1.png",
+        "baseline/art/candidates/E3-05_v3.png",
+        "baseline/art/candidates/E3-05_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E3_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1148,12 +1384,16 @@
       "end": 389.0416666666667,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E3-06_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E3-06_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E3-06_v3.png"
+        "baseline/art/candidates/E3-06_v1.png",
+        "baseline/art/candidates/E3-06_v2.png",
+        "baseline/art/candidates/E3-06_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E3_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1170,12 +1410,16 @@
       "end": 394.6666666666667,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E3-07_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E3-07_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E3-07_v2.png"
+        "baseline/art/candidates/E3-07_v1.png",
+        "baseline/art/candidates/E3-07_v3.png",
+        "baseline/art/candidates/E3-07_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E3_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1192,12 +1436,16 @@
       "end": 405.0,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E3-08_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E3-08_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E3-08_v3.png"
+        "baseline/graphics/native_candidates/E3-08_v2.png",
+        "baseline/graphics/native_candidates/E3-08_v1.png",
+        "baseline/graphics/native_candidates/E3-08_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E3_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1214,12 +1462,16 @@
       "end": 413.0,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/F4-01_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/F4-01_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/F4-01_v2.png"
+        "baseline/art/candidates/F4-01_v1.png",
+        "baseline/art/candidates/F4-01_v3.png",
+        "baseline/art/candidates/F4-01_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F4_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1236,12 +1488,16 @@
       "end": 419.0,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/F4-02_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/F4-02_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/F4-02_v1.png"
+        "baseline/art/candidates/F4-02_v3.png",
+        "baseline/art/candidates/F4-02_v2.png",
+        "baseline/art/candidates/F4-02_v1.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F4_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1258,12 +1514,16 @@
       "end": 425.0,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/F4-03_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/F4-03_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/F4-03_v1.png"
+        "baseline/art/candidates/F4-03_v2.png",
+        "baseline/art/candidates/F4-03_v3.png",
+        "baseline/art/candidates/F4-03_v1.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F4_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1282,10 +1542,14 @@
       ],
       "start": 425.0,
       "end": 429.0,
-      "audit_status": "仅有占位/原生图形配置",
+      "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "原生图形可按脚本重建，需核对对应实际输出",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1302,15 +1566,19 @@
       "end": 435.5833333333333,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E4-01_v6.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-01_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-01_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-01_v5.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-01_v4.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-01_v2.png"
+        "baseline/art/candidates/E4-01_v6.png",
+        "baseline/art/candidates/E4-01_v1.png",
+        "baseline/art/candidates/E4-01_v3.png",
+        "baseline/art/candidates/E4-01_v5.png",
+        "baseline/art/candidates/E4-01_v4.png",
+        "baseline/art/candidates/E4-01_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1327,12 +1595,16 @@
       "end": 440.5416666666667,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E4-02_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-02_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-02_v2.png"
+        "baseline/art/candidates/E4-02_v1.png",
+        "baseline/art/candidates/E4-02_v3.png",
+        "baseline/art/candidates/E4-02_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1349,15 +1621,19 @@
       "end": 447.3333333333333,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E4-03_v4.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-03_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-03_v6.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-03_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-03_v5.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-03_v1.png"
+        "baseline/art/candidates/E4-03_v4.png",
+        "baseline/art/candidates/E4-03_v2.png",
+        "baseline/art/candidates/E4-03_v6.png",
+        "baseline/art/candidates/E4-03_v3.png",
+        "baseline/art/candidates/E4-03_v5.png",
+        "baseline/art/candidates/E4-03_v1.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1374,15 +1650,19 @@
       "end": 456.4166666666667,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E4-04_v4.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-04_v5.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-04_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-04_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-04_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-04_v6.png"
+        "baseline/art/candidates/E4-04_v4.png",
+        "baseline/art/candidates/E4-04_v5.png",
+        "baseline/art/candidates/E4-04_v1.png",
+        "baseline/art/candidates/E4-04_v2.png",
+        "baseline/art/candidates/E4-04_v3.png",
+        "baseline/art/candidates/E4-04_v6.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1399,13 +1679,17 @@
       "end": 464.9166666666667,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E4-05_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-05_v4.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-05_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-05_v2.png"
+        "baseline/art/candidates/E4-05_v1.png",
+        "baseline/art/candidates/E4-05_v4.png",
+        "baseline/art/candidates/E4-05_v3.png",
+        "baseline/art/candidates/E4-05_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1422,12 +1706,16 @@
       "end": 474.625,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E4-06_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-06_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-06_v3.png"
+        "baseline/art/candidates/E4-06_v1.png",
+        "baseline/art/candidates/E4-06_v2.png",
+        "baseline/art/candidates/E4-06_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1444,12 +1732,16 @@
       "end": 481.4166666666667,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E4-07_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E4-07_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E4-07_v2.png"
+        "baseline/graphics/native_candidates/E4-07_v3.png",
+        "baseline/graphics/native_candidates/E4-07_v1.png",
+        "baseline/graphics/native_candidates/E4-07_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1466,12 +1758,16 @@
       "end": 488.2083333333333,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E4-08_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-08_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E4-08_v1.png"
+        "baseline/art/candidates/E4-08_v3.png",
+        "baseline/art/candidates/E4-08_v2.png",
+        "baseline/art/candidates/E4-08_v1.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1488,12 +1784,16 @@
       "end": 495.0,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E4-09_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E4-09_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E4-09_v2.png"
+        "baseline/graphics/native_candidates/E4-09_v1.png",
+        "baseline/graphics/native_candidates/E4-09_v3.png",
+        "baseline/graphics/native_candidates/E4-09_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1510,12 +1810,17 @@
       "end": 503.0,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/F5-01_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F5-01_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F5-01_v2.png"
+        "baseline/graphics/native_candidates/F5-01_v1.png",
+        "baseline/graphics/native_candidates/F5-01_v3.png",
+        "baseline/graphics/native_candidates/F5-01_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F5_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/F5_picture_clean_v5_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1532,12 +1837,17 @@
       "end": 509.0,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/F5-02_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/F5-02_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/F5-02_v3.png"
+        "baseline/art/candidates/F5-02_v2.png",
+        "baseline/art/candidates/F5-02_v1.png",
+        "baseline/art/candidates/F5-02_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F5_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/F5_picture_clean_v5_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1554,12 +1864,17 @@
       "end": 515.0,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/F5-03_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F5-03_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F5-03_v3.png"
+        "baseline/graphics/native_candidates/F5-03_v2.png",
+        "baseline/graphics/native_candidates/F5-03_v1.png",
+        "baseline/graphics/native_candidates/F5-03_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F5_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/F5_picture_clean_v5_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1575,14 +1890,19 @@
       "start": 515.0,
       "end": 520.0,
       "audit_status": "部分完成",
-      "motion_type": "静态端点局部光流，非正式表演",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "motion_type": "静态端点局部光流，表演需返工",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/F5-04_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/F5-04_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/F5-04_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/F5-04_v4.png"
+        "baseline/art/candidates/F5-04_v3.png",
+        "baseline/art/candidates/F5-04_v1.png",
+        "baseline/art/candidates/F5-04_v2.png",
+        "baseline/art/candidates/F5-04_v4.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F5_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/F5_picture_clean_v5_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1601,10 +1921,14 @@
       ],
       "start": 520.0,
       "end": 524.0,
-      "audit_status": "仅有占位/原生图形配置",
+      "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "原生图形可按脚本重建，需核对对应实际输出",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E5_picture_clean_v6_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1621,15 +1945,19 @@
       "end": 532.5,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E5-01_v6.png",
-        "/workspace/silent-protocol-source/art/candidates/E5-01_v5.png",
-        "/workspace/silent-protocol-source/art/candidates/E5-01_v4.png",
-        "/workspace/silent-protocol-source/art/candidates/E5-01_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E5-01_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E5-01_v3.png"
+        "baseline/art/candidates/E5-01_v6.png",
+        "baseline/art/candidates/E5-01_v5.png",
+        "baseline/art/candidates/E5-01_v4.png",
+        "baseline/art/candidates/E5-01_v2.png",
+        "baseline/art/candidates/E5-01_v1.png",
+        "baseline/art/candidates/E5-01_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E5_picture_clean_v6_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1646,15 +1974,19 @@
       "end": 538.9166666666666,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E5-02_v4.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E5-02_v6.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E5-02_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E5-02_v5.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E5-02_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E5-02_v2.png"
+        "baseline/graphics/native_candidates/E5-02_v4.png",
+        "baseline/graphics/native_candidates/E5-02_v6.png",
+        "baseline/graphics/native_candidates/E5-02_v3.png",
+        "baseline/graphics/native_candidates/E5-02_v5.png",
+        "baseline/graphics/native_candidates/E5-02_v1.png",
+        "baseline/graphics/native_candidates/E5-02_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E5_picture_clean_v6_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1671,12 +2003,16 @@
       "end": 545.2916666666666,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E5-03_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E5-03_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E5-03_v2.png"
+        "baseline/art/candidates/E5-03_v1.png",
+        "baseline/art/candidates/E5-03_v3.png",
+        "baseline/art/candidates/E5-03_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E5_picture_clean_v6_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1693,12 +2029,16 @@
       "end": 555.9166666666666,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E5-04_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E5-04_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E5-04_v2.png"
+        "baseline/art/candidates/E5-04_v1.png",
+        "baseline/art/candidates/E5-04_v3.png",
+        "baseline/art/candidates/E5-04_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E5_picture_clean_v6_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1715,15 +2055,19 @@
       "end": 564.4583333333334,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E5-05_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E5-05_v5.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E5-05_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E5-05_v4.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E5-05_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E5-05_v6.png"
+        "baseline/graphics/native_candidates/E5-05_v2.png",
+        "baseline/graphics/native_candidates/E5-05_v5.png",
+        "baseline/graphics/native_candidates/E5-05_v1.png",
+        "baseline/graphics/native_candidates/E5-05_v4.png",
+        "baseline/graphics/native_candidates/E5-05_v3.png",
+        "baseline/graphics/native_candidates/E5-05_v6.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E5_picture_clean_v6_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1740,13 +2084,17 @@
       "end": 572.9583333333334,
       "audit_status": "部分完成",
       "motion_type": "多层二维合成，独立车辆图层",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E5-06_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E5-06_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E5-06_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E5-06_v4.png"
+        "baseline/art/candidates/E5-06_v1.png",
+        "baseline/art/candidates/E5-06_v2.png",
+        "baseline/art/candidates/E5-06_v3.png",
+        "baseline/art/candidates/E5-06_v4.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E5_picture_clean_v6_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1763,15 +2111,19 @@
       "end": 581.5,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E5-07_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E5-07_v4.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E5-07_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E5-07_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E5-07_v6.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E5-07_v5.png"
+        "baseline/graphics/native_candidates/E5-07_v3.png",
+        "baseline/graphics/native_candidates/E5-07_v4.png",
+        "baseline/graphics/native_candidates/E5-07_v1.png",
+        "baseline/graphics/native_candidates/E5-07_v2.png",
+        "baseline/graphics/native_candidates/E5-07_v6.png",
+        "baseline/graphics/native_candidates/E5-07_v5.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E5_picture_clean_v6_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1788,12 +2140,16 @@
       "end": 590.0,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E5-08_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E5-08_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E5-08_v2.png"
+        "baseline/art/candidates/E5-08_v3.png",
+        "baseline/art/candidates/E5-08_v1.png",
+        "baseline/art/candidates/E5-08_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/E5_picture_clean_v6_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1810,15 +2166,19 @@
       "end": 598.0,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/F6-01_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F6-01_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F6-01_v6.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F6-01_v5.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F6-01_v4.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F6-01_v3.png"
+        "baseline/graphics/native_candidates/F6-01_v1.png",
+        "baseline/graphics/native_candidates/F6-01_v2.png",
+        "baseline/graphics/native_candidates/F6-01_v6.png",
+        "baseline/graphics/native_candidates/F6-01_v5.png",
+        "baseline/graphics/native_candidates/F6-01_v4.png",
+        "baseline/graphics/native_candidates/F6-01_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F6_picture_clean_v1_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1835,12 +2195,16 @@
       "end": 604.0,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/F6-02_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/F6-02_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/F6-02_v3.png"
+        "baseline/art/candidates/F6-02_v1.png",
+        "baseline/art/candidates/F6-02_v2.png",
+        "baseline/art/candidates/F6-02_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F6_picture_clean_v1_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1856,16 +2220,20 @@
       "start": 604.0,
       "end": 610.0,
       "audit_status": "部分完成",
-      "motion_type": "静态端点局部光流，非正式表演",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "motion_type": "静态端点局部光流，表演需返工",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/F6-03_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/F6-03_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/F6-03_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F6-03_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F6-03_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F6-03_v3.png"
+        "baseline/art/candidates/F6-03_v2.png",
+        "baseline/art/candidates/F6-03_v1.png",
+        "baseline/art/candidates/F6-03_v3.png",
+        "baseline/graphics/native_candidates/F6-03_v2.png",
+        "baseline/graphics/native_candidates/F6-03_v1.png",
+        "baseline/graphics/native_candidates/F6-03_v3.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F6_picture_clean_v1_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1881,14 +2249,18 @@
       "start": 610.0,
       "end": 615.0,
       "audit_status": "部分完成",
-      "motion_type": "静态端点局部光流，非正式表演",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "motion_type": "静态端点局部光流，表演需返工",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/F6-04_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/F6-04_v4.png",
-        "/workspace/silent-protocol-source/art/candidates/F6-04_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/F6-04_v2.png"
+        "baseline/art/candidates/F6-04_v3.png",
+        "baseline/art/candidates/F6-04_v4.png",
+        "baseline/art/candidates/F6-04_v1.png",
+        "baseline/art/candidates/F6-04_v2.png"
       ],
+      "inherited_decoded_media": [
+        "baseline/output/sections/F6_picture_clean_v1_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1907,10 +2279,19 @@
       ],
       "start": 615.0,
       "end": 619.0,
-      "audit_status": "仅有占位/原生图形配置",
+      "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "原生图形可按脚本重建，需核对对应实际输出",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [],
+      "inherited_decoded_media": [
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_BILINGUAL.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_CLEAN.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_MASTER.mkv",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_BILINGUAL.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_CLEAN.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_MASTER.mkv"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1927,12 +2308,21 @@
       "end": 624.625,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E6-01_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E6-01_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E6-01_v3.png"
+        "baseline/art/candidates/E6-01_v2.png",
+        "baseline/art/candidates/E6-01_v1.png",
+        "baseline/art/candidates/E6-01_v3.png"
       ],
+      "inherited_decoded_media": [
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_BILINGUAL.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_CLEAN.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_MASTER.mkv",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_BILINGUAL.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_CLEAN.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_MASTER.mkv"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1949,12 +2339,21 @@
       "end": 632.125,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E6-02_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E6-02_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E6-02_v2.png"
+        "baseline/graphics/native_candidates/E6-02_v1.png",
+        "baseline/graphics/native_candidates/E6-02_v3.png",
+        "baseline/graphics/native_candidates/E6-02_v2.png"
       ],
+      "inherited_decoded_media": [
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_BILINGUAL.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_CLEAN.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_MASTER.mkv",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_BILINGUAL.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_CLEAN.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_MASTER.mkv"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1971,12 +2370,21 @@
       "end": 637.75,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E6-03_v2.png",
-        "/workspace/silent-protocol-source/art/candidates/E6-03_v3.png",
-        "/workspace/silent-protocol-source/art/candidates/E6-03_v1.png"
+        "baseline/art/candidates/E6-03_v2.png",
+        "baseline/art/candidates/E6-03_v3.png",
+        "baseline/art/candidates/E6-03_v1.png"
       ],
+      "inherited_decoded_media": [
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_BILINGUAL.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_CLEAN.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_MASTER.mkv",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_BILINGUAL.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_CLEAN.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_MASTER.mkv"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -1993,11 +2401,21 @@
       "end": 643.4166666666666,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/art/candidates/E6-04_v1.png",
-        "/workspace/silent-protocol-source/art/candidates/E6-04_v2.png"
+        "baseline/art/candidates/E6-04_v1.png",
+        "baseline/art/candidates/E6-04_v2.png",
+        "production/sol61/assets/E6-04_v3.png"
       ],
+      "inherited_decoded_media": [
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_BILINGUAL.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_CLEAN.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_MASTER.mkv",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_BILINGUAL.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_CLEAN.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_MASTER.mkv"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2012,10 +2430,23 @@
       "section": "E6",
       "start": 643.4166666666666,
       "end": 652.7916666666666,
-      "audit_status": "完全缺失画面资产",
+      "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
-      "candidate_paths": [],
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
+      "candidate_paths": [
+        "production/sol61/assets/E6-05_v2.png",
+        "production/sol61/assets/E6-05_v1.png",
+        "production/sol61/assets/E6-05_v3.png"
+      ],
+      "inherited_decoded_media": [
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_BILINGUAL.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_CLEAN.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_MASTER.mkv",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_BILINGUAL.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_CLEAN.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_MASTER.mkv"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2032,12 +2463,21 @@
       "end": 660.2916666666666,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E6-06_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E6-06_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E6-06_v3.png"
+        "baseline/graphics/native_candidates/E6-06_v2.png",
+        "baseline/graphics/native_candidates/E6-06_v1.png",
+        "baseline/graphics/native_candidates/E6-06_v3.png"
       ],
+      "inherited_decoded_media": [
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_BILINGUAL.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_CLEAN.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_MASTER.mkv",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_BILINGUAL.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_CLEAN.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_MASTER.mkv"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2054,12 +2494,14 @@
       "end": 667.7916666666666,
       "audit_status": "部分完成/连续表演缺失",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "缺少连续演员动作；静态候选不能补足",
+      "reason": "缺少连续人物动作；静帧不能补足",
       "candidate_paths": [
-        "/workspace/-/production/sol61_r2/assets/E6-07_v3.png",
-        "/workspace/-/production/sol61_r2/assets/E6-07_v1.png",
-        "/workspace/-/production/sol61_r2/assets/E6-07_v2.png"
+        "production/sol61_r2/assets/E6-07_v3.png",
+        "production/sol61_r2/assets/E6-07_v1.png",
+        "production/sol61_r2/assets/E6-07_v2.png"
       ],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2076,12 +2518,14 @@
       "end": 675.2916666666666,
       "audit_status": "部分完成/连续表演缺失",
       "motion_type": "程序化二维动画",
-      "reason": "缺少连续演员动作；静态候选不能补足",
+      "reason": "缺少连续人物动作；静帧不能补足",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E6-08_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E6-08_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E6-08_v2.png"
+        "baseline/graphics/native_candidates/E6-08_v1.png",
+        "baseline/graphics/native_candidates/E6-08_v3.png",
+        "baseline/graphics/native_candidates/E6-08_v2.png"
       ],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2098,12 +2542,18 @@
       "end": 680.0,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E6-09_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E6-09_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E6-09_v2.png"
+        "baseline/graphics/native_candidates/E6-09_v1.png",
+        "baseline/graphics/native_candidates/E6-09_v3.png",
+        "baseline/graphics/native_candidates/E6-09_v2.png"
       ],
+      "inherited_decoded_media": [
+        "production/sol61/output/E6-09_PICTURE_v1_1080P.mp4",
+        "production/sol61/output/E6-09_SILENT_WORKPRINT_v2_1080P.mp4",
+        "production/sol61_060902/output/E6-09_silent_sol61_060902_v1_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2119,14 +2569,18 @@
       "start": 680.0,
       "end": 687.0,
       "audit_status": "部分完成",
-      "motion_type": "静态端点局部光流，非正式表演",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "motion_type": "静态端点局部光流，表演需返工",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/-/production/sol61_r3/assets/F7-01_v1.png",
-        "/workspace/-/production/sol61_r3/assets/F7-01_v3.png",
-        "/workspace/-/production/sol61_r3/assets/F7-01_v2.png",
-        "/workspace/-/production/sol61_r3/assets/F7-01_v4.png"
+        "production/sol61_r3/assets/F7-01_v1.png",
+        "production/sol61_r3/assets/F7-01_v3.png",
+        "production/sol61_r3/assets/F7-01_v2.png",
+        "production/sol61_r3/assets/F7-01_v4.png"
       ],
+      "inherited_decoded_media": [
+        "production/sol61_r3/render-v3/F7_SEQUENCE_WORKPRINT_r3_1080P_BILINGUAL.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2143,12 +2597,16 @@
       "end": 695.0,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/F7-02_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F7-02_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F7-02_v3.png"
+        "baseline/graphics/native_candidates/F7-02_v1.png",
+        "baseline/graphics/native_candidates/F7-02_v2.png",
+        "baseline/graphics/native_candidates/F7-02_v3.png"
       ],
+      "inherited_decoded_media": [
+        "production/sol61_r3/render-v3/F7_SEQUENCE_WORKPRINT_r3_1080P_BILINGUAL.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2164,14 +2622,18 @@
       "start": 695.0,
       "end": 705.0,
       "audit_status": "部分完成",
-      "motion_type": "静态端点局部光流，非正式表演",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "motion_type": "静态端点局部光流，表演需返工",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/-/production/sol61_r3/assets/F7-03_v3.png",
-        "/workspace/-/production/sol61_r3/assets/F7-03_v1.png",
-        "/workspace/-/production/sol61_r3/assets/F7-03_v2.png",
-        "/workspace/-/production/sol61_r3/assets/F7-03_v4.png"
+        "production/sol61_r3/assets/F7-03_v3.png",
+        "production/sol61_r3/assets/F7-03_v1.png",
+        "production/sol61_r3/assets/F7-03_v2.png",
+        "production/sol61_r3/assets/F7-03_v4.png"
       ],
+      "inherited_decoded_media": [
+        "production/sol61_r3/render-v3/F7_SEQUENCE_WORKPRINT_r3_1080P_BILINGUAL.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2190,10 +2652,14 @@
       ],
       "start": 705.0,
       "end": 709.0,
-      "audit_status": "仅有占位/原生图形配置",
+      "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "原生图形可按脚本重建，需核对对应实际输出",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [],
+      "inherited_decoded_media": [
+        "production/sol61_r4/render-v3/E7_CARD_WORKPRINT_r4_MASTER.mkv"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2210,12 +2676,16 @@
       "end": 716.5,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/-/production/sol61_r5/assets/E7-01_v1_LIT.png",
-        "/workspace/-/production/sol61_r5/assets/E7-01_v2_UNLIT.png",
-        "/workspace/-/production/sol61_r5/assets/E7-01_v3_ALT_LIT.png"
+        "production/sol61_r5/assets/E7-01_v1_LIT.png",
+        "production/sol61_r5/assets/E7-01_v2_UNLIT.png",
+        "production/sol61_r5/assets/E7-01_v3_ALT_LIT.png"
       ],
+      "inherited_decoded_media": [
+        "production/sol61_r5/render-v2/E7-01_WORKPRINT_r5_1080P_BILINGUAL.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2232,8 +2702,10 @@
       "end": 722.125,
       "audit_status": "部分完成/连续表演缺失",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "缺少连续演员动作；静态候选不能补足",
+      "reason": "缺少连续人物动作；静帧不能补足",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2250,8 +2722,10 @@
       "end": 731.5416666666666,
       "audit_status": "部分完成/连续表演缺失",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "缺少连续演员动作；静态候选不能补足",
+      "reason": "缺少连续人物动作；静帧不能补足",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2268,12 +2742,16 @@
       "end": 737.1666666666666,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E7-04_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E7-04_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E7-04_v3.png"
+        "baseline/graphics/native_candidates/E7-04_v1.png",
+        "baseline/graphics/native_candidates/E7-04_v2.png",
+        "baseline/graphics/native_candidates/E7-04_v3.png"
       ],
+      "inherited_decoded_media": [
+        "production/sol61_r4/render-v3/E7_APPROVAL_INSERTS_WORKPRINT_r4_MASTER.mkv"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2290,12 +2768,16 @@
       "end": 744.6666666666666,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E7-05_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E7-05_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E7-05_v1.png"
+        "baseline/graphics/native_candidates/E7-05_v2.png",
+        "baseline/graphics/native_candidates/E7-05_v3.png",
+        "baseline/graphics/native_candidates/E7-05_v1.png"
       ],
+      "inherited_decoded_media": [
+        "production/sol61_r4/render-v3/E7_APPROVAL_INSERTS_WORKPRINT_r4_MASTER.mkv"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2312,12 +2794,14 @@
       "end": 752.1666666666666,
       "audit_status": "部分完成/连续表演缺失",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "缺少连续演员动作；静态候选不能补足",
+      "reason": "缺少连续人物动作；静帧不能补足",
       "candidate_paths": [
-        "/workspace/-/production/sol61_r5/assets/E7-06_v1.png",
-        "/workspace/-/production/sol61_r5/assets/E7-06_v3.png",
-        "/workspace/-/production/sol61_r5/assets/E7-06_v2.png"
+        "production/sol61_r5/assets/E7-06_v1.png",
+        "production/sol61_r5/assets/E7-06_v3.png",
+        "production/sol61_r5/assets/E7-06_v2.png"
       ],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2334,12 +2818,16 @@
       "end": 757.7916666666666,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E7-07_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E7-07_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E7-07_v1.png"
+        "baseline/graphics/native_candidates/E7-07_v2.png",
+        "baseline/graphics/native_candidates/E7-07_v3.png",
+        "baseline/graphics/native_candidates/E7-07_v1.png"
       ],
+      "inherited_decoded_media": [
+        "production/sol61_r4/render-v3/E7_PRINTER_LCD_WORKPRINT_r4_MASTER.mkv"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2356,12 +2844,16 @@
       "end": 765.2916666666666,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/-/production/sol61_r5/assets/E7-08_v3.png",
-        "/workspace/-/production/sol61_r5/assets/E7-08_v1.png",
-        "/workspace/-/production/sol61_r5/assets/E7-08_v2.png"
+        "production/sol61_r5/assets/E7-08_v3.png",
+        "production/sol61_r5/assets/E7-08_v1.png",
+        "production/sol61_r5/assets/E7-08_v2.png"
       ],
+      "inherited_decoded_media": [
+        "production/sol61_r5/render-v2/E7-08_WORKPRINT_r5_1080P_BILINGUAL.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2378,12 +2870,16 @@
       "end": 770.0,
       "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/-/production/sol61_r5/assets/E7-09_v1.png",
-        "/workspace/-/production/sol61_r5/assets/E7-09_v2.png",
-        "/workspace/-/production/sol61_r5/assets/E7-09_v3_RECEIVING.png"
+        "production/sol61_r5/assets/E7-09_v1.png",
+        "production/sol61_r5/assets/E7-09_v2.png",
+        "production/sol61_r5/assets/E7-09_v3_RECEIVING.png"
       ],
+      "inherited_decoded_media": [
+        "production/sol61_r5/render-v2/E7-09_WORKPRINT_r5_1080P_BILINGUAL.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2400,8 +2896,10 @@
       "end": 776.0,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2418,8 +2916,10 @@
       "end": 784.0,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2436,12 +2936,14 @@
       "end": 790.0,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/F8-03_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F8-03_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F8-03_v3.png"
+        "baseline/graphics/native_candidates/F8-03_v1.png",
+        "baseline/graphics/native_candidates/F8-03_v2.png",
+        "baseline/graphics/native_candidates/F8-03_v3.png"
       ],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2458,8 +2960,10 @@
       "end": 800.0,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2478,10 +2982,12 @@
       ],
       "start": 800.0,
       "end": 804.0,
-      "audit_status": "仅有占位/原生图形配置",
+      "audit_status": "仅有配置，未渲染",
       "motion_type": "程序化二维动画",
-      "reason": "原生图形可按脚本重建，需核对对应实际输出",
+      "reason": "原生图形实现存在，未找到对应已验证输出",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2498,8 +3004,10 @@
       "end": 811.5416666666666,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2516,12 +3024,14 @@
       "end": 817.2083333333334,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E8-02_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E8-02_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E8-02_v2.png"
+        "baseline/graphics/native_candidates/E8-02_v1.png",
+        "baseline/graphics/native_candidates/E8-02_v3.png",
+        "baseline/graphics/native_candidates/E8-02_v2.png"
       ],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2538,8 +3048,10 @@
       "end": 824.75,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2556,8 +3068,10 @@
       "end": 830.4166666666666,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2574,8 +3088,10 @@
       "end": 837.9583333333334,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2592,8 +3108,10 @@
       "end": 843.5833333333334,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2610,8 +3128,10 @@
       "end": 851.125,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2628,12 +3148,14 @@
       "end": 858.6666666666666,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E8-08_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E8-08_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E8-08_v1.png"
+        "baseline/graphics/native_candidates/E8-08_v3.png",
+        "baseline/graphics/native_candidates/E8-08_v2.png",
+        "baseline/graphics/native_candidates/E8-08_v1.png"
       ],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2650,8 +3172,10 @@
       "end": 864.3333333333334,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2668,12 +3192,14 @@
       "end": 870.0,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E8-10_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E8-10_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E8-10_v3.png"
+        "baseline/graphics/native_candidates/E8-10_v2.png",
+        "baseline/graphics/native_candidates/E8-10_v1.png",
+        "baseline/graphics/native_candidates/E8-10_v3.png"
       ],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2690,8 +3216,10 @@
       "end": 875.0,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2708,8 +3236,10 @@
       "end": 890.5,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2726,8 +3256,10 @@
       "end": 896.0,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2744,12 +3276,14 @@
       "end": 900.0,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/F9-04_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F9-04_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/F9-04_v2.png"
+        "baseline/graphics/native_candidates/F9-04_v3.png",
+        "baseline/graphics/native_candidates/F9-04_v1.png",
+        "baseline/graphics/native_candidates/F9-04_v2.png"
       ],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2768,10 +3302,12 @@
       ],
       "start": 900.0,
       "end": 904.0,
-      "audit_status": "仅有占位/原生图形配置",
+      "audit_status": "仅有配置，未渲染",
       "motion_type": "程序化二维动画",
-      "reason": "原生图形可按脚本重建，需核对对应实际输出",
+      "reason": "原生图形实现存在，未找到对应已验证输出",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2788,8 +3324,10 @@
       "end": 910.875,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2806,12 +3344,14 @@
       "end": 916.0416666666666,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E9-02_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E9-02_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E9-02_v2.png"
+        "baseline/graphics/native_candidates/E9-02_v3.png",
+        "baseline/graphics/native_candidates/E9-02_v1.png",
+        "baseline/graphics/native_candidates/E9-02_v2.png"
       ],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2828,8 +3368,10 @@
       "end": 921.2083333333334,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2846,8 +3388,10 @@
       "end": 929.7083333333334,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2864,8 +3408,10 @@
       "end": 934.8333333333334,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2882,12 +3428,14 @@
       "end": 948.0833333333334,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E9-06_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E9-06_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E9-06_v1.png"
+        "baseline/graphics/native_candidates/E9-06_v3.png",
+        "baseline/graphics/native_candidates/E9-06_v2.png",
+        "baseline/graphics/native_candidates/E9-06_v1.png"
       ],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2904,12 +3452,14 @@
       "end": 955.2083333333334,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E9-07_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E9-07_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E9-07_v2.png"
+        "baseline/graphics/native_candidates/E9-07_v1.png",
+        "baseline/graphics/native_candidates/E9-07_v3.png",
+        "baseline/graphics/native_candidates/E9-07_v2.png"
       ],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2926,12 +3476,14 @@
       "end": 960.5416666666666,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/E9-08_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E9-08_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/E9-08_v1.png"
+        "baseline/graphics/native_candidates/E9-08_v3.png",
+        "baseline/graphics/native_candidates/E9-08_v2.png",
+        "baseline/graphics/native_candidates/E9-08_v1.png"
       ],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2948,8 +3500,10 @@
       "end": 965.0,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2966,8 +3520,10 @@
       "end": 973.9166666666666,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -2984,8 +3540,10 @@
       "end": 977.5,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -3002,12 +3560,14 @@
       "end": 983.5,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/END-03_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/END-03_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/END-03_v3.png"
+        "baseline/graphics/native_candidates/END-03_v2.png",
+        "baseline/graphics/native_candidates/END-03_v1.png",
+        "baseline/graphics/native_candidates/END-03_v3.png"
       ],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -3024,8 +3584,10 @@
       "end": 990.6666666666666,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -3042,8 +3604,10 @@
       "end": 997.7916666666666,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -3060,8 +3624,10 @@
       "end": 1003.1666666666666,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -3078,8 +3644,10 @@
       "end": 1008.5416666666666,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -3096,12 +3664,14 @@
       "end": 1015.6666666666666,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/END-08_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/END-08_v1.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/END-08_v3.png"
+        "baseline/graphics/native_candidates/END-08_v2.png",
+        "baseline/graphics/native_candidates/END-08_v1.png",
+        "baseline/graphics/native_candidates/END-08_v3.png"
       ],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -3118,8 +3688,10 @@
       "end": 1021.0416666666666,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -3136,8 +3708,10 @@
       "end": 1029.9583333333333,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -3154,8 +3728,10 @@
       "end": 1035.3333333333333,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -3172,8 +3748,10 @@
       "end": 1044.25,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -3190,8 +3768,10 @@
       "end": 1051.4166666666667,
       "audit_status": "完全缺失画面资产",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "本次恢复范围内没有对应候选或正式镜头",
+      "reason": "恢复范围内没有对应候选或已验证工作片",
       "candidate_paths": [],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -3208,12 +3788,14 @@
       "end": 1055.0,
       "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "可用静态候选；连续动作/最终验收待检查",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [
-        "/workspace/silent-protocol-source/graphics/native_candidates/END-14_v3.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/END-14_v2.png",
-        "/workspace/silent-protocol-source/graphics/native_candidates/END-14_v1.png"
+        "baseline/graphics/native_candidates/END-14_v3.png",
+        "baseline/graphics/native_candidates/END-14_v2.png",
+        "baseline/graphics/native_candidates/END-14_v1.png"
       ],
+      "inherited_decoded_media": [],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
@@ -3226,10 +3808,14 @@
       "section": "CREDITS",
       "start": 1055.0,
       "end": 1095.0,
-      "audit_status": "仅有占位/原生图形配置",
+      "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "原生图形可按脚本重建，需核对对应实际输出",
+      "reason": "源候选/已解码工作版存在，最终创作验收未通过",
       "candidate_paths": [],
+      "inherited_decoded_media": [
+        "baseline/output/sections/CREDITS_picture_clean_v2_1080p.mp4"
+      ],
+      "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
       "new_render": null
