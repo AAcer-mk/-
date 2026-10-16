@@ -1,0 +1,3948 @@
+{
+  "commit": "58e33567184736cc90310ea9afc21220fd5d4f99",
+  "verified_remote_files": 655,
+  "verified_bytes": 170729449,
+  "verified_paths": [
+    "production/codex_pipeline",
+    "production/ASSET_INDEX.json",
+    "production/JOB_GRAPH.json",
+    "production/PROGRESS.json",
+    "production/SHOT_AUDIT.json",
+    "docs"
+  ],
+  "fresh_bare_store": "/tmp/silent-protocol-remote-readback.git",
+  "readback": "NATIVE_GIT_NEW_OBJECT_STORE",
+  "all_bytes_match_local": true,
+  "files": [
+    {
+      "path": "docs/BUILD_AND_RESUME.md",
+      "bytes": 5263,
+      "sha256": "51e1ee1cb948be4942b231269b38d50bde57688ae8751e998020b7148da39156",
+      "git_blob": "e3b8df9bb3351375f326817a01e2168726fe0d45"
+    },
+    {
+      "path": "docs/CLAUDE_INTAKE_NOTES_20261009.md",
+      "bytes": 4606,
+      "sha256": "0d1e92a352aa452bddd8cef5cc3de4b4cd7256e1eb72b0b1af2a99614e4d3d64",
+      "git_blob": "f8b015bcc34a0c9e68d7f2f4dcc47c27c608e2e2"
+    },
+    {
+      "path": "docs/CODEX_PRODUCTION_AUDIT.md",
+      "bytes": 10508,
+      "sha256": "1dced0cb208695d3dc080d33bb735b22d838aec5678f30140256d20248869165",
+      "git_blob": "4b5551e2b445cfe14ac60a18e1d580e31ceba69b"
+    },
+    {
+      "path": "docs/CODEX_PRODUCTION_STATUS.md",
+      "bytes": 4575,
+      "sha256": "ded936d6157ed5f7400efdb676f1fd5b6dc97d35457b768cb3d7d09faa9ee6e3",
+      "git_blob": "98679185d2352b12fb0c0354051e3aec3e496871"
+    },
+    {
+      "path": "docs/CODEX_RECOVERY.md",
+      "bytes": 4676,
+      "sha256": "a57efc72057c5707f27311558a4e9a0e07ad32b6ee92c7c6fd622c88cb3ffbe9",
+      "git_blob": "a4a1d7b7ad13481f042b2f21b74b79624ffb5c6c"
+    },
+    {
+      "path": "docs/CODEX_RENDER_PIPELINE.md",
+      "bytes": 7894,
+      "sha256": "87a15cba209c8749e07a2a78b0a960f5e3712a5c3a8bc2059e10c8686675ad57",
+      "git_blob": "d4bfb863b62dbba2dc99462a59d072365303e5c0"
+    },
+    {
+      "path": "docs/CODEX_SHOT_AUDIT.md",
+      "bytes": 11157,
+      "sha256": "2ab08a5b11b12fd438159aacf023334f683ca604b98ec45b13a838f6f271f82a",
+      "git_blob": "8f496899fd4034ae1cc0b4f89f031a2ad25e1d7f"
+    },
+    {
+      "path": "docs/ORIGINAL_CREATIVE_BRIEF.txt",
+      "bytes": 45879,
+      "sha256": "f814ee42546e727ff022a7575bafcb15673ba717a6cd5f081895b1bce789bcd4",
+      "git_blob": "1607435f91d7da1c0e9811f8750414cf52b67536"
+    },
+    {
+      "path": "docs/PRODUCTION_STATUS.md",
+      "bytes": 3995,
+      "sha256": "6e93009cbb9a9c6196e5440523506da65a7683c602ed0d16ff0075e76cc29e25",
+      "git_blob": "cf5daad0404c2caa057cc071286a5e29f72e1d21"
+    },
+    {
+      "path": "production/ASSET_INDEX.json",
+      "bytes": 349230,
+      "sha256": "65e95325cdfa702db80f3c77aad26e46da7e92bb41304153130a80db1edf72c4",
+      "git_blob": "2aa59a8b586f3308ffae59a55e555eb0730efdaf"
+    },
+    {
+      "path": "production/JOB_GRAPH.json",
+      "bytes": 156115,
+      "sha256": "62145f6eb4c185ee429d9e0c54a9cab5f1a623cf53de1bba93070de6f08b487c",
+      "git_blob": "59de335c3764e06bb2ea3f316446bdb7f1350c7c"
+    },
+    {
+      "path": "production/PROGRESS.json",
+      "bytes": 6310,
+      "sha256": "d74a6ce9eeeaf1e608f4bfbefbe4835cc8d819934e42745ee2ef6e42187ca824",
+      "git_blob": "208533e1c3fa8b1ba7769df654b6195ae94c0e18"
+    },
+    {
+      "path": "production/SHOT_AUDIT.json",
+      "bytes": 160099,
+      "sha256": "1897167d6327b2367a9dd2ee064ba698e7bc069b7fe3171a0f5ef15ce7e6aecd",
+      "git_blob": "13305a3b12d3b9f8098c11da3506fa1b94f36df9"
+    },
+    {
+      "path": "production/codex_pipeline/assets/makehuman/LICENSE.ASSETS.md",
+      "bytes": 6962,
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c",
+      "git_blob": "f3ede1fc3318f8d794e2cb51924186c62f02f71a"
+    },
+    {
+      "path": "production/codex_pipeline/assets/makehuman/LICENSE.md",
+      "bytes": 3598,
+      "sha256": "edd99571ca62698f78c943fd4fffb159a413c315fa0d4819d3cec5cadaf8b4f1",
+      "git_blob": "5d1a49d31ebdaa46b06c52eae2c005c678a63ffa"
+    },
+    {
+      "path": "production/codex_pipeline/assets/makehuman/SOURCE.json",
+      "bytes": 1547,
+      "sha256": "afa17067d2664f9604853ec8da9a937e4825d480abbb0f3dda2ee179cde7c8eb",
+      "git_blob": "d816e5ef577fcdae3488b0eec11d0983080b4d27"
+    },
+    {
+      "path": "production/codex_pipeline/assets/makehuman/makehuman/data/3dobjs/base.obj",
+      "bytes": 1749303,
+      "sha256": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c",
+      "git_blob": "d26635e9326e3cca30778fd7b9c00062b03cce09"
+    },
+    {
+      "path": "production/codex_pipeline/assets/makehuman/makehuman/data/animations/walks/walk1.bvh",
+      "bytes": 42516,
+      "sha256": "e6b30b03133b5f54799e62962d3d6c2393771c15fd5a5a2be434358fc332b6bc",
+      "git_blob": "2eb82ed386190e51a4a48ccec04730514ccaf02d"
+    },
+    {
+      "path": "production/codex_pipeline/assets/makehuman/makehuman/data/rigs/default.mhskel",
+      "bytes": 117790,
+      "sha256": "99f179bce0aa850b45d4191a1d0d234c5851f881c057439470ded3bddf729a24",
+      "git_blob": "b02cbecae00143856410d7561adf006d83bf9b3e"
+    },
+    {
+      "path": "production/codex_pipeline/assets/makehuman/makehuman/data/rigs/default_weights.mhw",
+      "bytes": 897521,
+      "sha256": "0f3641d651ae3d00ad6b4ccee43142edb109d3bd909d27d9e4139ef1beed8625",
+      "git_blob": "66185806afacf87749be8e5cf6dbf66496b2a6b0"
+    },
+    {
+      "path": "production/codex_pipeline/assets/makehuman/makehuman/data/targets/macrodetails/asian-female-young.target",
+      "bytes": 435553,
+      "sha256": "095fe79694fa19e1fe98d93009ec116199bd524e081c640351a10eccf2cca1eb",
+      "git_blob": "f862c96add11c31ab1ca75c69e1c67ae5e0e3d5f"
+    },
+    {
+      "path": "production/codex_pipeline/audit_audio.py",
+      "bytes": 2248,
+      "sha256": "644f786656215d34e432effc9e4779e4c9564ac64f02355ce2d4c894d5d4a8b8",
+      "git_blob": "72a2513db87b18080a44cc3bd2e377a025215d6e"
+    },
+    {
+      "path": "production/codex_pipeline/audit_media.py",
+      "bytes": 5731,
+      "sha256": "8ceade05bb6dc7698ad8072179ea46efdea9d38d5f0fa9a8e4b2b015b60e37be",
+      "git_blob": "7c1f5c8c9fc1f06dc2ff6c3fa46d7a7f50ef8bb2"
+    },
+    {
+      "path": "production/codex_pipeline/benchmark_loaded_scene.py",
+      "bytes": 1263,
+      "sha256": "82f9808e2629d6610202da2523b95415a63e3669a4ba8da030bd21763aebfef3",
+      "git_blob": "74fd02001d66cf5b9de40cf8321335ca97cc1cab"
+    },
+    {
+      "path": "production/codex_pipeline/blender_scene.py",
+      "bytes": 19177,
+      "sha256": "6024c238dbcddcbc6dc39683e76d6225bd4f8be507e1257dca3574953bb9dd08",
+      "git_blob": "eff333a90a16162556d617563c682e9258d465fc"
+    },
+    {
+      "path": "production/codex_pipeline/browser_playback.cjs",
+      "bytes": 3684,
+      "sha256": "85083e303da21db25ca1d30e2dd4e40ddb3cc6817121fdc7def207bd1d7664f8",
+      "git_blob": "e2237728f0641647c411f863dc20b283d1d4071f"
+    },
+    {
+      "path": "production/codex_pipeline/build_audit.py",
+      "bytes": 5368,
+      "sha256": "b30a2d0c9e9161e7992ce071adc1f5fda28779084356db9260827ffc34f1cf0b",
+      "git_blob": "a0ad82ad300cef56bb6030499240f4bb570f8081"
+    },
+    {
+      "path": "production/codex_pipeline/build_character_rig.py",
+      "bytes": 8070,
+      "sha256": "38f0987a0ca2c5dfc3cae5dceeeec637052b6517f5b2461b80509dfd5db6dbb6",
+      "git_blob": "75a36ca4d04e96d5eab3dc92f4275f3cb47aabbf"
+    },
+    {
+      "path": "production/codex_pipeline/build_production_graph.py",
+      "bytes": 6698,
+      "sha256": "d5e949dc8eae4bbf40707e585753f61312cfcce66cf1b7b5dc4b21574edd7946",
+      "git_blob": "d504dbfefbcaeae618f9279cea5516c0f212ae53"
+    },
+    {
+      "path": "production/codex_pipeline/canonical_screens.py",
+      "bytes": 1816,
+      "sha256": "1267db50164d8c229c097f7efd5a3dc17a6a3e27c6951d8b5a501eb789af9acb",
+      "git_blob": "4307055cb4ef230677202a043a6807e5a6922108"
+    },
+    {
+      "path": "production/codex_pipeline/cloud_setup.sh",
+      "bytes": 2391,
+      "sha256": "25c6cfefce0942d1388cb6f029f1319c24d5a88bc96ae5ad1e811ebcb5bbbfc3",
+      "git_blob": "3738b260674f25ab87666a81d4751eff724fe57c"
+    },
+    {
+      "path": "production/codex_pipeline/conform_audio.py",
+      "bytes": 3971,
+      "sha256": "d1da2b00e7aafc24e90ee2eb458263a5edf2bb0b0d273033cef442afaf008680",
+      "git_blob": "7b2216eae88d19a3d7f945983d7e8e018cdd8ef3"
+    },
+    {
+      "path": "production/codex_pipeline/continue_production.py",
+      "bytes": 1692,
+      "sha256": "db7cd1b9c425c70a7cfa08bddd24283452bddee1961d8c4061044aed48056b70",
+      "git_blob": "b4eecdace05d70082a47c5d1f112daa01a54a8cb"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/DELIVERY.json",
+      "bytes": 23811,
+      "sha256": "f96abe3646d4b7e0b487d550fd80b9c4f5f8fa8ed95a1a321dbaa19aad9588f0",
+      "git_blob": "679cd726052ffe096e7cc9a38ae7e93305c8d8b9"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/E7-07_3D_MASTER.mkv",
+      "bytes": 1791918,
+      "sha256": "aaade8e91269d714ecaa932ee7bfd9362e29a641488b25d412046a6ec4f82cdb",
+      "git_blob": "afcea98e23347aec073c0cd258003a8c7906c365"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/E7-07_3D_REVIEW.mp4",
+      "bytes": 1301870,
+      "sha256": "16bce5ce62f0bb90dddc9ca613c16f39fb36b32350b34c9ca4442a589f38d50b",
+      "git_blob": "4e29d765392e2dd240fded23330e033af08cbe3f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/E7-07_3D_REVIEW.mp4.playback.json",
+      "bytes": 360,
+      "sha256": "8948bab5b95266303a5b34088170d481947239a8cf4817417c1a8e9eb49c7ad0",
+      "git_blob": "f19e7b64c4dbce1443d5c95905d1bb8296dce90a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/E7-07_3D_REVIEW.mp4.playback.png",
+      "bytes": 420004,
+      "sha256": "d64a95959f516cc98d99c49930a83a93fa1236dd7810eeff759ce67ba0750ea1",
+      "git_blob": "83336e37134a2311bb37544bb3c14acaf3422b50"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/E7-07_AUDIO_CONFORM.json",
+      "bytes": 853,
+      "sha256": "06ff0c01f1397091b9db6c1fb5ed5d3517661b3de3bc60b30e53426f7102c203",
+      "git_blob": "daee967ad2da536d615fcdf99a6e9d736535e569"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/E7-07_PICTURE.mp4",
+      "bytes": 1163859,
+      "sha256": "b46a5e559508975d3057b8f202596db47236380c73401986a8062574afdb7646",
+      "git_blob": "672020203e22c8baa0ca19289e0ddcca0dff24a9"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/SCENE_SOURCE.json",
+      "bytes": 178,
+      "sha256": "f0f4d69f982eb3b125ade0fbd2946a14affd085c0d8b58ed44b3143eb83e8d4c",
+      "git_blob": "41c09c729f3910a3ab31d697fa1fced73461828b"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/keyframes/000001.png",
+      "bytes": 1520572,
+      "sha256": "17e231cb703c5a7e7a29738ea851da3a9962dbb30e3b6e259063d44de693456a",
+      "git_blob": "28b4bbdae1abf81e38ed2afbc63ff7b354c9ecf3"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/keyframes/000067.png",
+      "bytes": 1489156,
+      "sha256": "ed6bbef5cee145294d8a357d519b4025494e86e9d4f9be03ba4acd01295fe7d6",
+      "git_blob": "df53b88231dbf3cf93e11f6dbfecec83e977f508"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/keyframes/000135.png",
+      "bytes": 1457885,
+      "sha256": "72451fb24f3b9c8a2211b0e84b4a96d361b61c70c313fc0b023995f9e365e1d3",
+      "git_blob": "64f913c225e4114fd3b077f01797590fa98bdb78"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/scene.blend",
+      "bytes": 833092,
+      "sha256": "f316467df4127b208007f2cb89ced67defe7727111ba7836e987001135ceb502",
+      "git_blob": "642471d135000eb409a35e45b9b0a7f25416c723"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/state.json",
+      "bytes": 12701,
+      "sha256": "5953cc98aec1d135c45ac9275a88ca1d48bb34e918d3394982da94b7129a3891",
+      "git_blob": "a77a3a0993d668bf0dfa040fc125549b4a5d887e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000001.png",
+      "bytes": 14565,
+      "sha256": "3fd20a56a1410b57e1880fdda017ff7f5b8b7c38cf72f317f79e4ae07828e43f",
+      "git_blob": "d1c44c4fca820330e2308a80b64eff9c124eacc5"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000002.png",
+      "bytes": 14571,
+      "sha256": "412c9bdd92114c80738ef583b9c80be1fd2ec817ddcdf82f60535a3124aeeb47",
+      "git_blob": "fad515335111a3b7b12a95112414006b4b4eb4a4"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000003.png",
+      "bytes": 14571,
+      "sha256": "16d068b350e178b00aaf011d746a4182085a4c3d794c510c749b398e5bba6e2b",
+      "git_blob": "45754d304e31a687b5d555699d613169ea47c86d"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000004.png",
+      "bytes": 14571,
+      "sha256": "62c3b5e8bd0af1c7482beb54d6ee1ac48ad0b39e608c7e563515e561a13c80a0",
+      "git_blob": "e7728e74d2c8e978c92d4c7156ab0e3937bcbb3b"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000005.png",
+      "bytes": 14571,
+      "sha256": "d9ceafc5fa91fafd6a7c85eca529dee416b448dbf67d727a3d80d4cfb0733908",
+      "git_blob": "780fe3efcff8c7f823b128fb12035099bc6d7f00"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000006.png",
+      "bytes": 14572,
+      "sha256": "b58672aeafff156ef41587c5cf4a8ff5a3fa85bee118f4d9d0c092f38f4fd29d",
+      "git_blob": "33140514bd34433552a2336a34780f3472c8da54"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000007.png",
+      "bytes": 14571,
+      "sha256": "fa5ee46f519a3bed2b8750e63955cdbb4321950f15c4aef3863d8928666c0a5a",
+      "git_blob": "2e284fcf341105fb5a398b490f5868b23c7a13f1"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000008.png",
+      "bytes": 14571,
+      "sha256": "b833533a0edf759e3c71e629cf091d76f8c5be7f27d8d5b7dd883d9512a65837",
+      "git_blob": "f80f90886dfbee5b1e4a31e73485347068de0aa0"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000009.png",
+      "bytes": 14571,
+      "sha256": "b38cc3de924ef0845a5215823c1cd0f7f42dabca00e24c9cbb8ffedcc48fae4a",
+      "git_blob": "93f334090130889cf02573746f5a50c0b33ac533"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000010.png",
+      "bytes": 14571,
+      "sha256": "296351f63a53454e7874cf5e4279594cd88176da1b10129839f72ad859514fac",
+      "git_blob": "b9d9b26a70e3f59e159e512554bb7c2754831b0f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000011.png",
+      "bytes": 14571,
+      "sha256": "72eeae03989685298972e3da40ffdd2cc38994655449954e110a316e3934102e",
+      "git_blob": "69c22dd9b689c1616110ea841861c8ad026cd598"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000012.png",
+      "bytes": 14571,
+      "sha256": "933717a817336e7de140a2537c98f641ce4b985c175ecac41e3c38c3775cb9e3",
+      "git_blob": "6c0a4974881ffb75fbcfde9f73124014ac7be805"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000013.png",
+      "bytes": 14572,
+      "sha256": "52cbefccb4617059bd5d0b9a4c0603ef764df7346791959db67e4374a13db1f6",
+      "git_blob": "3756d2c68da1ffd10c6caa1aa45e8298acf8ca22"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000014.png",
+      "bytes": 14572,
+      "sha256": "194d0f5e058894364234803f9ab1b37d2df51b700fc3a94358b5dbbcaadb5bfa",
+      "git_blob": "88cb9c7197010bf0fa6c9d4d0c684ab037143912"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000015.png",
+      "bytes": 14573,
+      "sha256": "243e8702a0a1514b414dd7a5e2444429053546bc3054bfc72045b6d98c976046",
+      "git_blob": "9c0b68a32f2dcd2983377c0e0b1778652c2a30a9"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000016.png",
+      "bytes": 14573,
+      "sha256": "c5d59228aecf9fe833e459d5df3ffbf8ebf6ec692a68a69a00cede71b9a67bc7",
+      "git_blob": "76958cf6c51929990a5dc2b4020dbb105a01f432"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000017.png",
+      "bytes": 14573,
+      "sha256": "78bac69d070ff5c3a963036c5827d40e54c378141f3730767d485fee12029086",
+      "git_blob": "58ed3c76be2437fc624ac8aa46741ec9de3c6548"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000018.png",
+      "bytes": 14573,
+      "sha256": "cf167522bf152b274f2c2651e567287a0852bdcd1e2472585f8330fc8732c646",
+      "git_blob": "5da19918106a56a7efb84ef06d4844d51abf15fa"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000019.png",
+      "bytes": 14572,
+      "sha256": "4366bf61abf70140a721d6bd450f083d15867795131ad218594f29c3314bbcd5",
+      "git_blob": "59b619620cfd8f8daa1de8aa2b679fa3757087d6"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000020.png",
+      "bytes": 14572,
+      "sha256": "e6a4832798b3f5ea7d2697acc7b350665b3aa2497a84a0c4049641c28966baaa",
+      "git_blob": "3421efdfe86729f4351471e40c38a385bd63d083"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000021.png",
+      "bytes": 14573,
+      "sha256": "e17777118347f8de32b2d8cdf7da4ee5e7eada0ddfecf21e65b5021bf1c88aaf",
+      "git_blob": "56cc556173952dc07227f612786ad9c5000d700f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000022.png",
+      "bytes": 14573,
+      "sha256": "369eaff87a07a3553805d406627b0d6987d7ca11ee696c4d998464858f9cd7b8",
+      "git_blob": "b510d4d635ad2cecb5703efd497fb153751f5bd6"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000023.png",
+      "bytes": 14573,
+      "sha256": "9dad3e9284c2982b2534fa00e43cbde1de2072728452e5a68d123a260e494a1f",
+      "git_blob": "20fac5df7f7252bafd73e5550e5e3cea5b8b6ebd"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000024.png",
+      "bytes": 14573,
+      "sha256": "94103a887d66fa549554ca99a017343b4b3bfb85e554e9ef2a015a5054cfb479",
+      "git_blob": "35874fa584952668a0c446cd434f15be32b8b0c9"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000025.png",
+      "bytes": 14573,
+      "sha256": "c6472080adadab87b8e701cc6d15efae744f2dd9dfa813cf99698039e71e35c1",
+      "git_blob": "69ea10e898fbf50cea391cb18e36508dcd6f2d98"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000026.png",
+      "bytes": 14572,
+      "sha256": "ad151019d4c40d128a8035e30bf1edda5a7e29120435575559c67583cda909e0",
+      "git_blob": "f78690b0cd3b4b8d5c622753a77db0686d3c4c7a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000027.png",
+      "bytes": 14572,
+      "sha256": "9349a4ba402c8ada4e8548cd0cb3287fb2e5b3c3428d80ac25b88b5ef09a9d8f",
+      "git_blob": "bebeddcc053b555277f45575e558a196d93285b9"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000028.png",
+      "bytes": 14573,
+      "sha256": "d529b32fa450af02da0b0220593faf7d98af707b49184445cca66f163949dd08",
+      "git_blob": "6a369bc4e3837d3a62d194a59b9f842d5168ad75"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000029.png",
+      "bytes": 14573,
+      "sha256": "8ebd76d5b8f17d61463ac839a599c001d0666a7ddea94b4e7f7ecfbc4e31c05f",
+      "git_blob": "2a4e4ac29ab8eeff7050066d3c8f406d95518d45"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000030.png",
+      "bytes": 14573,
+      "sha256": "2e3d512a0099264ddbef28de7250e6d7688536f77ff906d6171caf68b6e1a1cd",
+      "git_blob": "0f7575aa9ee4d97aaefebf65cc3b0170222100a7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000031.png",
+      "bytes": 14573,
+      "sha256": "d9bb8dccf82be98fab1cd86e16970c0ca2b669655585eaf540068e0e18b92313",
+      "git_blob": "b6a8faffb8257b67edd484e013cee80575bed46e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000032.png",
+      "bytes": 14573,
+      "sha256": "f820aa0c89a07d52475606394fceb709ff6a1e0a5caffc991d56e056db47f4eb",
+      "git_blob": "a911f7ccc37f41608e8768631f86ca2529bf7e84"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000033.png",
+      "bytes": 14573,
+      "sha256": "1753b34b82054ee984dfb31ccb0ba6c72918fca3b1fb1a50be1072e526791eae",
+      "git_blob": "1d9e283ed2c41c90d5cb049d04513c335539f5de"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000034.png",
+      "bytes": 14573,
+      "sha256": "9393966391bbcbd53afee7d5d32e040df595562fe40a1376892acd6714f6219b",
+      "git_blob": "9ec211f7613c2797a237cc5a0c7e9956f4a12859"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000035.png",
+      "bytes": 14573,
+      "sha256": "235982ca6aa6855a586d42a953e427d4c16094206366448f9635f53f78d13ce1",
+      "git_blob": "b856d2275409a65a595925bd594cfa61c228af4b"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000036.png",
+      "bytes": 14573,
+      "sha256": "153153355f1bf3605e6968f4f2bf2b9232f3c8b8513139d7ca01a1966d1aaa61",
+      "git_blob": "1717334778091668b239fbf7f1133d29c3a7ffd7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000037.png",
+      "bytes": 14573,
+      "sha256": "0c394918d1e6ddb172bb6ce5a110ab238749b10e6553e5e60f4c39c7f170e748",
+      "git_blob": "741e9dd6cd5c39fc144d644ec917810d0c59edd2"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000038.png",
+      "bytes": 14573,
+      "sha256": "d66da16711612f218a9bc38f5e80f04c5e49208e21cc41c3bd2e8cc40633b55f",
+      "git_blob": "08a5ecb7cd7849e6f95a77d2c6d4f7dfcfddd7d7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000039.png",
+      "bytes": 14573,
+      "sha256": "c169f325d8005ee1018598e4bd5b7371e430b415b6a65bc6cc5dc3d5a194aa6b",
+      "git_blob": "80eb87bc27ca09362774d998460965cad731432b"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000040.png",
+      "bytes": 14573,
+      "sha256": "b335d3b29958387b009e88e6123e7e8f8034735b077ea10efbabddc89b6b205d",
+      "git_blob": "270eb1eae5de74e57916860796d8dadb3c6e82e6"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000041.png",
+      "bytes": 14573,
+      "sha256": "4d4fccd7b1297c8e9e41c89bedb66b62d8e3f7f591443f29a60c9bf7b475b087",
+      "git_blob": "68565ef9a4984115669e0da5841d24d99fffc397"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000042.png",
+      "bytes": 14573,
+      "sha256": "0ea94e5d2f3692803da3b648be6496944ffdcfb5de5eb78849b6a795d3be20eb",
+      "git_blob": "14e1d06ac126ba4cb1f5fa5a41608a1fc240c601"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000043.png",
+      "bytes": 14573,
+      "sha256": "3bc15b733cfc2ba5016f791576aa9617263bca12ef2759a46167950f3d062624",
+      "git_blob": "f17252384c5f389085a844bc76f0cced1981d072"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000044.png",
+      "bytes": 14573,
+      "sha256": "e8bcd0caa9263205e4de6ec984fd08f24ddb011c1172f73dbc5e4c751e05c37c",
+      "git_blob": "5fa94ac439ca4e97a861b81bf65388d24fc161f3"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000045.png",
+      "bytes": 14572,
+      "sha256": "0c90a036f3235d02117591a8da714733c0162cd7a8cfb84e3780b5bda3ccd998",
+      "git_blob": "65c31985c5cd31d823ac4675fc63f1fb581b2853"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000046.png",
+      "bytes": 14572,
+      "sha256": "83e18a950e09b8d333b9abf6bb579f873ae1c2fcc62b4f5c039fd723e1f60795",
+      "git_blob": "7c8765832d62a20261aebe0cbcfd0810e9ba4b41"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000047.png",
+      "bytes": 14573,
+      "sha256": "45cab420fc4c1572a44e3cc45671ca4a0a20308dfe79f11d0ea395eeedf7cd90",
+      "git_blob": "3e11b5943b95a3bec24b6c490b20ef83c722c706"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000048.png",
+      "bytes": 14573,
+      "sha256": "91503dc97a7269802b1e1c2af0671c06556a51a499a7780ef76bb1d36c509388",
+      "git_blob": "d2438402776ba257a05d06e9b2b72589b23bd29c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000049.png",
+      "bytes": 14573,
+      "sha256": "e69322f5e9542c56dd8ddf8f25f782b9f8468b5a709997491ea807fa48cc50ce",
+      "git_blob": "d68624bdb56496ba38efa190de67b8ddab7eb20c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000050.png",
+      "bytes": 14573,
+      "sha256": "fbeeb6e4214334458c53e37273b0fdc26831b80135cd7791589784d9ed576d82",
+      "git_blob": "d1ce6fa34f3a07b49181e5f2ece992c5b6fa506d"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000051.png",
+      "bytes": 14573,
+      "sha256": "5d44cb0798b52e1c58786b4754792fe3fae8f60c24060de3a692b1ee3a272007",
+      "git_blob": "934655547f288d63b9bc401fd946155a171d91b7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000052.png",
+      "bytes": 14572,
+      "sha256": "eb88478bfeb2541a3f58b5a0ba9fd8b966e7c0708031f4f513f99ebd34042d3f",
+      "git_blob": "6912de9c7d49da2fafab33e3a1f6a6744f5e247f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000053.png",
+      "bytes": 14572,
+      "sha256": "17de2f2eb1e6597077ac64197a4d2841b6f16aa56b641552835982e16590418b",
+      "git_blob": "076d93a227b25c29ffac2c9397e77e948fbbe344"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000054.png",
+      "bytes": 14573,
+      "sha256": "790b8f339b2b33f44926790e2db3150d34bc04ca04298ec2bb88000248d9e96a",
+      "git_blob": "63bc3722609a68717e82a17168101ee6f39d5458"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000055.png",
+      "bytes": 14573,
+      "sha256": "4bcc9510d240d32a5dfe2f0c29a1b9234fe9d84f8e5d915832155f8ad139d806",
+      "git_blob": "42f8fb82fcbbfd99756b28e9cf9430676e20e03c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000056.png",
+      "bytes": 14573,
+      "sha256": "873f4454444196b792742ac5ac29096fdd4f3650d4f149f3acc07e115243b2f1",
+      "git_blob": "d9936e16944d828006dfacfcdfa2f655fc748244"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000057.png",
+      "bytes": 14573,
+      "sha256": "59089a42edc8368eb31fbe31ff6b578e9f7eeb4f14d08f12a3d3f3221f6acb7e",
+      "git_blob": "d22468bee3455ecd198f9c4a510495e30a0d7761"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000058.png",
+      "bytes": 14573,
+      "sha256": "9706348e76ff7072843e71ce5c7fb7837b8dc6d1ce7d6b16121d62a73ab29ea5",
+      "git_blob": "cf24ee285042ff8c41331796dc1072bdbad47360"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000059.png",
+      "bytes": 14573,
+      "sha256": "85e4975c12a61d2079246db0cadec49ace4c4991ad54f9ca76b9df06f8cefca0",
+      "git_blob": "340e4e4310914df0a55d9eb70e8613cde894840a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000060.png",
+      "bytes": 14573,
+      "sha256": "637b25c9005af7afdac74a50b7821dc2a5bf5dfad9435f61621a6212693633fd",
+      "git_blob": "d0fe1535c55792fe387e715522c58b7948d4b040"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000061.png",
+      "bytes": 14573,
+      "sha256": "ad685e47108bcbce3e0f9a99fd2cc277c8120453d3ac6807a49e739c002413fd",
+      "git_blob": "bd6020624c4263cd5f33ce619e539c999252a577"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000062.png",
+      "bytes": 14573,
+      "sha256": "04e8f8a9c5b2e530dc29b98f9b958384268e208b6af23b76d6ea52387ef09744",
+      "git_blob": "02deed1b3323ce422cb0b9b69d343cc03b641dc3"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000063.png",
+      "bytes": 14573,
+      "sha256": "9e38a37344af35a7a9335f54bf6fe3bf8beca89e2d88282a35bc3d1e8d0ccb7f",
+      "git_blob": "c3877dc70aadc58943e23a8e4cd8bc9d6acc12b9"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000064.png",
+      "bytes": 14573,
+      "sha256": "f8ad4b6809ef430355fad20be0188c272f8abba03b2b532202cbdf4dae66aca7",
+      "git_blob": "b975d5457c7aabc5742f2b63bac2a84266aaecde"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000065.png",
+      "bytes": 14573,
+      "sha256": "82029f9d7050d9cc095a9b8256f933dd9d9e7e6076078fb228cb5d021c3a9c62",
+      "git_blob": "1507b7d07d77531eadd26033d2b41c56454e1b38"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000066.png",
+      "bytes": 14573,
+      "sha256": "a03315fc924d6e6cbbc58957b3801867a6b507e31c965ab3f08c06cb44e2d9cb",
+      "git_blob": "cdc5b15d04e9e186305f4ec92910fa52c1106414"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000067.png",
+      "bytes": 14574,
+      "sha256": "a638e7dd5952eaf73831cda802332b5a1f62cfb46f8107b7b90955cacf3d901a",
+      "git_blob": "03dcc8fc1cee96c9185d4c52b7bbaf1506dfe14d"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000068.png",
+      "bytes": 14573,
+      "sha256": "855db0fbaee0d4dbfaa6c9d941c2186ea383ff0dd5d58797796e1ca26391de5a",
+      "git_blob": "a56136de072bf7637063afc22c5de4054cff91d9"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000069.png",
+      "bytes": 14573,
+      "sha256": "9cad77107bc1fb77d01aaa5ac7af035bc84e12b2b434e22f1c164cbfee35cbed",
+      "git_blob": "ae9416f4b9adbf9e47bdca019793d65db9ae5e1c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000070.png",
+      "bytes": 14573,
+      "sha256": "2ca2071c7ad8cb8ca4c2c5f4769875bb641a00cf2334308ce42f1ed94faf21f3",
+      "git_blob": "ec56eaf360d5ec7a030216bc74301493166f7c97"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000071.png",
+      "bytes": 14572,
+      "sha256": "e3225d1ab62d1d0ac949d87d33177442352fbae9c156e25b38af37b6c25b836b",
+      "git_blob": "eac067b8f44f1d0e2ce80a37e1413f30cbaf1d98"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000072.png",
+      "bytes": 14572,
+      "sha256": "1f926b60c56be861d0a3290cc23bc9308da1ebd198f1054d82e29645fd6b3138",
+      "git_blob": "d85937444b08b99784379a2df6633120ad57c0f2"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000073.png",
+      "bytes": 14573,
+      "sha256": "a66b4f939844dd2b2c0e93cce7cf12b828475ca6426ee33b074add718b12033e",
+      "git_blob": "de2c78b15431beb8341df7af7b3f9c4e60d44675"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000074.png",
+      "bytes": 14573,
+      "sha256": "eb9e8257615fb22812caf5aa17fa8931f59c8e57fb0f1959d70620f85dbc83c8",
+      "git_blob": "21f5fe559328a15d1315e7616c86444a8090dc15"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000075.png",
+      "bytes": 14573,
+      "sha256": "93ca206b5263721a3766622a57195756716758f75687b9fdd3d6616931be1590",
+      "git_blob": "f2334c4b8ab03685ab23ca0d3fa968feb25185cc"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000076.png",
+      "bytes": 14573,
+      "sha256": "9de60d2450c81eab2a3c3178e4a8331a3be55dbb1daa4d488bd21c7ee9a7110d",
+      "git_blob": "a5ccc7c4937968e59bf2164d04e9d85ee9438f6d"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000077.png",
+      "bytes": 14573,
+      "sha256": "6bd2995eceeb44b40f912c7bc35d7826d14d67b7abc3a99219f1fdb8367abac9",
+      "git_blob": "615d550f1a9e4b4a27bef66d5ce044f61ad77c76"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000078.png",
+      "bytes": 14572,
+      "sha256": "1eddfe47b8db575a9c135d2f9b7e44dfd4a36e003b06b7b60fedfc4712eb22c2",
+      "git_blob": "d19d1c8b3dd575f60b36580de6576b058ab62c1f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000079.png",
+      "bytes": 14573,
+      "sha256": "77c04394044c1cdd08933519ea11e1f7d8ed756cde7bcb91fd3e297d583dc51f",
+      "git_blob": "070c6b893d3b96a965a4e2e7f898d3077920886c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000080.png",
+      "bytes": 14573,
+      "sha256": "d7472fa16a1ebbce0dbdfed4bff460223c94c0bc15089fc283fc04486a121320",
+      "git_blob": "ba3e83fd1364738d75b5990618af915f14fd0dc3"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000081.png",
+      "bytes": 14573,
+      "sha256": "43766c7c97a08c6bae41722e62a99be67606f3482a632f2d721a1cb70879c105",
+      "git_blob": "0dff6cab3fc5fb263179466c41581777211e50b9"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000082.png",
+      "bytes": 14573,
+      "sha256": "2e40db2a83c13ef02903048d054c2b8ac697d3ddb84c43ff2840e0c30c866ad9",
+      "git_blob": "5e3869d80a4c99dc1533a80bd359f52908386749"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000083.png",
+      "bytes": 14573,
+      "sha256": "325f471dac6339ad3773bf369e69da8056216d4c25d2f3c126b84adfc7a5742e",
+      "git_blob": "302e47b7de5a3250b13a083e962b0d2eb5163e4f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000084.png",
+      "bytes": 14573,
+      "sha256": "2119b553151f3c59b256859463d459c0bccc807c6c828fd69fea133da4e67cc1",
+      "git_blob": "78f0879394971450909015b90184218351bfd130"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000085.png",
+      "bytes": 14573,
+      "sha256": "e84ac786b78ad5719b63129ee4e17265474e6c52ff28320f8667ec1581b19fd3",
+      "git_blob": "ad0bb155311fc50b30db1d7e95f8661a9f0b455d"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000086.png",
+      "bytes": 14573,
+      "sha256": "3d908497ccec003d56a7e8345fd4e6c44eb0ea9b5a94bd65f3e70f0d1089ad16",
+      "git_blob": "dc9f306fade583b56c27378624c914647c0fbdca"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000087.png",
+      "bytes": 14573,
+      "sha256": "ce03be279b6698f3d0e5d273ee4f1178534da8e79d44449c6256cc22e757317c",
+      "git_blob": "6e1ef0b2b328fa50c9f5b58b9cbd7567df25fab8"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000088.png",
+      "bytes": 14573,
+      "sha256": "16bd9199630fcf72b7f39aa8629f028adbd0eb7bbec98c3bfce992d6b675ca79",
+      "git_blob": "9df0815c90d2981d3f45927202fb7bb5df9993d4"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000089.png",
+      "bytes": 14573,
+      "sha256": "941d122786b3e1679bbe564890e1126ce5741efb22620e65885add84c6ffdece",
+      "git_blob": "fcc82432f5663c15816183cada6adfd8f8cde831"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000090.png",
+      "bytes": 14573,
+      "sha256": "a3d722a9b8d675baf8daad111065a5ea9427a9d3dae14f4c261de1aa8e970e41",
+      "git_blob": "5d1b6062f14865d223cfd77cc04220e7b7701234"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000091.png",
+      "bytes": 14573,
+      "sha256": "7a794f1ec8e20c4dfcccf4e6a7dfd1a19ce71a85d96c33b7154031e336abbe81",
+      "git_blob": "06f0a013a4022d3cc965925a3a5b30444a1ab7b5"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000092.png",
+      "bytes": 14575,
+      "sha256": "21b71deb54275affbe0d6200a681a51084a481eb7100baa265fd5bd14fbbc44e",
+      "git_blob": "82087cb3371fbf634ea957987a5676a75ace2ba0"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000093.png",
+      "bytes": 14574,
+      "sha256": "c2ef803b0530cb5d357fecebbfa0169fb35b8176952044910f00d09412631b47",
+      "git_blob": "deaab968b417e88a5b888c40c316020926d4afaa"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000094.png",
+      "bytes": 14573,
+      "sha256": "68d530e3fb427f1bfb7508eb15111f1c86938d87edab541b9881f0456875359d",
+      "git_blob": "0523281c6611955dbe18c67921887c1784491510"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000095.png",
+      "bytes": 14573,
+      "sha256": "3017b97773f9cd251c76148f54bab145b5ef32ba8b82f602ca0a892a16e24219",
+      "git_blob": "7cb8e7deb3cf9923274bcdf2c76d35c29819a3ec"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000096.png",
+      "bytes": 14573,
+      "sha256": "056760402053d7f6537b866fa16bf433ae467648466e30e0be1d95c18318b51a",
+      "git_blob": "8f748a1cecbcbb6286043293099876e92bc84311"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000097.png",
+      "bytes": 14572,
+      "sha256": "6adf95546faf33dc057f3db0a6a851e6da903353bbc0e8c24b0da72a5bb6a21a",
+      "git_blob": "cfc88494f276244abb6af618252f99cabbc87f84"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000098.png",
+      "bytes": 14572,
+      "sha256": "722e8aeaf66e22b0ace74f6a80a4ab5ca60af8b1f77a9b23ddc45eceeab83e9f",
+      "git_blob": "9469a6d65c3c5ec40dfac2445957c6c93248f937"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000099.png",
+      "bytes": 14573,
+      "sha256": "70997262a12c50ec07ad3ffd3e9c55398380243835386147b873cbd3caff1dcd",
+      "git_blob": "6628407ecf3fe9dc549a235827897e4210c2320e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000100.png",
+      "bytes": 14573,
+      "sha256": "b23874f0d106679a7d6ea07a2dfc8742dacfbf0d0352924f73a6ae29df991f18",
+      "git_blob": "0854fcceb7fa28838bf76880be3560935b81825c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000101.png",
+      "bytes": 14573,
+      "sha256": "f807a90a74e782da08ba99f53350ae5baaf80f2fab1d69deaf46fd9c06af365f",
+      "git_blob": "fe1a14b16506677babbeacddf8d79379a8089215"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000102.png",
+      "bytes": 14573,
+      "sha256": "3eb6825590a991a23c194482d5d7223014bd8a65facc64845eecdc9e345bf548",
+      "git_blob": "41b6deb218f1908fb68d34c721f1883a3b4dfcc7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000103.png",
+      "bytes": 14572,
+      "sha256": "9b770e2f42f67f0f2d420a963e4fafa8bcad337b221f674b1bafe94de6ed6512",
+      "git_blob": "d0349b728562427225429eab9ac46751bbdd4184"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000104.png",
+      "bytes": 14572,
+      "sha256": "504c3a20cf008f700f1fb064d6ad43edb606f67a43675c6b02a54ae609a626cc",
+      "git_blob": "b3b9e33bc48d54129ff526e22afee2816e7575c0"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000105.png",
+      "bytes": 14573,
+      "sha256": "c9bd8cefec73452c41ea73de16dbc96fc6db1e2dc5de44e87d0ed775fef0544d",
+      "git_blob": "ced74b9246ad163218cf501b7adbeab7a98dc435"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000106.png",
+      "bytes": 14573,
+      "sha256": "c9d4f70787913f58d8075e883164e250a278edaa8367f65dce78199264e1816c",
+      "git_blob": "0c3892363e287f999c14d8576816aea38341b2a2"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000107.png",
+      "bytes": 14573,
+      "sha256": "a7bf3f2479c9ef000419e12728b16b3836da52b074730e156be8512391f82459",
+      "git_blob": "808119f44fa3a05af210e76ebb4a3eadcddf3ef8"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000108.png",
+      "bytes": 14573,
+      "sha256": "de42936bb9f727d31d2e29a98bf151aa5cfb7affbf6d7f8b305ff082e960905f",
+      "git_blob": "87d72fed6cc03ffcfb009cd869e2c9b4efbd352d"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000109.png",
+      "bytes": 14575,
+      "sha256": "c6ef5b55d66982b726ac77150488aecd8c64d5fa0dc307b1c41422af10c1cfb8",
+      "git_blob": "f04cb6a8383c580fe2d4a2ac884d7100ed427a26"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000110.png",
+      "bytes": 14573,
+      "sha256": "6971102568ab1d010015251420dd27959e477b4d4ada69ce839be8bb494ac8fe",
+      "git_blob": "b28d8ee0956ddb0d5ae9a9474c104591e02f239f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000111.png",
+      "bytes": 14573,
+      "sha256": "f95745736b1fe6d11ab2c70a5465b1f6e9e3761905c243a6666036692dae8bed",
+      "git_blob": "03012e32c0513db9dae133008168d4261a16d73e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000112.png",
+      "bytes": 14573,
+      "sha256": "8759095f9151937f9b7f3ce011dc3bbfa856418ca0cacc25d8c579dbdd7896b9",
+      "git_blob": "1b758ef80f504ca401f0a1b0e705fd69908253ff"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000113.png",
+      "bytes": 14573,
+      "sha256": "1a9c6c1c6e3d1939c391e051610d38a14d1fee28f18ba186a8df781fdfaa8cc8",
+      "git_blob": "fe1c532b20a9f6220161e1ec3751a08a90a7961b"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000114.png",
+      "bytes": 14573,
+      "sha256": "140395f60daf7edbfb854c95c16edd504cd675dbdb49396b2b5ddb118217cee4",
+      "git_blob": "59a470c472e903ef7161897c51c882747ae4b5fb"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000115.png",
+      "bytes": 14573,
+      "sha256": "622e01436e37e0b8549d7af5f2d3fabcc1cf76b413b76bbab6a7e63e717b6fd6",
+      "git_blob": "1b6497a8983e31d69d3e2e8125bb5ec18f8af9c8"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000116.png",
+      "bytes": 14573,
+      "sha256": "cb98c819b25624f99a913eb7602414b95d8581b8d20e4cab075506177a0d907e",
+      "git_blob": "05b72dc1ace824290fa6d83b0b948f9dc2954a02"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000117.png",
+      "bytes": 14573,
+      "sha256": "f4ccc2c19acc952b1004e8e7e0c43747c36c70aabd6381ca39f4ea9e49921ade",
+      "git_blob": "c6e0effffbbe0cc5a2d5a10a6bf82b20ad00d43b"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000118.png",
+      "bytes": 14573,
+      "sha256": "6fc1723c19d0265f826451f6fec4f70c6debe941d1a76fe3d2b401444f2a20c1",
+      "git_blob": "f93f304611fb6d90a33c5a8fdbdfd12c522c5e1a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000119.png",
+      "bytes": 14573,
+      "sha256": "5b31cdbd73137376110b13ab99a9332de84b4462568ed5641b0520174130b8d6",
+      "git_blob": "1316af844299949fbb0da2fcc1efb1deb5b96b68"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000120.png",
+      "bytes": 14573,
+      "sha256": "c4c284518c80dd8398bd21bd6ede46773d5a12ffb6462bb99d5fe498a1497f2c",
+      "git_blob": "22a1019587f0969798e904b6c5b1fdf166a7686e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000121.png",
+      "bytes": 14573,
+      "sha256": "589be5b6b37379cad0722059cf6b6d5e0bc0ff069ed50cfd814e3ef4c5b6326a",
+      "git_blob": "635b1a35ab6007ef7df44b27c10b1e0f5938e827"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000122.png",
+      "bytes": 14573,
+      "sha256": "7cd7639021c9400fe6c138d910e8a4c7f6470511fe4d3bd00f5819e54e738868",
+      "git_blob": "9b3439ad3b6a2bbd8cd676e5fdd3a3d74e0a3bc5"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000123.png",
+      "bytes": 14572,
+      "sha256": "437624ca4da5b8ecf3a2346641b47c49b8ea58789ebafcb26a779129e4d1dd46",
+      "git_blob": "4fffb1e300d69ba7bc1adca9934a198a824c70fc"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000124.png",
+      "bytes": 14573,
+      "sha256": "8f67d5ee15be31f4a7ee0605b7e0f70630f3e302d953a8ab470248609058daf4",
+      "git_blob": "b25439b6922056537cadcde619fe36950f44709e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000125.png",
+      "bytes": 14573,
+      "sha256": "2133d3f5e2a6b2e9c7b6b02f369e7644d4a9134154d560914f27fe416772ea8a",
+      "git_blob": "bcec113cabd2d7d47d60291992623add5794cf5c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000126.png",
+      "bytes": 14573,
+      "sha256": "2c48e10b9e79a493639e1cac9d99b3bbf66fc570f9b1bc09146707ca0ebff9ae",
+      "git_blob": "8240869dafa56f29a83a48956e13ae2388f4ac5c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000127.png",
+      "bytes": 14573,
+      "sha256": "71fbab841463b830b5d9d2cdfd6903ad06b9003fc7d95af3b9e4b0f885f7ad30",
+      "git_blob": "dc07b8648477a4d44c7528ad92a5535c9f1ef13c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000128.png",
+      "bytes": 14573,
+      "sha256": "30a0450c037dff8f8f496599966a757e5568fcb02ea7bb55880fe6a2a8a98c80",
+      "git_blob": "13b5a827ee93f3e292274ac52a97ab411a5ae44c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000129.png",
+      "bytes": 14572,
+      "sha256": "1bf1b8eed6d0e0c21033cb5daa1b71a1baac57e2947a5de38a0e9830f64bbb0e",
+      "git_blob": "b305c65a6f022235010652157c9f72860784b77e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000130.png",
+      "bytes": 14572,
+      "sha256": "d07c62afdf0c01b2a77079932dfb2c8bf71e82259dc88e1a609e1a3543506758",
+      "git_blob": "c0fe4325103a21534d8feaa843594cc9028836dd"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000131.png",
+      "bytes": 14573,
+      "sha256": "d818d8ac1d74f92c432ecf73eb31951303bb09849c793c9b179f3897384c469c",
+      "git_blob": "199aa5f6cbf2670a76320bcb8bae4f5c27db045a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000132.png",
+      "bytes": 14573,
+      "sha256": "21cbb725018559259678e323e2760e321b179fda88ae2091efc641dd40eebb16",
+      "git_blob": "3f235c33f46847b40235cb76defa3c6381b7d40b"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000133.png",
+      "bytes": 14573,
+      "sha256": "c432e312a70744b8928c3831239051e3c9e720110981d4cc609f8463410bc59a",
+      "git_blob": "ffb62ba081085e03f44d323fedb088a509b1e403"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000134.png",
+      "bytes": 14574,
+      "sha256": "2deb793183fd8762a83ac95c140e0e7131d0785ce3bdcac3c13791988b0d0950",
+      "git_blob": "b35c1ce7bf4720584d645cc22b2adc304fd32864"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/textures/000135.png",
+      "bytes": 14575,
+      "sha256": "9e1897c4e890082531f712c35d5aba8bf0fb3e3b6e181c08726b0adb03c48d36",
+      "git_blob": "94a3da90b90c71e9dca9da6ce1d7c4778b0b3619"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/timing.json",
+      "bytes": 7984,
+      "sha256": "5f375c2d6aac21fef579e50f1f0f5f27e1296beae466accf5ee0fa3b40ca9ca3",
+      "git_blob": "d1d861040d9133877ae2868c5e359fc757354df7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E7-07/validation.json",
+      "bytes": 416,
+      "sha256": "a53a7764483e7ffa1ff657bdd52d740378b6fe7549be41bd6a7e6a326cdd6a15",
+      "git_blob": "9483fd1fb5c76b4bd83ae7214b0994f09acbb04e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-01/DELIVERY.json",
+      "bytes": 2981,
+      "sha256": "ad1be18e61769197080d499e09d6d29c17912777ecb6cb053e8dfb257db816c2",
+      "git_blob": "5357ddafd3164035e4bae4446356c4843b174959"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-01/E8-01_3D_MASTER.mkv",
+      "bytes": 3330148,
+      "sha256": "d208fe5ca9a317d004c205e7e7d6eaf31ef0b2fd17468c40caea972f6cf78b27",
+      "git_blob": "4a890d7da77956208228fe5536a2a4d191642be2"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-01/E8-01_3D_REVIEW.mp4",
+      "bytes": 3239342,
+      "sha256": "d69ca1c173dc9e609571edd645d2bfcc65a311a5d30aab11b0f3461c9c893665",
+      "git_blob": "e9634361d86a76c9ac7bc9b6bbd78320673ce8af"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-01/E8-01_3D_REVIEW.mp4.playback.json",
+      "bytes": 366,
+      "sha256": "90963a85eb6dc4bb607669a78a620e7c8a0f9b3114ff15bbb0f4f06f621679d1",
+      "git_blob": "c12609eb376e0dfc7cb6f264aba35d6eb4a986f7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-01/E8-01_3D_REVIEW.mp4.playback.png",
+      "bytes": 355659,
+      "sha256": "9d3d9d87925f485b7fc1fa18b681552771d5e2bea604217ac86a958506869d4f",
+      "git_blob": "1ef2ad2b5c2e37873b648ff64097facb942a434f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-01/E8-01_AUDIO_CONFORM.json",
+      "bytes": 877,
+      "sha256": "a1dd45269beac08ab270be7c7c951425cbf99d36563476d09f998c38aa0fe7ba",
+      "git_blob": "a6c7063fd6b964f8b7dc9356bf697354d7c8aa6a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-01/E8-01_PICTURE.mp4",
+      "bytes": 3165364,
+      "sha256": "3d2792b4bb21ea4dc1dddf2842f84864d894d673b479093021999d917a95e7f7",
+      "git_blob": "31906992bc58ac32dc8fbb3ac09d76643baf4ecf"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-01/SCENE_SOURCE.json",
+      "bytes": 178,
+      "sha256": "a6f75a762f96efec8a52961e602d39717a81357f043fb892ab9cafe484d30d6e",
+      "git_blob": "e86aca83722d4ef1dbec95608f573a666bb126a3"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-01/keyframes/000001.png",
+      "bytes": 1299009,
+      "sha256": "01bcf9dd013a9138bc1057ac35b8b24e2d85df09cfe40602de7cbdfe1d6df0e6",
+      "git_blob": "97febee9af1e655341a91de777d32ffb8ad49247"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-01/keyframes/000090.png",
+      "bytes": 1298576,
+      "sha256": "9f936969259c917cf3cadba2d14a64df1f9f9813c608671adf70b64051ec4cd1",
+      "git_blob": "237dda1845bc342226319a0af8017cc38ad7bbd0"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-01/keyframes/000181.png",
+      "bytes": 1301633,
+      "sha256": "87be0df4b48e2029b792fe292efd559a68e51bfa79e7c2e3d8a4ac5ed5d6a30d",
+      "git_blob": "c16b49549b53ce002d66574f93b40a1aa68340fa"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-01/scene.blend",
+      "bytes": 11085864,
+      "sha256": "09dfc844619744888cd4c40d34ae9862786cdc25f13f3f9b3259f49131c3b37e",
+      "git_blob": "f04ddf44cb4f9ad7f842db5b9b2d35e01a76d770"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-01/state.json",
+      "bytes": 16748,
+      "sha256": "29b9aab85819eb77e9b6391aebe2042b3ab3e9d95b99bf4d02cf26abd475f4ec",
+      "git_blob": "22f25372a65ab9a5bbe9c6f246c02762c9baf979"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-01/timing.json",
+      "bytes": 10795,
+      "sha256": "11655e965aacbe37a69d4cc7be7bf0aad2df8c0a3e46e7da793f3281174a27e7",
+      "git_blob": "74dd02d9a40432c897c22a4f63ac92b69a0f071c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-01/validation.json",
+      "bytes": 416,
+      "sha256": "c78bda0f532d5e93a16dd7f8b877295a341288ac1a5a7c0994075cfadb7ff52e",
+      "git_blob": "1073c61bb636e25d06e1ff30b356396e16a93d4c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-CARD/DELIVERY.json",
+      "bytes": 2477,
+      "sha256": "6c3bdeb11241d8988071249e738e8ca63d0c6aeb274af306053574ac26771ccf",
+      "git_blob": "fd13a23d67cadc0d7de276c4a93083a8a5c57bd0"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-CARD/E8-CARD_2D_MASTER.mkv",
+      "bytes": 108759,
+      "sha256": "207aa76ef89150a48f3838f6e69e04109df3985ea76c0595a9b16b5542f3f224",
+      "git_blob": "aab7b9fc73812dfe43f9973736f87fa07608f00c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-CARD/E8-CARD_2D_REVIEW.mp4",
+      "bytes": 61498,
+      "sha256": "1f5288b7e77cbdc98722bd7a601d3c59eb6941dc72a7e4f9a419c04aa3ec5cd4",
+      "git_blob": "34a959081056105579f63b2bb88246464e0019ad"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-CARD/E8-CARD_2D_REVIEW.mp4.playback.json",
+      "bytes": 354,
+      "sha256": "c380acd095521a17ce564da4c2863c1c3c80acb2815ce0597dab69cc64f528f7",
+      "git_blob": "85a29592d2c8192bd29074d07e1769a69f0b867a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-CARD/E8-CARD_2D_REVIEW.mp4.playback.png",
+      "bytes": 8164,
+      "sha256": "df03bc437c65afa8b63a0d2a9a8938bcf7eda3a934067b8f2ff3db70c8b9eeb1",
+      "git_blob": "4f6aae8b2e715e32540867c5ce7d65d0fe9c355d"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-CARD/E8-CARD_AUDIO_CONFORM.json",
+      "bytes": 880,
+      "sha256": "1d3d3de9a1ac12b2e79e78b5367b2f5570d72e7bdc89a8fbc356a74579db7900",
+      "git_blob": "b68eadad855bb31573901d2438eed041308f8224"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-CARD/E8-CARD_PICTURE.mp4",
+      "bytes": 21848,
+      "sha256": "e35aa57c25e33c485990578994ba42f4d363e0b208655426fabde4d3513226cc",
+      "git_blob": "bb927445022bbc1ab4c6c5e57970860033533094"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-CARD/keyframes/000001.png",
+      "bytes": 6879,
+      "sha256": "40758324031ab6edaa89a11f0a37a881538611f782beb3a40b149d5afdd2b469",
+      "git_blob": "e9213b95c156316876e3bb70690ef9184cc9e4cb"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-CARD/keyframes/000048.png",
+      "bytes": 13233,
+      "sha256": "37eef49ab8dc1e32c3b5c5b1405d8ebaf097f436f4cb22033dade97c772cb6f8",
+      "git_blob": "068563f65ece2d215f98566c0ac5a9fc8efdc456"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-CARD/keyframes/000096.png",
+      "bytes": 16098,
+      "sha256": "b3a7302ef733e59310bfc699fe000cd486a4518b7717817f8fec858556d1b6c8",
+      "git_blob": "be8f7315f6e378c99cf0ffee7bd20ab756c84f07"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E8-CARD/state.json",
+      "bytes": 8920,
+      "sha256": "4cc40d462ce8b17992645fc67b823ee0228ab1222f5b7ecd4dfc3e837fd99e13",
+      "git_blob": "43fbac6132099c9981196f74c87c8aee1b8c34f0"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E9-CARD/DELIVERY.json",
+      "bytes": 2477,
+      "sha256": "42906ac62f598c6cb0e20889b5baa38b8723ee6ca142e33b38f767cf41cbb58e",
+      "git_blob": "f95f3fd47d074b8c3464e400aaaec949b7336edd"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E9-CARD/E9-CARD_2D_MASTER.mkv",
+      "bytes": 104077,
+      "sha256": "e8d60d1357aa63d30f38e965ee3e24eb4f251d8e218ba3c0bdb9e8ac8325803e",
+      "git_blob": "c44435691afabe86ab7d145e092c0fd0036d8a87"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E9-CARD/E9-CARD_2D_REVIEW.mp4",
+      "bytes": 54260,
+      "sha256": "3786140c7ecb359b84dfd84a3472729bd1cd312521720cb2b2a3ff9cb0d280c3",
+      "git_blob": "ec7b5dc7e5ef5e5bc1ed5d878df0058f3ba38b3f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E9-CARD/E9-CARD_2D_REVIEW.mp4.playback.json",
+      "bytes": 354,
+      "sha256": "4dcbc3dc228b27ccc3eb5fec906cb4e04a8b0396a37f3f7c037a8c12adbc8d6f",
+      "git_blob": "3755aede1d3c44e2ed2c1e773a16bbfad4e04ce7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E9-CARD/E9-CARD_2D_REVIEW.mp4.playback.png",
+      "bytes": 9153,
+      "sha256": "585d494c79dcba6c574ea72b947a6b0f835523fb5cc98f116571d1a2b49d9fd5",
+      "git_blob": "20720da3042b1348ee9a14886956e6e9b6bc1da6"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E9-CARD/E9-CARD_AUDIO_CONFORM.json",
+      "bytes": 880,
+      "sha256": "99becc4f4f3908c84895b5e09c106ca5292a121fa093e00915ee76718f761608",
+      "git_blob": "25a44d3e3dc1d31dc3787a6854b5529099c9f076"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E9-CARD/E9-CARD_PICTURE.mp4",
+      "bytes": 21890,
+      "sha256": "ae89c2efde3d9a9e1f4a92db6f1362842b7ad88676b55585b24ab5ead6113990",
+      "git_blob": "be3148cc7e886132bb120a7726de0f479f9e1d56"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E9-CARD/keyframes/000001.png",
+      "bytes": 7079,
+      "sha256": "7e87a43622b20979f028a9e3c13daa992efc605b21e133e2ff3d97fcecceb96f",
+      "git_blob": "9fa4696ae2afe56bf8cc4ea2cf32597be4739f5c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E9-CARD/keyframes/000048.png",
+      "bytes": 12553,
+      "sha256": "a18452c4aab259f746a9017941002a491d75ee1d99ef76577c80265b6752d710",
+      "git_blob": "3dfe93d3119a18dcbd7ba0809cf1fc822c32fcdf"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E9-CARD/keyframes/000096.png",
+      "bytes": 14967,
+      "sha256": "a788d3c43fd2e7adda0b6ddc1e76bc9dc94aac701ce2fb6eaa2b59c6be4a77f9",
+      "git_blob": "a792af1ff37e75a1e9eba8bef4e4cb4f81e22d67"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/E9-CARD/state.json",
+      "bytes": 8920,
+      "sha256": "e0e1b8d4c16210b5e60843af27227695038a097c928994830253ff3eecf61862",
+      "git_blob": "e75f71b4de1dfc26d6e5485d94bfa7250674bbb4"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/END-07/DELIVERY.json",
+      "bytes": 2982,
+      "sha256": "d85ac247c4a220cd9691275808e06c90a5dd834abe9f8c99aec176f4acd51a40",
+      "git_blob": "3f4ac5cb9902bf1f5d95d200bfd1620f397d1008"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/END-07/END-07_3D_MASTER.mkv",
+      "bytes": 852330,
+      "sha256": "7101d0da39a87e1283ec5c2483befba6a11ca2f36a3adc909828dc3a8a819eb9",
+      "git_blob": "475bd06488bd421cbc58665e3b4becc62eea48d8"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/END-07/END-07_3D_REVIEW.mp4",
+      "bytes": 848950,
+      "sha256": "f66454ec7520a6a6aee5d45dc51f2ccb3759bf20e8098dd82d4d53649566e659",
+      "git_blob": "535b84f564b90f825ee17d16bd09233c806dc3a7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/END-07/END-07_3D_REVIEW.mp4.playback.json",
+      "bytes": 362,
+      "sha256": "85ad8d3bc1cdce90de3513adeba1e0d92f0dca9d41fb8a423eaa0a02a06108d0",
+      "git_blob": "69ec2212a683d6bb24d3174fe424913815c18612"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/END-07/END-07_3D_REVIEW.mp4.playback.png",
+      "bytes": 381508,
+      "sha256": "c54dfcc5f34841e85f8570bf25bcee075656260d8f38a183003f7ab7eaf63f6e",
+      "git_blob": "c229fc802bd6c39c522fa448fd0a74dc179bfd79"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/END-07/END-07_AUDIO_CONFORM.json",
+      "bytes": 878,
+      "sha256": "b43b6d2ccc3c7d666e6839515f8870bd6a3852c58d27f068e33313cea7585bce",
+      "git_blob": "52900d8027c6ff93d3ea9a1b59eec03936894b92"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/END-07/END-07_PICTURE.mp4",
+      "bytes": 838200,
+      "sha256": "3a7ab246533834a724fb6b8cbfdecc56c411a4a4f59cc8c387d3e093dbdd0a4f",
+      "git_blob": "9a0cbef464abbc1132daf85fc5950cc6cd4345c9"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/END-07/SCENE_SOURCE.json",
+      "bytes": 178,
+      "sha256": "8ff8535216212e1ef18c90d89cea1d9e421b86ff776e00320a76fc71478148dd",
+      "git_blob": "8ff9ac1475d55c6b01c79a643a483633ec5559b4"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/END-07/keyframes/000001.png",
+      "bytes": 1408340,
+      "sha256": "84fe2ae0ce2f2f319c46939a5b504cf372a0ee6083f6e712645295cee0cbc3c8",
+      "git_blob": "4d98a70d794eebff7df3d6f38e5cd9c65c449d44"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/END-07/keyframes/000064.png",
+      "bytes": 1407613,
+      "sha256": "944d56961fc533623451dfe615a2ca1f3266d0f8e9df965fbad9223d59fd51ac",
+      "git_blob": "44f8335be6dc236ccbb24b01d483a3f3083c792b"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/END-07/keyframes/000129.png",
+      "bytes": 1406351,
+      "sha256": "4741e7134679a2cca607866246322a76fb402ab482b965b7c8f9c3b2246acaed",
+      "git_blob": "43ff6b683c7d35dbc52ca5c68df046e1f72f0c9a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/END-07/scene.blend",
+      "bytes": 811812,
+      "sha256": "aa1b93e4c6db480dcff669f4bf4ceab2ecf773232758698d638318d844f14270",
+      "git_blob": "fb5006d488a743823d3dfa3f3d1a99995a536afe"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/END-07/state.json",
+      "bytes": 12277,
+      "sha256": "fabc54970e6c0985277ebb4ded3a50a9d0acbc21b3e0f73f446668277224fd48",
+      "git_blob": "b9163ad5fbe0d2a919058e0255da9d2f2f789e7c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/END-07/timing.json",
+      "bytes": 7651,
+      "sha256": "58d9226482ac5928e6ab4d8949f02dc777e236bb99db15ab8de1cdb8360026ae",
+      "git_blob": "00d6021d2defe8ad037949598ac838438f3a52fb"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/END-07/validation.json",
+      "bytes": 417,
+      "sha256": "6747d82e7306d8f2ef95f3e5426e1ae618b444e85f6c7ccb45cc0b2eb8ee72ba",
+      "git_blob": "dff3e6288fcc897b13efe792b679d780a272a65d"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F4-01/DELIVERY.json",
+      "bytes": 2887,
+      "sha256": "9bd40de385b9a1d8ff6dedb43920659a36116f32bb5b5ef0270fe368317f7a77",
+      "git_blob": "983dd44141521aa9ed3c44af3499248238647bdf"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F4-01/F4-01_3D_MASTER.mkv",
+      "bytes": 16416356,
+      "sha256": "d016c1336d9a559d5fa505cfb528135f3ad039efc2c4b8ad1b880a5667400f47",
+      "git_blob": "d92aa5c18ea4fe375050ec1f342620d5529bfb3a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F4-01/F4-01_3D_REVIEW.mp4",
+      "bytes": 16187079,
+      "sha256": "71772f0a2e7a67a52692e378bdad684a0733face73cb4caba1e8272665d3a79d",
+      "git_blob": "d48a2a43a1979b269a23a8860a6c4154f6987dfa"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F4-01/F4-01_3D_REVIEW.mp4.playback.json",
+      "bytes": 352,
+      "sha256": "35ef3594800d066ccfde766155cf2bcb78cb4220dc6ca15e79ba36fb286e2613",
+      "git_blob": "9e4e613553014a479a36eb04c9a65658348d7bb5"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F4-01/F4-01_3D_REVIEW.mp4.playback.png",
+      "bytes": 854001,
+      "sha256": "b0d43a116aa7e6c1623b7c75bb291a0f68f0111d4c7dc8cc2be244cf5dd69c74",
+      "git_blob": "002b21e4fd5e68319728628825b610144daac02c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F4-01/F4-01_AUDIO_CONFORM.json",
+      "bytes": 877,
+      "sha256": "98898d96b18d80e4947a752efd19c0b620a66c947acf6f5f338d57b2548fde26",
+      "git_blob": "5b103e7321815afb2267ecba4ebafbc76a6cd594"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F4-01/F4-01_PICTURE.mp4",
+      "bytes": 16091666,
+      "sha256": "e541348170de9e24503c098ead0a7ea82cf1f1af690e9501d0dca39a57c6a97f",
+      "git_blob": "97378a240d0af207334bdbfcce0dd0986e552878"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F4-01/SCENE_SOURCE.json",
+      "bytes": 178,
+      "sha256": "59e6969f93319278f3907571971a5cdc60140fdb98ce800cdc1fbc8467e1695e",
+      "git_blob": "d08d70d75cb226a6f3db5d683a7543102615ff78"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F4-01/keyframes/000001.png",
+      "bytes": 2181445,
+      "sha256": "c5d5342e6f6763db57ed242f5e7145257dba3c22323d6c7a46d3a6f44359eb52",
+      "git_blob": "c25ac2804119f2d5cfb2fe5736e4d354ac8876c9"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F4-01/keyframes/000096.png",
+      "bytes": 2162802,
+      "sha256": "81c3e22668de3841abb1c8e6dcaa3a2f8889db9a8a95cba3ba3e9540baf39525",
+      "git_blob": "40d44d924439d41135cca5ba215deb0c41924882"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F4-01/keyframes/000192.png",
+      "bytes": 2192727,
+      "sha256": "7e3fc7449ca1a663640dd25f2819cdbac22029e22b85db064cc88aec810d68f8",
+      "git_blob": "2ea10865e9ceb64305b4204129560a08404173c5"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F4-01/scene.blend",
+      "bytes": 2681444,
+      "sha256": "fa4d06df44fe1ec9adfaefc1647af7ef32cc0fed7d424b7b46a37296ff069cd4",
+      "git_blob": "7715e28fc2136e0afcea5bd9c6763a9650e9210f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F4-01/state.json",
+      "bytes": 17600,
+      "sha256": "8359fabe89588355f4e440e8e65833e450d7f565faa778af9a70e319051d9ede",
+      "git_blob": "f21b866787d2561e69430f8ef46387eafdcfd257"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F4-01/timing.json",
+      "bytes": 11496,
+      "sha256": "fdc4107e45375bd8d607c943b4a4bd64fd7423bc67ab108f4c155449f70955ef",
+      "git_blob": "5252585e6d37433e4c3de9e003e17439556ae471"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F4-01/validation.json",
+      "bytes": 417,
+      "sha256": "e97b8898ed79fe108da999d492540688da361bbcbbe7b0dd6478083356baa073",
+      "git_blob": "7178da1606b989941771848bf85f217703908c57"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/DELIVERY.json",
+      "bytes": 17922,
+      "sha256": "3f63eeb4a61c8c856ad66d5fe11261f7d8a7618360fe41064460dae8bf9f3e1c",
+      "git_blob": "8c021ad9d995b867ff4bb6b2931513e234ffd3b6"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/F9-04_3D_MASTER.mkv",
+      "bytes": 881284,
+      "sha256": "f84e9684aac4ec213070db69db0126aeb4983c1ba02b3b419c3e31b94c72db85",
+      "git_blob": "17cc167ba4daac7c1b8088c90e6cac99e59d5411"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/F9-04_3D_REVIEW.mp4",
+      "bytes": 698387,
+      "sha256": "96242a3fa34d727713db1bb429c5be37b644461ae843f8489ea657e77213aea3",
+      "git_blob": "35bbc9527ac6d421990b24b10c27efeacd6ab38f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/F9-04_3D_REVIEW.mp4.playback.json",
+      "bytes": 350,
+      "sha256": "204e96f3c1c03b97e726e33fd4fa81afba7eca497651fb6bb7ab600da6186ab9",
+      "git_blob": "e7705e67cfe8696bd3369cb13711cad92db6eb1f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/F9-04_3D_REVIEW.mp4.playback.png",
+      "bytes": 283387,
+      "sha256": "9797b9f1f47e2150ad5a30c12ad729d4cce403e3609941b1eae031759e93a42a",
+      "git_blob": "549ff95e50294f93af09bed30d451b72fe316785"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/F9-04_AUDIO_CONFORM.json",
+      "bytes": 875,
+      "sha256": "b2c68e5e3cd51d4351ede62d6d41e8c7b0cdb79c5e15dcff29768a5b5179d6d7",
+      "git_blob": "c8532a2f728aeddeaa4ba8b89c6fac34c8c2e2f2"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/F9-04_PICTURE.mp4",
+      "bytes": 634034,
+      "sha256": "1e5cfa45ae932d6971b7600db26124a68d4ee43db02ec256c7d446c768296d1e",
+      "git_blob": "8f2b97f11aa6bc6303ec16849401180f13c2b41f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/SCENE_SOURCE.json",
+      "bytes": 178,
+      "sha256": "0b3fa1a467c768aaf288d4205f1fc0b5edf1419799bfac330e0ca12576386e2b",
+      "git_blob": "1fb2288ebcc275d3ea69b8959f8a3d1bb387e8ab"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/keyframes/000001.png",
+      "bytes": 1210161,
+      "sha256": "4008c205a384d4f670057473a5f6ec70e39842cbd32565a842a27213d7ec1008",
+      "git_blob": "66e511b70db771771ee0f3abb72d484a30a01e0b"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/keyframes/000048.png",
+      "bytes": 1217586,
+      "sha256": "c18c5fe7e313bf4fcdc5b05f96510f2730d3e04a2cb4446b9f61df726a068af0",
+      "git_blob": "46ad1a2ff00e664ff50ae95db86e28bca1fc68d1"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/keyframes/000096.png",
+      "bytes": 1226050,
+      "sha256": "f5ccb00c4b23e818939be24845760cf1d18e322ef47293b21bd465e813731433",
+      "git_blob": "d6157aef297056b0e44539bcf41a67af7682e08f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/scene.blend",
+      "bytes": 554416,
+      "sha256": "03be77634cdd596e90df1584c2d3962ab32f2c142eb21b092c32e211a8635e18",
+      "git_blob": "ef4843dba0179f376218c0849c47dd2f811e34db"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/state.json",
+      "bytes": 9342,
+      "sha256": "e1d4a262d64ebb81ae15fc8502a62a5ffc8b51d3255e5f8b1e80e144eb3afbeb",
+      "git_blob": "c7dccdbb4131dd1005ca4614cb2b70b472e72953"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000001.png",
+      "bytes": 11019,
+      "sha256": "8f6086665b4a0593b9ec5409218002f482a4451162b3e1607a160e1da2612e85",
+      "git_blob": "92ad9aea0f175f6dc1f1cc015205b4ed9fe0a50f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000002.png",
+      "bytes": 11178,
+      "sha256": "5273ccc54bdefc1b7d46c00525cb82e32f9defa79bc0ad18c8047397033e49a4",
+      "git_blob": "856e742c889a2ce7984b1a6be2527055aa028266"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000003.png",
+      "bytes": 11393,
+      "sha256": "c4319e2aa6c878e18c1229694cdfd532e0093f2ffebd4c903a36ac370e41381b",
+      "git_blob": "d0e867f0065739a88caa08c600ad26051ac4de90"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000004.png",
+      "bytes": 11438,
+      "sha256": "d78e35bc076985dc2a4396f1c449ea1b5884b19c3133405cd8413c147bc9ce88",
+      "git_blob": "83b7dc6cfbd3580bd1fc3eb8ecec959c748addba"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000005.png",
+      "bytes": 11909,
+      "sha256": "c050b5093716fe067c0b400d92318cf5e163a1c7860fa0bca83f14586abf0376",
+      "git_blob": "c9d3ee8a45002d20e20f765dc6ec93b2f997ca75"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000006.png",
+      "bytes": 11981,
+      "sha256": "3cd6f23edfb7d294a604668e27fd8431afa691d995483a3213057f1726094287",
+      "git_blob": "15163fe2d17f2990f719790695747ea22b6011d5"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000007.png",
+      "bytes": 11640,
+      "sha256": "3a0bd4c834ea5c04b94adeb8a40f40c47ed1e350f8cc3cfb980d2d84776b6a09",
+      "git_blob": "5ca57e42d6b7864e935ba65ca1571dd20fb8999a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000008.png",
+      "bytes": 11973,
+      "sha256": "5a98af2ad7fda8a1700a43f05b1f36953571cce5b61b6a31b4631187b130ebff",
+      "git_blob": "5838584737c30a919221f905342ebf8d1630649f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000009.png",
+      "bytes": 12028,
+      "sha256": "89def946dc95bb9ad5424422fa5a44bf5994b096790633b85691ef81a8a5d17b",
+      "git_blob": "34a1145f7f56238b6c326c18f412b6c596dc9a57"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000010.png",
+      "bytes": 12103,
+      "sha256": "3880681f7e163635add3240c102cbcb97fef0c60518e522ecc5911967048369d",
+      "git_blob": "9d125704f59e3274be6b80a4f1eefa3ef4c5378d"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000011.png",
+      "bytes": 11943,
+      "sha256": "4ef187885a25ebf82b2c51b733925c1d1729095517c32888752d11eafd015f61",
+      "git_blob": "bf963bd65439b915cf8e60c64434696f293e7e8f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000012.png",
+      "bytes": 11815,
+      "sha256": "68300c87b48e265965b887511ca912740e6fcfa1955ee39c2944d679c55b6a22",
+      "git_blob": "9ba24d8c9607ce30655019fee0b310030fde4229"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000013.png",
+      "bytes": 11857,
+      "sha256": "12f3fb71f5059b0ac649add4a86c6418e6f8d4e135f748b343fb51d0ef388239",
+      "git_blob": "6b2603cf4ed80e73c9aa995448d029d0e3d3f1e1"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000014.png",
+      "bytes": 11432,
+      "sha256": "f5fe0695d5797f3e46f4d463a59c3629c5bd51033fb89e37372866a29faefbe8",
+      "git_blob": "80cf26d08e0f211c7e8474d2d6ab49bfdd5cdd69"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000015.png",
+      "bytes": 11416,
+      "sha256": "d2b2fdca9fd1e9e554582ea317f0fc4ec60dc97f2d1e95cc09cd431acafcff78",
+      "git_blob": "4220a28b1982c7db9d21fec3c432e5b52fe2a3cc"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000016.png",
+      "bytes": 11380,
+      "sha256": "358f17b3f8de3c9221de243a0b0c25b2a8b00226c34b803800b78e8a190c0605",
+      "git_blob": "40cd6454790d53b5895c7a2c3ef32511e6cd3ed7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000017.png",
+      "bytes": 10526,
+      "sha256": "8ec43842f2f45d01086e9552c7940fb841be9493da0d62c3e0cfa5ad1bcba70b",
+      "git_blob": "e5fbbb8abf010e4ff565b998cb76e3b1e7618584"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000018.png",
+      "bytes": 10750,
+      "sha256": "1b4b361b6cf6ebe0ce5439e54f4f6aae707aeedf62e5c0bd3b705db4c2799676",
+      "git_blob": "0e31be5405dbfbfb959c5e37dc2b7355512336bb"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000019.png",
+      "bytes": 10725,
+      "sha256": "477207576cf7b1f8529f9479417e44074b7aff4ce876180eb9a4b6e8c4c52d8f",
+      "git_blob": "4c394dbf59ba66b8523fa447058b5e3e117025ac"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000020.png",
+      "bytes": 10486,
+      "sha256": "4f6b91beb391eb79c327c4b37b2a571993829c2f0f961f6c3e7ca1fa484e93c3",
+      "git_blob": "e6c9cb1ef2ea841be0409cbaf15a42323c4ff68b"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000021.png",
+      "bytes": 10205,
+      "sha256": "b1ebc4e64c7bef9443347c471ef3894adc6fc2d1bd6b12f4da077782e868c21d",
+      "git_blob": "8eedd628a47ac24702d6f128039a69e9f448b4eb"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000022.png",
+      "bytes": 10361,
+      "sha256": "f51de9e9be0f1ace5da88fc5a31a404b8ecee3379e3e305c7f6bb4c91d86d5b8",
+      "git_blob": "aa07c595a6fe505d77a54dbd5b8ae367aed3cfc0"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000023.png",
+      "bytes": 10013,
+      "sha256": "462ba963808dfa042d93b90267d81e653fd0aeb792ccdce9504ec9a406847ae2",
+      "git_blob": "7e03c6ff8d6fdd663fc8a6fa935ae258ac358e15"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000024.png",
+      "bytes": 9975,
+      "sha256": "4e6acc23e2ae67175fd8d8727b671d651e5e6884932a764b5961e5474ea0156f",
+      "git_blob": "3ec42b495190077cc8ea31b362ca84dde8132761"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000025.png",
+      "bytes": 10102,
+      "sha256": "f3a7577ba36a55853feb2ae703908de201f6b9cf822960f22d79237c7a0c5769",
+      "git_blob": "25ab2cafa086682dab364776d13414191eb5eacc"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000026.png",
+      "bytes": 10183,
+      "sha256": "77091005c6543ff9c4092c4ef3447be585705ac7bf168056319c8719923487d4",
+      "git_blob": "c56518e3533cda83d4d2f6c7d53d29647763ecb9"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000027.png",
+      "bytes": 10327,
+      "sha256": "0c9aea44b2f5ea38178eba52a86ed0a6382109772b461eac1e67322d5befc9c2",
+      "git_blob": "de089a9d9555798fdbcf55b0cf373846bb9a131b"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000028.png",
+      "bytes": 10267,
+      "sha256": "d7c080dae8cb66555b46f364683ee83d6e1f6a7deea0f513978422e46285a4a4",
+      "git_blob": "3e2e9ac18d9f5110e01e51663cf4f5411dc45f4b"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000029.png",
+      "bytes": 10140,
+      "sha256": "b7b0aa774d3cab73a2ef0ef50e5809a0b137fd13aa666b3ef3ff53bd3bbf8615",
+      "git_blob": "b56722228c830cf5aca770d2ae50120a687c53fb"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000030.png",
+      "bytes": 10610,
+      "sha256": "f75ab909138941ab942e8af0c218040d053f1fd9028c27151fe6efd9cc7dacf2",
+      "git_blob": "d0ef1af2988ad92925fe727f82033c14cd307df8"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000031.png",
+      "bytes": 10763,
+      "sha256": "58efc02460d7d72ea0fa9b706e0a9992f546e8b7ed9967e06b78625a325c95af",
+      "git_blob": "9a3ad2e929ec556a5a94b897fc8bb0bacd0a9d9e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000032.png",
+      "bytes": 10869,
+      "sha256": "e93bd86fad3b59688b1ff81efd4ca70c0f7673942cf3eb03b7cd05c4457b2e30",
+      "git_blob": "6c6fe260486528dcbb6aa973d638145babfcd664"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000033.png",
+      "bytes": 10898,
+      "sha256": "84bccc635e7eb9159d83b973d19cdeeaa61ee2f8cd28900531a1a46bb2f75cad",
+      "git_blob": "3698620b94d42636ca9a5784f707cd02356d7d53"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000034.png",
+      "bytes": 11485,
+      "sha256": "328002bd746b927a95505f04da7e1d2ebafe98bdc4b8f5ebafbac929cc077f2f",
+      "git_blob": "a97578ab15a7e5ce6604c0f491117af6d28292f4"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000035.png",
+      "bytes": 11533,
+      "sha256": "fc43b2410eed1591b9507be4dc9d10279e87c2c22b846960e9507416bc69f647",
+      "git_blob": "eb9ff7017c67a04805f9c4c3ae60a7d75c4946d9"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000036.png",
+      "bytes": 11627,
+      "sha256": "256c66ec459f6e56f7cd080ed0531ec8326678de6bb3c6c93f82cc9671af4496",
+      "git_blob": "5661028fb1e9980fca5371882068128033581789"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000037.png",
+      "bytes": 11743,
+      "sha256": "2809c85c87af0767bf52413e9910301ccb1c7a92697e9dcefdf6296b71de6c23",
+      "git_blob": "082449d5b5961da0313dda47fdfed9dbaa0842ad"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000038.png",
+      "bytes": 11800,
+      "sha256": "11ea8a4517852d6db1492af8dae19021d815246f6cd9fa49d0f5d43be9b8041d",
+      "git_blob": "c44dc45ab53b0a28a0aeb2188e94bb145b771da4"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000039.png",
+      "bytes": 11960,
+      "sha256": "6e963aa0dfa9af51f7193f0ada56fff1adaf84d6a707a87ed44e9d4eeb538acf",
+      "git_blob": "d47ebecce368def71400b4274fe9fcd50e477831"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000040.png",
+      "bytes": 12107,
+      "sha256": "bc03344c3c54f1daefdf3286325586ad39ead3c5c32ab65380fbe48102aec8ac",
+      "git_blob": "7072bd8fb41c75ac493c1f3156a209fe689f6e6c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000041.png",
+      "bytes": 12070,
+      "sha256": "521930df580ed0a25cf3f6f9682b4be99c0fc09dc4a1a6b1b3d1f207b1843aa6",
+      "git_blob": "d251bacd91159cc913a6c06427775f0656d1efa3"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000042.png",
+      "bytes": 12149,
+      "sha256": "17ca0f47e71ad5f96bcd21d783c9732ca360dbfbe07fa246d4f379053fc24472",
+      "git_blob": "52ab012469f8965a0a55d095cc50fc7cd6d0b33c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000043.png",
+      "bytes": 11923,
+      "sha256": "3d24260040b9803161a565283767345abaf92266e94f065aa152818201d52fff",
+      "git_blob": "d3285dd7ea2d1e867e2831bc2eebf4edd4fe8d0a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000044.png",
+      "bytes": 11951,
+      "sha256": "5690226d36341554216f6e02361e2d17f873590b2f53998da7345096525503d6",
+      "git_blob": "872ece3ba337e365016ec82ea5f564f19671622b"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000045.png",
+      "bytes": 11719,
+      "sha256": "97414e67f6db1c020351a4ea4b0a82e32c11569dcd4d9fa804d595a513b864b5",
+      "git_blob": "664be2c8e824811c0dff8f3a2bb9a750c063e796"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000046.png",
+      "bytes": 11342,
+      "sha256": "cd7b97f265096a10b5235234814334b765a2de77e624b5a859bfc6cd2af1a334",
+      "git_blob": "4979b57a44ba9ca0fa086641827d5b6d87ec5eee"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000047.png",
+      "bytes": 11412,
+      "sha256": "b20c2021360f8c669969978f130fc2d02e65e49778ce56bab07289cf394528b4",
+      "git_blob": "74645ad40338f249019146e511c2f68577e16bf5"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000048.png",
+      "bytes": 11070,
+      "sha256": "6daa43738a6c6034424159cdab6ffd17459d928a4f8ca74a93b500e641c68b5e",
+      "git_blob": "b2f25a9a46a89a3b06966f48cabb82f55fbb22d3"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000049.png",
+      "bytes": 10835,
+      "sha256": "fc109161fa5b127e2f9e88966c68cd0454d5ce7d4d93b968ffb9edb003e2d941",
+      "git_blob": "c1cf516030499b553daec999882a1f47019bb9cd"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000050.png",
+      "bytes": 10656,
+      "sha256": "c2dbad2e5420e21c7bcd5b61537da9e4d1f318343fd2ad9ab5e3ad0a39169d0a",
+      "git_blob": "fdb501725c8c9b0734ac8d772250839008dc761f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000051.png",
+      "bytes": 10622,
+      "sha256": "46f23abad5b9ce98d5f10a7fea126c06bcfe6afc7a82169026e4603f478ce8a6",
+      "git_blob": "0c114529637dd18eacd03f298580de3ec328ccad"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000052.png",
+      "bytes": 10463,
+      "sha256": "37d090c1a8a44c647bc50f9d6e4f1f5baa9d99c271152b9bb21b8c539da7d7ea",
+      "git_blob": "30525ad244e2d4e9a8995ffa04af20eb38cd8934"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000053.png",
+      "bytes": 10237,
+      "sha256": "f5c4114e6ace19b845b3ab1faeb5ff025826785a23a4af83312dd573115fb292",
+      "git_blob": "79f423bc58b0ca8350805f744af9537281021d27"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000054.png",
+      "bytes": 10023,
+      "sha256": "1a7f0549460047601ce3ae93c3c4332739730811e2d318fe2d86d671d979992e",
+      "git_blob": "9e969d8187bfbeb75f05c460f910f8a9323473ed"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000055.png",
+      "bytes": 10175,
+      "sha256": "cc5b749ee093d672713f637cbee7b4a0ff4c13498ec8107eecc6df1f1c1d21e1",
+      "git_blob": "a182e72df78a13104e10a5b779ccaf5a9d142e26"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000056.png",
+      "bytes": 10102,
+      "sha256": "f3a7577ba36a55853feb2ae703908de201f6b9cf822960f22d79237c7a0c5769",
+      "git_blob": "25ab2cafa086682dab364776d13414191eb5eacc"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000057.png",
+      "bytes": 9940,
+      "sha256": "8ec44a580235012e476c2058743852c66e18c6f21406fd78a3bcb64ba1e03451",
+      "git_blob": "8477a1d76fa8016bbbde6c8489acaceca79b0556"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000058.png",
+      "bytes": 10038,
+      "sha256": "c700c79563499305e4f1195dfdec7e214a56d49820269eb3d699e14c21a9e8f4",
+      "git_blob": "355f715f560c72db3b66282797b13f65b07744d3"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000059.png",
+      "bytes": 10309,
+      "sha256": "6c406cf3874ae821331223ec72119a9889560ce742b497db276f1c97b0dc07d2",
+      "git_blob": "f5f0890febc297a7dab13127958ab759e68c2d55"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000060.png",
+      "bytes": 10227,
+      "sha256": "743311c574f05e42aaaeed8be7033e90fc08c302676e3e837897f95866493f85",
+      "git_blob": "d05f4c7525f98ed46442d6c171ad4e8cbbe57988"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000061.png",
+      "bytes": 10287,
+      "sha256": "12582454ca9e66a3e6e87a9dd4f33605e4980531a08981cf7a3ea0043cc0ef97",
+      "git_blob": "3da93a9eaa051091e4861aedb9637ded4707a548"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000062.png",
+      "bytes": 10621,
+      "sha256": "6eaf43e4aa8e7b5f47d9c2f9f9ebec405e17bf6638ca9a1f20601fff970b4230",
+      "git_blob": "a8d8a6380a1c48e4fc0b3022b1d98ff1dcb8b0c8"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000063.png",
+      "bytes": 10812,
+      "sha256": "fbea42f7057af9ce223a1cdb2d39fb3601057e9d12f78ad2a267a8b0773b9ce4",
+      "git_blob": "d8fbe73822354515fd9c2fd85e6d36f293e0d8c4"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000064.png",
+      "bytes": 10929,
+      "sha256": "727dff32ef6428cf2633c96c63d9194d8d31bb14c11301233eee315835104212",
+      "git_blob": "e21d2521fee5891494aeffe5b04fd69fb3b4bfbc"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000065.png",
+      "bytes": 11315,
+      "sha256": "abdaebb89a6af72e30e9b58823bbae589bb92e60f97974967da3f3102523743f",
+      "git_blob": "f5beb50c73bdfaa0c6e1eebb119fe9d2843ee824"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000066.png",
+      "bytes": 11552,
+      "sha256": "5adc073212095cac56a76e73de87aa6d32d1c1269306c146e8aa0b4e9b53b269",
+      "git_blob": "7eee530e01a49fc444251c4b0fa2ee7aaf3b8df2"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000067.png",
+      "bytes": 11347,
+      "sha256": "17be62ab83ac1cbeecbb26e5522997abd9db5fbc3e0c2d3d0e6ee7d28f9b5fa0",
+      "git_blob": "7f23faf7b88c66493defefd56ff30553a94ad6ed"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000068.png",
+      "bytes": 11696,
+      "sha256": "e104a94d61545a70558c52e4389718a0bb6bf693f2f84cf68000c19a5296482b",
+      "git_blob": "0385e896ea65ae27ad82155dc6cf98b8ecca9ff8"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000069.png",
+      "bytes": 11923,
+      "sha256": "0f6dcdad66f5036ef9fbccc43f3f54335afcaac8aa2aa9090d3a55729d99e70e",
+      "git_blob": "812a6e2b899918f83a2aed0b45cfabcdb4df912f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000070.png",
+      "bytes": 11893,
+      "sha256": "6edbc574e700c9dc3b1cf447a8666e3cbaa56460eeeda0e3a837277cf973e477",
+      "git_blob": "7ab78574142800a45896e1235016bee879981229"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000071.png",
+      "bytes": 12125,
+      "sha256": "de3228263a6272fad5f9714ceff94a6839c2bd8b7ccee478a460b25a538eaadc",
+      "git_blob": "0d1e9efd63f81969604e58585ece8537b311fc49"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000072.png",
+      "bytes": 12028,
+      "sha256": "89def946dc95bb9ad5424422fa5a44bf5994b096790633b85691ef81a8a5d17b",
+      "git_blob": "34a1145f7f56238b6c326c18f412b6c596dc9a57"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000073.png",
+      "bytes": 12085,
+      "sha256": "3935e1b9f9b5d75172cd39fe6822c4f98549ca2f8081b42198fa67220c968d5a",
+      "git_blob": "9b5e273e2b69dbba0fc0ce0d22cc8c3a899a825c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000074.png",
+      "bytes": 12031,
+      "sha256": "4455c8fdf1866d202fd254b3372a30c3c125d8e2571163560a88997886d21a20",
+      "git_blob": "9c0f19d56ae8e37cd0398ac625ef82ed1c5bba7d"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000075.png",
+      "bytes": 11903,
+      "sha256": "9f0a3d1d9a7f71fa1278c2774e6a185e568093307707fafcd73e5066cee8e94b",
+      "git_blob": "b5cb3e3c957d8c83042ba2a4b5550077bd0fd607"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000076.png",
+      "bytes": 11990,
+      "sha256": "a3fc37c5bbab7a9d80ab62e31d46c80754f162e768b0dac02c7026034df87c96",
+      "git_blob": "554d423865868efeb88d3981af5b19eebd9a7992"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000077.png",
+      "bytes": 11596,
+      "sha256": "65cdc18802df482abca608aff81b26a13a4da67583643bc063f56b64f8079885",
+      "git_blob": "fbff9a5b353548e415f2146fe7a13ec353a6074d"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000078.png",
+      "bytes": 11499,
+      "sha256": "34c353a44b22ffb9724ba36f6a4f269414aa4b6c2056a8617d96e0691e245af1",
+      "git_blob": "cf64f6854e86502a43f5117665dd4d66fedac5ec"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000079.png",
+      "bytes": 11410,
+      "sha256": "59330bbd12892e832a2fae070587a8497d5e1927483e3e3b0d4d58275fde61c4",
+      "git_blob": "21a90528f441aae9df494c91cfa4d2966243317e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000080.png",
+      "bytes": 11056,
+      "sha256": "6281c3ab7b25155dbcb3cb1e7316589df85114ed779649564e5ad7933b6ebec5",
+      "git_blob": "eb27b96757ccb92d9704971e4e76469a83a86529"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000081.png",
+      "bytes": 10910,
+      "sha256": "58bdbcaf04e4e364adbde378fab80f1f0bc4a512527d0066745df12af26f51f9",
+      "git_blob": "a30ae86a852f112054371c790142b0ae02aa8c03"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000082.png",
+      "bytes": 10659,
+      "sha256": "6cad75607ff5f42f687176926b32a0eb0f9ebbeaa8f45ff89c6bc545d4210652",
+      "git_blob": "794d5260b74b53f5f255582bec10f49d9e3fa4af"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000083.png",
+      "bytes": 10646,
+      "sha256": "c75b09d425d5d76e78683457d30dd814ab94a37d3ebdba01115b63e6cc7eff3e",
+      "git_blob": "01e7ebc83d8206d0fdfeab57a26ce6b43e3f42cf"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000084.png",
+      "bytes": 10408,
+      "sha256": "07eefba02afbff8d1c30f088c250522b64e3415b6074acd6f40fc2044c32ac16",
+      "git_blob": "c96a3945c75c1daeda770d87e9a0ae06efb55acf"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000085.png",
+      "bytes": 10230,
+      "sha256": "bebb181a3619b1a7e9eee9858fa44bc19424e10472a0e31583b4ab2364e14763",
+      "git_blob": "c8e06048499019ef2335a067accf62ede43dce3b"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000086.png",
+      "bytes": 10278,
+      "sha256": "0ea082d9067608af709fd2ea056888affe75cfbf2d57c3c2c582c7c916e732a4",
+      "git_blob": "89fa1999775e3f226c561f8889560d951ec7321a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000087.png",
+      "bytes": 10178,
+      "sha256": "a68d797612fa1ac6be4e80fff353bca2da5387af8acf8f4ce0c616761d01396a",
+      "git_blob": "f31b429e1e663838afd5844724af60766ff98607"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000088.png",
+      "bytes": 10102,
+      "sha256": "f3a7577ba36a55853feb2ae703908de201f6b9cf822960f22d79237c7a0c5769",
+      "git_blob": "25ab2cafa086682dab364776d13414191eb5eacc"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000089.png",
+      "bytes": 10201,
+      "sha256": "4258d38ec4c4a94ce4b8ec9d5d5c4bfc823334420199663574c7060cbbbc27da",
+      "git_blob": "3c9a67ad60a3ba6ff897f7259f13d2c3e3f49076"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000090.png",
+      "bytes": 10222,
+      "sha256": "fa1f4c0aba7987a3a009105c4f7557dd485c17622c4fede30f80e1cc2b6ca212",
+      "git_blob": "ef7030dd63639d8a4b3300485c0182d0fe83b609"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000091.png",
+      "bytes": 10287,
+      "sha256": "5471d09b7b1b2cc700e6bccd7ebc06fc67100b037094e00ab93fe2d974066082",
+      "git_blob": "95ba274a47b427686869ddd6e47e6cfbccad607a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000092.png",
+      "bytes": 10406,
+      "sha256": "c523f80ee3af0783a366acf04c442cd02ad3ee953e1581bcc49d23b04c48cf3f",
+      "git_blob": "01717ff9b14c764050b0e84b5610a306b31de527"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000093.png",
+      "bytes": 10320,
+      "sha256": "34a6c609bc53c3fcfe980f77f7779550a2eeefba495a2259867ea19cd6af2955",
+      "git_blob": "cbdcb7e705bad1d6bda39636f1f69d46a9124fdf"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000094.png",
+      "bytes": 10737,
+      "sha256": "a496526e11ceef905a79cc6d5809ee08801c56daed0656b1d4984893ca031ab0",
+      "git_blob": "f7afb7202c27762d9646372760eadf73d8228056"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000095.png",
+      "bytes": 10810,
+      "sha256": "8fbe35ae3d889ff856a9db41ed00d4fe081d71ed678a1084efbb467653aae3cc",
+      "git_blob": "aecc9e6be8f64c261153c935ede8e25c99368c1e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/000096.png",
+      "bytes": 11019,
+      "sha256": "8f6086665b4a0593b9ec5409218002f482a4451162b3e1607a160e1da2612e85",
+      "git_blob": "92ad9aea0f175f6dc1f1cc015205b4ed9fe0a50f"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/textures/CANONICAL_SCREEN.json",
+      "bytes": 382,
+      "sha256": "4238d0bc7d9981b17ea0225495bbb1ed3cc3ce4e57d1bdd3d8211d618e3c66bf",
+      "git_blob": "14f3c126a71531e35c7e783e85eecaed69f568c5"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/timing.json",
+      "bytes": 5662,
+      "sha256": "5e732403ec709af3700b6d220a1c48dfcc078cac298ac37687ba8ce64143ac3f",
+      "git_blob": "bbc17229b22903b7d13db95aadf6a5f4a07e8ef7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/F9-04/validation.json",
+      "bytes": 414,
+      "sha256": "dfab46602297eb97fbaebe65ae6abfc5764aea7c9b3c4c327eae22f53f137efa",
+      "git_blob": "6850ca8343e531bcd9ed71f538739cecb96b0e56"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/OFL_LICENSE.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "git_blob": "d952d62c065f3f35fb83a173496e90b21525aef3"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/RIGHTS_AND_METHODS.md",
+      "bytes": 2421,
+      "sha256": "cffa07c58e96060fe06332151874ef8694b15d51dedaf50faac8a35eb5fb2e94",
+      "git_blob": "ea130da5b9b5a2f85b57f99600d47126f198dae7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/character-rig-study/DELIVERY.json",
+      "bytes": 2197,
+      "sha256": "d45a3e17910611ea518099df54f0d6ec3f07ac531b29a0783ae89bb9cfd9acda",
+      "git_blob": "356e868aee2efc8a307c7b6bbe209a1fa9eed2be"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/character-rig-study/FRAME_SHA256.json",
+      "bytes": 2018,
+      "sha256": "bcc871d8cdbfe5a304b7904f9f5de40e56c1fa553cc95583a6362f78b9822d8a",
+      "git_blob": "753a0b21766b9d802f0f508648828731433137b8"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/character-rig-study/HAND_SKINNING_STUDY.mp4",
+      "bytes": 35682,
+      "sha256": "6c8ea1a76af359c68bbfbacfa0841d45ad5bde78c6cb56e19b5a2d503c72008e",
+      "git_blob": "09e56f7739799089d3f19bb3fcb278d5105f9e75"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/character-rig-study/HAND_SKINNING_STUDY.mp4.playback.json",
+      "bytes": 346,
+      "sha256": "833128f087bd2c6d00dc824e6d38c8cd7fb9c3eda7fc6cfe131988b54f81ce16",
+      "git_blob": "466c95b7af7aea173a8aa4033ab6b8670f937fd5"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/character-rig-study/HAND_SKINNING_STUDY.mp4.playback.png",
+      "bytes": 178612,
+      "sha256": "c03b7a0219a545aa6972cc95198f148f6e28485b87cb616eae0aae7ed6a74799",
+      "git_blob": "6fa5bd3f993c272a8abeffb46d2037eb39b18835"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/character-rig-study/RIG_STUDY.json",
+      "bytes": 493,
+      "sha256": "3539c61d2c1bf8d636e128276fe55367c26ded3eaf1061c5089a1f7ecd63c367",
+      "git_blob": "55a6f97bea74e5e3cffcd1dfc51dddbe13c7b09d"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/character-rig-study/generator_snapshot.py",
+      "bytes": 8070,
+      "sha256": "38f0987a0ca2c5dfc3cae5dceeeec637052b6517f5b2461b80509dfd5db6dbb6",
+      "git_blob": "75a36ca4d04e96d5eab3dc92f4275f3cb47aabbf"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/character-rig-study/keyframes/000001.png",
+      "bytes": 114395,
+      "sha256": "1d8d24800b0278397d4811e100dd66e2a491deee68416c1df68ce66ec78bf733",
+      "git_blob": "3e3a8a60966e91d517a2de1066245011ec271ea1"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/character-rig-study/keyframes/000012.png",
+      "bytes": 111987,
+      "sha256": "a028a26ffd140d06a892df13e5fc2e6981b30fd963e33890935dedede068e10d",
+      "git_blob": "ba6e2ea367b8b625187c7d3fc46db1ffd9c73030"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/character-rig-study/keyframes/000024.png",
+      "bytes": 105163,
+      "sha256": "46f50285e1944fa0012d1104837a5e8aed9cc89c127e3960d2e3580a6912db30",
+      "git_blob": "4869c7ebb0fd2c2b8d26d7c892d8605b994c8f70"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/character-rig-study/scene.blend",
+      "bytes": 3510164,
+      "sha256": "5b7b7358e757a7f8550be2af76bc49db23ee148dc563da651ce3eb37f2105478",
+      "git_blob": "c572507cbfe09a94bcc3f991f887964fd3e4f76a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/INDEX.json",
+      "bytes": 1832,
+      "sha256": "b9286049b0d84bb11a936416e5b6eb69e8b93ec3fba23c09e46780acc608addb",
+      "git_blob": "428adad711f9eaeba1ed77d120711c0612ac8895"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/DELIVERY.json",
+      "bytes": 2549,
+      "sha256": "a4f920325c368b874b5347697174a79944405df21d8fb6ccd62fd860f9eadeb2",
+      "git_blob": "d4658adfb8a84fb42f036bc54ca01ebadac7bf08"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/SCENE_SOURCE.json",
+      "bytes": 178,
+      "sha256": "0bcad4bc4a6b1e72c8a6287e0816f99afae4c24e20d212b2693324067827cb7d",
+      "git_blob": "3d6dfdc0e1bada29c2a7c021677110c35ca8bba8"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/TEST-fan_PICTURE.mp4",
+      "bytes": 277387,
+      "sha256": "7b8670a495184060784a709b2e885c5b1d33859695ed0ef829bd16b160058c8a",
+      "git_blob": "4a9f582f9cfca5dc18f8f238a2a1796c06df85de"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/TEST-fan_PICTURE.mp4.playback.json",
+      "bytes": 342,
+      "sha256": "7cfb7a96c3e76a926ef5cecab718974d3a9c6322c2bcc6ca6e6b284028eec996",
+      "git_blob": "d9e3b3320096f39f657cec252e9f3ca240f752d7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/TEST-fan_PICTURE.mp4.playback.png",
+      "bytes": 563221,
+      "sha256": "60c69ed94e62aea6dadfa09e2dc87c329ae0e7706535750830512eaab4760905",
+      "git_blob": "724665d7a08d5b0c5db545ebe4926b3820731f2e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/keyframes/000001.png",
+      "bytes": 256113,
+      "sha256": "8dbee091540d84877d5cb045d5ee71fe70edd5b59f128a8ea70da93270811d1e",
+      "git_blob": "d96933892775e7422d204cb767b63c73463fe135"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/keyframes/000012.png",
+      "bytes": 258774,
+      "sha256": "19aa6726da04a6046167f08c42d9b2e5fc12921cd20613e456fb420ae28f6c16",
+      "git_blob": "838acfd8c16d90f5f9cae584a9d7941ad8a11e06"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/keyframes/000024.png",
+      "bytes": 257394,
+      "sha256": "9bff0dea9783550c09c4fc775fa9982ed9981257d43990d648f36b31147ee983",
+      "git_blob": "8e99781834d4276707d7c62447fe955cda174088"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/scene-source.blend",
+      "bytes": 2599940,
+      "sha256": "16618d0d00122fe977d4d0f14ba2f7d1d94585413b2fd1491e3ad09b90646720",
+      "git_blob": "5f56080689dbeb48082031bf6bef14bff9d98231"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/scene.blend",
+      "bytes": 2572580,
+      "sha256": "6e3327490024420925d30c0cd04ef43ef5926bb6d1ea779b7c2b2cd73fe7ac89",
+      "git_blob": "c5c1235672b1a4cb128df64577d4485d2b7bfcfc"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/state.json",
+      "bytes": 3151,
+      "sha256": "5ccf3a3b57f60fa043f94dfaec23c0cf0937d891b695ddd08f80ef7134934012",
+      "git_blob": "2b35ca447d71676aa62ee1a6ba6fa6b11e49a70a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/timing.json",
+      "bytes": 1422,
+      "sha256": "af3c74761cd67a7b0d0047b4b2c5dcfc0b04d67816b869bbb6bcc18d2769d086",
+      "git_blob": "b94362bcbbb7390726c2e6e0bf0839bab2734919"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/validation.json",
+      "bytes": 418,
+      "sha256": "7b521688470bba1ac4ca414e9db2edaf2c3bdc931b165b20a8ba6b848922a123",
+      "git_blob": "998d5d0d10319ea82cb50a78ffb2ef65fe5e9bef"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/DELIVERY.json",
+      "bytes": 2595,
+      "sha256": "bc743d3d82cb8bccbb80ee5d869398930489bce19eef48e78509e5a14c1ede34",
+      "git_blob": "f7ee6eae7b33c6b7484c5a8e244cf0ffc14bd6f3"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/SCENE_SOURCE.json",
+      "bytes": 178,
+      "sha256": "98bfebfdcb8bdbeee7577eef5b6142d28225b972ff83991a18f644da136b1de2",
+      "git_blob": "c6a35d1c7203827e996113172f4c6328c7255424"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/TEST-interaction_PICTURE.mp4",
+      "bytes": 113123,
+      "sha256": "dc449b2ffe57487cdc5db36da90d520880c8cbe39dda7b39e390a193268ddcb0",
+      "git_blob": "f6696da794cda492cbf0bd538fc35dcef07a66be"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/TEST-interaction_PICTURE.mp4.playback.json",
+      "bytes": 358,
+      "sha256": "856116363d146cb9072a9068daea1cd1e180986c001f232a02d4248cb641468f",
+      "git_blob": "473b2214f23c95a407873f89e675bef5c5203838"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/TEST-interaction_PICTURE.mp4.playback.png",
+      "bytes": 653318,
+      "sha256": "5dd5de052745da2aa1b89daced076449ac71e932a1e0c6e1ab8eeee8e9c0d514",
+      "git_blob": "2e07f6322b24737be07cf1b87f363be51482a5f6"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/keyframes/000001.png",
+      "bytes": 265910,
+      "sha256": "40560f87db96c0d782194733125d82b8c43b002dd838821271345bbf1a36a92b",
+      "git_blob": "1bb1042d498fa92d8caa5e0b0331d4905eebbc82"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/keyframes/000012.png",
+      "bytes": 256136,
+      "sha256": "d974ef63ffd9f49385d312afe8f4fcf77a2b0ce0a25781425d2db2992cd703a4",
+      "git_blob": "0e3b61b61af89484ac57e7c6139c93231b2a197c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/keyframes/000024.png",
+      "bytes": 262572,
+      "sha256": "4f41d4b62077d809da6965db0e62285da3579a8b75ff125f5f74940a4fff483d",
+      "git_blob": "c6d8ba9a2a3d3ba60938e1df44cf1638da815827"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/scene-source.blend",
+      "bytes": 680744,
+      "sha256": "8967f0dcee6015b1daf3f92b1e6e21c579271009d68abfdd84cc7d3b6041c412",
+      "git_blob": "2d35bc435e6f95e5d7437013a387f434b11f68b3"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/scene.blend",
+      "bytes": 653384,
+      "sha256": "9eb67a8a026bf4bc271ad7bde5c5a0374ff617e2c50e7d87bac39740df31779f",
+      "git_blob": "7d25d72bdd8e6aca57cdf4f04bdab14a73ea328e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/state.json",
+      "bytes": 3184,
+      "sha256": "4780d8e132106f230043734cfdd32bf6d7b3f93f369a95f5833474e858a4bf5b",
+      "git_blob": "2cdee761783a09e0e90e805094c089c49a7d9ad7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/timing.json",
+      "bytes": 1424,
+      "sha256": "8d09c7210ae790e469a740cb69720aef4fdd135d714d243313d1ac175b3c3a44",
+      "git_blob": "73c6dc4044c369504c04eddf2b1866c172f0849e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/validation.json",
+      "bytes": 434,
+      "sha256": "dcf6fef0908e66f68a2f32c1068678ce0f40911847161c1467898adbad5a542e",
+      "git_blob": "7a8062f3ac9f2f7191538229fbc6e56f4ddc1c67"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/DELIVERY.json",
+      "bytes": 2578,
+      "sha256": "98700f0ae130071ded8ec95de55e9e6d97fc5ceb883d6e3a0e77b57a33c7e7f5",
+      "git_blob": "aa61bde2913c629229d73a6461f4563e64f73b2e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/SCENE_SOURCE.json",
+      "bytes": 178,
+      "sha256": "d004fa07735c9dbdbe17ae06c8fa33946aeafde0cd0d3e4c167ffd63d55eb3fb",
+      "git_blob": "4e8276075bbd78667b59d974b9ffb4437f2ee9f0"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/TEST-lowlight_PICTURE.mp4",
+      "bytes": 40460,
+      "sha256": "ba09e5af8aab69cf60036fe70a8172afba13d5ac8af39e2ee9f8e9e6e3ac19c9",
+      "git_blob": "fd6b087a02929ad47509dadae63ff9b5e577ba0c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/TEST-lowlight_PICTURE.mp4.playback.json",
+      "bytes": 352,
+      "sha256": "96bcb387ae7465ca09cfb5eb954c47b926d70edfcdfc34443cb6a1d0f5682c17",
+      "git_blob": "0ac79f804b5f4e5a338fe11a206057e7aaf06b21"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/TEST-lowlight_PICTURE.mp4.playback.png",
+      "bytes": 113784,
+      "sha256": "5a832f225a1f3dcccf78de20eeeb89af9842026a7e4af16413c7eaf45832f1c8",
+      "git_blob": "73cad841268be1ece603593e57a0e777545be2f1"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/keyframes/000001.png",
+      "bytes": 143277,
+      "sha256": "1cb6e1aadbae40fc14d443381d70d2be23e6865a9e0f83299cb7c983a5e07aab",
+      "git_blob": "d626cec0876d49c1338f1a9a277d26665aab16a3"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/keyframes/000012.png",
+      "bytes": 147711,
+      "sha256": "cddd6906759ddba2fa2501f8104e038fcc499ae0a3e05bd36be5452fe6392141",
+      "git_blob": "335c69f515dae5b719097a2be6768d24969e70a6"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/keyframes/000024.png",
+      "bytes": 146767,
+      "sha256": "7c35a44c69b922963774a1363fde7c8e5018e1f4be3b8533787e317378741ae7",
+      "git_blob": "759cd8ccdb02625b9980bda251bb1af0b19eb438"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/scene-source.blend",
+      "bytes": 6194164,
+      "sha256": "f4314c1fa4db0d23f11dfe30110d5678dd8c450cabc9d7598c313895d482df13",
+      "git_blob": "c73d3b43418a6b70e606ddffd1458ac866711400"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/scene.blend",
+      "bytes": 6166804,
+      "sha256": "125b16d3fe8af09c7b3a4759a3b0528121fde01f23c50726a9da8c49ea218d75",
+      "git_blob": "572319e74f6d640b5a979fc7a907fc58c9780be0"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/state.json",
+      "bytes": 3171,
+      "sha256": "00df21cef2eb59f42e0de01fcf6432cad523b0bf59b5503da76d6d2e52df65de",
+      "git_blob": "db3c199cda76513cf95eac01656114c7e83b5a6d"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/timing.json",
+      "bytes": 1423,
+      "sha256": "74f26cea2b2052bb96286cebd95e0587df077252ea2b6aef1c98ff6a5f32bdf9",
+      "git_blob": "ccd1ed0fccd2f922c761c253c1a2548c9c964fca"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/validation.json",
+      "bytes": 427,
+      "sha256": "724fa464faed1fb120083645bb504bc9308133c52e18c5d7f261490558193965",
+      "git_blob": "d491d66330702d1a99037924120ed610b17ba191"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/DELIVERY.json",
+      "bytes": 2554,
+      "sha256": "e0122a1c3a4206edc239f472f45945245eebe3b414e46a67034df3482cba4869",
+      "git_blob": "c0e45f9ac79c3ae36632118d52ab4170e4e3409c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/SCENE_SOURCE.json",
+      "bytes": 178,
+      "sha256": "6221c743d99a50abd342a4e2cec6493f1ea78b4571f3dbe6e787c954eae85f5a",
+      "git_blob": "aaf30196575806e0770b263c9f381d92cd97ec2a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/TEST-room_PICTURE.mp4",
+      "bytes": 64078,
+      "sha256": "63da6955340684814304a8020db40551b69dceab252a4746923729ccc07eb6dc",
+      "git_blob": "8b936a241aaae5490e408c90cae54aa54174bcc0"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/TEST-room_PICTURE.mp4.playback.json",
+      "bytes": 344,
+      "sha256": "dd3649cb8066e1c373796a4cd13fbca0fb5e0bbf1d2e2448ef8b70c4de3a87d1",
+      "git_blob": "9f3dcf1463c4f0e8d0b8ccc79195b40881605994"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/TEST-room_PICTURE.mp4.playback.png",
+      "bytes": 267171,
+      "sha256": "f3d2a790612fc12cc94d024520d7cad867cbcce4571a6b499275c50b583c0cd6",
+      "git_blob": "c8820b86e504d32039f987768154e72f41bab5c3"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/keyframes/000001.png",
+      "bytes": 171380,
+      "sha256": "c3d0418f90909298f1d1baf2e6bbb4f6cd366cdac52b427ec1b2bed77b09f0d7",
+      "git_blob": "cccc18acbc30988ea7f0bf00f6a04b37aaafa6d6"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/keyframes/000012.png",
+      "bytes": 177706,
+      "sha256": "22e540cec66839994a800c0e19f579b060767224de751a22af47004c0ac10a38",
+      "git_blob": "ee465f624057bd39d99851c22d94edbf64c249d7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/keyframes/000024.png",
+      "bytes": 180480,
+      "sha256": "e7c79448ce8e43f9740c93d2153dba704a35d9131a19e7a24785031a27b350e8",
+      "git_blob": "5ec178b1b8941bf6c0726afe7c9922250bad2ae9"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/scene-source.blend",
+      "bytes": 6194164,
+      "sha256": "5da522e72443ef71345bc0a3fe1c72c76b93ff64ad55c7639783e38304a528e9",
+      "git_blob": "3ba3823e598d44594968b8da4ca089b8aab4db85"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/scene.blend",
+      "bytes": 6166804,
+      "sha256": "10d910abe99309d4d7a58612c107c60af64d01a9433676b916a86a3a3bc2c558",
+      "git_blob": "7387583c40192255c50e5850d2a72165f24a08f5"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/state.json",
+      "bytes": 3156,
+      "sha256": "d8be31b1a4d6c6b091ea8e4f51a064f66ba87125b1d746b34858ef4cef7f4a62",
+      "git_blob": "a6cdfbbfa4e8b9b6808768bafac4590ca2c8ab58"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/timing.json",
+      "bytes": 1417,
+      "sha256": "99bb6f3d9b7499846bfc2f485aae2e6503a1bf2cc031b8bb796cca4da0030d14",
+      "git_blob": "02ba952cc6f5570ed8cd5a37bd51979b38622dc4"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/validation.json",
+      "bytes": 419,
+      "sha256": "7629777e484a829a82982a6562a5ffd54841ea63df1aa3d44cc89597df4b0db1",
+      "git_blob": "cb37b67747270f87982aa9e8250173fad30737c6"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/DELIVERY.json",
+      "bytes": 6284,
+      "sha256": "b9eafec11e39c5bee9d9131e1fdc53c462f8d0b2c2347de00cea136058acb4f6",
+      "git_blob": "83f26f315df7e1ab225e9e7564051f4e61ee2105"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/SCENE_SOURCE.json",
+      "bytes": 178,
+      "sha256": "f7dad5a10e94e4c1ba229eef847113939776d9be1a85e69b448cd5c71b19c983",
+      "git_blob": "3a71a15f4a0064ccf18a363bde80b074a2b49a98"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/TEST-screen_PICTURE.mp4",
+      "bytes": 39605,
+      "sha256": "6ed0e5631bff742f31280bb42b7efe6149e7558283e2a901775be90702435cb0",
+      "git_blob": "8e740a52b1db1b4396356b7edcea76c3ee89122a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/TEST-screen_PICTURE.mp4.playback.json",
+      "bytes": 348,
+      "sha256": "d5448e3e802d34684cd301d00f7fb4da912218d7a9f5e9df4133d273fada496c",
+      "git_blob": "4f205567e6f52f8879bae8bfc1f9281fc8932243"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/TEST-screen_PICTURE.mp4.playback.png",
+      "bytes": 157834,
+      "sha256": "f202611673adafcc4e727cf14788e07d15ca297583a1c5fa21c4bf6a003c3dec",
+      "git_blob": "f0a02e3660ddc6f77094e13f28666abaaa3f44b7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/keyframes/000001.png",
+      "bytes": 148520,
+      "sha256": "d3fb273bd07ef42392b2f0a57f15c6ccef510c56556a56f31513275defc0d336",
+      "git_blob": "4f1cb4b78ca3a39a9a90957720aa7e9554c3c17e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/keyframes/000012.png",
+      "bytes": 149782,
+      "sha256": "a87e606264b55a0ca794d4ece11ae387f24e383fbfa307a2ac351021dc8b0b3d",
+      "git_blob": "483b0ccfad63f8d2190e837a1e6754a97eee4c97"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/keyframes/000024.png",
+      "bytes": 151324,
+      "sha256": "25fcac866b6ce2dabf5794683ecef94279b450c07f817982588c817cd117b7ff",
+      "git_blob": "6012e6798a84f20901d761affb1c7312386c8624"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/scene-source.blend",
+      "bytes": 550672,
+      "sha256": "61ca3d1c048a9190b736cc7fed12b229687a55d780b206a1080587b519fb3ad7",
+      "git_blob": "ef6c2c51278ff1dc147135cc4e9539fabcb25388"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/scene.blend",
+      "bytes": 523312,
+      "sha256": "633eb92f5336049f22a9d0fc484b5c91ec0987c6466f5a5aeb197197e5d46884",
+      "git_blob": "56059f17638bf6383cd38d5ece0ef5bb3d5f2ba0"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/state.json",
+      "bytes": 3163,
+      "sha256": "56d140374309d530560c775abd07d3f4dfda5faa2eb3f688f7e661f8f642a6d9",
+      "git_blob": "dff0ad0377e4bbac69b78bb92fbade44d62e4970"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000001.png",
+      "bytes": 12596,
+      "sha256": "65ef0e4c9fb87a9842fcd0d3e1f7afd03ac7be22f1a7914209172c9957145040",
+      "git_blob": "66579e6053976f0a9cfc0fbe9a42110909160376"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000002.png",
+      "bytes": 12583,
+      "sha256": "c23d9360b87dbf01b846d72420645e0f022668ac1a34a9044d457ae570313c05",
+      "git_blob": "59b275a6bd50ebbf3e0a2a56340a7cc7607c79cd"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000003.png",
+      "bytes": 12557,
+      "sha256": "4a2eb8e1c82cd19cd41658d5645f94de9837202610733fc7cf5a4cc1d59309f7",
+      "git_blob": "1a4df179927022e84eab866ea4b051ba1eb36278"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000004.png",
+      "bytes": 12551,
+      "sha256": "4ff7ce2c172fe85ea58172663ad809022694e83ea98358011c0fde2c0512fae9",
+      "git_blob": "c1e6c2943e17a9f792892a3763f4c31eb9b561ff"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000005.png",
+      "bytes": 12560,
+      "sha256": "4aac4b9fb6045bf57c88c4fcd97687fe3fbf3afc4466e844117bd243c9c87239",
+      "git_blob": "290704a7affbdd6d9f02e37dee947d6f672d205b"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000006.png",
+      "bytes": 12584,
+      "sha256": "c0a07d65cd64f4a98be1a99399ea43036cbdc53251793bf4b55b90d974a14011",
+      "git_blob": "4c1e80dcf7b97955897352e58d49712d787d226c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000007.png",
+      "bytes": 12586,
+      "sha256": "ff8677def6bbd9ca66f0ba2590448c848ad9911af38ed58cd704433e51e590ee",
+      "git_blob": "db347ed4f95db2bed88cf1ef02e3310c88d7345a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000008.png",
+      "bytes": 12585,
+      "sha256": "794b9dd16f3d01ce97bb77c8eb57d30a0511375267cc4b60198f163c261abee0",
+      "git_blob": "f0d48c0527831a8954858187e9a3474ec874330c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000009.png",
+      "bytes": 12572,
+      "sha256": "beebd4a2a5625f297e3f6facd241574e8d29659ce3fe50da2f73d1fad2193c95",
+      "git_blob": "76a69df9a89dc384e774e4da14234680d8181f89"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000010.png",
+      "bytes": 12556,
+      "sha256": "fe9394426ae0eab1cb557b9946fc5e3c12769559566af29da27ca4c1defcfb6e",
+      "git_blob": "69fc3fdf1dc394ba3f4ffc11530c19b530ec1339"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000011.png",
+      "bytes": 12558,
+      "sha256": "0f9e3fe1755e4fbc0b7c9946837980bfa750aaed2d745af10e58ad965b31db8e",
+      "git_blob": "e45861f74672a2c01c2057fb1f00b5635899cdf3"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000012.png",
+      "bytes": 12572,
+      "sha256": "d69bea5bd61f33687796d5e22ebbf74afee28118c92ea9b9200bc87a378bdee7",
+      "git_blob": "c5c6e976b527ed2aedcd08daf0200434fd2b4016"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000013.png",
+      "bytes": 12582,
+      "sha256": "010b82539b9af8dbaa67681f3f8db49566582c089244f3638fb0bb49b75e976e",
+      "git_blob": "1be6b077c1df2cadfe3254d42a0ed83823cf443e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000014.png",
+      "bytes": 12583,
+      "sha256": "e26c198477687a43d6d9d31d16a3730e7bd5dac2ff3b04056df2a0bf3d7d2479",
+      "git_blob": "2fa342c518f254416e9702432a9a4937f598e785"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000015.png",
+      "bytes": 12583,
+      "sha256": "930344af06743866c9e5c7095f1f350f174dbf6d5591728e6ab540db984a6cc0",
+      "git_blob": "49fa34b2cc75150a6305270cf684aaec7de3427b"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000016.png",
+      "bytes": 12558,
+      "sha256": "831130f71b97e9b704160b66aaafdf5bd80ab969731013cb4cf52ba2728fc78e",
+      "git_blob": "58a4d192687ae7cf1f06192f6cba4de02e94bf8a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000017.png",
+      "bytes": 12558,
+      "sha256": "6d707bbb179891d86b40c7e9a44d8733355a24c7b8ffabf7dff46a4b9642628b",
+      "git_blob": "6c7097bea635fc25517094ab1a87b285818bd38e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000018.png",
+      "bytes": 12558,
+      "sha256": "43bd91a0214657959f848b0a05516cbeadedda41e0c49ac3729c98b3cea9942e",
+      "git_blob": "056cc248719a5a8007fbe0d4c086ccf890fe2ac5"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000019.png",
+      "bytes": 12583,
+      "sha256": "d1001254629fdd559114648e45a5daf5e0cb6f548232fb1af29eadfa002b11c0",
+      "git_blob": "64d4829336ba6b984f5e5b51a361fd062fe3323c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000020.png",
+      "bytes": 12595,
+      "sha256": "65166e8f89aae32b8610dc9ad35a9143484f21d225b242a3a42f487e63b5a6f8",
+      "git_blob": "64300b9e7829df1821b6fffac5d438262364f823"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000021.png",
+      "bytes": 12582,
+      "sha256": "7e861bc642f67d41618bddd39342a2f25255b976645c5c1dd5c809b8078b3a62",
+      "git_blob": "c3f3b0302260e2a6ddd542831d0efe0e1e520755"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000022.png",
+      "bytes": 12557,
+      "sha256": "610d3bb80a11fa4120d1f823c24c48324307ac36d397db4b18997a41e726dcb8",
+      "git_blob": "779639f16b917bffded74560574113a5e4857d43"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000023.png",
+      "bytes": 12553,
+      "sha256": "7024a6c2992da045766810ac07440762cd3cc394fcbd38dfac46a2f8ec448507",
+      "git_blob": "ba198d362e21255c282dbd7911c0f579d9c61e69"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000024.png",
+      "bytes": 12555,
+      "sha256": "269b627aba9dfda4b0e66388f68afd8b51b1c7ad7ff9ff33424fa17adc20e6c4",
+      "git_blob": "e8004c3906e4a753e8c51a41bf8cd41c7e39de66"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/timing.json",
+      "bytes": 1426,
+      "sha256": "401580b6bc6d68c2b272735a3611aa1497dadf64a4d0064f9b99d2751fd08fdd",
+      "git_blob": "7543d5d8e064d868a36402925c6593c2d7fd52e7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/validation.json",
+      "bytes": 423,
+      "sha256": "340f9171155ef70acebfef243a0d7d5ac1bf87b4dc1494ab3a7de80d763e7bfc",
+      "git_blob": "50a4da1fd4df200f17ca860b47bb749b6f3e4ff9"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/voice-candidates/HALE_F7_yunjian_CASTING_CANDIDATE.flac",
+      "bytes": 156307,
+      "sha256": "011980509fb7f561a553ecfc8fd3bee68f513a0f2299c7e0ede420833a38c78f",
+      "git_blob": "091a5d7acb1ac1344f2df0d8b1cf925d49f7b79d"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/voice-candidates/HALE_F7_yunxi_CASTING_CANDIDATE.flac",
+      "bytes": 146564,
+      "sha256": "a3bd4842b4e56bf09ca283d39b2c7e9aa7af7eb4f5ec38ddd730583dc4e005fe",
+      "git_blob": "71450086cfbb0849d8a7cf343c7837460a6379b2"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/voice-candidates/HALE_F7_yunyang_CASTING_CANDIDATE.flac",
+      "bytes": 135585,
+      "sha256": "507cf224f352f54f586fbaa32fc0e01678c4e50ea7b235910b63a2fc944cb635",
+      "git_blob": "25795735517070cb050bac096fe80eeb615c5db9"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/voice-candidates/LINWU_F9_xiaoyi_CASTING_CANDIDATE.flac",
+      "bytes": 57285,
+      "sha256": "179ed1e210decef2526ab4ccbc36b40abe51e78196eabec93fb9e38228451d76",
+      "git_blob": "da1fee04eb9fbd2ab34268bed1f518db92b99c4d"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/voice-candidates/VOICE_CANDIDATES.json",
+      "bytes": 4600,
+      "sha256": "2dbb8782b96efc5ebc2d5e65ae57d3ac892e4f1113f7c35defab923c2b0a4c18",
+      "git_blob": "a76a5520926016ad3358ae12dfec74961a7d6f05"
+    },
+    {
+      "path": "production/codex_pipeline/ensure_recovery_objects.py",
+      "bytes": 2646,
+      "sha256": "52a0606a61f31e6e53a290144f77dc0a37ea18435a23f92d9b2711ebec6b511b",
+      "git_blob": "4fb9d89d97961ed86d20c17e16d336ec8a22c7e8"
+    },
+    {
+      "path": "production/codex_pipeline/environment_scenes.py",
+      "bytes": 5540,
+      "sha256": "74c8721abdcc3a35412f39ba015feca7266ca2d5891a902eb2fc5d883e606e76",
+      "git_blob": "441fc88398c0439453ef16e4274e4ada8861c0c0"
+    },
+    {
+      "path": "production/codex_pipeline/export_deliverable.py",
+      "bytes": 5422,
+      "sha256": "090395d647e1cada87f4234948ce5c82bc6f6719d62f16598aa34bb5129eb527",
+      "git_blob": "8a45d1b929bef247766c0cf22bad07f750b0c8f5"
+    },
+    {
+      "path": "production/codex_pipeline/export_rig_study.py",
+      "bytes": 3424,
+      "sha256": "696fa211b689b4eda0af2f120287c01357f5e2d47abfe06733d15570bd6cd490",
+      "git_blob": "da043258650365fd80f7b6d7151f519789e9606a"
+    },
+    {
+      "path": "production/codex_pipeline/inspect_scene.py",
+      "bytes": 2485,
+      "sha256": "cd32da246138723a8223c648e8f0373ad1e794a77fc41eea6f2172b886a9f43b",
+      "git_blob": "6340f737b3e51cf45846507794ee812aab5b90f5"
+    },
+    {
+      "path": "production/codex_pipeline/pipeline.py",
+      "bytes": 13620,
+      "sha256": "8fd55e7affbbde9eded7f066cb4add0943d1c09117981ed491b160994463f085",
+      "git_blob": "f72e75621da8c160277b919216334ba56f7e0e22"
+    },
+    {
+      "path": "production/codex_pipeline/qa/CACHE_RESUME_GUARDS.json",
+      "bytes": 442,
+      "sha256": "9c3d1313ddbb2339745cc199e327ac17737f42c2f541c7a72d848e60854d34a2",
+      "git_blob": "627351e6d86f17fd78bfb45094e8580eda389c9c"
+    },
+    {
+      "path": "production/codex_pipeline/qa/CARD_MOTION_REVIEW.json",
+      "bytes": 582,
+      "sha256": "f2673c36cc673818171e9dc48f6249184804f5658a57c30b5f335cfef4cbdc5a",
+      "git_blob": "3df30587962e90cae53fb425f419300095523364"
+    },
+    {
+      "path": "production/codex_pipeline/qa/CHARACTER_RIG_STUDY_EULER_REJECTED/67547715a89e409b.jpg",
+      "bytes": 31917,
+      "sha256": "fe9804976851473df2f2943a64721b8beba81cecee683839ff7bf460d3a78fcd",
+      "git_blob": "e25f4a1bbfcdcfbcfd09a50cc48667528d6b3ce2"
+    },
+    {
+      "path": "production/codex_pipeline/qa/CHARACTER_RIG_STUDY_EULER_REJECTED/REVIEW.md",
+      "bytes": 241,
+      "sha256": "fd5f731b51c56fce994632ceec311c44f85d6776cb372a34929cfe1880c8d065",
+      "git_blob": "03cb0f64e10f1ef0405f89b89ccaabbb9562c389"
+    },
+    {
+      "path": "production/codex_pipeline/qa/CHARACTER_RIG_STUDY_EULER_REJECTED/images.json",
+      "bytes": 3698,
+      "sha256": "c361a50da1055737e09e914e2282848ed1f569bfbf47c5a6b89914ecf492d84f",
+      "git_blob": "90f5b88cb43402953c595e7f67239062490943bd"
+    },
+    {
+      "path": "production/codex_pipeline/qa/CHARACTER_RIG_STUDY_EULER_REJECTED/media.json",
+      "bytes": 3446,
+      "sha256": "e98f847c06c27ff941a943f67c6f91531aca029c0f27a891827e4e6d7ad76a2f",
+      "git_blob": "5939c6db8e32f3182efda6115a31c40d36cce3e9"
+    },
+    {
+      "path": "production/codex_pipeline/qa/CHARACTER_RIG_STUDY_V4/6c8ea1a76af359c6.jpg",
+      "bytes": 31008,
+      "sha256": "6b572ebf864537eda759fea458c7ed3b0cf1ddda82b0f9f82aee14b633f5123a",
+      "git_blob": "abe02b5d793b37011e66fa01258da27abf4d42c8"
+    },
+    {
+      "path": "production/codex_pipeline/qa/CHARACTER_RIG_STUDY_V4/images.json",
+      "bytes": 687,
+      "sha256": "5d49d2e5e6dfc49982d3495a34788a5ad77dbf2dc44ed487d6889f88646ad331",
+      "git_blob": "1505e6e70703b66dc3891ea040c06c69a6181ca9"
+    },
+    {
+      "path": "production/codex_pipeline/qa/CHARACTER_RIG_STUDY_V4/media.json",
+      "bytes": 3448,
+      "sha256": "4083f5acc9e5065fef41b4692460b3f86a4ed115117cd1d79a30154a854c646e",
+      "git_blob": "7b4063f4cc38e3e10209d7ed833c3523428b5f1c"
+    },
+    {
+      "path": "production/codex_pipeline/qa/CLOUD_SETUP_VALIDATION.json",
+      "bytes": 811,
+      "sha256": "577b0f39d9408cf39ecd60bfc45576884e8f2bdb6f36fc84ce3d616029a5d2a5",
+      "git_blob": "b77d458a7ddaf7fc6c12353fb1d93363a258b9e3"
+    },
+    {
+      "path": "production/codex_pipeline/qa/COLOR_ENCODING_SAMPLE.json",
+      "bytes": 435,
+      "sha256": "170a22d7673f9cd0878907275d2242aff39fc4506ead03c985106f2b92d0fa60",
+      "git_blob": "b3c3b99fcfcc09748c98280ba0051e87eb077b73"
+    },
+    {
+      "path": "production/codex_pipeline/qa/CONTINUATION_ENTRY_VALIDATION.json",
+      "bytes": 883,
+      "sha256": "6c6981caaa4d683b0c2da04b5de4ffe9af3c43af5120f20da4cb85a2b692b610",
+      "git_blob": "a4879fc70a736174d90ce204243be3c6d97afeb7"
+    },
+    {
+      "path": "production/codex_pipeline/qa/E8-01/3d2792b4bb21ea4d.jpg",
+      "bytes": 65545,
+      "sha256": "1d0d8658e4bf2b53b99e707de8ae8804710ce2b985b3ea2793f3e34ffd816e7a",
+      "git_blob": "492b7da4d5d20259a9d76d66b052363d677ea549"
+    },
+    {
+      "path": "production/codex_pipeline/qa/E8-01/d208fe5ca9a317d0.jpg",
+      "bytes": 65528,
+      "sha256": "7fd01d05e20a77bb2324083aa2aa5f648d1b2b15c3889fb775453662b89a4280",
+      "git_blob": "ad4ead8083f3b22ab20a5698aa07c009555c74bd"
+    },
+    {
+      "path": "production/codex_pipeline/qa/E8-01/d69ca1c173dc9e60.jpg",
+      "bytes": 65545,
+      "sha256": "1d0d8658e4bf2b53b99e707de8ae8804710ce2b985b3ea2793f3e34ffd816e7a",
+      "git_blob": "492b7da4d5d20259a9d76d66b052363d677ea549"
+    },
+    {
+      "path": "production/codex_pipeline/qa/E8-01/images.json",
+      "bytes": 630,
+      "sha256": "723a9782e4c491dabef512ed76ff1e6de46ee5b56391d8326ceed0979293edc4",
+      "git_blob": "96e1fa03d2b6c609a8e0eaadb4c58ac615a1d759"
+    },
+    {
+      "path": "production/codex_pipeline/qa/E8-01/media.json",
+      "bytes": 21085,
+      "sha256": "2c3bac66c10f4337b72388b37cc9371561727963e913ca4dc0845f38c96fbc73",
+      "git_blob": "6065661fea6be7fb9101004018b81216fbb2e54c"
+    },
+    {
+      "path": "production/codex_pipeline/qa/E8-01_SCENE.json",
+      "bytes": 5324,
+      "sha256": "94f6108da74a41009d304f2b7bd6bb45d1d864e8064bb51a5427817c16984f9e",
+      "git_blob": "d17110e9b080a4981a9db89e4bf29b7c912a7d8c"
+    },
+    {
+      "path": "production/codex_pipeline/qa/END-07/3a7ab246533834a7.jpg",
+      "bytes": 48852,
+      "sha256": "c2b05a2d5460b815daaa80640ea8862f90d7e7f426b1beea9b503be6ea49e257",
+      "git_blob": "20e3ea8ceb42e89ab0c3739d6db2f506e25f6ba0"
+    },
+    {
+      "path": "production/codex_pipeline/qa/END-07/7101d0da39a87e12.jpg",
+      "bytes": 48852,
+      "sha256": "c2b05a2d5460b815daaa80640ea8862f90d7e7f426b1beea9b503be6ea49e257",
+      "git_blob": "20e3ea8ceb42e89ab0c3739d6db2f506e25f6ba0"
+    },
+    {
+      "path": "production/codex_pipeline/qa/END-07/f66454ec7520a6a6.jpg",
+      "bytes": 48852,
+      "sha256": "c2b05a2d5460b815daaa80640ea8862f90d7e7f426b1beea9b503be6ea49e257",
+      "git_blob": "20e3ea8ceb42e89ab0c3739d6db2f506e25f6ba0"
+    },
+    {
+      "path": "production/codex_pipeline/qa/END-07/images.json",
+      "bytes": 635,
+      "sha256": "948152b7e4e5c9bf71a7fb437c684f41784d10ac023769a9116721ff77d66d19",
+      "git_blob": "3152171a3a7e40f34e43e14204c3e6a0296bf497"
+    },
+    {
+      "path": "production/codex_pipeline/qa/END-07/media.json",
+      "bytes": 18865,
+      "sha256": "5c3ea216eaf06eb0f345072bf440fb262b313ecad5b7a98d7ae5aeaabbbf2973",
+      "git_blob": "6ffc6e3f22ad965bb99ce01469a0ff4bdcd2106a"
+    },
+    {
+      "path": "production/codex_pipeline/qa/END-07_SCENE.json",
+      "bytes": 3517,
+      "sha256": "91fbc232b056f16e9157d549c81afd59a13538f0dd3920d8a981cd40ae327ddf",
+      "git_blob": "e02cc556d8740f889902145f610f95392cda34d2"
+    },
+    {
+      "path": "production/codex_pipeline/qa/ENGINE_COMPARISON_CLOCK/COMPARISON.json",
+      "bytes": 1265,
+      "sha256": "fd64736cd110d69f948e7a23178510f7c2c8d93cd1be7627238a02f6dd3a4cb6",
+      "git_blob": "c3a79211bef3b1eceaf785d7b9629c6789bd6260"
+    },
+    {
+      "path": "production/codex_pipeline/qa/ENGINE_COMPARISON_CLOCK/CYCLES_64.png",
+      "bytes": 1579505,
+      "sha256": "60f91e8da68752b2b16b27118304742788581bdaa79113e3436dfb39cc098ba6",
+      "git_blob": "b9b0a495da8b90de438af390822735509a2957f1"
+    },
+    {
+      "path": "production/codex_pipeline/qa/ENGINE_COMPARISON_CLOCK/EEVEE_8.png",
+      "bytes": 1408340,
+      "sha256": "84fe2ae0ce2f2f319c46939a5b504cf372a0ee6083f6e712645295cee0cbc3c8",
+      "git_blob": "4d98a70d794eebff7df3d6f38e5cd9c65c449d44"
+    },
+    {
+      "path": "production/codex_pipeline/qa/EXCLUDED_MEDIA.json",
+      "bytes": 1681,
+      "sha256": "d0136e20d760501c19ef26ea83706ecc5f0bbfb1374d58c7187ba155599d2c9c",
+      "git_blob": "4430d32580ee7de86f606259e8bee527cf55c433"
+    },
+    {
+      "path": "production/codex_pipeline/qa/F4-01/71772f0a2e7a67a5.jpg",
+      "bytes": 87913,
+      "sha256": "e9840178bd6801a5432ab5709248ff151a8fd29c753cad8353a08326ad75bec4",
+      "git_blob": "42d5315431a7fe1f4b72936671ea75dff7ec97ad"
+    },
+    {
+      "path": "production/codex_pipeline/qa/F4-01/d016c1336d9a559d.jpg",
+      "bytes": 87913,
+      "sha256": "e9840178bd6801a5432ab5709248ff151a8fd29c753cad8353a08326ad75bec4",
+      "git_blob": "42d5315431a7fe1f4b72936671ea75dff7ec97ad"
+    },
+    {
+      "path": "production/codex_pipeline/qa/F4-01/e541348170de9e24.jpg",
+      "bytes": 87913,
+      "sha256": "e9840178bd6801a5432ab5709248ff151a8fd29c753cad8353a08326ad75bec4",
+      "git_blob": "42d5315431a7fe1f4b72936671ea75dff7ec97ad"
+    },
+    {
+      "path": "production/codex_pipeline/qa/F4-01/images.json",
+      "bytes": 630,
+      "sha256": "dae920941c00ae66a8f6ec7350e748856528b2e490d24713d2a0bd5cf3fe8d3a",
+      "git_blob": "d13aa03d644f0b8f6fb38457d5653830137c1e95"
+    },
+    {
+      "path": "production/codex_pipeline/qa/F4-01/media.json",
+      "bytes": 22707,
+      "sha256": "2f41a5d2fcf204ebe8c251150ea9faef4c71e2b2d8a8bbfe4f422acba36a5d1e",
+      "git_blob": "2af677f0e9c04e7ac218ea5dc1c2c03aa1e5f6e7"
+    },
+    {
+      "path": "production/codex_pipeline/qa/F4-01_SCENE.json",
+      "bytes": 7996,
+      "sha256": "758c9161b92eed519b0aa29ca1e291bb59fc078986728f9919835b7feedb52c7",
+      "git_blob": "0b678077eb565489905a0436942371e83db0d2a6"
+    },
+    {
+      "path": "production/codex_pipeline/qa/NATIVE_CARDS/1f5288b7e77cbdc9.jpg",
+      "bytes": 15592,
+      "sha256": "d1bd551101ee1d72f88aafd23f0e305f44d35a54006d192c0788ffd4c2dd664a",
+      "git_blob": "f3f241178c74c5167418baca03609cdcd5be0184"
+    },
+    {
+      "path": "production/codex_pipeline/qa/NATIVE_CARDS/207aa76ef89150a4.jpg",
+      "bytes": 15592,
+      "sha256": "d1bd551101ee1d72f88aafd23f0e305f44d35a54006d192c0788ffd4c2dd664a",
+      "git_blob": "f3f241178c74c5167418baca03609cdcd5be0184"
+    },
+    {
+      "path": "production/codex_pipeline/qa/NATIVE_CARDS/3786140c7ecb359b.jpg",
+      "bytes": 15898,
+      "sha256": "c50c5404785bc5ce80f563333676ad4cd9c949dd09f596ac33583eb5509c49d6",
+      "git_blob": "cb8bc725337a44f25ff5a1b5fee489f35f9b54e6"
+    },
+    {
+      "path": "production/codex_pipeline/qa/NATIVE_CARDS/ae89c2efde3d9a9e.jpg",
+      "bytes": 15898,
+      "sha256": "c50c5404785bc5ce80f563333676ad4cd9c949dd09f596ac33583eb5509c49d6",
+      "git_blob": "cb8bc725337a44f25ff5a1b5fee489f35f9b54e6"
+    },
+    {
+      "path": "production/codex_pipeline/qa/NATIVE_CARDS/e35aa57c25e33c48.jpg",
+      "bytes": 15592,
+      "sha256": "d1bd551101ee1d72f88aafd23f0e305f44d35a54006d192c0788ffd4c2dd664a",
+      "git_blob": "f3f241178c74c5167418baca03609cdcd5be0184"
+    },
+    {
+      "path": "production/codex_pipeline/qa/NATIVE_CARDS/e8d60d1357aa63d3.jpg",
+      "bytes": 15898,
+      "sha256": "c50c5404785bc5ce80f563333676ad4cd9c949dd09f596ac33583eb5509c49d6",
+      "git_blob": "cb8bc725337a44f25ff5a1b5fee489f35f9b54e6"
+    },
+    {
+      "path": "production/codex_pipeline/qa/NATIVE_CARDS/images.json",
+      "bytes": 1284,
+      "sha256": "fb0d89bd1ef33bf2a50bc547641e70f16da11b19f1d3cca2bd6469b410b6b79c",
+      "git_blob": "3374c3b144cef33a2515e9d65bee6222597db05e"
+    },
+    {
+      "path": "production/codex_pipeline/qa/NATIVE_CARDS/media.json",
+      "bytes": 30976,
+      "sha256": "0d9a986731108bd2854226a29231a741766d0bc66dce7bd838650c00bd548527",
+      "git_blob": "46bc39b0c4bad7e181c287de539d9f318266ccb8"
+    },
+    {
+      "path": "production/codex_pipeline/qa/NEW_INSERTS/16bce5ce62f0bb90.jpg",
+      "bytes": 37052,
+      "sha256": "2e97c711c6363d3749749de8cb6f5f8eee6dafc38f9ff79f0c0ebec3daaf159b",
+      "git_blob": "87bb2b82fd22c607a46768f6f949ac7960a66851"
+    },
+    {
+      "path": "production/codex_pipeline/qa/NEW_INSERTS/1e5cfa45ae932d69.jpg",
+      "bytes": 31224,
+      "sha256": "f2615b8b808f8c748162570d861317c94b98b940c3d1c5185b0342176cba6a06",
+      "git_blob": "2ee0c570286bad27873a6fda1113dd7df18f0ef6"
+    },
+    {
+      "path": "production/codex_pipeline/qa/NEW_INSERTS/96242a3fa34d7277.jpg",
+      "bytes": 31224,
+      "sha256": "f2615b8b808f8c748162570d861317c94b98b940c3d1c5185b0342176cba6a06",
+      "git_blob": "2ee0c570286bad27873a6fda1113dd7df18f0ef6"
+    },
+    {
+      "path": "production/codex_pipeline/qa/NEW_INSERTS/aaade8e91269d714.jpg",
+      "bytes": 37052,
+      "sha256": "2e97c711c6363d3749749de8cb6f5f8eee6dafc38f9ff79f0c0ebec3daaf159b",
+      "git_blob": "87bb2b82fd22c607a46768f6f949ac7960a66851"
+    },
+    {
+      "path": "production/codex_pipeline/qa/NEW_INSERTS/b46a5e559508975d.jpg",
+      "bytes": 37052,
+      "sha256": "2e97c711c6363d3749749de8cb6f5f8eee6dafc38f9ff79f0c0ebec3daaf159b",
+      "git_blob": "87bb2b82fd22c607a46768f6f949ac7960a66851"
+    },
+    {
+      "path": "production/codex_pipeline/qa/NEW_INSERTS/f84e9684aac4ec21.jpg",
+      "bytes": 31224,
+      "sha256": "f2615b8b808f8c748162570d861317c94b98b940c3d1c5185b0342176cba6a06",
+      "git_blob": "2ee0c570286bad27873a6fda1113dd7df18f0ef6"
+    },
+    {
+      "path": "production/codex_pipeline/qa/NEW_INSERTS/images.json",
+      "bytes": 36601,
+      "sha256": "f038d5fe9518550c9779d9a4bb76c294ca161fd20fb7302a44299b060ff051c8",
+      "git_blob": "50906c6b1017779ea6c966567e092e1ca5865c13"
+    },
+    {
+      "path": "production/codex_pipeline/qa/NEW_INSERTS/media.json",
+      "bytes": 36280,
+      "sha256": "91023c8d3e97262b9be107f08aa6e1ec1e7b0879a42945eeccda1520f34055a1",
+      "git_blob": "a46d259d8c131f1ebddae112262b8132cea3505a"
+    },
+    {
+      "path": "production/codex_pipeline/qa/PINNED_INSTALL.txt",
+      "bytes": 1876,
+      "sha256": "4467a1780a6ac4b1c0995f81217f2147b4bb6c46cde3e61fe6b835d7b721b23e",
+      "git_blob": "f44e46c27e7a14651c411234ecb889515e951975"
+    },
+    {
+      "path": "production/codex_pipeline/qa/PORTABLE_PRODUCTION_SCENES.json",
+      "bytes": 971,
+      "sha256": "f68f2f51fdeec63def052dd644afbc7a50d653581dee5fccaa45966f9d5befbe",
+      "git_blob": "f66be1651a84f980d91be482da2d1d068a87b259"
+    },
+    {
+      "path": "production/codex_pipeline/qa/PORTABLE_SCENE_RERENDER.json",
+      "bytes": 329,
+      "sha256": "c0a93881124657e832ade70cf5b1dfdd51a7baffd2a8f61a1ef4180bae4fc167",
+      "git_blob": "cb21ef442145ca77ea2520f054c0bbc2fc71731c"
+    },
+    {
+      "path": "production/codex_pipeline/qa/RECOVERED_ALL_MEMBERS.json",
+      "bytes": 157,
+      "sha256": "54d2ebe40adb0be0b601321d64f73b6ebba78e547d6e76e56a5a764b2e4ab0bc",
+      "git_blob": "8f379dc6c2971ea8db06a99fc1178ea6b1b4b253"
+    },
+    {
+      "path": "production/codex_pipeline/qa/RECOVERY_GUARD_TESTS.txt",
+      "bytes": 104,
+      "sha256": "62cfbeb2911bb226088bfb0918eb4b05008ea70b20bce854ee2ca8a564bd37a5",
+      "git_blob": "c27459aec5cfbc5e9b33b41b14969e8eb230fce7"
+    },
+    {
+      "path": "production/codex_pipeline/qa/RECOVERY_OBJECT_CACHE.json",
+      "bytes": 182,
+      "sha256": "bcc1e6166acbfb4b73216db7bae0bb952eaa1d1f346a973def1d0e1e030daaee",
+      "git_blob": "84d5a36746ed26ebae7e20754858c601da20b90f"
+    },
+    {
+      "path": "production/codex_pipeline/qa/REMOTE_PRODUCTION_SHOTS.json",
+      "bytes": 99955,
+      "sha256": "b8b227dd61bef82824139862b5b0200b93dcf856a14d84a10893c14990003b8e",
+      "git_blob": "b28f77a93a7df09858675c5394f3e44ab99f51ec"
+    },
+    {
+      "path": "production/codex_pipeline/qa/REMOTE_TECHNICAL_TESTS.json",
+      "bytes": 25418,
+      "sha256": "a766dfc342da1b4d3e13cbec1b4df614947467ef6c8f8f15892dedaf5e0a4ef1",
+      "git_blob": "5c7d9eb5d7d6394aff454dcaa7dcd34c0048ff00"
+    },
+    {
+      "path": "production/codex_pipeline/qa/RENDER_COMPARISON.json",
+      "bytes": 4745,
+      "sha256": "e2cd24a730f112503172ead6687e2840d02b5c5095d41e5f6d44eb024af1c8b6",
+      "git_blob": "1e08d2bda77f9c7410f86177d2daf7aed58002ed"
+    },
+    {
+      "path": "production/codex_pipeline/qa/SOURCE_PRESERVATION.json",
+      "bytes": 401,
+      "sha256": "3e5de42461291fefedb853b3ebca21237e9254f5120c864147b9ac2f946aff58",
+      "git_blob": "9eac42539ac1a057fc7c30e7f540a5660e1c61a6"
+    },
+    {
+      "path": "production/codex_pipeline/qa/VERIFICATION_METHODS.json",
+      "bytes": 574,
+      "sha256": "242b6860cea859e2b3983efd3cbf9c9aee1eb5fa43f6702ab772c9f9f4318a8e",
+      "git_blob": "0fbf2b8c4b91d6e4c2a6f41649f210dec8795d9d"
+    },
+    {
+      "path": "production/codex_pipeline/qa/c420498f16ee34ee.jpg",
+      "bytes": 30044,
+      "sha256": "06cf42e44dfc533a49d794e9b58a19698c92b6fec7aeaf190a9446f7c6f969c5",
+      "git_blob": "a8a5f5073f40742c541683adfb18af7f43e40947"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/030ccc463945ef76.jpg",
+      "bytes": 101771,
+      "sha256": "5d6c7dbe322212a68fa2fb1356ddea58a7f66f672b4cfcd71c01a680ee783077",
+      "git_blob": "d466557baf7a5c5b40d3c3b4cd7ba7e029b28623"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/06003e1389407905.jpg",
+      "bytes": 77323,
+      "sha256": "4091646dc1e91f357ef2625c3f3ed95c316c330a73a4f095577a240092b83100",
+      "git_blob": "4e6f597a53f23ac457e41429219c4509a11d15dc"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/09714f62ee98a6bf.jpg",
+      "bytes": 105209,
+      "sha256": "0d6d8c54969915632e878708a8f296059114877f1edcf0199c656e48d2d7cde0",
+      "git_blob": "7367c6e3f725511ded7cc0132d7e5763e6534d60"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/0a8eb3aa24b5a75c.jpg",
+      "bytes": 60429,
+      "sha256": "8fe2ef3234c61c30d24999c7642a9e5c022778843a7fe52e864734e764cb02f0",
+      "git_blob": "602a61a6d06973741b130bc09ec98d302f6669f0"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/0ac8814b44a97ffb.jpg",
+      "bytes": 53691,
+      "sha256": "f0b1ac9f0b62a8a0631249679263284b843947267076c24ac6ee642af8ed277d",
+      "git_blob": "57d63420cdc6d74b1c90685f50f27db69839412f"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/10dc6a6c393d73a3.jpg",
+      "bytes": 60787,
+      "sha256": "8e3f8fd3553c54983bfbe21bcf89fd96df0369748ac02655d53ad70fe428a288",
+      "git_blob": "45dd50f1e4535734623199d54416ae39e1941f93"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/10f1a5e3ff248d39.jpg",
+      "bytes": 59259,
+      "sha256": "0f3b4a8521e1686be98128fb958992e08fcc0a434b433b6336547982ef36328f",
+      "git_blob": "b178c7c8529dc631db9aea88118c990e91d698eb"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/1a37f4ae9405f37a.jpg",
+      "bytes": 67105,
+      "sha256": "016a0b0396198d9150b33b6da1dffda8c048cc852fb42d8d9511328123acb299",
+      "git_blob": "664cf370678b08aa3540b3e53ec11ae4af45b124"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/1a82700206bb24d7.jpg",
+      "bytes": 79218,
+      "sha256": "47007e13bcf23cb4ee7b90691718fcf0a603496c231b3e6d8bf9bca30f790c94",
+      "git_blob": "45732d90f80b4d590b183917e3f0c118b295b8f7"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/1c5652f429a2cc55.jpg",
+      "bytes": 30044,
+      "sha256": "06cf42e44dfc533a49d794e9b58a19698c92b6fec7aeaf190a9446f7c6f969c5",
+      "git_blob": "a8a5f5073f40742c541683adfb18af7f43e40947"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/1cae8fb1ed91c9ea.jpg",
+      "bytes": 36298,
+      "sha256": "a4fc3fdad1d07b83dbb020dd827aebe2b9cae72cd9c74ceec21e6752360cd1be",
+      "git_blob": "6fb988db045d9488fdbcd519bdc4785c57b89601"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/2057e310b9b31300.jpg",
+      "bytes": 123251,
+      "sha256": "49b3cf2a02c37d14657c2398926bdab38ec9c68b1fc2995c51476cf6ec74af12",
+      "git_blob": "1b9dc75d8929268d9dd3a5467716e0dce629b7d2"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/28502b7600d5008c.jpg",
+      "bytes": 15386,
+      "sha256": "bb44e08c225a640311cfcb15bb9a81b2fddb012c17e05f20c214e84f4771edfc",
+      "git_blob": "fb2bf45add7f11c090f1b2c3fae67bb5f2b9ce42"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/2b9970c18960173e.jpg",
+      "bytes": 54711,
+      "sha256": "b83ac92441f941fe3bf251876163b5a8b61e3720d438576a1fd86c8a2ce1149a",
+      "git_blob": "ee91f0d1c087245bb2f911b4bd4975ab23542fa0"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/2e84b8a70cac0bf7.jpg",
+      "bytes": 18747,
+      "sha256": "18c3128e9ae7fabbbde7411147cd0c7513835af1d616c9cd2af80f56c1f55eb6",
+      "git_blob": "f73e6f9773ece2e9b029321bda205c8391d778de"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/2fd73ff87037e3bc.jpg",
+      "bytes": 60443,
+      "sha256": "e9bf0be8e19192f7da9dc2bd1c17acf124ede177e982b649c0a365f8b6cb9169",
+      "git_blob": "74f6ffdd62ad98d689c25f97c7694a1cec54c3e1"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/3133bcc62c13d7a3.jpg",
+      "bytes": 78104,
+      "sha256": "2c69b064fa3a2f2aa9e676ac0d61be6ab1382fefca8741342dd699dea3025a30",
+      "git_blob": "8c9b2076b5a495395be5178af73ef04b5994f30f"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/318d0aeaa1f85a27.jpg",
+      "bytes": 27209,
+      "sha256": "3d3c7a8d64d6afb9c71963561177154d8a5c888bd9d854af32062d1823752707",
+      "git_blob": "398855d20b002f7a6b97845a59fa3d1c4c35251b"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/37e47549c589911b.jpg",
+      "bytes": 49345,
+      "sha256": "87f1914c8eed514bda4baf0da0a0728c138a998158be94f18f5326cdd5c4ae2e",
+      "git_blob": "be1f6e3e817d7ce143807755114b67b7a36368d1"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/3a2548be2040df84.jpg",
+      "bytes": 54996,
+      "sha256": "80d67e0f787eaa10d2507eaa6a77da3888be22162060310f6e4972812adc54b8",
+      "git_blob": "716ffbb95523d00ba814f99fac088ca44a4fb79e"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/3b7e59e6a385e7b3.jpg",
+      "bytes": 20281,
+      "sha256": "46d25fb28f9314b2aebc957f413c58c435a846c32a30d65ea9dcfd2f31bea54b",
+      "git_blob": "0cedc7743e50a595185e4b16cc38904bc4dfab2f"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/3f0cd8c8e839b0ba.jpg",
+      "bytes": 61398,
+      "sha256": "71d74d23a7fe86514a9183b4dba9aea096804757a7a4e399f5a63fdb91a2dade",
+      "git_blob": "1a0363a456c8ef7f05de164272bf97cf8cbdcf1b"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/496576368423f9ed.jpg",
+      "bytes": 118075,
+      "sha256": "6ac06357dfee6200ab0682ed505cb7e001e197c13b0ec3ef7d8ec5068ff936b5",
+      "git_blob": "d97efa34bed3c43476f489efe9d780a552f53b0a"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/4c09f4a7350a1431.jpg",
+      "bytes": 44698,
+      "sha256": "4d6cc489a9d023b65544d3163cc3ea27265514e206b9a13362a4ba4022d8581b",
+      "git_blob": "4a999f7c9423a113f808608cd1d6b3de3455fd27"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/4faba4cd97512aa3.jpg",
+      "bytes": 80134,
+      "sha256": "da0178e26f59799d57b36097d37733e79bf22584134fb9dd6237c939e2bb8a85",
+      "git_blob": "d81da5aa7b76845211eff3cd9c616908268eb5e4"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/500574fccfaf01c8.jpg",
+      "bytes": 58406,
+      "sha256": "6372212fd01cda5f0162a462d091f40872b86c55a9959de21fd9c5a7b35766b4",
+      "git_blob": "aa954371ae6856986149fe44eaa1ef219de58a08"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/5297732f4b819e4c.jpg",
+      "bytes": 53393,
+      "sha256": "eb8614288d56e2285565495d9c013361088b775ea47e57b1802681008d9ec927",
+      "git_blob": "b80df43cba623a52e705ed15e87aee4b239dd7dc"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/5507f674d93024e8.jpg",
+      "bytes": 55136,
+      "sha256": "505ede0f195804c4b8dc6fd284f4689f2d26c7fd631368708da790eac88d0d93",
+      "git_blob": "48e8a41e2f4bd8bde2b8e0e5f4438d45bdc4b34b"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/55dbe754bfcc5c23.jpg",
+      "bytes": 31624,
+      "sha256": "d286af0af9100fbeb84e50776b3d04ff70941bf63003c73da657dfc5987b863b",
+      "git_blob": "bd7180bb994d6fc8658fab92b85cf80ef9e88c2f"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/59e4f1abb6d29a93.jpg",
+      "bytes": 121966,
+      "sha256": "0bfd22254425b354db97ba20c16eaf633e304a67df8550e3b501a2903cf5d380",
+      "git_blob": "7c8765891f977a9950eeb2fab21c1f759f15bbf9"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/5b99ca15c7a07223.jpg",
+      "bytes": 60832,
+      "sha256": "152c811c509666e266a8519e3fe1a3c9ed1b798abae5a667f6e0d89f2a9e91e1",
+      "git_blob": "c39a4108be15100ac8616c6d19f97ad612c5b742"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/5c6f7bdb464bdbda.jpg",
+      "bytes": 81576,
+      "sha256": "163d60a662621ea063dc5aea061e07f84062e2ab2c309475cc33f6ca7b93543b",
+      "git_blob": "6a306e4f1f6b99b14219884310a68a15f3e422f7"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/613c8e2f6f59fe78.jpg",
+      "bytes": 61398,
+      "sha256": "71d74d23a7fe86514a9183b4dba9aea096804757a7a4e399f5a63fdb91a2dade",
+      "git_blob": "1a0363a456c8ef7f05de164272bf97cf8cbdcf1b"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/67dbcc05d8b50f33.jpg",
+      "bytes": 96017,
+      "sha256": "1a4f93fe69720078f6a3c1c782a5467834d2dedeba810f5d8fec0940320126fd",
+      "git_blob": "0dc3769a484cb8ab7cc0472e8fc4ae7f850abb85"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/681a52b65561d6a5.jpg",
+      "bytes": 31770,
+      "sha256": "ad519cfe9bf6d2a8afb908db0cf7cfadacae23e9fd996636272249e80704c975",
+      "git_blob": "b71d97fc608bc055695c67ee55a823d267599cd9"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/6a82318b2a395f7f.jpg",
+      "bytes": 54679,
+      "sha256": "8eaae5be0f2cd9dfeb315a567b7f15a4fef40bbde76b2054d1a30f68519d385c",
+      "git_blob": "f5db9808741ff31139372e34c195436b287bf977"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/6a92e55da9a0107a.jpg",
+      "bytes": 50253,
+      "sha256": "3eb1f3e3587fe97557078724865076afbebcca9f7602db4e284d0402b1a05822",
+      "git_blob": "72c97033121d880f2183913fa9db8b4434b9d631"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/6b718cfb3ca0c661.jpg",
+      "bytes": 92786,
+      "sha256": "d2c508a2b7aa34616128cef0b8a9801dadfd2b26601ccd38a54709190f234596",
+      "git_blob": "2b4733eb1959dfa207ad9be0b81fabae564294e3"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/702fcf284c528a31.jpg",
+      "bytes": 96285,
+      "sha256": "81216e405256172aa4646e49186c344d3c873b8ca900edcd2f7154f479ca1433",
+      "git_blob": "0be2cb7e2daea98481a5edfd9d04a32740a17394"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/70ed85c66fad58a6.jpg",
+      "bytes": 53393,
+      "sha256": "eb8614288d56e2285565495d9c013361088b775ea47e57b1802681008d9ec927",
+      "git_blob": "b80df43cba623a52e705ed15e87aee4b239dd7dc"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/725bbbbb3e06c726.jpg",
+      "bytes": 88304,
+      "sha256": "9a6fc06114bd673aff62e2bed11c36164680233396f7e1d96771c5096934c36c",
+      "git_blob": "ad289fb653a4cc95d1efd7d82fadc830c76831e7"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/77b8c3f80135fd35.jpg",
+      "bytes": 89302,
+      "sha256": "84328b386e598f94dcc234e1ca63e4aefaa2cde8fbd3275088354da71f06e5d4",
+      "git_blob": "122cb7919757bf902f1d158604e1b006c602f11f"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/7b284d881f6571f6.jpg",
+      "bytes": 73121,
+      "sha256": "c54fb85d879c205d4166edfc062dcf85394a0cca4362d8bf759b95a4868cce33",
+      "git_blob": "c7138167e622ffe80a23549cf5dcda0fe93f6ef8"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/7c38e5b4743c623f.jpg",
+      "bytes": 56631,
+      "sha256": "3f80e265a726983d40503851506bec7afb0f9bebe86bc7ad9381add6cfc371e5",
+      "git_blob": "cc9b288be92437bdb1e3100db3d5e8e0b0028042"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/888364c729e1a642.jpg",
+      "bytes": 56068,
+      "sha256": "bbd5d3c6e4cf08cb190892f61db9c89df5e2f96cf84a619b0ba8d185e5406c82",
+      "git_blob": "0037da801bae16b476400473178ff31929e7e013"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/89f1bc19882ca53b.jpg",
+      "bytes": 39838,
+      "sha256": "af91bffd13ce62a638a70a18b48befd3edbb0dd04a76d10b1576636d9fb1ccb7",
+      "git_blob": "326a96c28d59002a9ae5ecbbcf42b997e40dcec5"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/8e62fa03b6b1513e.jpg",
+      "bytes": 31767,
+      "sha256": "89db0c1afdfa78e47ad8b9fc80daf495a1c4558e75988a589b03d9406be57164",
+      "git_blob": "ccf32e39d08ea63a726ef17553fbd9b7ec3feb70"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/912c7950c4ed9059.jpg",
+      "bytes": 11251,
+      "sha256": "bea9003f04f977169288d62e8e6a1dadb0f67534c753abbf16e098163a885a93",
+      "git_blob": "eb8291c2bf9d98e663781c7dcc346aa918088229"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/92b1c46859df9f8c.jpg",
+      "bytes": 90710,
+      "sha256": "10ddb076fe973b476f208ee7d32e5e2de98101dca1deb6b84cc0772f08a6e7fc",
+      "git_blob": "cd2258da3d0259f2e2bf83a496968691f8fa0595"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/96f6cb439a7f78a9.jpg",
+      "bytes": 79941,
+      "sha256": "0680e759a90d2f928786157a10ffca0b7b7bc3b8bb3efebff7615aca6afbbb8f",
+      "git_blob": "5442928af5639d086a8c49b33601699dca91eb9b"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/97ac34c9abb967d8.jpg",
+      "bytes": 33527,
+      "sha256": "bf91d3318954111d7cb57a2d76e01c6e102ab13096e7d0b5d237a0ae72f75015",
+      "git_blob": "7c728f85e03e2ed306a7e05b2760364986ea2b0c"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/9a0c2c007e17af69.jpg",
+      "bytes": 127062,
+      "sha256": "cd7765f378341a63dd2ef12e28ad98b320150f76950c2505053bc5a53feea14c",
+      "git_blob": "a15627d8238eb71bbf1b0b4854cc63d421e73975"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/9ca9c29237664944.jpg",
+      "bytes": 93704,
+      "sha256": "46dc15e444f1146e8fd8cb3d4e8365a565ff5cc3febcde653fda457d2f49fc56",
+      "git_blob": "4a7ca8df118058e9fb9fe8fd628b1f8f346e202a"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/MIX_AUDIO.json",
+      "bytes": 814,
+      "sha256": "da3e347818b861db304c3af99c5f949242bec570bcf05c11cf3d970e092c50f6",
+      "git_blob": "ce2cfe52025d08b4b3264082678785b5f2186ce2"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/SUMMARY.json",
+      "bytes": 1941,
+      "sha256": "5076431a026e463038895ffeb29d2e2aaf78fa1bf0d5ba5cfcbbdd3e730ee9fd",
+      "git_blob": "2e735c8891e55698131de6b9000ad0fbef625354"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/a64c64fa3bcae9b7.jpg",
+      "bytes": 31770,
+      "sha256": "ad519cfe9bf6d2a8afb908db0cf7cfadacae23e9fd996636272249e80704c975",
+      "git_blob": "b71d97fc608bc055695c67ee55a823d267599cd9"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/acf512ae8ab569be.jpg",
+      "bytes": 118159,
+      "sha256": "e7e704348745bf15e9a5ce2914ad9c2c79454123d372140de59dacdd3d1f8c6f",
+      "git_blob": "39416c9c8d889453dcf6096020cfeff8063975b7"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/aef152fbd116c089.jpg",
+      "bytes": 31624,
+      "sha256": "d286af0af9100fbeb84e50776b3d04ff70941bf63003c73da657dfc5987b863b",
+      "git_blob": "bd7180bb994d6fc8658fab92b85cf80ef9e88c2f"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/af3892973a80b62d.jpg",
+      "bytes": 80105,
+      "sha256": "c4d311224b2f98275c21c2552d2654c471e12001c67dc0cba50c50d18fdee6f2",
+      "git_blob": "884124e39eb15734039e3442facb5a2a583ccad6"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/b1a1e0095da7dc47.jpg",
+      "bytes": 79218,
+      "sha256": "47007e13bcf23cb4ee7b90691718fcf0a603496c231b3e6d8bf9bca30f790c94",
+      "git_blob": "45732d90f80b4d590b183917e3f0c118b295b8f7"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/b20b3834ec218863.jpg",
+      "bytes": 63621,
+      "sha256": "7e6bc6ed2cb261c09bcfbc702debc79f6630c6fa747a11a67a701ca260bc348c",
+      "git_blob": "2b08913b39769cd8675ae278d6fab9af48435942"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/b9c574e7db1297f6.jpg",
+      "bytes": 68526,
+      "sha256": "d105a60ca563421e7c6d788a1e7065e583c66843a2a78fe70e6496ba54707ffc",
+      "git_blob": "0d18bb2e0c9684230ec76b1cf35bd14f432809d9"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/bd5e6afd7623f0c8.jpg",
+      "bytes": 53691,
+      "sha256": "f0b1ac9f0b62a8a0631249679263284b843947267076c24ac6ee642af8ed277d",
+      "git_blob": "57d63420cdc6d74b1c90685f50f27db69839412f"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/bf1156ae55b0d209.jpg",
+      "bytes": 31879,
+      "sha256": "0f14bba7661b27f56e7550b801358131449dc56e52d879c6a945f825d2b54a36",
+      "git_blob": "c690b37f6e41eeba1b4285c91357ba58fa8ff31d"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/c0a6ae72d35de38a.jpg",
+      "bytes": 61325,
+      "sha256": "11592e6e68992009df3acb9cf8db6ae2de6b3b5c05847982607c0052d7be1a98",
+      "git_blob": "856972949422042780a217d0272c90b683f380bf"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/c420498f16ee34ee.jpg",
+      "bytes": 30044,
+      "sha256": "06cf42e44dfc533a49d794e9b58a19698c92b6fec7aeaf190a9446f7c6f969c5",
+      "git_blob": "a8a5f5073f40742c541683adfb18af7f43e40947"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/c6a523eb817da30c.jpg",
+      "bytes": 79941,
+      "sha256": "0680e759a90d2f928786157a10ffca0b7b7bc3b8bb3efebff7615aca6afbbb8f",
+      "git_blob": "5442928af5639d086a8c49b33601699dca91eb9b"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/cac1082237e41328.jpg",
+      "bytes": 71138,
+      "sha256": "97deaea473250dc469386fbb7bce7b2494b3a0cd71ee5470d4768bd19565d3de",
+      "git_blob": "a2a5492ea3bbe64c7a71977eee8f66962a56fc4b"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/cbd0cd407883409a.jpg",
+      "bytes": 103218,
+      "sha256": "827b50a415b629d3d995c1344e2a17a3692876cc65c1c96ccd69e568e7bec1b2",
+      "git_blob": "26c6e6822dfa97ad1dd28f536ac184c7d04a8a2e"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/d14ef909b9d02195.jpg",
+      "bytes": 44341,
+      "sha256": "1c024451dac541ca3374bd85fc472f9416750a60c6882e9780b37bbab7b4cca5",
+      "git_blob": "69d47e379eedd86f3b4056dc2b07cd4bd14a2a30"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/d4a44714f09b8931.jpg",
+      "bytes": 16640,
+      "sha256": "1abb62c5c5de059501ef8302551d5f13e547104ae4eb70f8b75c113dbbdc4bac",
+      "git_blob": "84b5d16bcb759a22a1d5953375a15c56dbf9c665"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/d5ddae0360d9b12f.jpg",
+      "bytes": 88278,
+      "sha256": "a49f24cfb884c1d93a85d06a3d6df119716e7d48fa43990935a3ba4c218e2b70",
+      "git_blob": "09971b746123d7a6df1575ad15793e8136d9e77b"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/d7a0c8684bdd8adc.jpg",
+      "bytes": 54651,
+      "sha256": "d677b531ffc8f144f3b98e63df531aae5ce1fd08ec335f7b18614c733b95f524",
+      "git_blob": "5ca0e19ab60880583e9e056f99961f72b41bf043"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/d8971e1b5ee8529c.jpg",
+      "bytes": 56082,
+      "sha256": "0fb3dd5a2128d42a7fb4cbc9d738b9452b15aa691ba34ae9e748694671a7d6f1",
+      "git_blob": "c494e850a70b7fef215009f0f8db60061577eba7"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/db4aaeb7a005f973.jpg",
+      "bytes": 11251,
+      "sha256": "bea9003f04f977169288d62e8e6a1dadb0f67534c753abbf16e098163a885a93",
+      "git_blob": "eb8291c2bf9d98e663781c7dcc346aa918088229"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/ddd08d8dce27a781.jpg",
+      "bytes": 127044,
+      "sha256": "dacefd9c0d223137e14b7f1b23937f4b7e48f3e949910d171b6710555f6c5e91",
+      "git_blob": "f614c87d154a0062f22b595f4d14400307effcfd"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/df1131864f98b01a.jpg",
+      "bytes": 88278,
+      "sha256": "a49f24cfb884c1d93a85d06a3d6df119716e7d48fa43990935a3ba4c218e2b70",
+      "git_blob": "09971b746123d7a6df1575ad15793e8136d9e77b"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/dfc4340bbbb58ade.jpg",
+      "bytes": 37990,
+      "sha256": "c9eb8932e4ecee22e5eeef99898a465e1aa2c193dfb117895188301997688efe",
+      "git_blob": "1554a981907e70a151fbeac9e20e83b0d941086a"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/e0325373e7f31bea.jpg",
+      "bytes": 67159,
+      "sha256": "e8fd400b99a701e733ccf1eccf842919f3d593da5c5970a718cc1e945ed541ad",
+      "git_blob": "71dbc9664ffb25b5a2a490b96e2e511f207db58d"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/e3a1fe7d7dda2519.jpg",
+      "bytes": 78348,
+      "sha256": "8db2329c5c2a797bc2e176533b22fbdd78c2723d640643945343897c86a0f146",
+      "git_blob": "cc2a427b988cbab02c50cde440af4c37b3acca76"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/e3c61db3f1ffa6dd.jpg",
+      "bytes": 31879,
+      "sha256": "0f14bba7661b27f56e7550b801358131449dc56e52d879c6a945f825d2b54a36",
+      "git_blob": "c690b37f6e41eeba1b4285c91357ba58fa8ff31d"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/e508ec04dc8fb5f9.jpg",
+      "bytes": 121805,
+      "sha256": "50c7c4ca4a9e0a862d99ba916f92c3095c7eb976057a56b49b9cd092956ec413",
+      "git_blob": "314d106c588573de301a338e394c76988a774c97"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/f42f700e91a06518.jpg",
+      "bytes": 61909,
+      "sha256": "2276301c4026c6e0314d22eed165709638aef6ea91c90285b22f960e50138689",
+      "git_blob": "8580faaa51c0b707dafc16af4db8e6be0bfcdec6"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/images.json",
+      "bytes": 85833,
+      "sha256": "1054e01df2b6691225e32a0c1be2f7e9621cd1ed28b5d17ba626d6554991093c",
+      "git_blob": "c0756b90d0b3d48ee84707bad470acf8a10231d4"
+    },
+    {
+      "path": "production/codex_pipeline/qa/inherited/media.json",
+      "bytes": 1263426,
+      "sha256": "b0f5bd66d722f4bda2dc34f2e1ecde46262d808fce7158d15505f2586db3d7bf",
+      "git_blob": "46eff3080a3a773baefbeba47e2e76a961e7e719"
+    },
+    {
+      "path": "production/codex_pipeline/qa/playback/E7_SEVEN_SHOT_SOUND_CONFORM_r6_1080P_BILINGUAL.mp4.playback.json",
+      "bytes": 368,
+      "sha256": "fbddcef2d461b436f4603d198b46b9d5db49b3aca577bb9387294be44cd68b98",
+      "git_blob": "40988200d90cd111f96140f6b4318fcb2b852156"
+    },
+    {
+      "path": "production/codex_pipeline/qa/playback/E7_SEVEN_SHOT_SOUND_CONFORM_r6_1080P_BILINGUAL.mp4.playback.png",
+      "bytes": 7651,
+      "sha256": "921572afdabd704cde3b7bd1d7aca16147e3903a61cde604b414f31dde7aaa27",
+      "git_blob": "a97435bc40575b7906f986e583f00b11dba430f4"
+    },
+    {
+      "path": "production/codex_pipeline/qa/playback/F7_SEQUENCE_WORKPRINT_r3_1080P_BILINGUAL.mp4.playback.json",
+      "bytes": 347,
+      "sha256": "7870dba1f7a919abb367730aa1356842aecb41a733bc133b5123a202acc5f2e3",
+      "git_blob": "f8b63b2b92a43038bc55f39bc54ca23f400b1fa5"
+    },
+    {
+      "path": "production/codex_pipeline/qa/playback/F7_SEQUENCE_WORKPRINT_r3_1080P_BILINGUAL.mp4.playback.png",
+      "bytes": 44666,
+      "sha256": "5a2597c4f484affea6e0177b75a284698d2def2ed5f7ed9a2b98f1b02e0832d9",
+      "git_blob": "b30a05582e1c5d908b2f146204e2f1b8e95183e5"
+    },
+    {
+      "path": "production/codex_pipeline/qa/preliminary_media.json",
+      "bytes": 5746,
+      "sha256": "87a9c022f995205076849d48ddcbc86c95fe15624c13a377904b5ab0c14e06ef",
+      "git_blob": "735f196ed8e32ddf709dac03ec45c5d969381472"
+    },
+    {
+      "path": "production/codex_pipeline/qa/recovery/baseline_recovery.json",
+      "bytes": 155982,
+      "sha256": "318475b53fd16ecf79afda9bac71a71140c8500675d51e1c0bafe0a244a0799f",
+      "git_blob": "5d56cf2de46f52576653f2c31f58b9462fb3b2cd"
+    },
+    {
+      "path": "production/codex_pipeline/qa/recovery/r2_recovery.json",
+      "bytes": 236,
+      "sha256": "cef346a0be5cdf6c21f0053a388a6eada78e2d0047307bee2c0dd496a0c41abd",
+      "git_blob": "7724dd47d608887c06bae0f00bad5378d99148de"
+    },
+    {
+      "path": "production/codex_pipeline/qa/recovery/r3_recovery.json",
+      "bytes": 236,
+      "sha256": "d9db6156fdebdc63d3a9b4b608dfce03c239018a7860f069cf61e0e8bd4eb8e1",
+      "git_blob": "4077c63578f803deba78263d357cfe0dd04b5e32"
+    },
+    {
+      "path": "production/codex_pipeline/qa/recovery/r4_recovery.json",
+      "bytes": 236,
+      "sha256": "d54d93c1e3d900722ca22f870b1b841c58ef987dcd686e7eece6470f4a8513d8",
+      "git_blob": "e4c2c3dfc05b6ac7ffc80542f750ec8ec8fbae54"
+    },
+    {
+      "path": "production/codex_pipeline/qa/recovery/r5_recovery.json",
+      "bytes": 237,
+      "sha256": "321c749190c28a47301f1aebe97cf6e78e55a8e2ac5a4080a50ed56c6bfdc192",
+      "git_blob": "395676526adb0c528fda23a081de50edab266966"
+    },
+    {
+      "path": "production/codex_pipeline/qa/recovery/r6_recovery.json",
+      "bytes": 237,
+      "sha256": "afa8c44932248031f53dd37ceee4503fa79eef0392e2ac123851e9fca78ebff4",
+      "git_blob": "32daed5e736db375f2c96b9cd1bc4a4264450dec"
+    },
+    {
+      "path": "production/codex_pipeline/qa/remote_inventory.json",
+      "bytes": 455790,
+      "sha256": "6533546fe383d2645befa4434b34ed6a56e05566aedf2960e9b4d2e820729e30",
+      "git_blob": "d98a1fc6cfd7eebe06e89f5adebaaa886f2171e2"
+    },
+    {
+      "path": "production/codex_pipeline/qa/run-sources/render_native_cards_initial.py",
+      "bytes": 4510,
+      "sha256": "5d445b58d8a86d5c025822ba6b3cc1af5861829063a347c38e62abcce49a4386",
+      "git_blob": "a21cbe3cc7b20e4837bd34421b4ed5610a13da8f"
+    },
+    {
+      "path": "production/codex_pipeline/qa/runtime.json",
+      "bytes": 671,
+      "sha256": "a7e6edba029cebe56b491274760410326068d61ac75c875e2211aa5469a0c852",
+      "git_blob": "e692e06220a1a31cacccee9438d32fb7b3b0512d"
+    },
+    {
+      "path": "production/codex_pipeline/qa/samples/63da695534068481.jpg",
+      "bytes": 54659,
+      "sha256": "9caa7e53dc07bfb9ce1da5b31a7b30c86e505a6aba2beab30586ce2900903604",
+      "git_blob": "285e0b837cb4e883b3e28ebbc453ce3db832c383"
+    },
+    {
+      "path": "production/codex_pipeline/qa/samples/6ed0e5631bff742f.jpg",
+      "bytes": 53253,
+      "sha256": "f60a6f13ce28b087c6818df4e78296e5081a7db393ef91050df3d4c6bb7cc85d",
+      "git_blob": "b5e1f6d68d64f5cb9fd7b2452395b13efca1def1"
+    },
+    {
+      "path": "production/codex_pipeline/qa/samples/7b8670a495184060.jpg",
+      "bytes": 88887,
+      "sha256": "d4309cfca93a60252e59279907383a14faa0b3d59fc3a0e9684cb27581be10b2",
+      "git_blob": "6b2104e9e4bec2ba210276dddaf150d4916e9f05"
+    },
+    {
+      "path": "production/codex_pipeline/qa/samples/ba09e5af8aab69cf.jpg",
+      "bytes": 35093,
+      "sha256": "76dc3a6d0190187db2909d314cb24bc5e9960a77a8f1874b1cae4f0f3a5da95a",
+      "git_blob": "5fec642725e17b53b4788a7218a0cdb811e3f63f"
+    },
+    {
+      "path": "production/codex_pipeline/qa/samples/dc449b2ffe57487c.jpg",
+      "bytes": 92429,
+      "sha256": "dbe0f82d853f40571f95ba4d6ce05801a55e1000e2d92546cb02b52a9145ed7e",
+      "git_blob": "459b75a5453adeb1ae585bf939697d78caebf7ec"
+    },
+    {
+      "path": "production/codex_pipeline/qa/samples/images.json",
+      "bytes": 23950,
+      "sha256": "27fee1552f9bbeb6461fa6063ed11c6906472efd27f4a3c2b9369961949b4163",
+      "git_blob": "0c24e6c393cca45f2688002b18d16e6effd1e3ad"
+    },
+    {
+      "path": "production/codex_pipeline/qa/samples/media.json",
+      "bytes": 17494,
+      "sha256": "b9b11860347750ce6893849b0c3f25c23b5ddce20911f8e02382f8819e146bbc",
+      "git_blob": "0472befb59a60bef5998fd3bd2e0f24435768daa"
+    },
+    {
+      "path": "production/codex_pipeline/recover_git.py",
+      "bytes": 6930,
+      "sha256": "42bd426bcba031c619052e04f5e074f216ca75d6277465a94f9f9277f5179557",
+      "git_blob": "4f492cc84ec3e2d1cdc600b339de4566ac3858a4"
+    },
+    {
+      "path": "production/codex_pipeline/refresh_progress.py",
+      "bytes": 6010,
+      "sha256": "5f800e138c76905c13e091b610a7d0f53a15c989acd5cc0220b1ca0571f7bcf1",
+      "git_blob": "a67065a2aacb6305025483b54594d43effa3a332"
+    },
+    {
+      "path": "production/codex_pipeline/render_native_cards.py",
+      "bytes": 4691,
+      "sha256": "ad813a485ab07a9f81e9770990232c7a6b4a818a9a042f2f990af05134855308",
+      "git_blob": "99235f2cd004df660056fe0d1ef8d5f5dee619b2"
+    },
+    {
+      "path": "production/codex_pipeline/requirements-voice.lock.txt",
+      "bytes": 425,
+      "sha256": "46974d80bd183c84cc1707b1ffe81c43a04c88ef7b707669b51925ca71fec2e8",
+      "git_blob": "e7793904336b48e12bcf85acb1cdd225f4add0e7"
+    },
+    {
+      "path": "production/codex_pipeline/requirements.txt",
+      "bytes": 61,
+      "sha256": "81be63463edfec6b6921b966cf7970f4be85244b27e8df3db6ddeef3e8c6795e",
+      "git_blob": "e7ec566bebe4d5048eb0f140d698b3c980848370"
+    },
+    {
+      "path": "production/codex_pipeline/setup_voice_models.py",
+      "bytes": 1543,
+      "sha256": "fd9ed84d74616355d1b0f9b17f86e07f8c749be7619a19b1fd8bbb362a116ef8",
+      "git_blob": "bdd632442f32fc37ee06058f5ce198aa8e0438d9"
+    },
+    {
+      "path": "production/codex_pipeline/synthesize_voice_candidates.py",
+      "bytes": 4359,
+      "sha256": "64403889cb7479858cbbd52fb8aad97681bddee52e393ca70b8c307840de399d",
+      "git_blob": "7c075ec332709cc9436a37733af528f40625cae7"
+    },
+    {
+      "path": "production/codex_pipeline/test_recovery_guards.py",
+      "bytes": 2098,
+      "sha256": "9cde7de6d3b3ed812a69772f4e3c9a76cba4621fb1cbda04a6f08782c2d172e7",
+      "git_blob": "06cd7759ed120779ca35ceb5af2936187fdd1528"
+    },
+    {
+      "path": "production/codex_pipeline/verify_recovered_source.py",
+      "bytes": 1955,
+      "sha256": "6338c00ff2da06646993a5b73988067376cb950cc9240977ac04e5f1059d161b",
+      "git_blob": "e2367dfe73fd7474c79fd21e5fc711d15a786cbe"
+    },
+    {
+      "path": "production/codex_pipeline/verify_remote.py",
+      "bytes": 3238,
+      "sha256": "61392e98e1cc889c01a15b8944e7a8d1c134d2d7a5b424e85a47c764ebf31ff9",
+      "git_blob": "973c0e03e5b16e5cac61e8cdf3b932066ed72537"
+    },
+    {
+      "path": "production/codex_pipeline/voice_models.py",
+      "bytes": 286,
+      "sha256": "9f05207ffa04980f5961a199b54f941607ca6082354067af0ea6d3e78ec2f3b6",
+      "git_blob": "0972f4bc7150b282472f096eded6a5801d3a340e"
+    }
+  ]
+}
