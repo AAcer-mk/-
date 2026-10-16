@@ -1,0 +1,14 @@
+{
+  "file": "/workspace/-/production/codex_pipeline/output/E8-01/e44b4c100fe0/conformed/E8-01_3D_REVIEW.mp4",
+  "width": 1920,
+  "height": 1080,
+  "duration": 7.541667,
+  "ended": true,
+  "time": 7.541667,
+  "error": null,
+  "decodedFrames": 181,
+  "droppedFrames": 0,
+  "callbacks": 181,
+  "status": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+  "creative_acceptance": false
+}

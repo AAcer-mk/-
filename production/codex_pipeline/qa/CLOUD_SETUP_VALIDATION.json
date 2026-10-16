@@ -10,5 +10,10 @@
   "recovery_guard_tests_passed": 6,
   "existing_source_reused": true,
   "blender_ffmpeg_node_chromium": "AVAILABLE",
-  "setup_launches_render": false
+  "setup_launches_render": false,
+  "install_script_sha256": "25c6cfefce0942d1388cb6f029f1319c24d5a88bc96ae5ad1e811ebcb5bbbfc3",
+  "all_recovered_members_verified": 1107,
+  "cached_recovery_blobs_verified": 3433,
+  "large_archives_downloaded_or_extracted": 0,
+  "partial_recovery_detection": "ALL_MEMBER_SIZE_AND_SHA256_NOT_SENTINEL"
 }

@@ -1,0 +1,8 @@
+{
+  "scope": "all",
+  "needed_blob_objects": 3433,
+  "existing_blobs_reused": 3433,
+  "missing_blobs_fetched": 0,
+  "all_recovery_objects_present": true,
+  "native_git_auth": true
+}

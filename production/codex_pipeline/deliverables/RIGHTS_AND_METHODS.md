@@ -13,3 +13,9 @@
 | TTS许可记录 | 模型/预设按维护者记录Apache-2.0，kokoro-onnx运行库MIT | Git不分发模型权重；保留公开来源、模型哈希、预设、文本与运行版本 |
 
 技术样片、工作混音和声音候选不等于最终演员表演或全片验收。所有最终镜头仍需依原brief核查连续性、声音、字幕、来源和开放结局。新代码没有擅自给整个仓库增加开源许可证。
+
+## Character development assets
+
+The new anatomical rig study uses the MakeHuman bundled base mesh, morph target, skeleton/weights and walk data from immutable commit `a8bc2d54ff0ac92e78ff71431b1023eda42bf482`. These specific bundled assets are CC0-1.0 under the upstream LICENSE.md section C and LICENSE.ASSETS.md; copies and per-file hashes are in `production/codex_pipeline/assets/makehuman/`. Upstream program code is AGPL and has not been copied into the film tools. The Blender importer is newly written for this project.
+
+This is an uncast development rig. It has not matched Lin Wu or any other established character identity, costume, skin texture, hair or performance, and is not used in a film shot. The recovered character references and original 6.1Sol credit remain authoritative.

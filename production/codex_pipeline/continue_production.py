@@ -33,6 +33,7 @@ def main():
         run(HERE/'render_native_cards.py','--source',SOURCE)
         run(HERE/'refresh_progress.py','--export-completed')
         run(HERE/'build_audit.py','--source',SOURCE,'--repo',HERE.parents[1])
+        run(HERE/'build_production_graph.py','--source',SOURCE)
         print('IMPLEMENTED_QUEUE_VERIFIED_AND_EXPORTED; actor assets and performances remain unfinished',flush=True)
     return 0
 

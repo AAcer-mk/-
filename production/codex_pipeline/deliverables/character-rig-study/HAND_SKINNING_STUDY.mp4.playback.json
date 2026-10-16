@@ -1,0 +1,14 @@
+{
+  "file": "/workspace/-/production/codex_pipeline/output/character-rig-study-v4/HAND_SKINNING_STUDY.mp4",
+  "width": 640,
+  "height": 268,
+  "duration": 1,
+  "ended": true,
+  "time": 1,
+  "error": null,
+  "decodedFrames": 24,
+  "droppedFrames": 0,
+  "callbacks": 23,
+  "status": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+  "creative_acceptance": false
+}

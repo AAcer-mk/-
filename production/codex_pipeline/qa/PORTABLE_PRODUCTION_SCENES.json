@@ -24,6 +24,30 @@
       "portable_scene_pixel_exact": true,
       "RGB_MAE": 0.0,
       "max_difference": 0.0
+    },
+    {
+      "shot": "E8-01",
+      "frame": 90,
+      "shape": [
+        803,
+        1920,
+        3
+      ],
+      "portable_scene_pixel_exact": true,
+      "RGB_MAE": 0.0,
+      "max_difference": 0.0
+    },
+    {
+      "shot": "character-rig-study",
+      "frame": 12,
+      "shape": [
+        268,
+        640,
+        3
+      ],
+      "portable_scene_pixel_exact": true,
+      "RGB_MAE": 0.0,
+      "max_difference": 0.0
     }
   ]
 }

@@ -13,7 +13,10 @@
     "baseline_parts": 2870,
     "baseline_files": 905,
     "sha256_pass": true,
-    "round_2_to_6_files": 186
+    "round_2_to_6_files": 186,
+    "all_1107_restored_members_reverified": true,
+    "cached_Git_objects_verified": 3433,
+    "repeat_archive_downloads": 0
   },
   "audit": "COMPLETE_WITH_DOCUMENTED_FAILURES",
   "animation_pipeline": "PHYSICAL_SCENE_COMPARISONS_VERIFIED",
@@ -48,7 +51,8 @@
     "guard_tests_passed": 6,
     "portable_scene_frame_12_pixel_exact": true,
     "pinned_environment_pip_check": "PASS",
-    "END_03_zero_sample_frames": 288000
+    "END_03_zero_sample_frames": 288000,
+    "cache_resume_and_PNG_tamper_guard": "PASS"
   },
   "queue_implemented": [
     "F4-01",
@@ -58,16 +62,16 @@
     "END-07"
   ],
   "active_render": {
-    "shot": "E8-01",
-    "state": "production/codex_pipeline/output/E8-01/e44b4c100fe0/state.json",
-    "frames_required": 181,
-    "verified_frame_cache_count": 132,
+    "shot": "END-07",
+    "state": "production/codex_pipeline/output/END-07/9e2a702675f5/state.json",
+    "frames_required": 129,
+    "verified_frame_cache_count": 116,
     "not_final_output": true,
     "status": "RENDERING_LOCK_HELD"
   },
-  "updated_utc": "2026-10-16T03:09:22.612761+00:00",
-  "new_native_3D_render_frames": 423,
-  "new_native_3D_render_seconds": 17.625,
+  "updated_utc": "2026-10-16T03:33:05.761053+00:00",
+  "new_native_3D_render_frames": 604,
+  "new_native_3D_render_seconds": 25.166666666666668,
   "completed_production_renders": [
     {
       "shot": "F4-01",
@@ -100,6 +104,18 @@
       "full_decode": "PASS",
       "actual_browser_playback": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
       "decoded_frames": 96,
+      "dropped_frames": 0,
+      "original_audio_PCM_exact": true,
+      "all_delivered_file_hashes": "PASS",
+      "director_final_acceptance": false
+    },
+    {
+      "shot": "E8-01",
+      "frames": 181,
+      "manifest": "production/codex_pipeline/deliverables/E8-01/DELIVERY.json",
+      "full_decode": "PASS",
+      "actual_browser_playback": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+      "decoded_frames": 181,
       "dropped_frames": 0,
       "original_audio_PCM_exact": true,
       "all_delivered_file_hashes": "PASS",
@@ -141,5 +157,19 @@
       "director_final_acceptance": false
     }
   ],
-  "new_native_2D_render_frames": 192
+  "new_native_2D_render_frames": 192,
+  "character_development": {
+    "manifest": "production/codex_pipeline/deliverables/character-rig-study/DELIVERY.json",
+    "vertices": 19158,
+    "bones": 163,
+    "skin_weight_groups": 139,
+    "rendered_frames": 24,
+    "actual_browser_playback": "PASS",
+    "identity_matched": false,
+    "used_in_film": false,
+    "limitations": [
+      "Needs established character identity, costume, hair and skin finish",
+      "Prop interaction, whole-body motion and facial acting remain unfinished"
+    ]
+  }
 }

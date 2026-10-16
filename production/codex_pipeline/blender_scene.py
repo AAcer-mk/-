@@ -305,7 +305,9 @@ def main():
     p.add_argument('--engine',default='CYCLES');p.add_argument('--texture',type=Path)
     p.add_argument('--only-frame',type=int);args=p.parse_args(sys.argv[sys.argv.index('--')+1:])
     args.output.mkdir(parents=True,exist_ok=True)
-    scene,cam,target,data=setup(args);initial=cam.location.copy();records=[]
+    scene,cam,target,data=setup(args);initial=cam.location.copy()
+    timing=args.output/'timing.json'
+    records=json.loads(timing.read_text()) if timing.exists() else []
     # Subframe keyframes give Cycles real object/camera motion blur.
     for frame in range(0,args.frames+2):
         t=(frame-1)/24;pct=max(0,min(1,(frame-1)/max(1,args.frames-1)))

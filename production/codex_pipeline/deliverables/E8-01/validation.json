@@ -1,0 +1,13 @@
+{
+  "path": "/workspace/-/production/codex_pipeline/output/E8-01/e44b4c100fe0/E8-01_PICTURE.mp4",
+  "sha256": "3d2792b4bb21ea4dc1dddf2842f84864d894d673b479093021999d917a95e7f7",
+  "bytes": 3165364,
+  "frames": 181,
+  "fps": "24/1",
+  "width": 1920,
+  "height": 1080,
+  "full_decode": "PASS",
+  "visual_acceptance": "PENDING_CONTACT_AND_TEMPORAL_REVIEW",
+  "voice_acceptance": "NOT_EVALUATED",
+  "final_film": false
+}

@@ -1,0 +1,9 @@
+{
+  "checked_utc": "2026-10-16T03:23:11.229329+00:00",
+  "method": "Re-read every original restored file against verified archive member size/SHA-256",
+  "members": 905,
+  "all_original_bytes_unchanged": true,
+  "source": "/workspace/silent-protocol-source",
+  "restored_archive_sha256": "2f07d56ff635894e6792265e25abb3392b7896879e186c271e53407f52fc4e39",
+  "no_archive_download_or_extraction": true
+}

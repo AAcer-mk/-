@@ -1,0 +1,4917 @@
+{
+  "schema": 1,
+  "timeline_frames": 26280,
+  "fps": 24,
+  "jobs": [
+    {
+      "shot": "DECLARATION",
+      "frames": [
+        0,
+        96
+      ],
+      "frame_count": 96,
+      "fps": 24,
+      "inputs": [
+        "baseline/output/sections/DECLARATION_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "AUTHORED_STILLNESS",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": "原要求4秒静态声明，只有极轻底噪。",
+      "new_delivery": null,
+      "blockers": [],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "C-01",
+      "frames": [
+        96,
+        305
+      ],
+      "frame_count": 209,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/C-01_v2.png",
+        "baseline/art/candidates/C-01_v1.png",
+        "baseline/art/candidates/C-01_v3.png",
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "C-02",
+      "frames": [
+        305,
+        479
+      ],
+      "frame_count": 174,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/C-02_v1.png",
+        "baseline/art/candidates/C-02_v3.png",
+        "baseline/art/candidates/C-02_v2.png",
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "C-03",
+      "frames": [
+        479,
+        618
+      ],
+      "frame_count": 139,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/C-03_v2.png",
+        "baseline/art/candidates/C-03_v3.png",
+        "baseline/art/candidates/C-03_v1.png",
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "C-04",
+      "frames": [
+        618,
+        827
+      ],
+      "frame_count": 209,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/C-04_v1.png",
+        "baseline/art/candidates/C-04_v2.png",
+        "baseline/art/candidates/C-04_v3.png",
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "C-05",
+      "frames": [
+        827,
+        1105
+      ],
+      "frame_count": 278,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/C-05_v1.png",
+        "baseline/art/candidates/C-05_v3.png",
+        "baseline/art/candidates/C-05_v2.png",
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "C-06",
+      "frames": [
+        1105,
+        1453
+      ],
+      "frame_count": 348,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/C-06_v2.png",
+        "baseline/art/candidates/C-06_v1.png",
+        "baseline/art/candidates/C-06_v3.png",
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "C-07",
+      "frames": [
+        1453,
+        1662
+      ],
+      "frame_count": 209,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/C-07_v3.png",
+        "baseline/art/candidates/C-07_v1.png",
+        "baseline/art/candidates/C-07_v2.png",
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "C-08",
+      "frames": [
+        1662,
+        1940
+      ],
+      "frame_count": 278,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/C-08_v2.png",
+        "baseline/graphics/native_candidates/C-08_v1.png",
+        "baseline/graphics/native_candidates/C-08_v3.png",
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "C-09",
+      "frames": [
+        1940,
+        2149
+      ],
+      "frame_count": 209,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/C-09_v1.png",
+        "baseline/art/candidates/C-09_v2.png",
+        "baseline/art/candidates/C-09_v3.png",
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "C-10",
+      "frames": [
+        2149,
+        2428
+      ],
+      "frame_count": 279,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/C-10_v3.png",
+        "baseline/art/candidates/C-10_v1.png",
+        "baseline/art/candidates/C-10_v2.png",
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "C-11",
+      "frames": [
+        2428,
+        2776
+      ],
+      "frame_count": 348,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/C-11_v1.png",
+        "baseline/graphics/native_candidates/C-11_v2.png",
+        "baseline/graphics/native_candidates/C-11_v3.png",
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "C-12",
+      "frames": [
+        2776,
+        2880
+      ],
+      "frame_count": 104,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/C-12_v1.png",
+        "baseline/graphics/native_candidates/C-12_v2.png",
+        "baseline/graphics/native_candidates/C-12_v3.png",
+        "baseline/output/sections/C_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "TITLE",
+      "frames": [
+        2880,
+        3168
+      ],
+      "frame_count": 288,
+      "fps": 24,
+      "inputs": [
+        "baseline/output/sections/TITLE_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F1-01",
+      "frames": [
+        3168,
+        3360
+      ],
+      "frame_count": 192,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/F1-01_v2_new.png",
+        "baseline/art/candidates/F1-01_v1.png",
+        "baseline/art/candidates/F1-01_v2.png",
+        "baseline/art/candidates/F1-01_v3.png",
+        "baseline/output/sections/F1_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F1-02",
+      "frames": [
+        3360,
+        3504
+      ],
+      "frame_count": 144,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/F1-02_v3.png",
+        "baseline/graphics/native_candidates/F1-02_v1.png",
+        "baseline/graphics/native_candidates/F1-02_v2.png",
+        "baseline/output/sections/F1_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F1-03",
+      "frames": [
+        3504,
+        3696
+      ],
+      "frame_count": 192,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/F1-03_v3.png",
+        "baseline/art/candidates/F1-03_v2.png",
+        "baseline/art/candidates/F1-03_v1.png",
+        "baseline/output/sections/F1_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F1-04",
+      "frames": [
+        3696,
+        3840
+      ],
+      "frame_count": 144,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/F1-04_v1.png",
+        "baseline/graphics/native_candidates/F1-04_v2.png",
+        "baseline/graphics/native_candidates/F1-04_v3.png",
+        "baseline/output/sections/F1_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E1-CARD",
+      "frames": [
+        3840,
+        3936
+      ],
+      "frame_count": 96,
+      "fps": 24,
+      "inputs": [
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E1-01",
+      "frames": [
+        3936,
+        4072
+      ],
+      "frame_count": 136,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E1-01_v2.png",
+        "baseline/art/candidates/E1-01_v1.png",
+        "baseline/art/candidates/E1-01_v3.png",
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E1-02",
+      "frames": [
+        4072,
+        4185
+      ],
+      "frame_count": 113,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E1-02_v3.png",
+        "baseline/art/candidates/E1-02_v1.png",
+        "baseline/art/candidates/E1-02_v2.png",
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E1-03",
+      "frames": [
+        4185,
+        4321
+      ],
+      "frame_count": 136,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E1-03_v1.png",
+        "baseline/art/candidates/E1-03_v2.png",
+        "baseline/art/candidates/E1-03_v3.png",
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E1-04",
+      "frames": [
+        4321,
+        4434
+      ],
+      "frame_count": 113,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E1-04_v2.png",
+        "baseline/graphics/native_candidates/E1-04_v3.png",
+        "baseline/graphics/native_candidates/E1-04_v1.png",
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E1-05",
+      "frames": [
+        4434,
+        4615
+      ],
+      "frame_count": 181,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E1-05_v2.png",
+        "baseline/art/candidates/E1-05_v1.png",
+        "baseline/art/candidates/E1-05_v3.png",
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E1-06",
+      "frames": [
+        4615,
+        4751
+      ],
+      "frame_count": 136,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E1-06_v2.png",
+        "baseline/art/candidates/E1-06_v3.png",
+        "baseline/art/candidates/E1-06_v1.png",
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E1-07",
+      "frames": [
+        4751,
+        4977
+      ],
+      "frame_count": 226,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E1-07_v2.png",
+        "baseline/art/candidates/E1-07_v1.png",
+        "baseline/art/candidates/E1-07_v3.png",
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E1-08",
+      "frames": [
+        4977,
+        5158
+      ],
+      "frame_count": 181,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E1-08_v1.png",
+        "baseline/graphics/native_candidates/E1-08_v2.png",
+        "baseline/graphics/native_candidates/E1-08_v3.png",
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E1-09",
+      "frames": [
+        5158,
+        5294
+      ],
+      "frame_count": 136,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E1-09_v2.png",
+        "baseline/art/candidates/E1-09_v3.png",
+        "baseline/art/candidates/E1-09_v1.png",
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E1-10",
+      "frames": [
+        5294,
+        5520
+      ],
+      "frame_count": 226,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E1-10_v3.png",
+        "baseline/art/candidates/E1-10_v2.png",
+        "baseline/art/candidates/E1-10_v1.png",
+        "baseline/output/sections/E1_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F2-01",
+      "frames": [
+        5520,
+        5664
+      ],
+      "frame_count": 144,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/F2-01_v3.png",
+        "baseline/graphics/native_candidates/F2-01_v2.png",
+        "baseline/graphics/native_candidates/F2-01_v1.png",
+        "baseline/output/sections/F2_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F2-02",
+      "frames": [
+        5664,
+        5808
+      ],
+      "frame_count": 144,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/F2-02_v1.png",
+        "baseline/art/candidates/F2-02_v2.png",
+        "baseline/art/candidates/F2-02_v3.png",
+        "baseline/output/sections/F2_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F2-03",
+      "frames": [
+        5808,
+        5904
+      ],
+      "frame_count": 96,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/F2-03_v1.png",
+        "baseline/art/candidates/F2-03_v2.png",
+        "baseline/art/candidates/F2-03_v3.png",
+        "baseline/output/sections/F2_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F2-04",
+      "frames": [
+        5904,
+        6000
+      ],
+      "frame_count": 96,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/F2-04_v3.png",
+        "baseline/art/candidates/F2-04_v2.png",
+        "baseline/art/candidates/F2-04_v1.png",
+        "baseline/output/sections/F2_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E2-CARD",
+      "frames": [
+        6000,
+        6096
+      ],
+      "frame_count": 96,
+      "fps": 24,
+      "inputs": [
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E2-01",
+      "frames": [
+        6096,
+        6243
+      ],
+      "frame_count": 147,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E2-01_v3.png",
+        "baseline/art/candidates/E2-01_v1.png",
+        "baseline/art/candidates/E2-01_v2.png",
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E2-02",
+      "frames": [
+        6243,
+        6354
+      ],
+      "frame_count": 111,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E2-02_v3.png",
+        "baseline/art/candidates/E2-02_v1.png",
+        "baseline/art/candidates/E2-02_v2.png",
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E2-03",
+      "frames": [
+        6354,
+        6501
+      ],
+      "frame_count": 147,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E2-03_v3.png",
+        "baseline/graphics/native_candidates/E2-03_v1.png",
+        "baseline/graphics/native_candidates/E2-03_v2.png",
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E2-04",
+      "frames": [
+        6501,
+        6612
+      ],
+      "frame_count": 111,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E2-04_v1.png",
+        "baseline/graphics/native_candidates/E2-04_v3.png",
+        "baseline/graphics/native_candidates/E2-04_v2.png",
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E2-05",
+      "frames": [
+        6612,
+        6796
+      ],
+      "frame_count": 184,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E2-05_v2.png",
+        "baseline/art/candidates/E2-05_v1.png",
+        "baseline/art/candidates/E2-05_v3.png",
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E2-06",
+      "frames": [
+        6796,
+        6943
+      ],
+      "frame_count": 147,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E2-06_v2.png",
+        "baseline/art/candidates/E2-06_v1.png",
+        "baseline/art/candidates/E2-06_v3.png",
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E2-07",
+      "frames": [
+        6943,
+        7423
+      ],
+      "frame_count": 480,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E2-07_v1.png",
+        "baseline/graphics/native_candidates/E2-07_v2.png",
+        "baseline/graphics/native_candidates/E2-07_v3.png",
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E2-08",
+      "frames": [
+        7423,
+        7570
+      ],
+      "frame_count": 147,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E2-08_v2.png",
+        "baseline/art/candidates/E2-08_v3.png",
+        "baseline/art/candidates/E2-08_v1.png",
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E2-09",
+      "frames": [
+        7570,
+        7680
+      ],
+      "frame_count": 110,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E2-09_v3.png",
+        "baseline/art/candidates/E2-09_v1.png",
+        "baseline/art/candidates/E2-09_v2.png",
+        "baseline/output/sections/E2_picture_clean_v2_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/E2_picture_clean_v4_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F3-01",
+      "frames": [
+        7680,
+        7824
+      ],
+      "frame_count": 144,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/F3-01_v3.png",
+        "baseline/art/candidates/F3-01_v1.png",
+        "baseline/art/candidates/F3-01_v2.png",
+        "baseline/output/sections/F3_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F3-02",
+      "frames": [
+        7824,
+        8016
+      ],
+      "frame_count": 192,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/F3-02_v1.png",
+        "baseline/graphics/native_candidates/F3-02_v2.png",
+        "baseline/graphics/native_candidates/F3-02_v3.png",
+        "baseline/output/sections/F3_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "AUTHORED_STILLNESS",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": "Henrik画面冻结是原分镜要求；声音继续且口型不一致，不把冻结自动判为缺陷。",
+      "new_delivery": null,
+      "blockers": [],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F3-03",
+      "frames": [
+        8016,
+        8160
+      ],
+      "frame_count": 144,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/F3-03_v1.png",
+        "baseline/art/candidates/F3-03_v2.png",
+        "baseline/art/candidates/F3-03_v3.png",
+        "baseline/output/sections/F3_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E3-CARD",
+      "frames": [
+        8160,
+        8256
+      ],
+      "frame_count": 96,
+      "fps": 24,
+      "inputs": [
+        "baseline/output/sections/E3_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E3-01",
+      "frames": [
+        8256,
+        8481
+      ],
+      "frame_count": 225,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E3-01_v3.png",
+        "baseline/art/candidates/E3-01_v2.png",
+        "baseline/art/candidates/E3-01_v1.png",
+        "baseline/output/sections/E3_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E3-02",
+      "frames": [
+        8481,
+        8616
+      ],
+      "frame_count": 135,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E3-02_v3.png",
+        "baseline/art/candidates/E3-02_v1.png",
+        "baseline/art/candidates/E3-02_v2.png",
+        "baseline/output/sections/E3_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E3-03",
+      "frames": [
+        8616,
+        8797
+      ],
+      "frame_count": 181,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E3-03_v1.png",
+        "baseline/art/candidates/E3-03_v2.png",
+        "baseline/art/candidates/E3-03_v3.png",
+        "baseline/output/sections/E3_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E3-04",
+      "frames": [
+        8797,
+        8932
+      ],
+      "frame_count": 135,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E3-04_v1.png",
+        "baseline/graphics/native_candidates/E3-04_v2.png",
+        "baseline/graphics/native_candidates/E3-04_v3.png",
+        "baseline/output/sections/E3_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E3-05",
+      "frames": [
+        8932,
+        9112
+      ],
+      "frame_count": 180,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E3-05_v1.png",
+        "baseline/art/candidates/E3-05_v3.png",
+        "baseline/art/candidates/E3-05_v2.png",
+        "baseline/output/sections/E3_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E3-06",
+      "frames": [
+        9112,
+        9337
+      ],
+      "frame_count": 225,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E3-06_v1.png",
+        "baseline/art/candidates/E3-06_v2.png",
+        "baseline/art/candidates/E3-06_v3.png",
+        "baseline/output/sections/E3_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E3-07",
+      "frames": [
+        9337,
+        9472
+      ],
+      "frame_count": 135,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E3-07_v1.png",
+        "baseline/art/candidates/E3-07_v3.png",
+        "baseline/art/candidates/E3-07_v2.png",
+        "baseline/output/sections/E3_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E3-08",
+      "frames": [
+        9472,
+        9720
+      ],
+      "frame_count": 248,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E3-08_v2.png",
+        "baseline/graphics/native_candidates/E3-08_v1.png",
+        "baseline/graphics/native_candidates/E3-08_v3.png",
+        "baseline/output/sections/E3_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F4-01",
+      "frames": [
+        9720,
+        9912
+      ],
+      "frame_count": 192,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/F4-01_v1.png",
+        "baseline/art/candidates/F4-01_v3.png",
+        "baseline/art/candidates/F4-01_v2.png",
+        "baseline/output/sections/F4_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [
+        "production/codex_pipeline/deliverables/F4-01/F4-01_3D_MASTER.mkv",
+        "production/codex_pipeline/deliverables/F4-01/F4-01_3D_REVIEW.mp4",
+        "production/codex_pipeline/deliverables/F4-01/F4-01_PICTURE.mp4",
+        "production/codex_pipeline/deliverables/F4-01/scene.blend"
+      ],
+      "content_method": "NATIVE_3D_ANIMATION",
+      "stages": {
+        "assets": "HASH_VERIFIED",
+        "scene_animation": "RENDERED",
+        "picture": "FULL_DECODE_PASS",
+        "audio": "EXACT_INHERITED_PCM_CONFORM",
+        "playback": "ACTUAL_CHROMIUM_PASS",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": "production/codex_pipeline/deliverables/F4-01/DELIVERY.json",
+      "blockers": [],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F4-02",
+      "frames": [
+        9912,
+        10056
+      ],
+      "frame_count": 144,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/F4-02_v3.png",
+        "baseline/art/candidates/F4-02_v2.png",
+        "baseline/art/candidates/F4-02_v1.png",
+        "baseline/output/sections/F4_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F4-03",
+      "frames": [
+        10056,
+        10200
+      ],
+      "frame_count": 144,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/F4-03_v2.png",
+        "baseline/art/candidates/F4-03_v3.png",
+        "baseline/art/candidates/F4-03_v1.png",
+        "baseline/output/sections/F4_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E4-CARD",
+      "frames": [
+        10200,
+        10296
+      ],
+      "frame_count": 96,
+      "fps": 24,
+      "inputs": [
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E4-01",
+      "frames": [
+        10296,
+        10454
+      ],
+      "frame_count": 158,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E4-01_v6.png",
+        "baseline/art/candidates/E4-01_v1.png",
+        "baseline/art/candidates/E4-01_v3.png",
+        "baseline/art/candidates/E4-01_v5.png",
+        "baseline/art/candidates/E4-01_v4.png",
+        "baseline/art/candidates/E4-01_v2.png",
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E4-02",
+      "frames": [
+        10454,
+        10573
+      ],
+      "frame_count": 119,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E4-02_v1.png",
+        "baseline/art/candidates/E4-02_v3.png",
+        "baseline/art/candidates/E4-02_v2.png",
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E4-03",
+      "frames": [
+        10573,
+        10736
+      ],
+      "frame_count": 163,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E4-03_v4.png",
+        "baseline/art/candidates/E4-03_v2.png",
+        "baseline/art/candidates/E4-03_v6.png",
+        "baseline/art/candidates/E4-03_v3.png",
+        "baseline/art/candidates/E4-03_v5.png",
+        "baseline/art/candidates/E4-03_v1.png",
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E4-04",
+      "frames": [
+        10736,
+        10954
+      ],
+      "frame_count": 218,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E4-04_v4.png",
+        "baseline/art/candidates/E4-04_v5.png",
+        "baseline/art/candidates/E4-04_v1.png",
+        "baseline/art/candidates/E4-04_v2.png",
+        "baseline/art/candidates/E4-04_v3.png",
+        "baseline/art/candidates/E4-04_v6.png",
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E4-05",
+      "frames": [
+        10954,
+        11158
+      ],
+      "frame_count": 204,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E4-05_v1.png",
+        "baseline/art/candidates/E4-05_v4.png",
+        "baseline/art/candidates/E4-05_v3.png",
+        "baseline/art/candidates/E4-05_v2.png",
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E4-06",
+      "frames": [
+        11158,
+        11391
+      ],
+      "frame_count": 233,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E4-06_v1.png",
+        "baseline/art/candidates/E4-06_v2.png",
+        "baseline/art/candidates/E4-06_v3.png",
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E4-07",
+      "frames": [
+        11391,
+        11554
+      ],
+      "frame_count": 163,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E4-07_v3.png",
+        "baseline/graphics/native_candidates/E4-07_v1.png",
+        "baseline/graphics/native_candidates/E4-07_v2.png",
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E4-08",
+      "frames": [
+        11554,
+        11717
+      ],
+      "frame_count": 163,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E4-08_v3.png",
+        "baseline/art/candidates/E4-08_v2.png",
+        "baseline/art/candidates/E4-08_v1.png",
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E4-09",
+      "frames": [
+        11717,
+        11880
+      ],
+      "frame_count": 163,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E4-09_v1.png",
+        "baseline/graphics/native_candidates/E4-09_v3.png",
+        "baseline/graphics/native_candidates/E4-09_v2.png",
+        "baseline/output/sections/E4_picture_clean_v3_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F5-01",
+      "frames": [
+        11880,
+        12072
+      ],
+      "frame_count": 192,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/F5-01_v1.png",
+        "baseline/graphics/native_candidates/F5-01_v3.png",
+        "baseline/graphics/native_candidates/F5-01_v2.png",
+        "baseline/output/sections/F5_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/F5_picture_clean_v5_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F5-02",
+      "frames": [
+        12072,
+        12216
+      ],
+      "frame_count": 144,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/F5-02_v2.png",
+        "baseline/art/candidates/F5-02_v1.png",
+        "baseline/art/candidates/F5-02_v3.png",
+        "baseline/output/sections/F5_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/F5_picture_clean_v5_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F5-03",
+      "frames": [
+        12216,
+        12360
+      ],
+      "frame_count": 144,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/F5-03_v2.png",
+        "baseline/graphics/native_candidates/F5-03_v1.png",
+        "baseline/graphics/native_candidates/F5-03_v3.png",
+        "baseline/output/sections/F5_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/F5_picture_clean_v5_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F5-04",
+      "frames": [
+        12360,
+        12480
+      ],
+      "frame_count": 120,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/F5-04_v3.png",
+        "baseline/art/candidates/F5-04_v1.png",
+        "baseline/art/candidates/F5-04_v2.png",
+        "baseline/art/candidates/F5-04_v4.png",
+        "baseline/output/sections/F5_picture_clean_v3_1080p.mp4",
+        "baseline/output/sections/F5_picture_clean_v5_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态端点局部光流，表演需返工",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E5-CARD",
+      "frames": [
+        12480,
+        12576
+      ],
+      "frame_count": 96,
+      "fps": 24,
+      "inputs": [
+        "baseline/output/sections/E5_picture_clean_v6_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E5-01",
+      "frames": [
+        12576,
+        12780
+      ],
+      "frame_count": 204,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E5-01_v6.png",
+        "baseline/art/candidates/E5-01_v5.png",
+        "baseline/art/candidates/E5-01_v4.png",
+        "baseline/art/candidates/E5-01_v2.png",
+        "baseline/art/candidates/E5-01_v1.png",
+        "baseline/art/candidates/E5-01_v3.png",
+        "baseline/output/sections/E5_picture_clean_v6_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E5-02",
+      "frames": [
+        12780,
+        12934
+      ],
+      "frame_count": 154,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E5-02_v4.png",
+        "baseline/graphics/native_candidates/E5-02_v6.png",
+        "baseline/graphics/native_candidates/E5-02_v3.png",
+        "baseline/graphics/native_candidates/E5-02_v5.png",
+        "baseline/graphics/native_candidates/E5-02_v1.png",
+        "baseline/graphics/native_candidates/E5-02_v2.png",
+        "baseline/output/sections/E5_picture_clean_v6_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E5-03",
+      "frames": [
+        12934,
+        13087
+      ],
+      "frame_count": 153,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E5-03_v1.png",
+        "baseline/art/candidates/E5-03_v3.png",
+        "baseline/art/candidates/E5-03_v2.png",
+        "baseline/output/sections/E5_picture_clean_v6_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E5-04",
+      "frames": [
+        13087,
+        13342
+      ],
+      "frame_count": 255,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E5-04_v1.png",
+        "baseline/art/candidates/E5-04_v3.png",
+        "baseline/art/candidates/E5-04_v2.png",
+        "baseline/output/sections/E5_picture_clean_v6_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E5-05",
+      "frames": [
+        13342,
+        13547
+      ],
+      "frame_count": 205,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E5-05_v2.png",
+        "baseline/graphics/native_candidates/E5-05_v5.png",
+        "baseline/graphics/native_candidates/E5-05_v1.png",
+        "baseline/graphics/native_candidates/E5-05_v4.png",
+        "baseline/graphics/native_candidates/E5-05_v3.png",
+        "baseline/graphics/native_candidates/E5-05_v6.png",
+        "baseline/output/sections/E5_picture_clean_v6_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E5-06",
+      "frames": [
+        13547,
+        13751
+      ],
+      "frame_count": 204,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E5-06_v1.png",
+        "baseline/art/candidates/E5-06_v2.png",
+        "baseline/art/candidates/E5-06_v3.png",
+        "baseline/art/candidates/E5-06_v4.png",
+        "baseline/output/sections/E5_picture_clean_v6_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "多层二维合成，独立车辆图层",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E5-07",
+      "frames": [
+        13751,
+        13956
+      ],
+      "frame_count": 205,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E5-07_v3.png",
+        "baseline/graphics/native_candidates/E5-07_v4.png",
+        "baseline/graphics/native_candidates/E5-07_v1.png",
+        "baseline/graphics/native_candidates/E5-07_v2.png",
+        "baseline/graphics/native_candidates/E5-07_v6.png",
+        "baseline/graphics/native_candidates/E5-07_v5.png",
+        "baseline/output/sections/E5_picture_clean_v6_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E5-08",
+      "frames": [
+        13956,
+        14160
+      ],
+      "frame_count": 204,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E5-08_v3.png",
+        "baseline/art/candidates/E5-08_v1.png",
+        "baseline/art/candidates/E5-08_v2.png",
+        "baseline/output/sections/E5_picture_clean_v6_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F6-01",
+      "frames": [
+        14160,
+        14352
+      ],
+      "frame_count": 192,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/F6-01_v1.png",
+        "baseline/graphics/native_candidates/F6-01_v2.png",
+        "baseline/graphics/native_candidates/F6-01_v6.png",
+        "baseline/graphics/native_candidates/F6-01_v5.png",
+        "baseline/graphics/native_candidates/F6-01_v4.png",
+        "baseline/graphics/native_candidates/F6-01_v3.png",
+        "baseline/output/sections/F6_picture_clean_v1_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F6-02",
+      "frames": [
+        14352,
+        14496
+      ],
+      "frame_count": 144,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/F6-02_v1.png",
+        "baseline/art/candidates/F6-02_v2.png",
+        "baseline/art/candidates/F6-02_v3.png",
+        "baseline/output/sections/F6_picture_clean_v1_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "AUTHORED_STILLNESS",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": "双手悬停不动是原动作设计；不强加手部运动。",
+      "new_delivery": null,
+      "blockers": [],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F6-03",
+      "frames": [
+        14496,
+        14640
+      ],
+      "frame_count": 144,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/F6-03_v2.png",
+        "baseline/art/candidates/F6-03_v1.png",
+        "baseline/art/candidates/F6-03_v3.png",
+        "baseline/graphics/native_candidates/F6-03_v2.png",
+        "baseline/graphics/native_candidates/F6-03_v1.png",
+        "baseline/graphics/native_candidates/F6-03_v3.png",
+        "baseline/output/sections/F6_picture_clean_v1_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态端点局部光流，表演需返工",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F6-04",
+      "frames": [
+        14640,
+        14760
+      ],
+      "frame_count": 120,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/F6-04_v3.png",
+        "baseline/art/candidates/F6-04_v4.png",
+        "baseline/art/candidates/F6-04_v1.png",
+        "baseline/art/candidates/F6-04_v2.png",
+        "baseline/output/sections/F6_picture_clean_v1_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态端点局部光流，表演需返工",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E6-CARD",
+      "frames": [
+        14760,
+        14856
+      ],
+      "frame_count": 96,
+      "fps": 24,
+      "inputs": [
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_BILINGUAL.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_CLEAN.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_MASTER.mkv",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_BILINGUAL.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_CLEAN.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_MASTER.mkv"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E6-01",
+      "frames": [
+        14856,
+        14991
+      ],
+      "frame_count": 135,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E6-01_v2.png",
+        "baseline/art/candidates/E6-01_v1.png",
+        "baseline/art/candidates/E6-01_v3.png",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_BILINGUAL.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_CLEAN.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_MASTER.mkv",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_BILINGUAL.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_CLEAN.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_MASTER.mkv"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E6-02",
+      "frames": [
+        14991,
+        15171
+      ],
+      "frame_count": 180,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E6-02_v1.png",
+        "baseline/graphics/native_candidates/E6-02_v3.png",
+        "baseline/graphics/native_candidates/E6-02_v2.png",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_BILINGUAL.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_CLEAN.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_MASTER.mkv",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_BILINGUAL.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_CLEAN.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_MASTER.mkv"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E6-03",
+      "frames": [
+        15171,
+        15306
+      ],
+      "frame_count": 135,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E6-03_v2.png",
+        "baseline/art/candidates/E6-03_v3.png",
+        "baseline/art/candidates/E6-03_v1.png",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_BILINGUAL.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_CLEAN.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_MASTER.mkv",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_BILINGUAL.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_CLEAN.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_MASTER.mkv"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E6-04",
+      "frames": [
+        15306,
+        15442
+      ],
+      "frame_count": 136,
+      "fps": 24,
+      "inputs": [
+        "baseline/art/candidates/E6-04_v1.png",
+        "baseline/art/candidates/E6-04_v2.png",
+        "production/sol61/assets/E6-04_v3.png",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_BILINGUAL.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_CLEAN.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_MASTER.mkv",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_BILINGUAL.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_CLEAN.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_MASTER.mkv"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E6-05",
+      "frames": [
+        15442,
+        15667
+      ],
+      "frame_count": 225,
+      "fps": 24,
+      "inputs": [
+        "production/sol61/assets/E6-05_v2.png",
+        "production/sol61/assets/E6-05_v1.png",
+        "production/sol61/assets/E6-05_v3.png",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_BILINGUAL.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_CLEAN.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_MASTER.mkv",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_BILINGUAL.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_CLEAN.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_MASTER.mkv"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E6-06",
+      "frames": [
+        15667,
+        15847
+      ],
+      "frame_count": 180,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E6-06_v2.png",
+        "baseline/graphics/native_candidates/E6-06_v1.png",
+        "baseline/graphics/native_candidates/E6-06_v3.png",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_BILINGUAL.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_1080P_CLEAN.mp4",
+        "production/sol61/output/E6_PART_A_WORKPRINT_v2_MASTER.mkv",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_BILINGUAL.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_1080P_CLEAN.mp4",
+        "production/sol61_r2/verified-output/E6_PART_A_WORKPRINT_r2_MASTER.mkv"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E6-07",
+      "frames": [
+        15847,
+        16027
+      ],
+      "frame_count": 180,
+      "fps": 24,
+      "inputs": [
+        "production/sol61_r2/assets/E6-07_v3.png",
+        "production/sol61_r2/assets/E6-07_v1.png",
+        "production/sol61_r2/assets/E6-07_v2.png"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成/连续表演缺失",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Identity-consistent character assets",
+        "Continuous authored action and object contact",
+        "Performance and continuity QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E6-08",
+      "frames": [
+        16027,
+        16207
+      ],
+      "frame_count": 180,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E6-08_v1.png",
+        "baseline/graphics/native_candidates/E6-08_v3.png",
+        "baseline/graphics/native_candidates/E6-08_v2.png"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成/连续表演缺失",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Identity-consistent character assets",
+        "Continuous authored action and object contact",
+        "Performance and continuity QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E6-09",
+      "frames": [
+        16207,
+        16320
+      ],
+      "frame_count": 113,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E6-09_v1.png",
+        "baseline/graphics/native_candidates/E6-09_v3.png",
+        "baseline/graphics/native_candidates/E6-09_v2.png",
+        "production/sol61/output/E6-09_PICTURE_v1_1080P.mp4",
+        "production/sol61/output/E6-09_SILENT_WORKPRINT_v2_1080P.mp4",
+        "production/sol61_060902/output/E6-09_silent_sol61_060902_v1_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "AUTHORED_STILLNESS",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": "原倒计时00:47:12固定显示，不擅自倒数以制造运动。",
+      "new_delivery": null,
+      "blockers": [],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F7-01",
+      "frames": [
+        16320,
+        16488
+      ],
+      "frame_count": 168,
+      "fps": 24,
+      "inputs": [
+        "production/sol61_r3/assets/F7-01_v1.png",
+        "production/sol61_r3/assets/F7-01_v3.png",
+        "production/sol61_r3/assets/F7-01_v2.png",
+        "production/sol61_r3/assets/F7-01_v4.png",
+        "production/sol61_r3/render-v3/F7_SEQUENCE_WORKPRINT_r3_1080P_BILINGUAL.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态端点局部光流，表演需返工",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F7-02",
+      "frames": [
+        16488,
+        16680
+      ],
+      "frame_count": 192,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/F7-02_v1.png",
+        "baseline/graphics/native_candidates/F7-02_v2.png",
+        "baseline/graphics/native_candidates/F7-02_v3.png",
+        "production/sol61_r3/render-v3/F7_SEQUENCE_WORKPRINT_r3_1080P_BILINGUAL.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F7-03",
+      "frames": [
+        16680,
+        16920
+      ],
+      "frame_count": 240,
+      "fps": 24,
+      "inputs": [
+        "production/sol61_r3/assets/F7-03_v3.png",
+        "production/sol61_r3/assets/F7-03_v1.png",
+        "production/sol61_r3/assets/F7-03_v2.png",
+        "production/sol61_r3/assets/F7-03_v4.png",
+        "production/sol61_r3/render-v3/F7_SEQUENCE_WORKPRINT_r3_1080P_BILINGUAL.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态端点局部光流，表演需返工",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E7-CARD",
+      "frames": [
+        16920,
+        17016
+      ],
+      "frame_count": 96,
+      "fps": 24,
+      "inputs": [
+        "production/sol61_r4/render-v3/E7_CARD_WORKPRINT_r4_MASTER.mkv"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E7-01",
+      "frames": [
+        17016,
+        17196
+      ],
+      "frame_count": 180,
+      "fps": 24,
+      "inputs": [
+        "production/sol61_r5/assets/E7-01_v1_LIT.png",
+        "production/sol61_r5/assets/E7-01_v2_UNLIT.png",
+        "production/sol61_r5/assets/E7-01_v3_ALT_LIT.png",
+        "production/sol61_r5/render-v2/E7-01_WORKPRINT_r5_1080P_BILINGUAL.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E7-02",
+      "frames": [
+        17196,
+        17331
+      ],
+      "frame_count": 135,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成/连续表演缺失",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Identity-consistent character assets",
+        "Continuous authored action and object contact",
+        "Performance and continuity QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E7-03",
+      "frames": [
+        17331,
+        17557
+      ],
+      "frame_count": 226,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成/连续表演缺失",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Identity-consistent character assets",
+        "Continuous authored action and object contact",
+        "Performance and continuity QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E7-04",
+      "frames": [
+        17557,
+        17692
+      ],
+      "frame_count": 135,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E7-04_v1.png",
+        "baseline/graphics/native_candidates/E7-04_v2.png",
+        "baseline/graphics/native_candidates/E7-04_v3.png",
+        "production/sol61_r4/render-v3/E7_APPROVAL_INSERTS_WORKPRINT_r4_MASTER.mkv"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E7-05",
+      "frames": [
+        17692,
+        17872
+      ],
+      "frame_count": 180,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E7-05_v2.png",
+        "baseline/graphics/native_candidates/E7-05_v3.png",
+        "baseline/graphics/native_candidates/E7-05_v1.png",
+        "production/sol61_r4/render-v3/E7_APPROVAL_INSERTS_WORKPRINT_r4_MASTER.mkv"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E7-06",
+      "frames": [
+        17872,
+        18052
+      ],
+      "frame_count": 180,
+      "fps": 24,
+      "inputs": [
+        "production/sol61_r5/assets/E7-06_v1.png",
+        "production/sol61_r5/assets/E7-06_v3.png",
+        "production/sol61_r5/assets/E7-06_v2.png"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成/连续表演缺失",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Identity-consistent character assets",
+        "Continuous authored action and object contact",
+        "Performance and continuity QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E7-07",
+      "frames": [
+        18052,
+        18187
+      ],
+      "frame_count": 135,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E7-07_v2.png",
+        "baseline/graphics/native_candidates/E7-07_v3.png",
+        "baseline/graphics/native_candidates/E7-07_v1.png",
+        "production/sol61_r4/render-v3/E7_PRINTER_LCD_WORKPRINT_r4_MASTER.mkv"
+      ],
+      "outputs": [
+        "production/codex_pipeline/deliverables/E7-07/E7-07_3D_MASTER.mkv",
+        "production/codex_pipeline/deliverables/E7-07/E7-07_3D_REVIEW.mp4",
+        "production/codex_pipeline/deliverables/E7-07/E7-07_PICTURE.mp4",
+        "production/codex_pipeline/deliverables/E7-07/scene.blend"
+      ],
+      "content_method": "NATIVE_3D_ANIMATION",
+      "stages": {
+        "assets": "HASH_VERIFIED",
+        "scene_animation": "RENDERED",
+        "picture": "FULL_DECODE_PASS",
+        "audio": "EXACT_INHERITED_PCM_CONFORM",
+        "playback": "ACTUAL_CHROMIUM_PASS",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": "production/codex_pipeline/deliverables/E7-07/DELIVERY.json",
+      "blockers": [],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E7-08",
+      "frames": [
+        18187,
+        18367
+      ],
+      "frame_count": 180,
+      "fps": 24,
+      "inputs": [
+        "production/sol61_r5/assets/E7-08_v3.png",
+        "production/sol61_r5/assets/E7-08_v1.png",
+        "production/sol61_r5/assets/E7-08_v2.png",
+        "production/sol61_r5/render-v2/E7-08_WORKPRINT_r5_1080P_BILINGUAL.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E7-09",
+      "frames": [
+        18367,
+        18480
+      ],
+      "frame_count": 113,
+      "fps": 24,
+      "inputs": [
+        "production/sol61_r5/assets/E7-09_v1.png",
+        "production/sol61_r5/assets/E7-09_v2.png",
+        "production/sol61_r5/assets/E7-09_v3_RECEIVING.png",
+        "production/sol61_r5/render-v2/E7-09_WORKPRINT_r5_1080P_BILINGUAL.mp4"
+      ],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F8-01",
+      "frames": [
+        18480,
+        18624
+      ],
+      "frame_count": 144,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F8-02",
+      "frames": [
+        18624,
+        18816
+      ],
+      "frame_count": 192,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F8-03",
+      "frames": [
+        18816,
+        18960
+      ],
+      "frame_count": 144,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/F8-03_v1.png",
+        "baseline/graphics/native_candidates/F8-03_v2.png",
+        "baseline/graphics/native_candidates/F8-03_v3.png"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F8-04",
+      "frames": [
+        18960,
+        19200
+      ],
+      "frame_count": 240,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E8-CARD",
+      "frames": [
+        19200,
+        19296
+      ],
+      "frame_count": 96,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [
+        "production/codex_pipeline/deliverables/E8-CARD/E8-CARD_2D_MASTER.mkv",
+        "production/codex_pipeline/deliverables/E8-CARD/E8-CARD_2D_REVIEW.mp4",
+        "production/codex_pipeline/deliverables/E8-CARD/E8-CARD_PICTURE.mp4"
+      ],
+      "content_method": "PROGRAMMATIC_2D_TYPEWRITING",
+      "stages": {
+        "assets": "HASH_VERIFIED",
+        "scene_animation": "RENDERED",
+        "picture": "FULL_DECODE_PASS",
+        "audio": "EXACT_INHERITED_PCM_CONFORM",
+        "playback": "ACTUAL_CHROMIUM_PASS",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": "production/codex_pipeline/deliverables/E8-CARD/DELIVERY.json",
+      "blockers": [],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E8-01",
+      "frames": [
+        19296,
+        19477
+      ],
+      "frame_count": 181,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [
+        "production/codex_pipeline/deliverables/E8-01/E8-01_3D_MASTER.mkv",
+        "production/codex_pipeline/deliverables/E8-01/E8-01_3D_REVIEW.mp4",
+        "production/codex_pipeline/deliverables/E8-01/E8-01_PICTURE.mp4",
+        "production/codex_pipeline/deliverables/E8-01/scene.blend"
+      ],
+      "content_method": "NATIVE_3D_ANIMATION",
+      "stages": {
+        "assets": "HASH_VERIFIED",
+        "scene_animation": "RENDERED",
+        "picture": "FULL_DECODE_PASS",
+        "audio": "EXACT_INHERITED_PCM_CONFORM",
+        "playback": "ACTUAL_CHROMIUM_PASS",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": "production/codex_pipeline/deliverables/E8-01/DELIVERY.json",
+      "blockers": [],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E8-02",
+      "frames": [
+        19477,
+        19613
+      ],
+      "frame_count": 136,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E8-02_v1.png",
+        "baseline/graphics/native_candidates/E8-02_v3.png",
+        "baseline/graphics/native_candidates/E8-02_v2.png"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E8-03",
+      "frames": [
+        19613,
+        19794
+      ],
+      "frame_count": 181,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E8-04",
+      "frames": [
+        19794,
+        19930
+      ],
+      "frame_count": 136,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E8-05",
+      "frames": [
+        19930,
+        20111
+      ],
+      "frame_count": 181,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E8-06",
+      "frames": [
+        20111,
+        20246
+      ],
+      "frame_count": 135,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E8-07",
+      "frames": [
+        20246,
+        20427
+      ],
+      "frame_count": 181,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E8-08",
+      "frames": [
+        20427,
+        20608
+      ],
+      "frame_count": 181,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E8-08_v3.png",
+        "baseline/graphics/native_candidates/E8-08_v2.png",
+        "baseline/graphics/native_candidates/E8-08_v1.png"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E8-09",
+      "frames": [
+        20608,
+        20744
+      ],
+      "frame_count": 136,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E8-10",
+      "frames": [
+        20744,
+        20880
+      ],
+      "frame_count": 136,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E8-10_v2.png",
+        "baseline/graphics/native_candidates/E8-10_v1.png",
+        "baseline/graphics/native_candidates/E8-10_v3.png"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F9-01",
+      "frames": [
+        20880,
+        21000
+      ],
+      "frame_count": 120,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F9-02",
+      "frames": [
+        21000,
+        21372
+      ],
+      "frame_count": 372,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F9-03",
+      "frames": [
+        21372,
+        21504
+      ],
+      "frame_count": 132,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "F9-04",
+      "frames": [
+        21504,
+        21600
+      ],
+      "frame_count": 96,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/F9-04_v3.png",
+        "baseline/graphics/native_candidates/F9-04_v1.png",
+        "baseline/graphics/native_candidates/F9-04_v2.png"
+      ],
+      "outputs": [
+        "production/codex_pipeline/deliverables/F9-04/F9-04_3D_MASTER.mkv",
+        "production/codex_pipeline/deliverables/F9-04/F9-04_3D_REVIEW.mp4",
+        "production/codex_pipeline/deliverables/F9-04/F9-04_PICTURE.mp4",
+        "production/codex_pipeline/deliverables/F9-04/scene.blend"
+      ],
+      "content_method": "NATIVE_3D_ANIMATION",
+      "stages": {
+        "assets": "HASH_VERIFIED",
+        "scene_animation": "RENDERED",
+        "picture": "FULL_DECODE_PASS",
+        "audio": "EXACT_INHERITED_PCM_CONFORM",
+        "playback": "ACTUAL_CHROMIUM_PASS",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": "production/codex_pipeline/deliverables/F9-04/DELIVERY.json",
+      "blockers": [],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E9-CARD",
+      "frames": [
+        21600,
+        21696
+      ],
+      "frame_count": 96,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [
+        "production/codex_pipeline/deliverables/E9-CARD/E9-CARD_2D_MASTER.mkv",
+        "production/codex_pipeline/deliverables/E9-CARD/E9-CARD_2D_REVIEW.mp4",
+        "production/codex_pipeline/deliverables/E9-CARD/E9-CARD_PICTURE.mp4"
+      ],
+      "content_method": "PROGRAMMATIC_2D_TYPEWRITING",
+      "stages": {
+        "assets": "HASH_VERIFIED",
+        "scene_animation": "RENDERED",
+        "picture": "FULL_DECODE_PASS",
+        "audio": "EXACT_INHERITED_PCM_CONFORM",
+        "playback": "ACTUAL_CHROMIUM_PASS",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": "production/codex_pipeline/deliverables/E9-CARD/DELIVERY.json",
+      "blockers": [],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E9-01",
+      "frames": [
+        21696,
+        21861
+      ],
+      "frame_count": 165,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E9-02",
+      "frames": [
+        21861,
+        21985
+      ],
+      "frame_count": 124,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E9-02_v3.png",
+        "baseline/graphics/native_candidates/E9-02_v1.png",
+        "baseline/graphics/native_candidates/E9-02_v2.png"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E9-03",
+      "frames": [
+        21985,
+        22109
+      ],
+      "frame_count": 124,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E9-04",
+      "frames": [
+        22109,
+        22313
+      ],
+      "frame_count": 204,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E9-05",
+      "frames": [
+        22313,
+        22436
+      ],
+      "frame_count": 123,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E9-06",
+      "frames": [
+        22436,
+        22754
+      ],
+      "frame_count": 318,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E9-06_v3.png",
+        "baseline/graphics/native_candidates/E9-06_v2.png",
+        "baseline/graphics/native_candidates/E9-06_v1.png"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E9-07",
+      "frames": [
+        22754,
+        22925
+      ],
+      "frame_count": 171,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E9-07_v1.png",
+        "baseline/graphics/native_candidates/E9-07_v3.png",
+        "baseline/graphics/native_candidates/E9-07_v2.png"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E9-08",
+      "frames": [
+        22925,
+        23053
+      ],
+      "frame_count": 128,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/E9-08_v3.png",
+        "baseline/graphics/native_candidates/E9-08_v2.png",
+        "baseline/graphics/native_candidates/E9-08_v1.png"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "E9-09",
+      "frames": [
+        23053,
+        23160
+      ],
+      "frame_count": 107,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "END-01",
+      "frames": [
+        23160,
+        23374
+      ],
+      "frame_count": 214,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "END-02",
+      "frames": [
+        23374,
+        23460
+      ],
+      "frame_count": 86,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "END-03",
+      "frames": [
+        23460,
+        23604
+      ],
+      "frame_count": 144,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/END-03_v2.png",
+        "baseline/graphics/native_candidates/END-03_v1.png",
+        "baseline/graphics/native_candidates/END-03_v3.png"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "AUTHORED_STILLNESS",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": "144帧全黑与六秒绝对零采样为必须要求。",
+      "new_delivery": null,
+      "blockers": [],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "END-04",
+      "frames": [
+        23604,
+        23776
+      ],
+      "frame_count": 172,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "END-05",
+      "frames": [
+        23776,
+        23947
+      ],
+      "frame_count": 171,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "END-06",
+      "frames": [
+        23947,
+        24076
+      ],
+      "frame_count": 129,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "END-07",
+      "frames": [
+        24076,
+        24205
+      ],
+      "frame_count": 129,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "END-08",
+      "frames": [
+        24205,
+        24376
+      ],
+      "frame_count": 171,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/END-08_v2.png",
+        "baseline/graphics/native_candidates/END-08_v1.png",
+        "baseline/graphics/native_candidates/END-08_v3.png"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "END-09",
+      "frames": [
+        24376,
+        24505
+      ],
+      "frame_count": 129,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "END-10",
+      "frames": [
+        24505,
+        24719
+      ],
+      "frame_count": 214,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "END-11",
+      "frames": [
+        24719,
+        24848
+      ],
+      "frame_count": 129,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "END-12",
+      "frames": [
+        24848,
+        25062
+      ],
+      "frame_count": 214,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "END-13",
+      "frames": [
+        25062,
+        25234
+      ],
+      "frame_count": 172,
+      "fps": 24,
+      "inputs": [],
+      "outputs": [],
+      "content_method": "静态图片与整体摄影运动",
+      "stages": {
+        "assets": "MISSING_SHOT_ASSETS",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "完全缺失画面资产",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Create the authored scene and movable assets",
+        "Render and inspect the original frame range"
+      ],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "END-14",
+      "frames": [
+        25234,
+        25320
+      ],
+      "frame_count": 86,
+      "fps": 24,
+      "inputs": [
+        "baseline/graphics/native_candidates/END-14_v3.png",
+        "baseline/graphics/native_candidates/END-14_v2.png",
+        "baseline/graphics/native_candidates/END-14_v1.png"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "AUTHORED_STILLNESS",
+        "picture": "MISSING_VERIFIED_RENDER",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": "原稿要求黑场中仅一声无法辨认来源的呼吸。",
+      "new_delivery": null,
+      "blockers": [],
+      "final_film_accepted": false
+    },
+    {
+      "shot": "CREDITS",
+      "frames": [
+        25320,
+        26280
+      ],
+      "frame_count": 960,
+      "fps": 24,
+      "inputs": [
+        "baseline/output/sections/CREDITS_picture_clean_v2_1080p.mp4"
+      ],
+      "outputs": [],
+      "content_method": "程序化二维动画",
+      "stages": {
+        "assets": "PARTIAL",
+        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
+        "picture": "INHERITED_WORKPRINT",
+        "audio": "INHERITED_MIX_NOT_FINAL",
+        "playback": "SEE_INHERITED_MEDIA_QA",
+        "performance_context_final_QC": "PENDING"
+      },
+      "production_status": "部分完成",
+      "intentional_stillness": null,
+      "new_delivery": null,
+      "blockers": [
+        "Review or replace inherited image motion",
+        "Complete performance and context QC"
+      ],
+      "final_film_accepted": false
+    }
+  ],
+  "dependency_order": [
+    "ASSETS",
+    "SCENE",
+    "ANIMATION",
+    "RENDER",
+    "COMPOSITE",
+    "AUDIO",
+    "QC",
+    "FINAL"
+  ],
+  "final_film_completed": false,
+  "missing_data_policy": "NO_AUTOMATIC_PLACEHOLDER_SUBSTITUTION"
+}

@@ -1,0 +1,71 @@
+{
+  "type": "TECHNICAL_CHARACTER_RIG_STUDY",
+  "film_output": false,
+  "identity_matched": false,
+  "anatomy_review": "FLEXION_DIRECTION_CORRECTED_FROM_EULER_PROTOTYPE",
+  "frames": 24,
+  "fps": 24,
+  "full_decode": "PASS",
+  "actual_browser_playback": "PASS",
+  "source_scene_portable": true,
+  "body_mesh_vertices": 19158,
+  "bones": 163,
+  "asset_source_manifest": "production/codex_pipeline/assets/makehuman/SOURCE.json",
+  "limitations": [
+    "No established actor identity match",
+    "No finished costume, hair or skin detail",
+    "No prop contact or full body performance approval"
+  ],
+  "all_files": [
+    {
+      "path": "FRAME_SHA256.json",
+      "bytes": 2018,
+      "sha256": "bcc871d8cdbfe5a304b7904f9f5de40e56c1fa553cc95583a6362f78b9822d8a"
+    },
+    {
+      "path": "HAND_SKINNING_STUDY.mp4",
+      "bytes": 35682,
+      "sha256": "6c8ea1a76af359c68bbfbacfa0841d45ad5bde78c6cb56e19b5a2d503c72008e"
+    },
+    {
+      "path": "HAND_SKINNING_STUDY.mp4.playback.json",
+      "bytes": 346,
+      "sha256": "833128f087bd2c6d00dc824e6d38c8cd7fb9c3eda7fc6cfe131988b54f81ce16"
+    },
+    {
+      "path": "HAND_SKINNING_STUDY.mp4.playback.png",
+      "bytes": 178612,
+      "sha256": "c03b7a0219a545aa6972cc95198f148f6e28485b87cb616eae0aae7ed6a74799"
+    },
+    {
+      "path": "RIG_STUDY.json",
+      "bytes": 493,
+      "sha256": "3539c61d2c1bf8d636e128276fe55367c26ded3eaf1061c5089a1f7ecd63c367"
+    },
+    {
+      "path": "generator_snapshot.py",
+      "bytes": 8070,
+      "sha256": "38f0987a0ca2c5dfc3cae5dceeeec637052b6517f5b2461b80509dfd5db6dbb6"
+    },
+    {
+      "path": "keyframes/000001.png",
+      "bytes": 114395,
+      "sha256": "1d8d24800b0278397d4811e100dd66e2a491deee68416c1df68ce66ec78bf733"
+    },
+    {
+      "path": "keyframes/000012.png",
+      "bytes": 111987,
+      "sha256": "a028a26ffd140d06a892df13e5fc2e6981b30fd963e33890935dedede068e10d"
+    },
+    {
+      "path": "keyframes/000024.png",
+      "bytes": 105163,
+      "sha256": "46f50285e1944fa0012d1104837a5e8aed9cc89c127e3960d2e3580a6912db30"
+    },
+    {
+      "path": "scene.blend",
+      "bytes": 3510164,
+      "sha256": "5b7b7358e757a7f8550be2af76bc49db23ee148dc563da651ce3eb37f2105478"
+    }
+  ]
+}

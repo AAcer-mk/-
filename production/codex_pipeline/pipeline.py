@@ -124,6 +124,7 @@ def render(source,output,shot,mode,frames,width,samples,engine='CYCLES',sample=F
             try:
                 while proc.poll() is None:
                     for frame in frame_folder.glob('*.png'):
+                        if frame.name in state['verified_frames']:continue
                         try:
                             with Image.open(frame) as im:im.load()
                         except Exception:continue # An actively written PNG is not a completed frame.
@@ -134,8 +135,11 @@ def render(source,output,shot,mode,frames,width,samples,engine='CYCLES',sample=F
             except BaseException:
                 if proc.poll() is None:proc.terminate();proc.wait()
                 state['status']='INTERRUPTED_OR_FAILED';atomic_json(state_path,state);raise
-        assert len(list(frame_folder.glob('*.png')))==frames
-        state['verified_frames']={p.name:digest(p) for p in frame_folder.glob('*.png')}
+        hashes={p.name:digest(p) for p in frame_folder.glob('*.png')}
+        assert set(hashes)=={f'{i:06d}.png' for i in range(1,frames+1)}
+        for name,want in state['verified_frames'].items():
+            if hashes.get(name)!=want:raise ValueError('Completed frame changed during render: '+name)
+        state['verified_frames']=hashes
         picture=folder/(shot+'_PICTURE.mp4')
         if not picture.exists():
             pending=folder/(shot+'_PICTURE.pending.mp4')

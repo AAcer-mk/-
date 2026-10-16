@@ -1,0 +1,14 @@
+{
+  "source_commit": "a8bc2d54ff0ac92e78ff71431b1023eda42bf482",
+  "generator_sha256": "38f0987a0ca2c5dfc3cae5dceeeec637052b6517f5b2461b80509dfd5db6dbb6",
+  "asset_license": "CC0-1.0",
+  "vertices": 19158,
+  "body_faces": 13378,
+  "bones": 163,
+  "weight_groups": 139,
+  "finger_animation_frames": 24,
+  "identity_matched": false,
+  "clothes_hair_skin_detail_complete": false,
+  "used_in_film": false,
+  "source_rig": "production/codex_pipeline/output/character-rig-study-v4/rig-study.blend"
+}

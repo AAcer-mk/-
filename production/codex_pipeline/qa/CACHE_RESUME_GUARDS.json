@@ -1,0 +1,13 @@
+{
+  "actual_render_frames": 2,
+  "width": 320,
+  "engine": "CYCLES",
+  "samples": 1,
+  "same_configuration_folder": true,
+  "cached_PNG_bytes_and_mtimes_unchanged_on_resume": true,
+  "encoded_picture_hash_unchanged_on_resume": true,
+  "valid_PNG_content_tampering_rejected": true,
+  "isolated_test_cache_restored": true,
+  "rendered_picture_sha256": "5d2b8dafc6812a22504eccd05fed74508efd7b9ab228db51082a99723794d076",
+  "film_output": false
+}

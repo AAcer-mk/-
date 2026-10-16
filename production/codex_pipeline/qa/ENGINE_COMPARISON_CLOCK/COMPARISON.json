@@ -1,0 +1,58 @@
+{
+  "source_scene": "/workspace/-/production/codex_pipeline/output/END-07/9e2a702675f5/frames/scene.blend",
+  "engine": "CYCLES",
+  "device": "CPU",
+  "threads": 2,
+  "samples": 64,
+  "frame": 1,
+  "width": 1920,
+  "height": 803,
+  "seconds": 160.17523292900296,
+  "denoising": false,
+  "film_output": false,
+  "other_render_job_concurrently_active": true,
+  "Eevee_observed_frame_seconds": [
+    {
+      "frame": 1,
+      "seconds": 7.978319044996169
+    },
+    {
+      "frame": 2,
+      "seconds": 7.4400074949953705
+    },
+    {
+      "frame": 3,
+      "seconds": 8.85306283600221
+    },
+    {
+      "frame": 4,
+      "seconds": 10.701687579014106
+    },
+    {
+      "frame": 5,
+      "seconds": 11.414192829004605
+    },
+    {
+      "frame": 6,
+      "seconds": 14.988341117001255
+    },
+    {
+      "frame": 7,
+      "seconds": 16.197336686993367
+    },
+    {
+      "frame": 8,
+      "seconds": 11.12719120401016
+    },
+    {
+      "frame": 9,
+      "seconds": 10.371575336001115
+    },
+    {
+      "frame": 10,
+      "seconds": 8.624965908995364
+    }
+  ],
+  "comparison_caveat": "Different samples, threads and concurrent work; not an isolated hardware benchmark",
+  "decision": "Keep the already running Eevee sequence; no mixed-engine frame substitution"
+}

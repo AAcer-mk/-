@@ -1,0 +1,34 @@
+[
+  {
+    "path": "production/codex_pipeline/deliverables/character-rig-study/HAND_SKINNING_STUDY.mp4.playback.png",
+    "decode": "PASS",
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/character-rig-study/keyframes/000012.png",
+    "decode": "PASS",
+    "size": [
+      640,
+      268
+    ]
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/character-rig-study/keyframes/000024.png",
+    "decode": "PASS",
+    "size": [
+      640,
+      268
+    ]
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/character-rig-study/keyframes/000001.png",
+    "decode": "PASS",
+    "size": [
+      640,
+      268
+    ]
+  }
+]
