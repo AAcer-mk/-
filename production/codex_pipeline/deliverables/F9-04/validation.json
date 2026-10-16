@@ -1,0 +1,13 @@
+{
+  "path": "/workspace/-/production/codex_pipeline/output/F9-04/ceafa647b199/F9-04_PICTURE.mp4",
+  "sha256": "1e5cfa45ae932d6971b7600db26124a68d4ee43db02ec256c7d446c768296d1e",
+  "bytes": 634034,
+  "frames": 96,
+  "fps": "24/1",
+  "width": 1920,
+  "height": 1080,
+  "full_decode": "PASS",
+  "visual_acceptance": "PENDING_CONTACT_AND_TEMPORAL_REVIEW",
+  "voice_acceptance": "NOT_EVALUATED",
+  "final_film": false
+}

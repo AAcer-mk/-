@@ -9,6 +9,9 @@ import math
 from pathlib import Path
 import sys
 import time
+import subprocess
+
+sys.path.insert(0,str(Path(__file__).resolve().parent))
 
 import bpy
 from mathutils import Vector
@@ -166,6 +169,14 @@ def room_scene():
 
 
 def screen_scene(texture):
+    if 'F9-04' in texture.parts:
+        # The original brief caps geometric model marks at 1/6 frame height.
+        # Regenerate from the inherited mark function at the appropriate scale.
+        count=len(list(texture.parent.glob('*.png')))
+        subprocess.run(['/workspace/codex-runtime/venv/bin/python',
+                        str(Path(__file__).with_name('canonical_screens.py')),
+                        '--source','/workspace/silent-protocol-source',
+                        '--output',str(texture.parent),'--frames',str(count)],check=True)
     frame=textured_metal('Display bezel',(.027,.028,.026))
     box('Display',(0,0,1.15),(2.0,.16,1.26),frame,.035)
     mat=material('Display pixels',(.2,.25,.2),0,.6)
@@ -197,6 +208,17 @@ def printer_scene(texture):
         obj=bpy.data.objects.get(name)
         if obj:bpy.data.objects.remove(obj,do_unlink=True)
     surface=bpy.data.objects['Screen surface'];surface.location=(.16,-.569,1.22);surface.scale=(1.5,.46,1)
+    # Preserve square glyphs on the wide physical LCD; do not stretch CJK text.
+    display_mat=surface.data.materials[0]
+    tex=next(n for n in display_mat.node_tree.nodes if n.type=='TEX_IMAGE')
+    uv=display_mat.node_tree.nodes.new('ShaderNodeTexCoord')
+    mapping=display_mat.node_tree.nodes.new('ShaderNodeMapping')
+    aspect=(1.5/.46)/(1024/600)
+    mapping.inputs['Scale'].default_value=(aspect,1,1)
+    mapping.inputs['Location'].default_value=((1-aspect)/2,0,0)
+    display_mat.node_tree.links.new(uv.outputs['UV'],mapping.inputs['Vector'])
+    display_mat.node_tree.links.new(mapping.outputs['Vector'],tex.inputs['Vector'])
+    tex.extension='CLIP'
     box('Printer control bezel',(.16,-.519,1.22),(1.66,.09,.59),inset,.025)
     led=material('Printer ready lamp',(.28,.52,.32),0,.4,1.8)
     cylinder('Ready indicator',(-.95,-.55,1.25),.025,.02,led,20)
@@ -267,6 +289,9 @@ def setup(args):
         data=printer_scene(args.texture);cam.location=(.32,-2.85,1.55);target=(.08,-.53,1.20);cam.data.lens=65;cam.data.dof.aperture_fstop=8
     elif args.mode=='screen':
         data=screen_scene(args.texture);cam.location=(.35,-3.65,1.42);target=(0,0,1.15);cam.data.lens=55
+    elif args.mode in ['drones','clock']:
+        import environment_scenes
+        target=getattr(environment_scenes,args.mode)(scene,cam,args.frames)
     else:
         data=interaction_scene();cam.location=(.65,-2.55,1.55);target=(0,0,1.4);cam.data.lens=65
     aim(cam,target);cam.data.dof.focus_distance=(cam.location-Vector(target)).length
@@ -274,7 +299,7 @@ def setup(args):
 
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--mode',choices=['fan','room','screen','interaction','lowlight','printer'],required=True)
+    p=argparse.ArgumentParser();p.add_argument('--mode',choices=['fan','room','screen','interaction','lowlight','printer','drones','clock'],required=True)
     p.add_argument('--output',type=Path,required=True);p.add_argument('--width',type=int,default=960)
     p.add_argument('--samples',type=int,default=16);p.add_argument('--frames',type=int,default=48)
     p.add_argument('--engine',default='CYCLES');p.add_argument('--texture',type=Path)
@@ -295,6 +320,10 @@ def main():
                 for i,sheet in enumerate(data[1]):
                     sheet.location.y=-.70-.35*((t*.65+i*.33)%1)
                     sheet.keyframe_insert('location',frame=frame)
+        elif args.mode=='drones':
+            cam.location=initial+Vector((.22*pct,0,.025*pct))
+        elif args.mode=='clock':
+            cam.location=initial+Vector((-.035*pct,.04*pct,.025*pct))
         else:
             amount=(1-math.cos(math.pi*max(0,min(1,(pct-.25)/.55))))/2
             hand,hinge=data;hinge.rotation_euler[0]=amount*1.3;hinge.keyframe_insert('rotation_euler',frame=frame)

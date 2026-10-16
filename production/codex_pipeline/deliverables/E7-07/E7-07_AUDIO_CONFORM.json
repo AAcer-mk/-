@@ -1,0 +1,31 @@
+{
+  "shot": "E7-07",
+  "timeline_frames": [
+    18052,
+    18187
+  ],
+  "audio_source": "/workspace/-/production/sol61_r6/sound-v2/E7_SOUND_CONFORM_r6_65S.flac",
+  "source_local_sample_range": [
+    2264000,
+    2534000
+  ],
+  "lossless_sample_frames": 270000,
+  "lossless_PCM_sha256": "e34a7a1955e08c0136b3c3d33234c0aa45b25756edf5455d528e9a4294376387",
+  "lossless_PCM_exact": true,
+  "fps": "24/1",
+  "full_decode": "PASS",
+  "AAC_is_lossless": false,
+  "voice_performance_acceptance": "INHERITED_WORK_MIX_NOT_FINAL",
+  "outputs": [
+    {
+      "path": "E7-07_3D_MASTER.mkv",
+      "sha256": "aaade8e91269d714ecaa932ee7bfd9362e29a641488b25d412046a6ec4f82cdb",
+      "bytes": 1791918
+    },
+    {
+      "path": "E7-07_3D_REVIEW.mp4",
+      "sha256": "16bce5ce62f0bb90dddc9ca613c16f39fb36b32350b34c9ca4442a589f38d50b",
+      "bytes": 1301870
+    }
+  ]
+}

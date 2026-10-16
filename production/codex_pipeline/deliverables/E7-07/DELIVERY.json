@@ -1,0 +1,768 @@
+{
+  "shot": "E7-07",
+  "type": "AUTHORED_TIMELINE_PRODUCTION_RENDER",
+  "configuration": {
+    "shot": "E7-07",
+    "mode": "printer",
+    "frames": 135,
+    "width": 1920,
+    "samples": 8,
+    "engine": "BLENDER_EEVEE_NEXT",
+    "scene_script": "9cd0f4b9cdc72bb5468adf09e088c778e21f0d734953261d81bb7fab23bef029",
+    "runner": "b067334e5a32665b077022e91a8dd1b7e18db64a597ba7532e18cfa0f1cf1317",
+    "timeline": "97e3005fac111a52001d73df6349a187e3422fe4df10a6ee4e30edf6840ad799",
+    "sample": false
+  },
+  "all_files": [
+    {
+      "path": "E7-07_3D_MASTER.mkv",
+      "bytes": 1791918,
+      "sha256": "aaade8e91269d714ecaa932ee7bfd9362e29a641488b25d412046a6ec4f82cdb"
+    },
+    {
+      "path": "E7-07_3D_REVIEW.mp4",
+      "bytes": 1301870,
+      "sha256": "16bce5ce62f0bb90dddc9ca613c16f39fb36b32350b34c9ca4442a589f38d50b"
+    },
+    {
+      "path": "E7-07_3D_REVIEW.mp4.playback.json",
+      "bytes": 360,
+      "sha256": "8948bab5b95266303a5b34088170d481947239a8cf4817417c1a8e9eb49c7ad0"
+    },
+    {
+      "path": "E7-07_3D_REVIEW.mp4.playback.png",
+      "bytes": 420004,
+      "sha256": "d64a95959f516cc98d99c49930a83a93fa1236dd7810eeff759ce67ba0750ea1"
+    },
+    {
+      "path": "E7-07_AUDIO_CONFORM.json",
+      "bytes": 853,
+      "sha256": "06ff0c01f1397091b9db6c1fb5ed5d3517661b3de3bc60b30e53426f7102c203"
+    },
+    {
+      "path": "E7-07_PICTURE.mp4",
+      "bytes": 1163859,
+      "sha256": "b46a5e559508975d3057b8f202596db47236380c73401986a8062574afdb7646"
+    },
+    {
+      "path": "SCENE_SOURCE.json",
+      "bytes": 178,
+      "sha256": "f0f4d69f982eb3b125ade0fbd2946a14affd085c0d8b58ed44b3143eb83e8d4c"
+    },
+    {
+      "path": "keyframes/000001.png",
+      "bytes": 1520572,
+      "sha256": "17e231cb703c5a7e7a29738ea851da3a9962dbb30e3b6e259063d44de693456a"
+    },
+    {
+      "path": "keyframes/000067.png",
+      "bytes": 1489156,
+      "sha256": "ed6bbef5cee145294d8a357d519b4025494e86e9d4f9be03ba4acd01295fe7d6"
+    },
+    {
+      "path": "keyframes/000135.png",
+      "bytes": 1457885,
+      "sha256": "72451fb24f3b9c8a2211b0e84b4a96d361b61c70c313fc0b023995f9e365e1d3"
+    },
+    {
+      "path": "scene.blend",
+      "bytes": 833092,
+      "sha256": "f316467df4127b208007f2cb89ced67defe7727111ba7836e987001135ceb502"
+    },
+    {
+      "path": "state.json",
+      "bytes": 12701,
+      "sha256": "5953cc98aec1d135c45ac9275a88ca1d48bb34e918d3394982da94b7129a3891"
+    },
+    {
+      "path": "textures/000001.png",
+      "bytes": 14565,
+      "sha256": "3fd20a56a1410b57e1880fdda017ff7f5b8b7c38cf72f317f79e4ae07828e43f"
+    },
+    {
+      "path": "textures/000002.png",
+      "bytes": 14571,
+      "sha256": "412c9bdd92114c80738ef583b9c80be1fd2ec817ddcdf82f60535a3124aeeb47"
+    },
+    {
+      "path": "textures/000003.png",
+      "bytes": 14571,
+      "sha256": "16d068b350e178b00aaf011d746a4182085a4c3d794c510c749b398e5bba6e2b"
+    },
+    {
+      "path": "textures/000004.png",
+      "bytes": 14571,
+      "sha256": "62c3b5e8bd0af1c7482beb54d6ee1ac48ad0b39e608c7e563515e561a13c80a0"
+    },
+    {
+      "path": "textures/000005.png",
+      "bytes": 14571,
+      "sha256": "d9ceafc5fa91fafd6a7c85eca529dee416b448dbf67d727a3d80d4cfb0733908"
+    },
+    {
+      "path": "textures/000006.png",
+      "bytes": 14572,
+      "sha256": "b58672aeafff156ef41587c5cf4a8ff5a3fa85bee118f4d9d0c092f38f4fd29d"
+    },
+    {
+      "path": "textures/000007.png",
+      "bytes": 14571,
+      "sha256": "fa5ee46f519a3bed2b8750e63955cdbb4321950f15c4aef3863d8928666c0a5a"
+    },
+    {
+      "path": "textures/000008.png",
+      "bytes": 14571,
+      "sha256": "b833533a0edf759e3c71e629cf091d76f8c5be7f27d8d5b7dd883d9512a65837"
+    },
+    {
+      "path": "textures/000009.png",
+      "bytes": 14571,
+      "sha256": "b38cc3de924ef0845a5215823c1cd0f7f42dabca00e24c9cbb8ffedcc48fae4a"
+    },
+    {
+      "path": "textures/000010.png",
+      "bytes": 14571,
+      "sha256": "296351f63a53454e7874cf5e4279594cd88176da1b10129839f72ad859514fac"
+    },
+    {
+      "path": "textures/000011.png",
+      "bytes": 14571,
+      "sha256": "72eeae03989685298972e3da40ffdd2cc38994655449954e110a316e3934102e"
+    },
+    {
+      "path": "textures/000012.png",
+      "bytes": 14571,
+      "sha256": "933717a817336e7de140a2537c98f641ce4b985c175ecac41e3c38c3775cb9e3"
+    },
+    {
+      "path": "textures/000013.png",
+      "bytes": 14572,
+      "sha256": "52cbefccb4617059bd5d0b9a4c0603ef764df7346791959db67e4374a13db1f6"
+    },
+    {
+      "path": "textures/000014.png",
+      "bytes": 14572,
+      "sha256": "194d0f5e058894364234803f9ab1b37d2df51b700fc3a94358b5dbbcaadb5bfa"
+    },
+    {
+      "path": "textures/000015.png",
+      "bytes": 14573,
+      "sha256": "243e8702a0a1514b414dd7a5e2444429053546bc3054bfc72045b6d98c976046"
+    },
+    {
+      "path": "textures/000016.png",
+      "bytes": 14573,
+      "sha256": "c5d59228aecf9fe833e459d5df3ffbf8ebf6ec692a68a69a00cede71b9a67bc7"
+    },
+    {
+      "path": "textures/000017.png",
+      "bytes": 14573,
+      "sha256": "78bac69d070ff5c3a963036c5827d40e54c378141f3730767d485fee12029086"
+    },
+    {
+      "path": "textures/000018.png",
+      "bytes": 14573,
+      "sha256": "cf167522bf152b274f2c2651e567287a0852bdcd1e2472585f8330fc8732c646"
+    },
+    {
+      "path": "textures/000019.png",
+      "bytes": 14572,
+      "sha256": "4366bf61abf70140a721d6bd450f083d15867795131ad218594f29c3314bbcd5"
+    },
+    {
+      "path": "textures/000020.png",
+      "bytes": 14572,
+      "sha256": "e6a4832798b3f5ea7d2697acc7b350665b3aa2497a84a0c4049641c28966baaa"
+    },
+    {
+      "path": "textures/000021.png",
+      "bytes": 14573,
+      "sha256": "e17777118347f8de32b2d8cdf7da4ee5e7eada0ddfecf21e65b5021bf1c88aaf"
+    },
+    {
+      "path": "textures/000022.png",
+      "bytes": 14573,
+      "sha256": "369eaff87a07a3553805d406627b0d6987d7ca11ee696c4d998464858f9cd7b8"
+    },
+    {
+      "path": "textures/000023.png",
+      "bytes": 14573,
+      "sha256": "9dad3e9284c2982b2534fa00e43cbde1de2072728452e5a68d123a260e494a1f"
+    },
+    {
+      "path": "textures/000024.png",
+      "bytes": 14573,
+      "sha256": "94103a887d66fa549554ca99a017343b4b3bfb85e554e9ef2a015a5054cfb479"
+    },
+    {
+      "path": "textures/000025.png",
+      "bytes": 14573,
+      "sha256": "c6472080adadab87b8e701cc6d15efae744f2dd9dfa813cf99698039e71e35c1"
+    },
+    {
+      "path": "textures/000026.png",
+      "bytes": 14572,
+      "sha256": "ad151019d4c40d128a8035e30bf1edda5a7e29120435575559c67583cda909e0"
+    },
+    {
+      "path": "textures/000027.png",
+      "bytes": 14572,
+      "sha256": "9349a4ba402c8ada4e8548cd0cb3287fb2e5b3c3428d80ac25b88b5ef09a9d8f"
+    },
+    {
+      "path": "textures/000028.png",
+      "bytes": 14573,
+      "sha256": "d529b32fa450af02da0b0220593faf7d98af707b49184445cca66f163949dd08"
+    },
+    {
+      "path": "textures/000029.png",
+      "bytes": 14573,
+      "sha256": "8ebd76d5b8f17d61463ac839a599c001d0666a7ddea94b4e7f7ecfbc4e31c05f"
+    },
+    {
+      "path": "textures/000030.png",
+      "bytes": 14573,
+      "sha256": "2e3d512a0099264ddbef28de7250e6d7688536f77ff906d6171caf68b6e1a1cd"
+    },
+    {
+      "path": "textures/000031.png",
+      "bytes": 14573,
+      "sha256": "d9bb8dccf82be98fab1cd86e16970c0ca2b669655585eaf540068e0e18b92313"
+    },
+    {
+      "path": "textures/000032.png",
+      "bytes": 14573,
+      "sha256": "f820aa0c89a07d52475606394fceb709ff6a1e0a5caffc991d56e056db47f4eb"
+    },
+    {
+      "path": "textures/000033.png",
+      "bytes": 14573,
+      "sha256": "1753b34b82054ee984dfb31ccb0ba6c72918fca3b1fb1a50be1072e526791eae"
+    },
+    {
+      "path": "textures/000034.png",
+      "bytes": 14573,
+      "sha256": "9393966391bbcbd53afee7d5d32e040df595562fe40a1376892acd6714f6219b"
+    },
+    {
+      "path": "textures/000035.png",
+      "bytes": 14573,
+      "sha256": "235982ca6aa6855a586d42a953e427d4c16094206366448f9635f53f78d13ce1"
+    },
+    {
+      "path": "textures/000036.png",
+      "bytes": 14573,
+      "sha256": "153153355f1bf3605e6968f4f2bf2b9232f3c8b8513139d7ca01a1966d1aaa61"
+    },
+    {
+      "path": "textures/000037.png",
+      "bytes": 14573,
+      "sha256": "0c394918d1e6ddb172bb6ce5a110ab238749b10e6553e5e60f4c39c7f170e748"
+    },
+    {
+      "path": "textures/000038.png",
+      "bytes": 14573,
+      "sha256": "d66da16711612f218a9bc38f5e80f04c5e49208e21cc41c3bd2e8cc40633b55f"
+    },
+    {
+      "path": "textures/000039.png",
+      "bytes": 14573,
+      "sha256": "c169f325d8005ee1018598e4bd5b7371e430b415b6a65bc6cc5dc3d5a194aa6b"
+    },
+    {
+      "path": "textures/000040.png",
+      "bytes": 14573,
+      "sha256": "b335d3b29958387b009e88e6123e7e8f8034735b077ea10efbabddc89b6b205d"
+    },
+    {
+      "path": "textures/000041.png",
+      "bytes": 14573,
+      "sha256": "4d4fccd7b1297c8e9e41c89bedb66b62d8e3f7f591443f29a60c9bf7b475b087"
+    },
+    {
+      "path": "textures/000042.png",
+      "bytes": 14573,
+      "sha256": "0ea94e5d2f3692803da3b648be6496944ffdcfb5de5eb78849b6a795d3be20eb"
+    },
+    {
+      "path": "textures/000043.png",
+      "bytes": 14573,
+      "sha256": "3bc15b733cfc2ba5016f791576aa9617263bca12ef2759a46167950f3d062624"
+    },
+    {
+      "path": "textures/000044.png",
+      "bytes": 14573,
+      "sha256": "e8bcd0caa9263205e4de6ec984fd08f24ddb011c1172f73dbc5e4c751e05c37c"
+    },
+    {
+      "path": "textures/000045.png",
+      "bytes": 14572,
+      "sha256": "0c90a036f3235d02117591a8da714733c0162cd7a8cfb84e3780b5bda3ccd998"
+    },
+    {
+      "path": "textures/000046.png",
+      "bytes": 14572,
+      "sha256": "83e18a950e09b8d333b9abf6bb579f873ae1c2fcc62b4f5c039fd723e1f60795"
+    },
+    {
+      "path": "textures/000047.png",
+      "bytes": 14573,
+      "sha256": "45cab420fc4c1572a44e3cc45671ca4a0a20308dfe79f11d0ea395eeedf7cd90"
+    },
+    {
+      "path": "textures/000048.png",
+      "bytes": 14573,
+      "sha256": "91503dc97a7269802b1e1c2af0671c06556a51a499a7780ef76bb1d36c509388"
+    },
+    {
+      "path": "textures/000049.png",
+      "bytes": 14573,
+      "sha256": "e69322f5e9542c56dd8ddf8f25f782b9f8468b5a709997491ea807fa48cc50ce"
+    },
+    {
+      "path": "textures/000050.png",
+      "bytes": 14573,
+      "sha256": "fbeeb6e4214334458c53e37273b0fdc26831b80135cd7791589784d9ed576d82"
+    },
+    {
+      "path": "textures/000051.png",
+      "bytes": 14573,
+      "sha256": "5d44cb0798b52e1c58786b4754792fe3fae8f60c24060de3a692b1ee3a272007"
+    },
+    {
+      "path": "textures/000052.png",
+      "bytes": 14572,
+      "sha256": "eb88478bfeb2541a3f58b5a0ba9fd8b966e7c0708031f4f513f99ebd34042d3f"
+    },
+    {
+      "path": "textures/000053.png",
+      "bytes": 14572,
+      "sha256": "17de2f2eb1e6597077ac64197a4d2841b6f16aa56b641552835982e16590418b"
+    },
+    {
+      "path": "textures/000054.png",
+      "bytes": 14573,
+      "sha256": "790b8f339b2b33f44926790e2db3150d34bc04ca04298ec2bb88000248d9e96a"
+    },
+    {
+      "path": "textures/000055.png",
+      "bytes": 14573,
+      "sha256": "4bcc9510d240d32a5dfe2f0c29a1b9234fe9d84f8e5d915832155f8ad139d806"
+    },
+    {
+      "path": "textures/000056.png",
+      "bytes": 14573,
+      "sha256": "873f4454444196b792742ac5ac29096fdd4f3650d4f149f3acc07e115243b2f1"
+    },
+    {
+      "path": "textures/000057.png",
+      "bytes": 14573,
+      "sha256": "59089a42edc8368eb31fbe31ff6b578e9f7eeb4f14d08f12a3d3f3221f6acb7e"
+    },
+    {
+      "path": "textures/000058.png",
+      "bytes": 14573,
+      "sha256": "9706348e76ff7072843e71ce5c7fb7837b8dc6d1ce7d6b16121d62a73ab29ea5"
+    },
+    {
+      "path": "textures/000059.png",
+      "bytes": 14573,
+      "sha256": "85e4975c12a61d2079246db0cadec49ace4c4991ad54f9ca76b9df06f8cefca0"
+    },
+    {
+      "path": "textures/000060.png",
+      "bytes": 14573,
+      "sha256": "637b25c9005af7afdac74a50b7821dc2a5bf5dfad9435f61621a6212693633fd"
+    },
+    {
+      "path": "textures/000061.png",
+      "bytes": 14573,
+      "sha256": "ad685e47108bcbce3e0f9a99fd2cc277c8120453d3ac6807a49e739c002413fd"
+    },
+    {
+      "path": "textures/000062.png",
+      "bytes": 14573,
+      "sha256": "04e8f8a9c5b2e530dc29b98f9b958384268e208b6af23b76d6ea52387ef09744"
+    },
+    {
+      "path": "textures/000063.png",
+      "bytes": 14573,
+      "sha256": "9e38a37344af35a7a9335f54bf6fe3bf8beca89e2d88282a35bc3d1e8d0ccb7f"
+    },
+    {
+      "path": "textures/000064.png",
+      "bytes": 14573,
+      "sha256": "f8ad4b6809ef430355fad20be0188c272f8abba03b2b532202cbdf4dae66aca7"
+    },
+    {
+      "path": "textures/000065.png",
+      "bytes": 14573,
+      "sha256": "82029f9d7050d9cc095a9b8256f933dd9d9e7e6076078fb228cb5d021c3a9c62"
+    },
+    {
+      "path": "textures/000066.png",
+      "bytes": 14573,
+      "sha256": "a03315fc924d6e6cbbc58957b3801867a6b507e31c965ab3f08c06cb44e2d9cb"
+    },
+    {
+      "path": "textures/000067.png",
+      "bytes": 14574,
+      "sha256": "a638e7dd5952eaf73831cda802332b5a1f62cfb46f8107b7b90955cacf3d901a"
+    },
+    {
+      "path": "textures/000068.png",
+      "bytes": 14573,
+      "sha256": "855db0fbaee0d4dbfaa6c9d941c2186ea383ff0dd5d58797796e1ca26391de5a"
+    },
+    {
+      "path": "textures/000069.png",
+      "bytes": 14573,
+      "sha256": "9cad77107bc1fb77d01aaa5ac7af035bc84e12b2b434e22f1c164cbfee35cbed"
+    },
+    {
+      "path": "textures/000070.png",
+      "bytes": 14573,
+      "sha256": "2ca2071c7ad8cb8ca4c2c5f4769875bb641a00cf2334308ce42f1ed94faf21f3"
+    },
+    {
+      "path": "textures/000071.png",
+      "bytes": 14572,
+      "sha256": "e3225d1ab62d1d0ac949d87d33177442352fbae9c156e25b38af37b6c25b836b"
+    },
+    {
+      "path": "textures/000072.png",
+      "bytes": 14572,
+      "sha256": "1f926b60c56be861d0a3290cc23bc9308da1ebd198f1054d82e29645fd6b3138"
+    },
+    {
+      "path": "textures/000073.png",
+      "bytes": 14573,
+      "sha256": "a66b4f939844dd2b2c0e93cce7cf12b828475ca6426ee33b074add718b12033e"
+    },
+    {
+      "path": "textures/000074.png",
+      "bytes": 14573,
+      "sha256": "eb9e8257615fb22812caf5aa17fa8931f59c8e57fb0f1959d70620f85dbc83c8"
+    },
+    {
+      "path": "textures/000075.png",
+      "bytes": 14573,
+      "sha256": "93ca206b5263721a3766622a57195756716758f75687b9fdd3d6616931be1590"
+    },
+    {
+      "path": "textures/000076.png",
+      "bytes": 14573,
+      "sha256": "9de60d2450c81eab2a3c3178e4a8331a3be55dbb1daa4d488bd21c7ee9a7110d"
+    },
+    {
+      "path": "textures/000077.png",
+      "bytes": 14573,
+      "sha256": "6bd2995eceeb44b40f912c7bc35d7826d14d67b7abc3a99219f1fdb8367abac9"
+    },
+    {
+      "path": "textures/000078.png",
+      "bytes": 14572,
+      "sha256": "1eddfe47b8db575a9c135d2f9b7e44dfd4a36e003b06b7b60fedfc4712eb22c2"
+    },
+    {
+      "path": "textures/000079.png",
+      "bytes": 14573,
+      "sha256": "77c04394044c1cdd08933519ea11e1f7d8ed756cde7bcb91fd3e297d583dc51f"
+    },
+    {
+      "path": "textures/000080.png",
+      "bytes": 14573,
+      "sha256": "d7472fa16a1ebbce0dbdfed4bff460223c94c0bc15089fc283fc04486a121320"
+    },
+    {
+      "path": "textures/000081.png",
+      "bytes": 14573,
+      "sha256": "43766c7c97a08c6bae41722e62a99be67606f3482a632f2d721a1cb70879c105"
+    },
+    {
+      "path": "textures/000082.png",
+      "bytes": 14573,
+      "sha256": "2e40db2a83c13ef02903048d054c2b8ac697d3ddb84c43ff2840e0c30c866ad9"
+    },
+    {
+      "path": "textures/000083.png",
+      "bytes": 14573,
+      "sha256": "325f471dac6339ad3773bf369e69da8056216d4c25d2f3c126b84adfc7a5742e"
+    },
+    {
+      "path": "textures/000084.png",
+      "bytes": 14573,
+      "sha256": "2119b553151f3c59b256859463d459c0bccc807c6c828fd69fea133da4e67cc1"
+    },
+    {
+      "path": "textures/000085.png",
+      "bytes": 14573,
+      "sha256": "e84ac786b78ad5719b63129ee4e17265474e6c52ff28320f8667ec1581b19fd3"
+    },
+    {
+      "path": "textures/000086.png",
+      "bytes": 14573,
+      "sha256": "3d908497ccec003d56a7e8345fd4e6c44eb0ea9b5a94bd65f3e70f0d1089ad16"
+    },
+    {
+      "path": "textures/000087.png",
+      "bytes": 14573,
+      "sha256": "ce03be279b6698f3d0e5d273ee4f1178534da8e79d44449c6256cc22e757317c"
+    },
+    {
+      "path": "textures/000088.png",
+      "bytes": 14573,
+      "sha256": "16bd9199630fcf72b7f39aa8629f028adbd0eb7bbec98c3bfce992d6b675ca79"
+    },
+    {
+      "path": "textures/000089.png",
+      "bytes": 14573,
+      "sha256": "941d122786b3e1679bbe564890e1126ce5741efb22620e65885add84c6ffdece"
+    },
+    {
+      "path": "textures/000090.png",
+      "bytes": 14573,
+      "sha256": "a3d722a9b8d675baf8daad111065a5ea9427a9d3dae14f4c261de1aa8e970e41"
+    },
+    {
+      "path": "textures/000091.png",
+      "bytes": 14573,
+      "sha256": "7a794f1ec8e20c4dfcccf4e6a7dfd1a19ce71a85d96c33b7154031e336abbe81"
+    },
+    {
+      "path": "textures/000092.png",
+      "bytes": 14575,
+      "sha256": "21b71deb54275affbe0d6200a681a51084a481eb7100baa265fd5bd14fbbc44e"
+    },
+    {
+      "path": "textures/000093.png",
+      "bytes": 14574,
+      "sha256": "c2ef803b0530cb5d357fecebbfa0169fb35b8176952044910f00d09412631b47"
+    },
+    {
+      "path": "textures/000094.png",
+      "bytes": 14573,
+      "sha256": "68d530e3fb427f1bfb7508eb15111f1c86938d87edab541b9881f0456875359d"
+    },
+    {
+      "path": "textures/000095.png",
+      "bytes": 14573,
+      "sha256": "3017b97773f9cd251c76148f54bab145b5ef32ba8b82f602ca0a892a16e24219"
+    },
+    {
+      "path": "textures/000096.png",
+      "bytes": 14573,
+      "sha256": "056760402053d7f6537b866fa16bf433ae467648466e30e0be1d95c18318b51a"
+    },
+    {
+      "path": "textures/000097.png",
+      "bytes": 14572,
+      "sha256": "6adf95546faf33dc057f3db0a6a851e6da903353bbc0e8c24b0da72a5bb6a21a"
+    },
+    {
+      "path": "textures/000098.png",
+      "bytes": 14572,
+      "sha256": "722e8aeaf66e22b0ace74f6a80a4ab5ca60af8b1f77a9b23ddc45eceeab83e9f"
+    },
+    {
+      "path": "textures/000099.png",
+      "bytes": 14573,
+      "sha256": "70997262a12c50ec07ad3ffd3e9c55398380243835386147b873cbd3caff1dcd"
+    },
+    {
+      "path": "textures/000100.png",
+      "bytes": 14573,
+      "sha256": "b23874f0d106679a7d6ea07a2dfc8742dacfbf0d0352924f73a6ae29df991f18"
+    },
+    {
+      "path": "textures/000101.png",
+      "bytes": 14573,
+      "sha256": "f807a90a74e782da08ba99f53350ae5baaf80f2fab1d69deaf46fd9c06af365f"
+    },
+    {
+      "path": "textures/000102.png",
+      "bytes": 14573,
+      "sha256": "3eb6825590a991a23c194482d5d7223014bd8a65facc64845eecdc9e345bf548"
+    },
+    {
+      "path": "textures/000103.png",
+      "bytes": 14572,
+      "sha256": "9b770e2f42f67f0f2d420a963e4fafa8bcad337b221f674b1bafe94de6ed6512"
+    },
+    {
+      "path": "textures/000104.png",
+      "bytes": 14572,
+      "sha256": "504c3a20cf008f700f1fb064d6ad43edb606f67a43675c6b02a54ae609a626cc"
+    },
+    {
+      "path": "textures/000105.png",
+      "bytes": 14573,
+      "sha256": "c9bd8cefec73452c41ea73de16dbc96fc6db1e2dc5de44e87d0ed775fef0544d"
+    },
+    {
+      "path": "textures/000106.png",
+      "bytes": 14573,
+      "sha256": "c9d4f70787913f58d8075e883164e250a278edaa8367f65dce78199264e1816c"
+    },
+    {
+      "path": "textures/000107.png",
+      "bytes": 14573,
+      "sha256": "a7bf3f2479c9ef000419e12728b16b3836da52b074730e156be8512391f82459"
+    },
+    {
+      "path": "textures/000108.png",
+      "bytes": 14573,
+      "sha256": "de42936bb9f727d31d2e29a98bf151aa5cfb7affbf6d7f8b305ff082e960905f"
+    },
+    {
+      "path": "textures/000109.png",
+      "bytes": 14575,
+      "sha256": "c6ef5b55d66982b726ac77150488aecd8c64d5fa0dc307b1c41422af10c1cfb8"
+    },
+    {
+      "path": "textures/000110.png",
+      "bytes": 14573,
+      "sha256": "6971102568ab1d010015251420dd27959e477b4d4ada69ce839be8bb494ac8fe"
+    },
+    {
+      "path": "textures/000111.png",
+      "bytes": 14573,
+      "sha256": "f95745736b1fe6d11ab2c70a5465b1f6e9e3761905c243a6666036692dae8bed"
+    },
+    {
+      "path": "textures/000112.png",
+      "bytes": 14573,
+      "sha256": "8759095f9151937f9b7f3ce011dc3bbfa856418ca0cacc25d8c579dbdd7896b9"
+    },
+    {
+      "path": "textures/000113.png",
+      "bytes": 14573,
+      "sha256": "1a9c6c1c6e3d1939c391e051610d38a14d1fee28f18ba186a8df781fdfaa8cc8"
+    },
+    {
+      "path": "textures/000114.png",
+      "bytes": 14573,
+      "sha256": "140395f60daf7edbfb854c95c16edd504cd675dbdb49396b2b5ddb118217cee4"
+    },
+    {
+      "path": "textures/000115.png",
+      "bytes": 14573,
+      "sha256": "622e01436e37e0b8549d7af5f2d3fabcc1cf76b413b76bbab6a7e63e717b6fd6"
+    },
+    {
+      "path": "textures/000116.png",
+      "bytes": 14573,
+      "sha256": "cb98c819b25624f99a913eb7602414b95d8581b8d20e4cab075506177a0d907e"
+    },
+    {
+      "path": "textures/000117.png",
+      "bytes": 14573,
+      "sha256": "f4ccc2c19acc952b1004e8e7e0c43747c36c70aabd6381ca39f4ea9e49921ade"
+    },
+    {
+      "path": "textures/000118.png",
+      "bytes": 14573,
+      "sha256": "6fc1723c19d0265f826451f6fec4f70c6debe941d1a76fe3d2b401444f2a20c1"
+    },
+    {
+      "path": "textures/000119.png",
+      "bytes": 14573,
+      "sha256": "5b31cdbd73137376110b13ab99a9332de84b4462568ed5641b0520174130b8d6"
+    },
+    {
+      "path": "textures/000120.png",
+      "bytes": 14573,
+      "sha256": "c4c284518c80dd8398bd21bd6ede46773d5a12ffb6462bb99d5fe498a1497f2c"
+    },
+    {
+      "path": "textures/000121.png",
+      "bytes": 14573,
+      "sha256": "589be5b6b37379cad0722059cf6b6d5e0bc0ff069ed50cfd814e3ef4c5b6326a"
+    },
+    {
+      "path": "textures/000122.png",
+      "bytes": 14573,
+      "sha256": "7cd7639021c9400fe6c138d910e8a4c7f6470511fe4d3bd00f5819e54e738868"
+    },
+    {
+      "path": "textures/000123.png",
+      "bytes": 14572,
+      "sha256": "437624ca4da5b8ecf3a2346641b47c49b8ea58789ebafcb26a779129e4d1dd46"
+    },
+    {
+      "path": "textures/000124.png",
+      "bytes": 14573,
+      "sha256": "8f67d5ee15be31f4a7ee0605b7e0f70630f3e302d953a8ab470248609058daf4"
+    },
+    {
+      "path": "textures/000125.png",
+      "bytes": 14573,
+      "sha256": "2133d3f5e2a6b2e9c7b6b02f369e7644d4a9134154d560914f27fe416772ea8a"
+    },
+    {
+      "path": "textures/000126.png",
+      "bytes": 14573,
+      "sha256": "2c48e10b9e79a493639e1cac9d99b3bbf66fc570f9b1bc09146707ca0ebff9ae"
+    },
+    {
+      "path": "textures/000127.png",
+      "bytes": 14573,
+      "sha256": "71fbab841463b830b5d9d2cdfd6903ad06b9003fc7d95af3b9e4b0f885f7ad30"
+    },
+    {
+      "path": "textures/000128.png",
+      "bytes": 14573,
+      "sha256": "30a0450c037dff8f8f496599966a757e5568fcb02ea7bb55880fe6a2a8a98c80"
+    },
+    {
+      "path": "textures/000129.png",
+      "bytes": 14572,
+      "sha256": "1bf1b8eed6d0e0c21033cb5daa1b71a1baac57e2947a5de38a0e9830f64bbb0e"
+    },
+    {
+      "path": "textures/000130.png",
+      "bytes": 14572,
+      "sha256": "d07c62afdf0c01b2a77079932dfb2c8bf71e82259dc88e1a609e1a3543506758"
+    },
+    {
+      "path": "textures/000131.png",
+      "bytes": 14573,
+      "sha256": "d818d8ac1d74f92c432ecf73eb31951303bb09849c793c9b179f3897384c469c"
+    },
+    {
+      "path": "textures/000132.png",
+      "bytes": 14573,
+      "sha256": "21cbb725018559259678e323e2760e321b179fda88ae2091efc641dd40eebb16"
+    },
+    {
+      "path": "textures/000133.png",
+      "bytes": 14573,
+      "sha256": "c432e312a70744b8928c3831239051e3c9e720110981d4cc609f8463410bc59a"
+    },
+    {
+      "path": "textures/000134.png",
+      "bytes": 14574,
+      "sha256": "2deb793183fd8762a83ac95c140e0e7131d0785ce3bdcac3c13791988b0d0950"
+    },
+    {
+      "path": "textures/000135.png",
+      "bytes": 14575,
+      "sha256": "9e1897c4e890082531f712c35d5aba8bf0fb3e3b6e181c08726b0adb03c48d36"
+    },
+    {
+      "path": "timing.json",
+      "bytes": 7984,
+      "sha256": "5f375c2d6aac21fef579e50f1f0f5f27e1296beae466accf5ee0fa3b40ca9ca3"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 416,
+      "sha256": "a53a7764483e7ffa1ff657bdd52d740378b6fe7549be41bd6a7e6a326cdd6a15"
+    }
+  ],
+  "final_film": false,
+  "director_final_acceptance": false,
+  "source_scene_portable": true,
+  "all_dynamic_textures_included": true,
+  "native_frame_cache_retained_locally": true
+}

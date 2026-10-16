@@ -1,0 +1,34 @@
+[
+  {
+    "path": "production/codex_pipeline/deliverables/F4-01/F4-01_3D_REVIEW.mp4.playback.png",
+    "decode": "PASS",
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/F4-01/keyframes/000096.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      803
+    ]
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/F4-01/keyframes/000192.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      803
+    ]
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/F4-01/keyframes/000001.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      803
+    ]
+  }
+]

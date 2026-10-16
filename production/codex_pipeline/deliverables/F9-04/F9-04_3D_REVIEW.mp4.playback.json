@@ -1,0 +1,14 @@
+{
+  "file": "/workspace/-/production/codex_pipeline/output/F9-04/ceafa647b199/conformed/F9-04_3D_REVIEW.mp4",
+  "width": 1920,
+  "height": 1080,
+  "duration": 4,
+  "ended": true,
+  "time": 4,
+  "error": null,
+  "decodedFrames": 96,
+  "droppedFrames": 0,
+  "callbacks": 96,
+  "status": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+  "creative_acceptance": false
+}

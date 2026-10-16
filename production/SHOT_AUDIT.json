@@ -29,7 +29,8 @@
       "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
-      "new_render": null
+      "new_render": null,
+      "intentional_stillness": "原要求4秒静态声明，只有极轻底噪。"
     },
     {
       "id": "C-01",
@@ -1188,7 +1189,8 @@
       "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
-      "new_render": null
+      "new_render": null,
+      "intentional_stillness": "Henrik画面冻结是原分镜要求；声音继续且口型不一致，不把冻结自动判为缺陷。"
     },
     {
       "id": "F3-03",
@@ -1474,7 +1476,24 @@
       "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
-      "new_render": null
+      "new_render": {
+        "shot": "F4-01",
+        "frames": 192,
+        "manifest": "production/codex_pipeline/deliverables/F4-01/DELIVERY.json",
+        "full_decode": "PASS",
+        "actual_browser_playback": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+        "decoded_frames": 192,
+        "dropped_frames": 0,
+        "original_audio_PCM_exact": true,
+        "director_final_acceptance": false
+      },
+      "production_review": {
+        "motion_type": "原生三维动画",
+        "visual_contact_review": "PASS_AS_PRODUCTION_WORK_RENDER",
+        "observation": "实体叶片独立旋转、网罩固定；摄影机按原要求小幅运动。",
+        "final_creative_acceptance": false,
+        "voice_acceptance": "INHERITED_WORK_MIX_NOT_FINAL"
+      }
     },
     {
       "id": "F4-02",
@@ -2207,7 +2226,8 @@
       "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
-      "new_render": null
+      "new_render": null,
+      "intentional_stillness": "双手悬停不动是原动作设计；不强加手部运动。"
     },
     {
       "id": "F6-03",
@@ -2556,7 +2576,8 @@
       "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
-      "new_render": null
+      "new_render": null,
+      "intentional_stillness": "原倒计时00:47:12固定显示，不擅自倒数以制造运动。"
     },
     {
       "id": "F7-01",
@@ -2830,7 +2851,24 @@
       "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
-      "new_render": null
+      "new_render": {
+        "shot": "E7-07",
+        "frames": 135,
+        "manifest": "production/codex_pipeline/deliverables/E7-07/DELIVERY.json",
+        "full_decode": "PASS",
+        "actual_browser_playback": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+        "decoded_frames": 135,
+        "dropped_frames": 0,
+        "original_audio_PCM_exact": true,
+        "director_final_acceptance": false
+      },
+      "production_review": {
+        "motion_type": "原生三维动画",
+        "visual_contact_review": "PASS_AS_PRODUCTION_WORK_RENDER",
+        "observation": "打印机LCD内容独立运动、中文和无限符号正常；摄影机有空间透视变化。",
+        "final_creative_acceptance": false,
+        "voice_acceptance": "INHERITED_WORK_MIX_NOT_FINAL"
+      }
     },
     {
       "id": "E7-08",
@@ -3286,7 +3324,24 @@
       "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
-      "new_render": null
+      "new_render": {
+        "shot": "F9-04",
+        "frames": 96,
+        "manifest": "production/codex_pipeline/deliverables/F9-04/DELIVERY.json",
+        "full_decode": "PASS",
+        "actual_browser_playback": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+        "decoded_frames": 96,
+        "dropped_frames": 0,
+        "original_audio_PCM_exact": true,
+        "director_final_acceptance": false
+      },
+      "production_review": {
+        "motion_type": "原生三维动画",
+        "visual_contact_review": "PASS_AS_PRODUCTION_WORK_RENDER",
+        "observation": "使用恢复原代码中的镜像声波，保留原符号形状、颜色和尺寸限制；独立呼吸与三维摄影机运动。",
+        "final_creative_acceptance": false,
+        "voice_acceptance": "INHERITED_WORK_MIX_NOT_FINAL"
+      }
     },
     {
       "id": "E9-CARD",
@@ -3570,7 +3625,8 @@
       "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
-      "new_render": null
+      "new_render": null,
+      "intentional_stillness": "144帧全黑与六秒绝对零采样为必须要求。"
     },
     {
       "id": "END-04",
@@ -3798,7 +3854,8 @@
       "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
-      "new_render": null
+      "new_render": null,
+      "intentional_stillness": "原稿要求黑场中仅一声无法辨认来源的呼吸。"
     },
     {
       "id": "CREDITS",

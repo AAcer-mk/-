@@ -1,0 +1,21 @@
+{
+  "frame": 12,
+  "image_shape": [
+    268,
+    640,
+    3
+  ],
+  "RGB_MAE": 2.635752876243781,
+  "RGB_channel_bias": [
+    -1.010908348880597,
+    -1.4363164645522388,
+    -0.5044251399253732
+  ],
+  "scope": "Sample encoded BT709-tagged clip compared to native rendered PNG",
+  "explicit_BT709_RGB_MAE": 2.6375524720149253,
+  "explicit_BT709_RGB_bias": [
+    -1.016738572761194,
+    -1.4223297574626865,
+    -0.4976445895522388
+  ]
+}

@@ -62,7 +62,8 @@ def main():
         for file in (src/'conformed').iterdir():
             if file.is_file():copy_verified(file,dst/file.name)
     if (src/'textures').exists():
-        for file in (src/'textures').glob('*.png'):copy_verified(file,dst/'textures'/file.name)
+        for file in (src/'textures').iterdir():
+            if file.is_file() and file.suffix in ['.png','.json']:copy_verified(file,dst/'textures'/file.name)
     copy_verified(src/'frames/timing.json',dst/'timing.json')
     # The cache's immutable PNG hashes stay in state.json. Retain actual preview
     # frames too; these are source renders, distinct from encoded/browser grabs.
@@ -83,7 +84,7 @@ def main():
         with tempfile.TemporaryDirectory() as temp:
             script=Path(temp)/'portable.py';script.write_text(PORTABLE)
             options=Path(temp)/'options.json';options.write_text(json.dumps({'destination':str(dst),'frames':state['config']['frames']}))
-            subprocess.run(['blender','-b',str(src/'frames/scene.blend'),'--python',str(script),'--',str(options)],check=True)
+            subprocess.run(['blender','-b',str(src/'frames/scene.blend'),'--python-exit-code','1','--python',str(script),'--',str(options)],check=True)
         marker.write_text(json.dumps({'source_sha256':sha(source_scene),'portable_sha256':sha(dst/'scene.blend')},indent=2))
     files=[]
     for file in sorted(dst.rglob('*')):

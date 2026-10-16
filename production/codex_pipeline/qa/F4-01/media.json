@@ -1,0 +1,682 @@
+[
+  {
+    "path": "production/codex_pipeline/deliverables/F4-01/F4-01_3D_MASTER.mkv",
+    "probe": "PASS",
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/1000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "bits_per_raw_sample": "8",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "HANDLER_NAME": "VideoHandler",
+          "VENDOR_ID": "[0][0][0][0]",
+          "ENCODER": "Lavc61.19.101 libx264",
+          "DURATION": "00:00:08.000000000"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "flac",
+        "codec_long_name": "FLAC (Free Lossless Audio Codec)",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "sample_fmt": "s32",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/1000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "bits_per_raw_sample": "24",
+        "extradata_size": 34,
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "DURATION": "00:00:08.000000000"
+        }
+      }
+    ],
+    "format": {
+      "filename": "production/codex_pipeline/deliverables/F4-01/F4-01_3D_MASTER.mkv",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "matroska,webm",
+      "format_long_name": "Matroska / WebM",
+      "start_time": "0.000000",
+      "duration": "8.000000",
+      "size": "16416356",
+      "bit_rate": "16416356",
+      "probe_score": 100,
+      "tags": {
+        "COMPATIBLE_BRANDS": "isomiso2avc1mp41",
+        "MAJOR_BRAND": "isom",
+        "MINOR_VERSION": "512",
+        "ENCODER": "Lavf61.7.103"
+      }
+    },
+    "bytes": 16416356,
+    "sha256": "d016c1336d9a559d5fa505cfb528135f3ad039efc2c4b8ad1b880a5667400f47",
+    "full_decode": "PASS",
+    "motion": {
+      "status": "MEASURED_NOT_CREATIVE_ACCEPTANCE",
+      "sampled_frames": 16,
+      "pairs": 15,
+      "raw_MAE_mean": 17.217144573144573,
+      "residual_motion_fraction_mean": 0.6400404241607592,
+      "global_affine_explained_fraction_mean": 0.12416106753681357,
+      "pairs_detail": [
+        {
+          "raw_MAE": 18.852162162162163,
+          "affine_inlier_fraction": 0.08130081300813008,
+          "residual_median_px": 2.331254005432129,
+          "residual_over_0_7_px_fraction": 0.6749223738941942
+        },
+        {
+          "raw_MAE": 16.532149292149292,
+          "affine_inlier_fraction": 0.12837837837837837,
+          "residual_median_px": 2.7421875,
+          "residual_over_0_7_px_fraction": 0.6276729743980315
+        },
+        {
+          "raw_MAE": 17.426795366795368,
+          "affine_inlier_fraction": 0.19444444444444445,
+          "residual_median_px": 2.446847438812256,
+          "residual_over_0_7_px_fraction": 0.6426855703321811
+        },
+        {
+          "raw_MAE": 16.539124839124838,
+          "affine_inlier_fraction": 0.13178294573643412,
+          "residual_median_px": 1.4644911289215088,
+          "residual_over_0_7_px_fraction": 0.5980578827113481
+        },
+        {
+          "raw_MAE": 16.245315315315317,
+          "affine_inlier_fraction": 0.11724137931034483,
+          "residual_median_px": 2.5538203716278076,
+          "residual_over_0_7_px_fraction": 0.7680004686859219
+        },
+        {
+          "raw_MAE": 18.745894465894466,
+          "affine_inlier_fraction": 0.07874015748031496,
+          "residual_median_px": 2.643972396850586,
+          "residual_over_0_7_px_fraction": 0.6497012127248227
+        },
+        {
+          "raw_MAE": 17.83967824967825,
+          "affine_inlier_fraction": 0.0728476821192053,
+          "residual_median_px": 3.4187753200531006,
+          "residual_over_0_7_px_fraction": 0.6432567812994318
+        },
+        {
+          "raw_MAE": 16.876113256113257,
+          "affine_inlier_fraction": 0.1568627450980392,
+          "residual_median_px": 1.8444256782531738,
+          "residual_over_0_7_px_fraction": 0.6156189583455387
+        },
+        {
+          "raw_MAE": 16.9623166023166,
+          "affine_inlier_fraction": 0.16312056737588654,
+          "residual_median_px": 1.3270416259765625,
+          "residual_over_0_7_px_fraction": 0.5867068955416251
+        },
+        {
+          "raw_MAE": 16.07136422136422,
+          "affine_inlier_fraction": 0.14705882352941177,
+          "residual_median_px": 1.4316118955612183,
+          "residual_over_0_7_px_fraction": 0.5869558849376062
+        },
+        {
+          "raw_MAE": 17.994826254826254,
+          "affine_inlier_fraction": 0.08695652173913043,
+          "residual_median_px": 2.6395750045776367,
+          "residual_over_0_7_px_fraction": 0.7106889683051145
+        },
+        {
+          "raw_MAE": 17.319343629343628,
+          "affine_inlier_fraction": 0.09933774834437085,
+          "residual_median_px": 3.656630754470825,
+          "residual_over_0_7_px_fraction": 0.6453805143827992
+        },
+        {
+          "raw_MAE": 17.56081081081081,
+          "affine_inlier_fraction": 0.13725490196078433,
+          "residual_median_px": 1.701716661453247,
+          "residual_over_0_7_px_fraction": 0.60085535180737
+        },
+        {
+          "raw_MAE": 16.35906048906049,
+          "affine_inlier_fraction": 0.1360544217687075,
+          "residual_median_px": 2.4333462715148926,
+          "residual_over_0_7_px_fraction": 0.6301775147928994
+        },
+        {
+          "raw_MAE": 16.932213642213643,
+          "affine_inlier_fraction": 0.1310344827586207,
+          "residual_median_px": 1.98842191696167,
+          "residual_over_0_7_px_fraction": 0.6199250102525046
+        }
+      ],
+      "warning": "Low residual suggests static/whole-image motion; high residual can be UI, noise, cuts or morphs. Inspect actual frames."
+    },
+    "contact_sheet": "d016c1336d9a559d.jpg"
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/F4-01/F4-01_3D_REVIEW.mp4",
+    "probe": "PASS",
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/24000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 192000,
+        "duration": "8.000000",
+        "bit_rate": "16089903",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "192",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc61.19.101 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 384000,
+        "duration": "8.000000",
+        "bit_rate": "91440",
+        "nb_frames": "376",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "production/codex_pipeline/deliverables/F4-01/F4-01_3D_REVIEW.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "8.000000",
+      "size": "16187079",
+      "bit_rate": "16187079",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf61.7.103"
+      }
+    },
+    "bytes": 16187079,
+    "sha256": "71772f0a2e7a67a52692e378bdad684a0733face73cb4caba1e8272665d3a79d",
+    "full_decode": "PASS",
+    "motion": {
+      "status": "MEASURED_NOT_CREATIVE_ACCEPTANCE",
+      "sampled_frames": 16,
+      "pairs": 15,
+      "raw_MAE_mean": 17.217144573144573,
+      "residual_motion_fraction_mean": 0.6400404241607592,
+      "global_affine_explained_fraction_mean": 0.12416106753681357,
+      "pairs_detail": [
+        {
+          "raw_MAE": 18.852162162162163,
+          "affine_inlier_fraction": 0.08130081300813008,
+          "residual_median_px": 2.331254005432129,
+          "residual_over_0_7_px_fraction": 0.6749223738941942
+        },
+        {
+          "raw_MAE": 16.532149292149292,
+          "affine_inlier_fraction": 0.12837837837837837,
+          "residual_median_px": 2.7421875,
+          "residual_over_0_7_px_fraction": 0.6276729743980315
+        },
+        {
+          "raw_MAE": 17.426795366795368,
+          "affine_inlier_fraction": 0.19444444444444445,
+          "residual_median_px": 2.446847438812256,
+          "residual_over_0_7_px_fraction": 0.6426855703321811
+        },
+        {
+          "raw_MAE": 16.539124839124838,
+          "affine_inlier_fraction": 0.13178294573643412,
+          "residual_median_px": 1.4644911289215088,
+          "residual_over_0_7_px_fraction": 0.5980578827113481
+        },
+        {
+          "raw_MAE": 16.245315315315317,
+          "affine_inlier_fraction": 0.11724137931034483,
+          "residual_median_px": 2.5538203716278076,
+          "residual_over_0_7_px_fraction": 0.7680004686859219
+        },
+        {
+          "raw_MAE": 18.745894465894466,
+          "affine_inlier_fraction": 0.07874015748031496,
+          "residual_median_px": 2.643972396850586,
+          "residual_over_0_7_px_fraction": 0.6497012127248227
+        },
+        {
+          "raw_MAE": 17.83967824967825,
+          "affine_inlier_fraction": 0.0728476821192053,
+          "residual_median_px": 3.4187753200531006,
+          "residual_over_0_7_px_fraction": 0.6432567812994318
+        },
+        {
+          "raw_MAE": 16.876113256113257,
+          "affine_inlier_fraction": 0.1568627450980392,
+          "residual_median_px": 1.8444256782531738,
+          "residual_over_0_7_px_fraction": 0.6156189583455387
+        },
+        {
+          "raw_MAE": 16.9623166023166,
+          "affine_inlier_fraction": 0.16312056737588654,
+          "residual_median_px": 1.3270416259765625,
+          "residual_over_0_7_px_fraction": 0.5867068955416251
+        },
+        {
+          "raw_MAE": 16.07136422136422,
+          "affine_inlier_fraction": 0.14705882352941177,
+          "residual_median_px": 1.4316118955612183,
+          "residual_over_0_7_px_fraction": 0.5869558849376062
+        },
+        {
+          "raw_MAE": 17.994826254826254,
+          "affine_inlier_fraction": 0.08695652173913043,
+          "residual_median_px": 2.6395750045776367,
+          "residual_over_0_7_px_fraction": 0.7106889683051145
+        },
+        {
+          "raw_MAE": 17.319343629343628,
+          "affine_inlier_fraction": 0.09933774834437085,
+          "residual_median_px": 3.656630754470825,
+          "residual_over_0_7_px_fraction": 0.6453805143827992
+        },
+        {
+          "raw_MAE": 17.56081081081081,
+          "affine_inlier_fraction": 0.13725490196078433,
+          "residual_median_px": 1.701716661453247,
+          "residual_over_0_7_px_fraction": 0.60085535180737
+        },
+        {
+          "raw_MAE": 16.35906048906049,
+          "affine_inlier_fraction": 0.1360544217687075,
+          "residual_median_px": 2.4333462715148926,
+          "residual_over_0_7_px_fraction": 0.6301775147928994
+        },
+        {
+          "raw_MAE": 16.932213642213643,
+          "affine_inlier_fraction": 0.1310344827586207,
+          "residual_median_px": 1.98842191696167,
+          "residual_over_0_7_px_fraction": 0.6199250102525046
+        }
+      ],
+      "warning": "Low residual suggests static/whole-image motion; high residual can be UI, noise, cuts or morphs. Inspect actual frames."
+    },
+    "contact_sheet": "71772f0a2e7a67a5.jpg"
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/F4-01/F4-01_PICTURE.mp4",
+    "probe": "PASS",
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/24000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 192000,
+        "duration": "8.000000",
+        "bit_rate": "16089903",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "192",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc61.19.101 libx264"
+        }
+      }
+    ],
+    "format": {
+      "filename": "production/codex_pipeline/deliverables/F4-01/F4-01_PICTURE.mp4",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "8.000000",
+      "size": "16091666",
+      "bit_rate": "16091666",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf61.7.103"
+      }
+    },
+    "bytes": 16091666,
+    "sha256": "e541348170de9e24503c098ead0a7ea82cf1f1af690e9501d0dca39a57c6a97f",
+    "full_decode": "PASS",
+    "motion": {
+      "status": "MEASURED_NOT_CREATIVE_ACCEPTANCE",
+      "sampled_frames": 16,
+      "pairs": 15,
+      "raw_MAE_mean": 17.217144573144573,
+      "residual_motion_fraction_mean": 0.6400404241607592,
+      "global_affine_explained_fraction_mean": 0.12416106753681357,
+      "pairs_detail": [
+        {
+          "raw_MAE": 18.852162162162163,
+          "affine_inlier_fraction": 0.08130081300813008,
+          "residual_median_px": 2.331254005432129,
+          "residual_over_0_7_px_fraction": 0.6749223738941942
+        },
+        {
+          "raw_MAE": 16.532149292149292,
+          "affine_inlier_fraction": 0.12837837837837837,
+          "residual_median_px": 2.7421875,
+          "residual_over_0_7_px_fraction": 0.6276729743980315
+        },
+        {
+          "raw_MAE": 17.426795366795368,
+          "affine_inlier_fraction": 0.19444444444444445,
+          "residual_median_px": 2.446847438812256,
+          "residual_over_0_7_px_fraction": 0.6426855703321811
+        },
+        {
+          "raw_MAE": 16.539124839124838,
+          "affine_inlier_fraction": 0.13178294573643412,
+          "residual_median_px": 1.4644911289215088,
+          "residual_over_0_7_px_fraction": 0.5980578827113481
+        },
+        {
+          "raw_MAE": 16.245315315315317,
+          "affine_inlier_fraction": 0.11724137931034483,
+          "residual_median_px": 2.5538203716278076,
+          "residual_over_0_7_px_fraction": 0.7680004686859219
+        },
+        {
+          "raw_MAE": 18.745894465894466,
+          "affine_inlier_fraction": 0.07874015748031496,
+          "residual_median_px": 2.643972396850586,
+          "residual_over_0_7_px_fraction": 0.6497012127248227
+        },
+        {
+          "raw_MAE": 17.83967824967825,
+          "affine_inlier_fraction": 0.0728476821192053,
+          "residual_median_px": 3.4187753200531006,
+          "residual_over_0_7_px_fraction": 0.6432567812994318
+        },
+        {
+          "raw_MAE": 16.876113256113257,
+          "affine_inlier_fraction": 0.1568627450980392,
+          "residual_median_px": 1.8444256782531738,
+          "residual_over_0_7_px_fraction": 0.6156189583455387
+        },
+        {
+          "raw_MAE": 16.9623166023166,
+          "affine_inlier_fraction": 0.16312056737588654,
+          "residual_median_px": 1.3270416259765625,
+          "residual_over_0_7_px_fraction": 0.5867068955416251
+        },
+        {
+          "raw_MAE": 16.07136422136422,
+          "affine_inlier_fraction": 0.14705882352941177,
+          "residual_median_px": 1.4316118955612183,
+          "residual_over_0_7_px_fraction": 0.5869558849376062
+        },
+        {
+          "raw_MAE": 17.994826254826254,
+          "affine_inlier_fraction": 0.08695652173913043,
+          "residual_median_px": 2.6395750045776367,
+          "residual_over_0_7_px_fraction": 0.7106889683051145
+        },
+        {
+          "raw_MAE": 17.319343629343628,
+          "affine_inlier_fraction": 0.09933774834437085,
+          "residual_median_px": 3.656630754470825,
+          "residual_over_0_7_px_fraction": 0.6453805143827992
+        },
+        {
+          "raw_MAE": 17.56081081081081,
+          "affine_inlier_fraction": 0.13725490196078433,
+          "residual_median_px": 1.701716661453247,
+          "residual_over_0_7_px_fraction": 0.60085535180737
+        },
+        {
+          "raw_MAE": 16.35906048906049,
+          "affine_inlier_fraction": 0.1360544217687075,
+          "residual_median_px": 2.4333462715148926,
+          "residual_over_0_7_px_fraction": 0.6301775147928994
+        },
+        {
+          "raw_MAE": 16.932213642213643,
+          "affine_inlier_fraction": 0.1310344827586207,
+          "residual_median_px": 1.98842191696167,
+          "residual_over_0_7_px_fraction": 0.6199250102525046
+        }
+      ],
+      "warning": "Low residual suggests static/whole-image motion; high residual can be UI, noise, cuts or morphs. Inspect actual frames."
+    },
+    "contact_sheet": "e541348170de9e24.jpg"
+  }
+]

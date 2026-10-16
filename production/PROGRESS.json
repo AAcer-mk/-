@@ -19,10 +19,10 @@
   "animation_pipeline": "PHYSICAL_SCENE_COMPARISONS_VERIFIED",
   "new_accepted_final_shots": [],
   "next_tasks": [
-    "Finish media QA and real playback comparisons",
-    "Render F4-01 as real 3D at authored 192 frames",
-    "Conform original audio by exact sample range",
-    "Extend supported 3D screen and printer inserts"
+    "Review E8-01 drone-river and END-07 clock first frames, then render authored durations",
+    "Export and verify portable source scenes",
+    "Develop identity-consistent characters and continuous motion",
+    "Review voice casting, expression and synchronization before replacing inherited mix"
   ],
   "remaining_actor_requirements": [
     "Identity-consistent rigged characters",
@@ -31,7 +31,7 @@
     "Facial performance and phoneme synchronization"
   ],
   "automatic_cross_session_execution": false,
-  "production_queue": "RUNNING_AUTHORED_SHOTS",
+  "production_queue": "RUNNING_E8_01_THEN_END_07",
   "inherited_QA": {
     "images_checked": 562,
     "images_pass": 558,
@@ -53,14 +53,60 @@
   "queue_implemented": [
     "F4-01",
     "E7-07",
-    "F9-04"
+    "F9-04",
+    "E8-01",
+    "END-07"
   ],
   "active_render": {
-    "shot": "F4-01",
-    "status": "RENDERING",
-    "verified_frame_cache_count": 86,
-    "frames_required": 192,
-    "state": "production/codex_pipeline/output/F4-01/418008816882/state.json",
+    "shot": "E8-01",
+    "status": "QUEUED_AFTER_EXISTING_SHOT_REVALIDATION",
+    "frames_required": 181,
     "not_final_output": true
+  },
+  "updated_utc": "2026-10-16T02:58:47.226258+00:00",
+  "new_native_3D_render_frames": 423,
+  "new_native_3D_render_seconds": 17.625,
+  "completed_production_renders": [
+    {
+      "shot": "F4-01",
+      "frames": 192,
+      "manifest": "production/codex_pipeline/deliverables/F4-01/DELIVERY.json",
+      "full_decode": "PASS",
+      "actual_browser_playback": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+      "decoded_frames": 192,
+      "dropped_frames": 0,
+      "original_audio_PCM_exact": true,
+      "director_final_acceptance": false
+    },
+    {
+      "shot": "E7-07",
+      "frames": 135,
+      "manifest": "production/codex_pipeline/deliverables/E7-07/DELIVERY.json",
+      "full_decode": "PASS",
+      "actual_browser_playback": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+      "decoded_frames": 135,
+      "dropped_frames": 0,
+      "original_audio_PCM_exact": true,
+      "director_final_acceptance": false
+    },
+    {
+      "shot": "F9-04",
+      "frames": 96,
+      "manifest": "production/codex_pipeline/deliverables/F9-04/DELIVERY.json",
+      "full_decode": "PASS",
+      "actual_browser_playback": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+      "decoded_frames": 96,
+      "dropped_frames": 0,
+      "original_audio_PCM_exact": true,
+      "director_final_acceptance": false
+    }
+  ],
+  "voice_candidates": {
+    "count": 4,
+    "method": "LOCAL_KOKORO_ONNX_CPU",
+    "manifest": "production/codex_pipeline/deliverables/voice-candidates/VOICE_CANDIDATES.json",
+    "full_decode": "PASS",
+    "casting_and_acting_acceptance": false,
+    "used_in_film_mix": false
   }
 }

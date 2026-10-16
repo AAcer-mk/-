@@ -1,0 +1,9 @@
+{
+  "source": "baseline/project/native_scenes.py:mark(minimax)",
+  "source_sha256": "146630b0a4b128cb87e57b72e06ce4800480a9d84e4fe7505be3db1169db3c41",
+  "generator_sha256": "1267db50164d8c229c097f7efd5a3dc17a6a3e27c6951d8b5a501eb789af9acb",
+  "frames": 96,
+  "glyph_geometry": "INHERITED_UNCHANGED",
+  "texture_max_glyph_size_px": 106,
+  "target_container_max_glyph_size_px": 180
+}

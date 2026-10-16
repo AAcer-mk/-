@@ -2,7 +2,7 @@
 
 ## 选择与范围
 
-当前机器5 CPU、约33GiB内存、无可见GPU设备。已有Blender4.3.2、Godot4.6.3、Chromium及FFmpeg7.1.5。未发现Unreal安装；没有可调用的视频或配音生成接口。没有安装大型引擎或下载未经授权的角色资产。
+当前机器5 CPU、约33GiB内存、无可见GPU设备。已有Blender4.3.2、Godot4.6.3、Chromium及FFmpeg7.1.5。未发现Unreal安装；没有可调用的远端视频或配音生成接口。没有安装大型引擎或下载未经授权的角色资产。
 
 主路径为Blender实体几何和物体/摄影机关键帧，Eevee通过软件图形回退实际渲染；Cycles CPU用于同场景比较。2D界面由原Noto字体和Pillow逐帧绘制，作为真实三维屏幕纹理。FFmpeg负责编码、2.39:1画面封装、原音轨符合和输出；它不生成三维场景。
 
@@ -31,7 +31,7 @@ python3 -m venv /workspace/codex-runtime/venv
 /workspace/codex-runtime/venv/bin/python production/codex_pipeline/pipeline.py \
   --source /workspace/silent-protocol-source samples --width 640 --frames 24 --samples 8
 
-# 连续完成已实现的F4-01、E7-07、F9-04：画面→解码→音轨符合→浏览器播放→下一镜。
+# 连续完成已实现的F4-01、E7-07、F9-04、E8-01、END-07：画面→解码→音轨符合→浏览器播放→下一镜。
 /workspace/codex-runtime/venv/bin/python production/codex_pipeline/pipeline.py \
   --source /workspace/silent-protocol-source produce --width 1920 --samples 8
 ```
@@ -53,3 +53,9 @@ python3 -m venv /workspace/codex-runtime/venv
 `audit_media.py`对媒体完整解码，检查真实帧数和2fps采样运动；估计全局仿射后记录剩余光流。指标不能证明动作真实，必须看联系图和实际视频。`browser_playback.cjs`通过短时本地HTTP服务在Chromium真实播放，记录结束、解码帧数、丢帧、时间进度和截图；服务只用于内部验证，播放结束即关闭。
 
 未来整片必须重新测量END-03六秒零采样、九次闸刀、音画同步、字幕、身份连续性和开放结局。当前插镜验证不能代替整片验收。
+
+## 复用及本机声音候选
+
+`produce`默认按时间线、分辨率、采样与引擎检查已完整解码且SHA-256匹配的画面，保留原配置来源并复用，随后重新验证音轨和播放。`--refresh`才要求按当前代码指纹重建；不同变体均保留。新增环境场景、原字体及镜像符号代码纳入相应任务指纹。Blender脚本异常以非零状态传播，不把进程退出当成功。
+
+声音采用独立`/workspace/codex-runtime/voice-venv`与`requirements-voice.lock.txt`。`setup_voice_models.py`按原B06固定SHA-256复用或下载模型；`synthesize_voice_candidates.py`实际使用CPU执行ONNX，输出FLAC与来源/方法清单。权重保存在仓库外。四个候选未完成听审、情绪和角色身份验收，未混入正式时间线。

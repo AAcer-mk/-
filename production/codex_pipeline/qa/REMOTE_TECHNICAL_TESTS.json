@@ -1,0 +1,550 @@
+{
+  "commit": "2a0c67cf98792156a33fb8c212f18b8569ef0d73",
+  "verified_remote_files": 90,
+  "verified_bytes": 37914186,
+  "fresh_bare_store": "/tmp/silent-protocol-remote-readback.git",
+  "readback": "NATIVE_GIT_NEW_OBJECT_STORE",
+  "all_bytes_match_local": true,
+  "files": [
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/INDEX.json",
+      "bytes": 1832,
+      "sha256": "b9286049b0d84bb11a936416e5b6eb69e8b93ec3fba23c09e46780acc608addb",
+      "git_blob": "428adad711f9eaeba1ed77d120711c0612ac8895"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/DELIVERY.json",
+      "bytes": 2549,
+      "sha256": "a4f920325c368b874b5347697174a79944405df21d8fb6ccd62fd860f9eadeb2",
+      "git_blob": "d4658adfb8a84fb42f036bc54ca01ebadac7bf08"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/SCENE_SOURCE.json",
+      "bytes": 178,
+      "sha256": "0bcad4bc4a6b1e72c8a6287e0816f99afae4c24e20d212b2693324067827cb7d",
+      "git_blob": "3d6dfdc0e1bada29c2a7c021677110c35ca8bba8"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/TEST-fan_PICTURE.mp4",
+      "bytes": 277387,
+      "sha256": "7b8670a495184060784a709b2e885c5b1d33859695ed0ef829bd16b160058c8a",
+      "git_blob": "4a9f582f9cfca5dc18f8f238a2a1796c06df85de"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/TEST-fan_PICTURE.mp4.playback.json",
+      "bytes": 342,
+      "sha256": "7cfb7a96c3e76a926ef5cecab718974d3a9c6322c2bcc6ca6e6b284028eec996",
+      "git_blob": "d9e3b3320096f39f657cec252e9f3ca240f752d7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/TEST-fan_PICTURE.mp4.playback.png",
+      "bytes": 563221,
+      "sha256": "60c69ed94e62aea6dadfa09e2dc87c329ae0e7706535750830512eaab4760905",
+      "git_blob": "724665d7a08d5b0c5db545ebe4926b3820731f2e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/keyframes/000001.png",
+      "bytes": 256113,
+      "sha256": "8dbee091540d84877d5cb045d5ee71fe70edd5b59f128a8ea70da93270811d1e",
+      "git_blob": "d96933892775e7422d204cb767b63c73463fe135"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/keyframes/000012.png",
+      "bytes": 258774,
+      "sha256": "19aa6726da04a6046167f08c42d9b2e5fc12921cd20613e456fb420ae28f6c16",
+      "git_blob": "838acfd8c16d90f5f9cae584a9d7941ad8a11e06"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/keyframes/000024.png",
+      "bytes": 257394,
+      "sha256": "9bff0dea9783550c09c4fc775fa9982ed9981257d43990d648f36b31147ee983",
+      "git_blob": "8e99781834d4276707d7c62447fe955cda174088"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/scene-source.blend",
+      "bytes": 2599940,
+      "sha256": "16618d0d00122fe977d4d0f14ba2f7d1d94585413b2fd1491e3ad09b90646720",
+      "git_blob": "5f56080689dbeb48082031bf6bef14bff9d98231"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/scene.blend",
+      "bytes": 2572580,
+      "sha256": "6e3327490024420925d30c0cd04ef43ef5926bb6d1ea779b7c2b2cd73fe7ac89",
+      "git_blob": "c5c1235672b1a4cb128df64577d4485d2b7bfcfc"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/state.json",
+      "bytes": 3151,
+      "sha256": "5ccf3a3b57f60fa043f94dfaec23c0cf0937d891b695ddd08f80ef7134934012",
+      "git_blob": "2b35ca447d71676aa62ee1a6ba6fa6b11e49a70a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/timing.json",
+      "bytes": 1422,
+      "sha256": "af3c74761cd67a7b0d0047b4b2c5dcfc0b04d67816b869bbb6bcc18d2769d086",
+      "git_blob": "b94362bcbbb7390726c2e6e0bf0839bab2734919"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/fan/validation.json",
+      "bytes": 418,
+      "sha256": "7b521688470bba1ac4ca414e9db2edaf2c3bdc931b165b20a8ba6b848922a123",
+      "git_blob": "998d5d0d10319ea82cb50a78ffb2ef65fe5e9bef"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/DELIVERY.json",
+      "bytes": 2595,
+      "sha256": "bc743d3d82cb8bccbb80ee5d869398930489bce19eef48e78509e5a14c1ede34",
+      "git_blob": "f7ee6eae7b33c6b7484c5a8e244cf0ffc14bd6f3"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/SCENE_SOURCE.json",
+      "bytes": 178,
+      "sha256": "98bfebfdcb8bdbeee7577eef5b6142d28225b972ff83991a18f644da136b1de2",
+      "git_blob": "c6a35d1c7203827e996113172f4c6328c7255424"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/TEST-interaction_PICTURE.mp4",
+      "bytes": 113123,
+      "sha256": "dc449b2ffe57487cdc5db36da90d520880c8cbe39dda7b39e390a193268ddcb0",
+      "git_blob": "f6696da794cda492cbf0bd538fc35dcef07a66be"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/TEST-interaction_PICTURE.mp4.playback.json",
+      "bytes": 358,
+      "sha256": "856116363d146cb9072a9068daea1cd1e180986c001f232a02d4248cb641468f",
+      "git_blob": "473b2214f23c95a407873f89e675bef5c5203838"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/TEST-interaction_PICTURE.mp4.playback.png",
+      "bytes": 653318,
+      "sha256": "5dd5de052745da2aa1b89daced076449ac71e932a1e0c6e1ab8eeee8e9c0d514",
+      "git_blob": "2e07f6322b24737be07cf1b87f363be51482a5f6"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/keyframes/000001.png",
+      "bytes": 265910,
+      "sha256": "40560f87db96c0d782194733125d82b8c43b002dd838821271345bbf1a36a92b",
+      "git_blob": "1bb1042d498fa92d8caa5e0b0331d4905eebbc82"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/keyframes/000012.png",
+      "bytes": 256136,
+      "sha256": "d974ef63ffd9f49385d312afe8f4fcf77a2b0ce0a25781425d2db2992cd703a4",
+      "git_blob": "0e3b61b61af89484ac57e7c6139c93231b2a197c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/keyframes/000024.png",
+      "bytes": 262572,
+      "sha256": "4f41d4b62077d809da6965db0e62285da3579a8b75ff125f5f74940a4fff483d",
+      "git_blob": "c6d8ba9a2a3d3ba60938e1df44cf1638da815827"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/scene-source.blend",
+      "bytes": 680744,
+      "sha256": "8967f0dcee6015b1daf3f92b1e6e21c579271009d68abfdd84cc7d3b6041c412",
+      "git_blob": "2d35bc435e6f95e5d7437013a387f434b11f68b3"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/scene.blend",
+      "bytes": 653384,
+      "sha256": "9eb67a8a026bf4bc271ad7bde5c5a0374ff617e2c50e7d87bac39740df31779f",
+      "git_blob": "7d25d72bdd8e6aca57cdf4f04bdab14a73ea328e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/state.json",
+      "bytes": 3184,
+      "sha256": "4780d8e132106f230043734cfdd32bf6d7b3f93f369a95f5833474e858a4bf5b",
+      "git_blob": "2cdee761783a09e0e90e805094c089c49a7d9ad7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/timing.json",
+      "bytes": 1424,
+      "sha256": "8d09c7210ae790e469a740cb69720aef4fdd135d714d243313d1ac175b3c3a44",
+      "git_blob": "73c6dc4044c369504c04eddf2b1866c172f0849e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/interaction/validation.json",
+      "bytes": 434,
+      "sha256": "dcf6fef0908e66f68a2f32c1068678ce0f40911847161c1467898adbad5a542e",
+      "git_blob": "7a8062f3ac9f2f7191538229fbc6e56f4ddc1c67"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/DELIVERY.json",
+      "bytes": 2578,
+      "sha256": "98700f0ae130071ded8ec95de55e9e6d97fc5ceb883d6e3a0e77b57a33c7e7f5",
+      "git_blob": "aa61bde2913c629229d73a6461f4563e64f73b2e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/SCENE_SOURCE.json",
+      "bytes": 178,
+      "sha256": "d004fa07735c9dbdbe17ae06c8fa33946aeafde0cd0d3e4c167ffd63d55eb3fb",
+      "git_blob": "4e8276075bbd78667b59d974b9ffb4437f2ee9f0"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/TEST-lowlight_PICTURE.mp4",
+      "bytes": 40460,
+      "sha256": "ba09e5af8aab69cf60036fe70a8172afba13d5ac8af39e2ee9f8e9e6e3ac19c9",
+      "git_blob": "fd6b087a02929ad47509dadae63ff9b5e577ba0c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/TEST-lowlight_PICTURE.mp4.playback.json",
+      "bytes": 352,
+      "sha256": "96bcb387ae7465ca09cfb5eb954c47b926d70edfcdfc34443cb6a1d0f5682c17",
+      "git_blob": "0ac79f804b5f4e5a338fe11a206057e7aaf06b21"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/TEST-lowlight_PICTURE.mp4.playback.png",
+      "bytes": 113784,
+      "sha256": "5a832f225a1f3dcccf78de20eeeb89af9842026a7e4af16413c7eaf45832f1c8",
+      "git_blob": "73cad841268be1ece603593e57a0e777545be2f1"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/keyframes/000001.png",
+      "bytes": 143277,
+      "sha256": "1cb6e1aadbae40fc14d443381d70d2be23e6865a9e0f83299cb7c983a5e07aab",
+      "git_blob": "d626cec0876d49c1338f1a9a277d26665aab16a3"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/keyframes/000012.png",
+      "bytes": 147711,
+      "sha256": "cddd6906759ddba2fa2501f8104e038fcc499ae0a3e05bd36be5452fe6392141",
+      "git_blob": "335c69f515dae5b719097a2be6768d24969e70a6"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/keyframes/000024.png",
+      "bytes": 146767,
+      "sha256": "7c35a44c69b922963774a1363fde7c8e5018e1f4be3b8533787e317378741ae7",
+      "git_blob": "759cd8ccdb02625b9980bda251bb1af0b19eb438"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/scene-source.blend",
+      "bytes": 6194164,
+      "sha256": "f4314c1fa4db0d23f11dfe30110d5678dd8c450cabc9d7598c313895d482df13",
+      "git_blob": "c73d3b43418a6b70e606ddffd1458ac866711400"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/scene.blend",
+      "bytes": 6166804,
+      "sha256": "125b16d3fe8af09c7b3a4759a3b0528121fde01f23c50726a9da8c49ea218d75",
+      "git_blob": "572319e74f6d640b5a979fc7a907fc58c9780be0"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/state.json",
+      "bytes": 3171,
+      "sha256": "00df21cef2eb59f42e0de01fcf6432cad523b0bf59b5503da76d6d2e52df65de",
+      "git_blob": "db3c199cda76513cf95eac01656114c7e83b5a6d"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/timing.json",
+      "bytes": 1423,
+      "sha256": "74f26cea2b2052bb96286cebd95e0587df077252ea2b6aef1c98ff6a5f32bdf9",
+      "git_blob": "ccd1ed0fccd2f922c761c253c1a2548c9c964fca"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/lowlight/validation.json",
+      "bytes": 427,
+      "sha256": "724fa464faed1fb120083645bb504bc9308133c52e18c5d7f261490558193965",
+      "git_blob": "d491d66330702d1a99037924120ed610b17ba191"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/DELIVERY.json",
+      "bytes": 2554,
+      "sha256": "e0122a1c3a4206edc239f472f45945245eebe3b414e46a67034df3482cba4869",
+      "git_blob": "c0e45f9ac79c3ae36632118d52ab4170e4e3409c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/SCENE_SOURCE.json",
+      "bytes": 178,
+      "sha256": "6221c743d99a50abd342a4e2cec6493f1ea78b4571f3dbe6e787c954eae85f5a",
+      "git_blob": "aaf30196575806e0770b263c9f381d92cd97ec2a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/TEST-room_PICTURE.mp4",
+      "bytes": 64078,
+      "sha256": "63da6955340684814304a8020db40551b69dceab252a4746923729ccc07eb6dc",
+      "git_blob": "8b936a241aaae5490e408c90cae54aa54174bcc0"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/TEST-room_PICTURE.mp4.playback.json",
+      "bytes": 344,
+      "sha256": "dd3649cb8066e1c373796a4cd13fbca0fb5e0bbf1d2e2448ef8b70c4de3a87d1",
+      "git_blob": "9f3dcf1463c4f0e8d0b8ccc79195b40881605994"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/TEST-room_PICTURE.mp4.playback.png",
+      "bytes": 267171,
+      "sha256": "f3d2a790612fc12cc94d024520d7cad867cbcce4571a6b499275c50b583c0cd6",
+      "git_blob": "c8820b86e504d32039f987768154e72f41bab5c3"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/keyframes/000001.png",
+      "bytes": 171380,
+      "sha256": "c3d0418f90909298f1d1baf2e6bbb4f6cd366cdac52b427ec1b2bed77b09f0d7",
+      "git_blob": "cccc18acbc30988ea7f0bf00f6a04b37aaafa6d6"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/keyframes/000012.png",
+      "bytes": 177706,
+      "sha256": "22e540cec66839994a800c0e19f579b060767224de751a22af47004c0ac10a38",
+      "git_blob": "ee465f624057bd39d99851c22d94edbf64c249d7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/keyframes/000024.png",
+      "bytes": 180480,
+      "sha256": "e7c79448ce8e43f9740c93d2153dba704a35d9131a19e7a24785031a27b350e8",
+      "git_blob": "5ec178b1b8941bf6c0726afe7c9922250bad2ae9"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/scene-source.blend",
+      "bytes": 6194164,
+      "sha256": "5da522e72443ef71345bc0a3fe1c72c76b93ff64ad55c7639783e38304a528e9",
+      "git_blob": "3ba3823e598d44594968b8da4ca089b8aab4db85"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/scene.blend",
+      "bytes": 6166804,
+      "sha256": "10d910abe99309d4d7a58612c107c60af64d01a9433676b916a86a3a3bc2c558",
+      "git_blob": "7387583c40192255c50e5850d2a72165f24a08f5"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/state.json",
+      "bytes": 3156,
+      "sha256": "d8be31b1a4d6c6b091ea8e4f51a064f66ba87125b1d746b34858ef4cef7f4a62",
+      "git_blob": "a6cdfbbfa4e8b9b6808768bafac4590ca2c8ab58"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/timing.json",
+      "bytes": 1417,
+      "sha256": "99bb6f3d9b7499846bfc2f485aae2e6503a1bf2cc031b8bb796cca4da0030d14",
+      "git_blob": "02ba952cc6f5570ed8cd5a37bd51979b38622dc4"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/room/validation.json",
+      "bytes": 419,
+      "sha256": "7629777e484a829a82982a6562a5ffd54841ea63df1aa3d44cc89597df4b0db1",
+      "git_blob": "cb37b67747270f87982aa9e8250173fad30737c6"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/DELIVERY.json",
+      "bytes": 6284,
+      "sha256": "b9eafec11e39c5bee9d9131e1fdc53c462f8d0b2c2347de00cea136058acb4f6",
+      "git_blob": "83f26f315df7e1ab225e9e7564051f4e61ee2105"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/SCENE_SOURCE.json",
+      "bytes": 178,
+      "sha256": "f7dad5a10e94e4c1ba229eef847113939776d9be1a85e69b448cd5c71b19c983",
+      "git_blob": "3a71a15f4a0064ccf18a363bde80b074a2b49a98"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/TEST-screen_PICTURE.mp4",
+      "bytes": 39605,
+      "sha256": "6ed0e5631bff742f31280bb42b7efe6149e7558283e2a901775be90702435cb0",
+      "git_blob": "8e740a52b1db1b4396356b7edcea76c3ee89122a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/TEST-screen_PICTURE.mp4.playback.json",
+      "bytes": 348,
+      "sha256": "d5448e3e802d34684cd301d00f7fb4da912218d7a9f5e9df4133d273fada496c",
+      "git_blob": "4f205567e6f52f8879bae8bfc1f9281fc8932243"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/TEST-screen_PICTURE.mp4.playback.png",
+      "bytes": 157834,
+      "sha256": "f202611673adafcc4e727cf14788e07d15ca297583a1c5fa21c4bf6a003c3dec",
+      "git_blob": "f0a02e3660ddc6f77094e13f28666abaaa3f44b7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/keyframes/000001.png",
+      "bytes": 148520,
+      "sha256": "d3fb273bd07ef42392b2f0a57f15c6ccef510c56556a56f31513275defc0d336",
+      "git_blob": "4f1cb4b78ca3a39a9a90957720aa7e9554c3c17e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/keyframes/000012.png",
+      "bytes": 149782,
+      "sha256": "a87e606264b55a0ca794d4ece11ae387f24e383fbfa307a2ac351021dc8b0b3d",
+      "git_blob": "483b0ccfad63f8d2190e837a1e6754a97eee4c97"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/keyframes/000024.png",
+      "bytes": 151324,
+      "sha256": "25fcac866b6ce2dabf5794683ecef94279b450c07f817982588c817cd117b7ff",
+      "git_blob": "6012e6798a84f20901d761affb1c7312386c8624"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/scene-source.blend",
+      "bytes": 550672,
+      "sha256": "61ca3d1c048a9190b736cc7fed12b229687a55d780b206a1080587b519fb3ad7",
+      "git_blob": "ef6c2c51278ff1dc147135cc4e9539fabcb25388"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/scene.blend",
+      "bytes": 523312,
+      "sha256": "633eb92f5336049f22a9d0fc484b5c91ec0987c6466f5a5aeb197197e5d46884",
+      "git_blob": "56059f17638bf6383cd38d5ece0ef5bb3d5f2ba0"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/state.json",
+      "bytes": 3163,
+      "sha256": "56d140374309d530560c775abd07d3f4dfda5faa2eb3f688f7e661f8f642a6d9",
+      "git_blob": "dff0ad0377e4bbac69b78bb92fbade44d62e4970"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000001.png",
+      "bytes": 12596,
+      "sha256": "65ef0e4c9fb87a9842fcd0d3e1f7afd03ac7be22f1a7914209172c9957145040",
+      "git_blob": "66579e6053976f0a9cfc0fbe9a42110909160376"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000002.png",
+      "bytes": 12583,
+      "sha256": "c23d9360b87dbf01b846d72420645e0f022668ac1a34a9044d457ae570313c05",
+      "git_blob": "59b275a6bd50ebbf3e0a2a56340a7cc7607c79cd"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000003.png",
+      "bytes": 12557,
+      "sha256": "4a2eb8e1c82cd19cd41658d5645f94de9837202610733fc7cf5a4cc1d59309f7",
+      "git_blob": "1a4df179927022e84eab866ea4b051ba1eb36278"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000004.png",
+      "bytes": 12551,
+      "sha256": "4ff7ce2c172fe85ea58172663ad809022694e83ea98358011c0fde2c0512fae9",
+      "git_blob": "c1e6c2943e17a9f792892a3763f4c31eb9b561ff"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000005.png",
+      "bytes": 12560,
+      "sha256": "4aac4b9fb6045bf57c88c4fcd97687fe3fbf3afc4466e844117bd243c9c87239",
+      "git_blob": "290704a7affbdd6d9f02e37dee947d6f672d205b"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000006.png",
+      "bytes": 12584,
+      "sha256": "c0a07d65cd64f4a98be1a99399ea43036cbdc53251793bf4b55b90d974a14011",
+      "git_blob": "4c1e80dcf7b97955897352e58d49712d787d226c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000007.png",
+      "bytes": 12586,
+      "sha256": "ff8677def6bbd9ca66f0ba2590448c848ad9911af38ed58cd704433e51e590ee",
+      "git_blob": "db347ed4f95db2bed88cf1ef02e3310c88d7345a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000008.png",
+      "bytes": 12585,
+      "sha256": "794b9dd16f3d01ce97bb77c8eb57d30a0511375267cc4b60198f163c261abee0",
+      "git_blob": "f0d48c0527831a8954858187e9a3474ec874330c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000009.png",
+      "bytes": 12572,
+      "sha256": "beebd4a2a5625f297e3f6facd241574e8d29659ce3fe50da2f73d1fad2193c95",
+      "git_blob": "76a69df9a89dc384e774e4da14234680d8181f89"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000010.png",
+      "bytes": 12556,
+      "sha256": "fe9394426ae0eab1cb557b9946fc5e3c12769559566af29da27ca4c1defcfb6e",
+      "git_blob": "69fc3fdf1dc394ba3f4ffc11530c19b530ec1339"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000011.png",
+      "bytes": 12558,
+      "sha256": "0f9e3fe1755e4fbc0b7c9946837980bfa750aaed2d745af10e58ad965b31db8e",
+      "git_blob": "e45861f74672a2c01c2057fb1f00b5635899cdf3"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000012.png",
+      "bytes": 12572,
+      "sha256": "d69bea5bd61f33687796d5e22ebbf74afee28118c92ea9b9200bc87a378bdee7",
+      "git_blob": "c5c6e976b527ed2aedcd08daf0200434fd2b4016"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000013.png",
+      "bytes": 12582,
+      "sha256": "010b82539b9af8dbaa67681f3f8db49566582c089244f3638fb0bb49b75e976e",
+      "git_blob": "1be6b077c1df2cadfe3254d42a0ed83823cf443e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000014.png",
+      "bytes": 12583,
+      "sha256": "e26c198477687a43d6d9d31d16a3730e7bd5dac2ff3b04056df2a0bf3d7d2479",
+      "git_blob": "2fa342c518f254416e9702432a9a4937f598e785"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000015.png",
+      "bytes": 12583,
+      "sha256": "930344af06743866c9e5c7095f1f350f174dbf6d5591728e6ab540db984a6cc0",
+      "git_blob": "49fa34b2cc75150a6305270cf684aaec7de3427b"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000016.png",
+      "bytes": 12558,
+      "sha256": "831130f71b97e9b704160b66aaafdf5bd80ab969731013cb4cf52ba2728fc78e",
+      "git_blob": "58a4d192687ae7cf1f06192f6cba4de02e94bf8a"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000017.png",
+      "bytes": 12558,
+      "sha256": "6d707bbb179891d86b40c7e9a44d8733355a24c7b8ffabf7dff46a4b9642628b",
+      "git_blob": "6c7097bea635fc25517094ab1a87b285818bd38e"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000018.png",
+      "bytes": 12558,
+      "sha256": "43bd91a0214657959f848b0a05516cbeadedda41e0c49ac3729c98b3cea9942e",
+      "git_blob": "056cc248719a5a8007fbe0d4c086ccf890fe2ac5"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000019.png",
+      "bytes": 12583,
+      "sha256": "d1001254629fdd559114648e45a5daf5e0cb6f548232fb1af29eadfa002b11c0",
+      "git_blob": "64d4829336ba6b984f5e5b51a361fd062fe3323c"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000020.png",
+      "bytes": 12595,
+      "sha256": "65166e8f89aae32b8610dc9ad35a9143484f21d225b242a3a42f487e63b5a6f8",
+      "git_blob": "64300b9e7829df1821b6fffac5d438262364f823"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000021.png",
+      "bytes": 12582,
+      "sha256": "7e861bc642f67d41618bddd39342a2f25255b976645c5c1dd5c809b8078b3a62",
+      "git_blob": "c3f3b0302260e2a6ddd542831d0efe0e1e520755"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000022.png",
+      "bytes": 12557,
+      "sha256": "610d3bb80a11fa4120d1f823c24c48324307ac36d397db4b18997a41e726dcb8",
+      "git_blob": "779639f16b917bffded74560574113a5e4857d43"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000023.png",
+      "bytes": 12553,
+      "sha256": "7024a6c2992da045766810ac07440762cd3cc394fcbd38dfac46a2f8ec448507",
+      "git_blob": "ba198d362e21255c282dbd7911c0f579d9c61e69"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/textures/000024.png",
+      "bytes": 12555,
+      "sha256": "269b627aba9dfda4b0e66388f68afd8b51b1c7ad7ff9ff33424fa17adc20e6c4",
+      "git_blob": "e8004c3906e4a753e8c51a41bf8cd41c7e39de66"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/timing.json",
+      "bytes": 1426,
+      "sha256": "401580b6bc6d68c2b272735a3611aa1497dadf64a4d0064f9b99d2751fd08fdd",
+      "git_blob": "7543d5d8e064d868a36402925c6593c2d7fd52e7"
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/technical-tests/screen/validation.json",
+      "bytes": 423,
+      "sha256": "340f9171155ef70acebfef243a0d7d5ac1bf87b4dc1494ab3a7de80d763e7bfc",
+      "git_blob": "50a4da1fd4df200f17ca860b47bb749b6f3e4ff9"
+    }
+  ]
+}

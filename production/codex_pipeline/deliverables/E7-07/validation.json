@@ -1,0 +1,13 @@
+{
+  "path": "/workspace/-/production/codex_pipeline/output/E7-07/a74b059d2632/E7-07_PICTURE.mp4",
+  "sha256": "b46a5e559508975d3057b8f202596db47236380c73401986a8062574afdb7646",
+  "bytes": 1163859,
+  "frames": 135,
+  "fps": "24/1",
+  "width": 1920,
+  "height": 1080,
+  "full_decode": "PASS",
+  "visual_acceptance": "PENDING_CONTACT_AND_TEMPORAL_REVIEW",
+  "voice_acceptance": "NOT_EVALUATED",
+  "final_film": false
+}

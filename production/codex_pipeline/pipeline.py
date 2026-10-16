@@ -22,7 +22,7 @@ import time
 from PIL import Image,ImageDraw,ImageFont
 
 HERE=Path(__file__).resolve().parent
-MODES={'F4-01':'fan','E7-07':'printer','F9-04':'screen'}
+MODES={'F4-01':'fan','E7-07':'printer','F9-04':'screen','E8-01':'drones','END-07':'clock'}
 
 
 def digest(path):
@@ -93,6 +93,11 @@ def render(source,output,shot,mode,frames,width,samples,engine='CYCLES',sample=F
     config={'shot':shot,'mode':mode,'frames':frames,'width':width,'samples':samples,'engine':engine,
             'scene_script':digest(HERE/'blender_scene.py'),'runner':digest(Path(__file__)),
             'timeline':digest(source/'project/full_picture_timeline.json'),'sample':sample}
+    if mode in ['drones','clock']:config['environment_scene']=digest(HERE/'environment_scenes.py')
+    if shot=='F9-04':
+        config['canonical_generator']=digest(HERE/'canonical_screens.py')
+        config['inherited_mark']=digest(source/'project/native_scenes.py')
+    if mode in ['screen','printer']:config['font']=digest(source/'graphics/fonts/NotoSansMonoCJKsc-Regular.otf')
     identity=hashlib.sha256(json.dumps(config,sort_keys=True).encode()).hexdigest()[:12]
     folder=output/shot/identity;folder.mkdir(parents=True,exist_ok=True)
     with (folder/'render.lock').open('w') as lock:
@@ -107,7 +112,7 @@ def render(source,output,shot,mode,frames,width,samples,engine='CYCLES',sample=F
             with Image.open(frame) as im:im.load();assert im.size==(width,round(width/2.39))
             if known and digest(frame)!=known:raise ValueError('Cached frame hash changed: '+str(frame))
         state['status']='RENDERING';atomic_json(state_path,state)
-        args=['blender','-b','-t','4','--python',HERE/'blender_scene.py','--','--mode',mode,'--output',frame_folder,
+        args=['blender','-b','-t','4','--python-exit-code','1','--python',HERE/'blender_scene.py','--','--mode',mode,'--output',frame_folder,
               '--width',width,'--samples',samples,'--frames',frames,'--engine',engine]
         if mode in ['screen','printer']:
             texture=texture_sequence(source,folder/'textures',frames,'printer' if mode=='printer' else 'mirror' if shot=='F9-04' else 'sample')
@@ -149,12 +154,30 @@ def render(source,output,shot,mode,frames,width,samples,engine='CYCLES',sample=F
     return folder
 
 
+def reusable_render(source,output,shot,frames,args):
+    """Reuse completed validated work; code changes alone do not reject a shot.
+
+    Explicit --refresh requests the current code fingerprint. Existing validated
+    variants retain their original provenance instead of silently being recast.
+    """
+    if args.refresh:return None
+    for path in sorted((output/shot).glob('*/state.json')):
+        state=json.loads(path.read_text());cfg=state['config'];pic=state.get('picture',{})
+        expected={'frames':frames,'width':args.width,'samples':args.samples,'engine':args.engine,
+                  'timeline':digest(source/'project/full_picture_timeline.json'),'sample':False}
+        picture=Path(pic.get('path',''))
+        if all(cfg.get(k)==v for k,v in expected.items()) and pic.get('full_decode')=='PASS' and picture.is_file() and digest(picture)==pic.get('sha256'):
+            print('REUSE_VERIFIED_PICTURE',shot,path.parent,flush=True);return path.parent
+    return None
+
+
 def main():
     p=argparse.ArgumentParser();p.add_argument('--source',type=Path,required=True)
     p.add_argument('--output',type=Path,default=HERE/'output')
     commands=p.add_subparsers(dest='command',required=True)
     commands.add_parser('status');commands.add_parser('next')
     auto=commands.add_parser('produce');auto.add_argument('--width',type=int,default=1920);auto.add_argument('--samples',type=int,default=8);auto.add_argument('--engine',default='BLENDER_EEVEE_NEXT',choices=['CYCLES','BLENDER_EEVEE_NEXT'])
+    auto.add_argument('--refresh',action='store_true',help='Render current code instead of reusing a completed picture')
     preview=commands.add_parser('samples');preview.add_argument('--width',type=int,default=640);preview.add_argument('--frames',type=int,default=48);preview.add_argument('--samples',type=int,default=12);preview.add_argument('--engine',default='BLENDER_EEVEE_NEXT',choices=['CYCLES','BLENDER_EEVEE_NEXT'])
     r=commands.add_parser('render');r.add_argument('shot',choices=list(MODES));r.add_argument('--width',type=int,default=1920);r.add_argument('--samples',type=int,default=32);r.add_argument('--engine',default='BLENDER_EEVEE_NEXT',choices=['CYCLES','BLENDER_EEVEE_NEXT'])
     args=p.parse_args();timeline=json.loads((args.source/'project/full_picture_timeline.json').read_text())
@@ -175,7 +198,9 @@ def main():
     elif args.command=='produce':
         for shot,mode in MODES.items():
             row=next(r for r in timeline if r['id']==shot)
-            folder=render(args.source,args.output,shot,mode,row['end_frame']-row['start_frame'],args.width,args.samples,engine=args.engine)
+            frames=row['end_frame']-row['start_frame']
+            folder=reusable_render(args.source,args.output,shot,frames,args)
+            if folder is None:folder=render(args.source,args.output,shot,mode,frames,args.width,args.samples,engine=args.engine)
             run([sys.executable,HERE/'conform_audio.py','--source',args.source,'--shot',shot,
                  '--picture',folder/(shot+'_PICTURE.mp4'),'--output',folder/'conformed',
                  '--e7-mix',HERE.parent/'sol61_r6/sound-v2/E7_SOUND_CONFORM_r6_65S.flac'])

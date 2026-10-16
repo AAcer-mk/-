@@ -14,6 +14,8 @@ def main():
     p=argparse.ArgumentParser();p.add_argument('--source',type=Path,required=True);p.add_argument('--repo',type=Path,required=True)
     args=p.parse_args();repo=args.repo;source=args.source
     timeline=json.loads((source/'project/full_picture_timeline.json').read_text())
+    prior_path=repo/'production/SHOT_AUDIT.json'
+    prior={r['id']:r for r in json.loads(prior_path.read_text())['shots']} if prior_path.exists() else {}
     media=json.loads((repo/'production/codex_pipeline/qa/inherited/media.json').read_text())
     valid={Path(r['path']).resolve():r for r in media if r.get('full_decode')=='PASS'}
     def short(path):
@@ -48,6 +50,10 @@ def main():
                      'inherited_decoded_media':[short(p) for p in sorted(set(inherited))],
                      'candidate_count_is_not_approval':True,'final_creative_acceptance':False,
                      'audio_acceptance':'无法验证最终表演','new_render':None})
+        # Keep reviewed exceptions and production evidence when refreshing the
+        # inherited inventory. Rebuilding an inventory must not erase decisions.
+        for key in ['intentional_stillness','new_render','production_review']:
+            if key in prior.get(sid,{}):rows[-1][key]=prior[sid][key]
     payload={'schema':2,'fps':24,'frames':26280,'status_counts':dict(collections.Counter(x['audit_status'] for x in rows)),
              'final_accepted_shots':0,'scope':'All 152 authored timeline entries, 140 photographic descriptions','shots':rows}
     (repo/'production/SHOT_AUDIT.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2))

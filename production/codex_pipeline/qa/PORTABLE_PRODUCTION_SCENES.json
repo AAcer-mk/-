@@ -1,0 +1,29 @@
+{
+  "method": "Open portable delivery scene; render requested frame without original image paths",
+  "checks": [
+    {
+      "shot": "E7-07",
+      "frame": 67,
+      "shape": [
+        803,
+        1920,
+        3
+      ],
+      "portable_scene_pixel_exact": true,
+      "RGB_MAE": 0.0,
+      "max_difference": 0.0
+    },
+    {
+      "shot": "F9-04",
+      "frame": 48,
+      "shape": [
+        803,
+        1920,
+        3
+      ],
+      "portable_scene_pixel_exact": true,
+      "RGB_MAE": 0.0,
+      "max_difference": 0.0
+    }
+  ]
+}
