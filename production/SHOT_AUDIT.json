@@ -3,9 +3,9 @@
   "fps": 24,
   "frames": 26280,
   "status_counts": {
-    "部分完成": 119,
+    "部分完成": 120,
     "部分完成/连续表演缺失": 5,
-    "完全缺失画面资产": 28
+    "完全缺失画面资产": 27
   },
   "final_accepted_shots": 0,
   "scope": "All 152 authored timeline entries, 140 photographic descriptions",
@@ -3071,6 +3071,13 @@
         "original_audio_PCM_exact": true,
         "all_delivered_file_hashes": "PASS",
         "director_final_acceptance": false
+      },
+      "production_review": {
+        "motion_type": "原生三维动画",
+        "visual_contact_review": "PASS_AS_PRODUCTION_WORK_RENDER",
+        "observation": "远景导航灯构成移动光带；源场景含2,200架实体和独立三维轨迹，无图像平面。",
+        "final_creative_acceptance": false,
+        "voice_acceptance": "INHERITED_WORK_MIX_NOT_FINAL"
       }
     },
     {
@@ -3733,15 +3740,33 @@
       "section": "END",
       "start": 1003.1666666666666,
       "end": 1008.5416666666666,
-      "audit_status": "完全缺失画面资产",
+      "audit_status": "部分完成",
       "motion_type": "静态图片与整体摄影运动",
-      "reason": "恢复范围内没有对应候选或已验证工作片",
+      "reason": "新增工作渲染已登记；完整性由refresh_progress逐文件复查，创作终验待完成",
       "candidate_paths": [],
       "inherited_decoded_media": [],
       "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
-      "new_render": null
+      "new_render": {
+        "shot": "END-07",
+        "frames": 129,
+        "manifest": "production/codex_pipeline/deliverables/END-07/DELIVERY.json",
+        "full_decode": "PASS",
+        "actual_browser_playback": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+        "decoded_frames": 129,
+        "dropped_frames": 0,
+        "original_audio_PCM_exact": true,
+        "all_delivered_file_hashes": "PASS",
+        "director_final_acceptance": false
+      },
+      "production_review": {
+        "motion_type": "原生三维动画",
+        "visual_contact_review": "PASS_AS_PRODUCTION_WORK_RENDER",
+        "observation": "实体七段数码管持续显示04:47；红色应急灯、空间摄影机与原声音窗保持，不解释时间冲突。",
+        "final_creative_acceptance": false,
+        "voice_acceptance": "INHERITED_WORK_MIX_NOT_FINAL"
+      }
     },
     {
       "id": "END-08",

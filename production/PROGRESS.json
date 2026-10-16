@@ -22,10 +22,11 @@
   "animation_pipeline": "PHYSICAL_SCENE_COMPARISONS_VERIFIED",
   "new_accepted_final_shots": [],
   "next_tasks": [
-    "Review E8-01 drone-river and END-07 clock first frames, then render authored durations",
-    "Export and verify portable source scenes",
-    "Develop identity-consistent characters and continuous motion",
-    "Review voice casting, expression and synchronization before replacing inherited mix"
+    "Finish identity-consistent character surfaces, costume, hair and animation retargeting from the development rig",
+    "Complete E6 throw/replay and E7 walk/paper contact actions",
+    "Create the remaining 27 shot-specific picture assets",
+    "Evaluate voice casting and acting; prepare clean dialogue and final mix",
+    "Assemble and verify the full 26280-frame film without static-image substitutions"
   ],
   "remaining_actor_requirements": [
     "Identity-consistent rigged characters",
@@ -34,7 +35,7 @@
     "Facial performance and phoneme synchronization"
   ],
   "automatic_cross_session_execution": false,
-  "production_queue": "RENDERING",
+  "production_queue": "IMPLEMENTED_TASKS_COMPLETE_REMAINING_FILM_UNFINISHED",
   "inherited_QA": {
     "images_checked": 562,
     "images_pass": 558,
@@ -52,7 +53,8 @@
     "portable_scene_frame_12_pixel_exact": true,
     "pinned_environment_pip_check": "PASS",
     "END_03_zero_sample_frames": 288000,
-    "cache_resume_and_PNG_tamper_guard": "PASS"
+    "cache_resume_and_PNG_tamper_guard": "PASS",
+    "complete_continuation_entry": "PASS_WITH_ALL_5_3D_PICTURES_REUSED"
   },
   "queue_implemented": [
     "F4-01",
@@ -61,17 +63,10 @@
     "E8-01",
     "END-07"
   ],
-  "active_render": {
-    "shot": "END-07",
-    "state": "production/codex_pipeline/output/END-07/9e2a702675f5/state.json",
-    "frames_required": 129,
-    "verified_frame_cache_count": 116,
-    "not_final_output": true,
-    "status": "RENDERING_LOCK_HELD"
-  },
-  "updated_utc": "2026-10-16T03:33:05.761053+00:00",
-  "new_native_3D_render_frames": 604,
-  "new_native_3D_render_seconds": 25.166666666666668,
+  "active_render": null,
+  "updated_utc": "2026-10-16T03:36:25.168195+00:00",
+  "new_native_3D_render_frames": 733,
+  "new_native_3D_render_seconds": 30.541666666666668,
   "completed_production_renders": [
     {
       "shot": "F4-01",
@@ -116,6 +111,18 @@
       "full_decode": "PASS",
       "actual_browser_playback": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
       "decoded_frames": 181,
+      "dropped_frames": 0,
+      "original_audio_PCM_exact": true,
+      "all_delivered_file_hashes": "PASS",
+      "director_final_acceptance": false
+    },
+    {
+      "shot": "END-07",
+      "frames": 129,
+      "manifest": "production/codex_pipeline/deliverables/END-07/DELIVERY.json",
+      "full_decode": "PASS",
+      "actual_browser_playback": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+      "decoded_frames": 129,
       "dropped_frames": 0,
       "original_audio_PCM_exact": true,
       "all_delivered_file_hashes": "PASS",
@@ -171,5 +178,11 @@
       "Needs established character identity, costume, hair and skin finish",
       "Prop interaction, whole-body motion and facial acting remain unfinished"
     ]
+  },
+  "asset_graph": {
+    "assets": 992,
+    "timeline_jobs": 152,
+    "new_shot_deliveries": 7,
+    "development_rig_is_film_shot": false
   }
 }

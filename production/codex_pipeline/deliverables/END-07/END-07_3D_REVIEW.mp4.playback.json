@@ -1,0 +1,14 @@
+{
+  "file": "/workspace/-/production/codex_pipeline/output/END-07/9e2a702675f5/conformed/END-07_3D_REVIEW.mp4",
+  "width": 1920,
+  "height": 1080,
+  "duration": 5.375,
+  "ended": true,
+  "time": 5.375,
+  "error": null,
+  "decodedFrames": 129,
+  "droppedFrames": 0,
+  "callbacks": 129,
+  "status": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+  "creative_acceptance": false
+}

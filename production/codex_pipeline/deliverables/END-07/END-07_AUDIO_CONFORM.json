@@ -1,0 +1,31 @@
+{
+  "shot": "END-07",
+  "timeline_frames": [
+    24076,
+    24205
+  ],
+  "audio_source": "/workspace/silent-protocol-source/output/SILENT_PROTOCOL_MIX_SCENE_REVIEW_B10_v1_18M15S.flac",
+  "source_local_sample_range": [
+    48152000,
+    48410000
+  ],
+  "lossless_sample_frames": 258000,
+  "lossless_PCM_sha256": "10b399e11ce3cebad80a24c8b8a4b42703139a5b88ba1a6c2b6c2cde61007609",
+  "lossless_PCM_exact": true,
+  "fps": "24/1",
+  "full_decode": "PASS",
+  "AAC_is_lossless": false,
+  "voice_performance_acceptance": "INHERITED_WORK_MIX_NOT_FINAL",
+  "outputs": [
+    {
+      "path": "END-07_3D_MASTER.mkv",
+      "sha256": "7101d0da39a87e1283ec5c2483befba6a11ca2f36a3adc909828dc3a8a819eb9",
+      "bytes": 852330
+    },
+    {
+      "path": "END-07_3D_REVIEW.mp4",
+      "sha256": "f66454ec7520a6a6aee5d45dc51f2ccb3759bf20e8098dd82d4d53649566e659",
+      "bytes": 848950
+    }
+  ]
+}

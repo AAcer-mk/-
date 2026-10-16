@@ -4651,23 +4651,25 @@
       "frame_count": 129,
       "fps": 24,
       "inputs": [],
-      "outputs": [],
-      "content_method": "静态图片与整体摄影运动",
+      "outputs": [
+        "production/codex_pipeline/deliverables/END-07/END-07_3D_MASTER.mkv",
+        "production/codex_pipeline/deliverables/END-07/END-07_3D_REVIEW.mp4",
+        "production/codex_pipeline/deliverables/END-07/END-07_PICTURE.mp4",
+        "production/codex_pipeline/deliverables/END-07/scene.blend"
+      ],
+      "content_method": "NATIVE_3D_ANIMATION",
       "stages": {
-        "assets": "MISSING_SHOT_ASSETS",
-        "scene_animation": "UNVERIFIED_OR_REWORK_REQUIRED",
-        "picture": "MISSING_VERIFIED_RENDER",
-        "audio": "INHERITED_MIX_NOT_FINAL",
-        "playback": "SEE_INHERITED_MEDIA_QA",
+        "assets": "HASH_VERIFIED",
+        "scene_animation": "RENDERED",
+        "picture": "FULL_DECODE_PASS",
+        "audio": "EXACT_INHERITED_PCM_CONFORM",
+        "playback": "ACTUAL_CHROMIUM_PASS",
         "performance_context_final_QC": "PENDING"
       },
-      "production_status": "完全缺失画面资产",
+      "production_status": "部分完成",
       "intentional_stillness": null,
-      "new_delivery": null,
-      "blockers": [
-        "Create the authored scene and movable assets",
-        "Render and inspect the original frame range"
-      ],
+      "new_delivery": "production/codex_pipeline/deliverables/END-07/DELIVERY.json",
+      "blockers": [],
       "final_film_accepted": false
     },
     {

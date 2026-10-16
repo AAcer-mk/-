@@ -1,0 +1,34 @@
+[
+  {
+    "path": "production/codex_pipeline/deliverables/END-07/END-07_3D_REVIEW.mp4.playback.png",
+    "decode": "PASS",
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/END-07/keyframes/000064.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      803
+    ]
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/END-07/keyframes/000001.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      803
+    ]
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/END-07/keyframes/000129.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      803
+    ]
+  }
+]

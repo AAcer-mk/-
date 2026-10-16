@@ -1,0 +1,18 @@
+{
+  "entry": "continue_production.py",
+  "exit_code": 0,
+  "existing_3D_pictures_reused": 5,
+  "reuse_records": [
+    "REUSE_VERIFIED_PICTURE F4-01 /workspace/-/production/codex_pipeline/output/F4-01/418008816882",
+    "REUSE_VERIFIED_PICTURE E7-07 /workspace/-/production/codex_pipeline/output/E7-07/a74b059d2632",
+    "REUSE_VERIFIED_PICTURE F9-04 /workspace/-/production/codex_pipeline/output/F9-04/ceafa647b199",
+    "REUSE_VERIFIED_PICTURE E8-01 /workspace/-/production/codex_pipeline/output/E8-01/e44b4c100fe0",
+    "REUSE_VERIFIED_PICTURE END-07 /workspace/-/production/codex_pipeline/output/END-07/9e2a702675f5"
+  ],
+  "new_frame_render_jobs_started": 0,
+  "native_card_deliveries_reused": 2,
+  "all_delivery_file_hash_checks": "PASS",
+  "full_decode_audio_conform_and_actual_playback_repeated": true,
+  "implemented_queue_completed": true,
+  "final_film_completed": false
+}

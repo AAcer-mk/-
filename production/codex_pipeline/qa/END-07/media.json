@@ -1,0 +1,592 @@
+[
+  {
+    "path": "production/codex_pipeline/deliverables/END-07/END-07_3D_MASTER.mkv",
+    "probe": "PASS",
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/1000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "bits_per_raw_sample": "8",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "HANDLER_NAME": "VideoHandler",
+          "VENDOR_ID": "[0][0][0][0]",
+          "ENCODER": "Lavc61.19.101 libx264",
+          "DURATION": "00:00:05.375000000"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "flac",
+        "codec_long_name": "FLAC (Free Lossless Audio Codec)",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "sample_fmt": "s32",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/1000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "bits_per_raw_sample": "24",
+        "extradata_size": 34,
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "DURATION": "00:00:05.375000000"
+        }
+      }
+    ],
+    "format": {
+      "filename": "production/codex_pipeline/deliverables/END-07/END-07_3D_MASTER.mkv",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "matroska,webm",
+      "format_long_name": "Matroska / WebM",
+      "start_time": "0.000000",
+      "duration": "5.375000",
+      "size": "852330",
+      "bit_rate": "1268584",
+      "probe_score": 100,
+      "tags": {
+        "COMPATIBLE_BRANDS": "isomiso2avc1mp41",
+        "MAJOR_BRAND": "isom",
+        "MINOR_VERSION": "512",
+        "ENCODER": "Lavf61.7.103"
+      }
+    },
+    "bytes": 852330,
+    "sha256": "7101d0da39a87e1283ec5c2483befba6a11ca2f36a3adc909828dc3a8a819eb9",
+    "full_decode": "PASS",
+    "motion": {
+      "status": "MEASURED_NOT_CREATIVE_ACCEPTANCE",
+      "sampled_frames": 11,
+      "pairs": 10,
+      "raw_MAE_mean": 0.4246615186615187,
+      "residual_motion_fraction_mean": 0.043072236217704604,
+      "global_affine_explained_fraction_mean": 1.0,
+      "pairs_detail": [
+        {
+          "raw_MAE": 0.4215057915057915,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.00831247866153717,
+          "residual_over_0_7_px_fraction": 0.041727693479407114
+        },
+        {
+          "raw_MAE": 0.42763191763191766,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.008231258019804955,
+          "residual_over_0_7_px_fraction": 0.039735778311558966
+        },
+        {
+          "raw_MAE": 0.42997425997426,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.007829487323760986,
+          "residual_over_0_7_px_fraction": 0.03847618489659617
+        },
+        {
+          "raw_MAE": 0.425997425997426,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.008365532383322716,
+          "residual_over_0_7_px_fraction": 0.04033628214892495
+        },
+        {
+          "raw_MAE": 0.43018018018018017,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.008231904357671738,
+          "residual_over_0_7_px_fraction": 0.04490596988692952
+        },
+        {
+          "raw_MAE": 0.4199356499356499,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.008279926143586636,
+          "residual_over_0_7_px_fraction": 0.045901927470853594
+        },
+        {
+          "raw_MAE": 0.43115830115830117,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.008333802223205566,
+          "residual_over_0_7_px_fraction": 0.04405647665358252
+        },
+        {
+          "raw_MAE": 0.42405405405405405,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.009347576647996902,
+          "residual_over_0_7_px_fraction": 0.04298728689436991
+        },
+        {
+          "raw_MAE": 0.4233075933075933,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.00949135236442089,
+          "residual_over_0_7_px_fraction": 0.0526539340324565
+        },
+        {
+          "raw_MAE": 0.41287001287001285,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.008203044533729553,
+          "residual_over_0_7_px_fraction": 0.03994082840236687
+        }
+      ],
+      "warning": "Low residual suggests static/whole-image motion; high residual can be UI, noise, cuts or morphs. Inspect actual frames."
+    },
+    "contact_sheet": "7101d0da39a87e12.jpg"
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/END-07/END-07_3D_REVIEW.mp4",
+    "probe": "PASS",
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/24000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 129000,
+        "duration": "5.375000",
+        "bit_rate": "1243941",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "129",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc61.19.101 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 258000,
+        "duration": "5.375000",
+        "bit_rate": "11855",
+        "nb_frames": "253",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "production/codex_pipeline/deliverables/END-07/END-07_3D_REVIEW.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "5.375000",
+      "size": "848950",
+      "bit_rate": "1263553",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf61.7.103"
+      }
+    },
+    "bytes": 848950,
+    "sha256": "f66454ec7520a6a6aee5d45dc51f2ccb3759bf20e8098dd82d4d53649566e659",
+    "full_decode": "PASS",
+    "motion": {
+      "status": "MEASURED_NOT_CREATIVE_ACCEPTANCE",
+      "sampled_frames": 11,
+      "pairs": 10,
+      "raw_MAE_mean": 0.4246615186615187,
+      "residual_motion_fraction_mean": 0.043072236217704604,
+      "global_affine_explained_fraction_mean": 1.0,
+      "pairs_detail": [
+        {
+          "raw_MAE": 0.4215057915057915,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.00831247866153717,
+          "residual_over_0_7_px_fraction": 0.041727693479407114
+        },
+        {
+          "raw_MAE": 0.42763191763191766,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.008231258019804955,
+          "residual_over_0_7_px_fraction": 0.039735778311558966
+        },
+        {
+          "raw_MAE": 0.42997425997426,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.007829487323760986,
+          "residual_over_0_7_px_fraction": 0.03847618489659617
+        },
+        {
+          "raw_MAE": 0.425997425997426,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.008365532383322716,
+          "residual_over_0_7_px_fraction": 0.04033628214892495
+        },
+        {
+          "raw_MAE": 0.43018018018018017,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.008231904357671738,
+          "residual_over_0_7_px_fraction": 0.04490596988692952
+        },
+        {
+          "raw_MAE": 0.4199356499356499,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.008279926143586636,
+          "residual_over_0_7_px_fraction": 0.045901927470853594
+        },
+        {
+          "raw_MAE": 0.43115830115830117,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.008333802223205566,
+          "residual_over_0_7_px_fraction": 0.04405647665358252
+        },
+        {
+          "raw_MAE": 0.42405405405405405,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.009347576647996902,
+          "residual_over_0_7_px_fraction": 0.04298728689436991
+        },
+        {
+          "raw_MAE": 0.4233075933075933,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.00949135236442089,
+          "residual_over_0_7_px_fraction": 0.0526539340324565
+        },
+        {
+          "raw_MAE": 0.41287001287001285,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.008203044533729553,
+          "residual_over_0_7_px_fraction": 0.03994082840236687
+        }
+      ],
+      "warning": "Low residual suggests static/whole-image motion; high residual can be UI, noise, cuts or morphs. Inspect actual frames."
+    },
+    "contact_sheet": "f66454ec7520a6a6.jpg"
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/END-07/END-07_PICTURE.mp4",
+    "probe": "PASS",
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/24000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 129000,
+        "duration": "5.375000",
+        "bit_rate": "1243941",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "129",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc61.19.101 libx264"
+        }
+      }
+    ],
+    "format": {
+      "filename": "production/codex_pipeline/deliverables/END-07/END-07_PICTURE.mp4",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "5.375000",
+      "size": "838200",
+      "bit_rate": "1247553",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf61.7.103"
+      }
+    },
+    "bytes": 838200,
+    "sha256": "3a7ab246533834a724fb6b8cbfdecc56c411a4a4f59cc8c387d3e093dbdd0a4f",
+    "full_decode": "PASS",
+    "motion": {
+      "status": "MEASURED_NOT_CREATIVE_ACCEPTANCE",
+      "sampled_frames": 11,
+      "pairs": 10,
+      "raw_MAE_mean": 0.4246615186615187,
+      "residual_motion_fraction_mean": 0.043072236217704604,
+      "global_affine_explained_fraction_mean": 1.0,
+      "pairs_detail": [
+        {
+          "raw_MAE": 0.4215057915057915,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.00831247866153717,
+          "residual_over_0_7_px_fraction": 0.041727693479407114
+        },
+        {
+          "raw_MAE": 0.42763191763191766,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.008231258019804955,
+          "residual_over_0_7_px_fraction": 0.039735778311558966
+        },
+        {
+          "raw_MAE": 0.42997425997426,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.007829487323760986,
+          "residual_over_0_7_px_fraction": 0.03847618489659617
+        },
+        {
+          "raw_MAE": 0.425997425997426,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.008365532383322716,
+          "residual_over_0_7_px_fraction": 0.04033628214892495
+        },
+        {
+          "raw_MAE": 0.43018018018018017,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.008231904357671738,
+          "residual_over_0_7_px_fraction": 0.04490596988692952
+        },
+        {
+          "raw_MAE": 0.4199356499356499,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.008279926143586636,
+          "residual_over_0_7_px_fraction": 0.045901927470853594
+        },
+        {
+          "raw_MAE": 0.43115830115830117,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.008333802223205566,
+          "residual_over_0_7_px_fraction": 0.04405647665358252
+        },
+        {
+          "raw_MAE": 0.42405405405405405,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.009347576647996902,
+          "residual_over_0_7_px_fraction": 0.04298728689436991
+        },
+        {
+          "raw_MAE": 0.4233075933075933,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.00949135236442089,
+          "residual_over_0_7_px_fraction": 0.0526539340324565
+        },
+        {
+          "raw_MAE": 0.41287001287001285,
+          "affine_inlier_fraction": 1.0,
+          "residual_median_px": 0.008203044533729553,
+          "residual_over_0_7_px_fraction": 0.03994082840236687
+        }
+      ],
+      "warning": "Low residual suggests static/whole-image motion; high residual can be UI, noise, cuts or morphs. Inspect actual frames."
+    },
+    "contact_sheet": "3a7ab246533834a7.jpg"
+  }
+]

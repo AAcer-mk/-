@@ -9881,6 +9881,46 @@
       "readability": "PASS",
       "excluded": false,
       "file_presence_is_not_creative_approval": true
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/END-07/END-07_3D_MASTER.mkv",
+      "kind": "VIDEO_NOT_AUTOMATICALLY_ANIMATION",
+      "exists": true,
+      "bytes": 852330,
+      "sha256": "7101d0da39a87e1283ec5c2483befba6a11ca2f36a3adc909828dc3a8a819eb9",
+      "readability": "PASS",
+      "excluded": false,
+      "file_presence_is_not_creative_approval": true
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/END-07/END-07_3D_REVIEW.mp4",
+      "kind": "VIDEO_NOT_AUTOMATICALLY_ANIMATION",
+      "exists": true,
+      "bytes": 848950,
+      "sha256": "f66454ec7520a6a6aee5d45dc51f2ccb3759bf20e8098dd82d4d53649566e659",
+      "readability": "PASS",
+      "excluded": false,
+      "file_presence_is_not_creative_approval": true
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/END-07/END-07_PICTURE.mp4",
+      "kind": "VIDEO_NOT_AUTOMATICALLY_ANIMATION",
+      "exists": true,
+      "bytes": 838200,
+      "sha256": "3a7ab246533834a724fb6b8cbfdecc56c411a4a4f59cc8c387d3e093dbdd0a4f",
+      "readability": "PASS",
+      "excluded": false,
+      "file_presence_is_not_creative_approval": true
+    },
+    {
+      "path": "production/codex_pipeline/deliverables/END-07/scene.blend",
+      "kind": "NATIVE_3D_SCENE",
+      "exists": true,
+      "bytes": 811812,
+      "sha256": "aa1b93e4c6db480dcff669f4bf4ceab2ecf773232758698d638318d844f14270",
+      "readability": "NOT_MEDIA_OR_UNVERIFIED",
+      "excluded": false,
+      "file_presence_is_not_creative_approval": true
     }
   ],
   "development_assets": [
@@ -9895,12 +9935,12 @@
     "SOURCE_DATA": 406,
     "STATIC_IMAGE": 462,
     "AUDIO": 29,
-    "VIDEO_NOT_AUTOMATICALLY_ANIMATION": 73,
+    "VIDEO_NOT_AUTOMATICALLY_ANIMATION": 76,
     "VECTOR_GRAPHIC": 9,
     "BASE_MESH": 1,
     "SKELETAL_MOTION": 1,
     "SKELETON": 1,
     "SKIN_WEIGHTS": 1,
-    "NATIVE_3D_SCENE": 5
+    "NATIVE_3D_SCENE": 6
   }
 }

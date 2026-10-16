@@ -14,9 +14,10 @@ def git(store,*args,input=None):
 def main():
     p=argparse.ArgumentParser();p.add_argument('--repo',type=Path,required=True)
     p.add_argument('--store',type=Path,required=True);p.add_argument('--commit',required=True)
-    p.add_argument('--prefix',default='production/codex_pipeline/deliverables')
+    p.add_argument('--prefix',action='append',help='Repeat to read multiple tracked paths')
     p.add_argument('--output',type=Path,required=True);args=p.parse_args()
     args.commit=git(args.repo,'rev-parse','--verify',args.commit+'^{commit}').decode().strip()
+    prefixes=args.prefix or ['production/codex_pipeline/deliverables']
     if not (args.store/'HEAD').exists():
         args.store.mkdir(parents=True,exist_ok=True)
         subprocess.run(['git','init','--bare','-q',str(args.store)],check=True)
@@ -26,7 +27,7 @@ def main():
     git(args.store,'fetch','--quiet','--depth=1','--filter=blob:none','--no-tags','origin',args.commit)
     assert git(args.store,'rev-parse','FETCH_HEAD').decode().strip()==args.commit
     files=[]
-    for line in git(args.store,'ls-tree','-r',args.commit,'--',args.prefix).decode().splitlines():
+    for line in git(args.store,'ls-tree','-r',args.commit,'--',*prefixes).decode().splitlines():
         meta,name=line.split('\t',1);oid=meta.split()[2];files.append((oid,name))
     if not files:raise ValueError('No remotely committed files for prefix')
     # Fetch reachable blobs as a single batch, rather than thousands of requests.
@@ -46,6 +47,7 @@ def main():
     finally:
         cat.stdin.close();cat.wait()
     report={'commit':args.commit,'verified_remote_files':len(rows),'verified_bytes':sum(r['bytes'] for r in rows),
+            'verified_paths':prefixes,
             'fresh_bare_store':str(args.store),'readback':'NATIVE_GIT_NEW_OBJECT_STORE',
             'all_bytes_match_local':True,'files':rows}
     args.output.parent.mkdir(parents=True,exist_ok=True);args.output.write_text(json.dumps(report,indent=2))
