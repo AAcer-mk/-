@@ -54,6 +54,9 @@ def main():
         # inherited inventory. Rebuilding an inventory must not erase decisions.
         for key in ['intentional_stillness','new_render','production_review']:
             if key in prior.get(sid,{}):rows[-1][key]=prior[sid][key]
+        if rows[-1].get('new_render') and status in ['完全缺失画面资产','仅有配置，未渲染']:
+            rows[-1]['audit_status']='部分完成'
+            rows[-1]['reason']='新增工作渲染已登记；完整性由refresh_progress逐文件复查，创作终验待完成'
     payload={'schema':2,'fps':24,'frames':26280,'status_counts':dict(collections.Counter(x['audit_status'] for x in rows)),
              'final_accepted_shots':0,'scope':'All 152 authored timeline entries, 140 photographic descriptions','shots':rows}
     (repo/'production/SHOT_AUDIT.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2))

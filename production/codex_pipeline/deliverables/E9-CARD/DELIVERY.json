@@ -1,0 +1,74 @@
+{
+  "shot": "E9-CARD",
+  "type": "AUTHORED_NATIVE_GRAPHICS",
+  "configuration": {
+    "shot": "E9-CARD",
+    "mode": "native_card",
+    "frames": 96,
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "original_card_source_sha256": "3fe0496b26399db9e8a34e5a824a881a01a77f97467996a0657093a050b66b1d",
+    "original_marks_source_sha256": "146630b0a4b128cb87e57b72e06ce4800480a9d84e4fe7505be3db1169db3c41",
+    "font_sha256": "ec04cc376b34887cedbdf84074e2e226ed2761eeabdcb9173fc1dd7bfd153ef7",
+    "timeline_sha256": "97e3005fac111a52001d73df6349a187e3422fe4df10a6ee4e30edf6840ad799",
+    "runner_sha256": "5d445b58d8a86d5c025822ba6b3cc1af5861829063a347c38e62abcce49a4386",
+    "sample": false
+  },
+  "motion_type": "PROGRAMMATIC_2D_TYPEWRITING",
+  "source_method": "Unmodified recovered film_compositor.card",
+  "all_files": [
+    {
+      "path": "E9-CARD_2D_MASTER.mkv",
+      "bytes": 104077,
+      "sha256": "e8d60d1357aa63d30f38e965ee3e24eb4f251d8e218ba3c0bdb9e8ac8325803e"
+    },
+    {
+      "path": "E9-CARD_2D_REVIEW.mp4",
+      "bytes": 54260,
+      "sha256": "3786140c7ecb359b84dfd84a3472729bd1cd312521720cb2b2a3ff9cb0d280c3"
+    },
+    {
+      "path": "E9-CARD_2D_REVIEW.mp4.playback.json",
+      "bytes": 354,
+      "sha256": "4dcbc3dc228b27ccc3eb5fec906cb4e04a8b0396a37f3f7c037a8c12adbc8d6f"
+    },
+    {
+      "path": "E9-CARD_2D_REVIEW.mp4.playback.png",
+      "bytes": 9153,
+      "sha256": "585d494c79dcba6c574ea72b947a6b0f835523fb5cc98f116571d1a2b49d9fd5"
+    },
+    {
+      "path": "E9-CARD_AUDIO_CONFORM.json",
+      "bytes": 880,
+      "sha256": "99becc4f4f3908c84895b5e09c106ca5292a121fa093e00915ee76718f761608"
+    },
+    {
+      "path": "E9-CARD_PICTURE.mp4",
+      "bytes": 21890,
+      "sha256": "ae89c2efde3d9a9e1f4a92db6f1362842b7ad88676b55585b24ab5ead6113990"
+    },
+    {
+      "path": "keyframes/000001.png",
+      "bytes": 7079,
+      "sha256": "7e87a43622b20979f028a9e3c13daa992efc605b21e133e2ff3d97fcecceb96f"
+    },
+    {
+      "path": "keyframes/000048.png",
+      "bytes": 12553,
+      "sha256": "a18452c4aab259f746a9017941002a491d75ee1d99ef76577c80265b6752d710"
+    },
+    {
+      "path": "keyframes/000096.png",
+      "bytes": 14967,
+      "sha256": "a788d3c43fd2e7adda0b6ddc1e76bc9dc94aac701ce2fb6eaa2b59c6be4a77f9"
+    },
+    {
+      "path": "state.json",
+      "bytes": 8920,
+      "sha256": "e0e1b8d4c16210b5e60843af27227695038a097c928994830253ff3eecf61862"
+    }
+  ],
+  "final_film": false,
+  "director_final_acceptance": false
+}

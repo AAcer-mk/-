@@ -1,0 +1,18 @@
+[
+  {
+    "shot": "E8-CARD",
+    "decoded_frame_count": 96,
+    "distinct_decoded_frame_hashes": 78,
+    "movement": "Authored typewriter text in lower frame; stationary inherited symbol",
+    "center_optical_flow_excludes_text_area": true,
+    "visual_last_frame_layout_review": "PASS"
+  },
+  {
+    "shot": "E9-CARD",
+    "decoded_frame_count": 96,
+    "distinct_decoded_frame_hashes": 74,
+    "movement": "Authored typewriter text in lower frame; stationary inherited symbol",
+    "center_optical_flow_excludes_text_area": true,
+    "visual_last_frame_layout_review": "PASS"
+  }
+]

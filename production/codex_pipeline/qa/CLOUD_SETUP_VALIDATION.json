@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-10-16T03:06:26.817998+00:00",
+  "command": "bash production/codex_pipeline/cloud_setup.sh",
+  "execution_exit_code": 0,
+  "scope": "CURRENT_INSTALLED_WORKSPACE",
+  "fresh_task_restore_verified": false,
+  "render_environment_pip_check": "PASS",
+  "voice_environment_pip_check": "PASS",
+  "cached_voice_model_size_and_SHA256": "PASS",
+  "recovery_guard_tests_passed": 6,
+  "existing_source_reused": true,
+  "blender_ffmpeg_node_chromium": "AVAILABLE",
+  "setup_launches_render": false
+}

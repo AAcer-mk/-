@@ -1,0 +1,66 @@
+[
+  {
+    "path": "production/codex_pipeline/deliverables/E8-CARD/E8-CARD_2D_REVIEW.mp4.playback.png",
+    "decode": "PASS",
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/E8-CARD/keyframes/000096.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/E8-CARD/keyframes/000048.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/E8-CARD/keyframes/000001.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/E9-CARD/E9-CARD_2D_REVIEW.mp4.playback.png",
+    "decode": "PASS",
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/E9-CARD/keyframes/000096.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/E9-CARD/keyframes/000048.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "path": "production/codex_pipeline/deliverables/E9-CARD/keyframes/000001.png",
+    "decode": "PASS",
+    "size": [
+      1920,
+      1080
+    ]
+  }
+]

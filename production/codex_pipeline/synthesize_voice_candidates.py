@@ -18,9 +18,7 @@ import soundfile as sf
 from kokoro_onnx import Kokoro
 from misaki import zh
 
-EXPECTED={
-    'kokoro-v1.0.onnx':(325505369,'beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a'),
-    'voices-v1.0.bin':(28214398,'bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d')}
+from voice_models import EXPECTED
 
 
 def digest(path):

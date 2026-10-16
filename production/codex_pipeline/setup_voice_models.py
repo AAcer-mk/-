@@ -4,7 +4,7 @@ import argparse
 import hashlib
 from pathlib import Path
 import urllib.request
-from synthesize_voice_candidates import EXPECTED
+from voice_models import EXPECTED
 
 
 def main():

@@ -1,0 +1,14 @@
+{
+  "file": "/workspace/-/production/codex_pipeline/output/E8-CARD/064a6c43e514/conformed/E8-CARD_2D_REVIEW.mp4",
+  "width": 1920,
+  "height": 1080,
+  "duration": 4,
+  "ended": true,
+  "time": 4,
+  "error": null,
+  "decodedFrames": 96,
+  "droppedFrames": 0,
+  "callbacks": 95,
+  "status": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+  "creative_acceptance": false
+}

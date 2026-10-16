@@ -1,0 +1,31 @@
+{
+  "shot": "E9-CARD",
+  "timeline_frames": [
+    21600,
+    21696
+  ],
+  "audio_source": "/workspace/silent-protocol-source/output/SILENT_PROTOCOL_MIX_SCENE_REVIEW_B10_v1_18M15S.flac",
+  "source_local_sample_range": [
+    43200000,
+    43392000
+  ],
+  "lossless_sample_frames": 192000,
+  "lossless_PCM_sha256": "77af172ba9219e884641f0b00b8dac8100f3c8f860a59abe7aac7d344c3f7fbe",
+  "lossless_PCM_exact": true,
+  "fps": "24/1",
+  "full_decode": "PASS",
+  "AAC_is_lossless": false,
+  "voice_performance_acceptance": "INHERITED_WORK_MIX_NOT_FINAL",
+  "outputs": [
+    {
+      "path": "E9-CARD_2D_MASTER.mkv",
+      "sha256": "e8d60d1357aa63d30f38e965ee3e24eb4f251d8e218ba3c0bdb9e8ac8325803e",
+      "bytes": 104077
+    },
+    {
+      "path": "E9-CARD_2D_REVIEW.mp4",
+      "sha256": "3786140c7ecb359b84dfd84a3472729bd1cd312521720cb2b2a3ff9cb0d280c3",
+      "bytes": 54260
+    }
+  ]
+}

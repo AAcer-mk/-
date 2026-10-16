@@ -3,10 +3,9 @@
   "fps": 24,
   "frames": 26280,
   "status_counts": {
-    "部分完成": 116,
+    "部分完成": 118,
     "部分完成/连续表演缺失": 5,
-    "完全缺失画面资产": 29,
-    "仅有配置，未渲染": 2
+    "完全缺失画面资产": 29
   },
   "final_accepted_shots": 0,
   "scope": "All 152 authored timeline entries, 140 photographic descriptions",
@@ -1485,6 +1484,7 @@
         "decoded_frames": 192,
         "dropped_frames": 0,
         "original_audio_PCM_exact": true,
+        "all_delivered_file_hashes": "PASS",
         "director_final_acceptance": false
       },
       "production_review": {
@@ -2860,6 +2860,7 @@
         "decoded_frames": 135,
         "dropped_frames": 0,
         "original_audio_PCM_exact": true,
+        "all_delivered_file_hashes": "PASS",
         "director_final_acceptance": false
       },
       "production_review": {
@@ -3020,15 +3021,26 @@
       ],
       "start": 800.0,
       "end": 804.0,
-      "audit_status": "仅有配置，未渲染",
+      "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "原生图形实现存在，未找到对应已验证输出",
+      "reason": "新增工作渲染已登记；完整性由refresh_progress逐文件复查，创作终验待完成",
       "candidate_paths": [],
       "inherited_decoded_media": [],
       "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
-      "new_render": null
+      "new_render": {
+        "shot": "E8-CARD",
+        "frames": 96,
+        "manifest": "production/codex_pipeline/deliverables/E8-CARD/DELIVERY.json",
+        "full_decode": "PASS",
+        "actual_browser_playback": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+        "decoded_frames": 96,
+        "dropped_frames": 0,
+        "original_audio_PCM_exact": true,
+        "all_delivered_file_hashes": "PASS",
+        "director_final_acceptance": false
+      }
     },
     {
       "id": "E8-01",
@@ -3333,6 +3345,7 @@
         "decoded_frames": 96,
         "dropped_frames": 0,
         "original_audio_PCM_exact": true,
+        "all_delivered_file_hashes": "PASS",
         "director_final_acceptance": false
       },
       "production_review": {
@@ -3357,15 +3370,26 @@
       ],
       "start": 900.0,
       "end": 904.0,
-      "audit_status": "仅有配置，未渲染",
+      "audit_status": "部分完成",
       "motion_type": "程序化二维动画",
-      "reason": "原生图形实现存在，未找到对应已验证输出",
+      "reason": "新增工作渲染已登记；完整性由refresh_progress逐文件复查，创作终验待完成",
       "candidate_paths": [],
       "inherited_decoded_media": [],
       "candidate_count_is_not_approval": true,
       "final_creative_acceptance": false,
       "audio_acceptance": "无法验证最终表演",
-      "new_render": null
+      "new_render": {
+        "shot": "E9-CARD",
+        "frames": 96,
+        "manifest": "production/codex_pipeline/deliverables/E9-CARD/DELIVERY.json",
+        "full_decode": "PASS",
+        "actual_browser_playback": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+        "decoded_frames": 96,
+        "dropped_frames": 0,
+        "original_audio_PCM_exact": true,
+        "all_delivered_file_hashes": "PASS",
+        "director_final_acceptance": false
+      }
     },
     {
       "id": "E9-01",

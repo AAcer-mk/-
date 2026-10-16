@@ -31,7 +31,7 @@
     "Facial performance and phoneme synchronization"
   ],
   "automatic_cross_session_execution": false,
-  "production_queue": "RUNNING_E8_01_THEN_END_07",
+  "production_queue": "RENDERING",
   "inherited_QA": {
     "images_checked": 562,
     "images_pass": 558,
@@ -59,11 +59,13 @@
   ],
   "active_render": {
     "shot": "E8-01",
-    "status": "QUEUED_AFTER_EXISTING_SHOT_REVALIDATION",
+    "state": "production/codex_pipeline/output/E8-01/e44b4c100fe0/state.json",
     "frames_required": 181,
-    "not_final_output": true
+    "verified_frame_cache_count": 132,
+    "not_final_output": true,
+    "status": "RENDERING_LOCK_HELD"
   },
-  "updated_utc": "2026-10-16T02:58:47.226258+00:00",
+  "updated_utc": "2026-10-16T03:09:22.612761+00:00",
   "new_native_3D_render_frames": 423,
   "new_native_3D_render_seconds": 17.625,
   "completed_production_renders": [
@@ -76,6 +78,7 @@
       "decoded_frames": 192,
       "dropped_frames": 0,
       "original_audio_PCM_exact": true,
+      "all_delivered_file_hashes": "PASS",
       "director_final_acceptance": false
     },
     {
@@ -87,6 +90,7 @@
       "decoded_frames": 135,
       "dropped_frames": 0,
       "original_audio_PCM_exact": true,
+      "all_delivered_file_hashes": "PASS",
       "director_final_acceptance": false
     },
     {
@@ -98,6 +102,7 @@
       "decoded_frames": 96,
       "dropped_frames": 0,
       "original_audio_PCM_exact": true,
+      "all_delivered_file_hashes": "PASS",
       "director_final_acceptance": false
     }
   ],
@@ -108,5 +113,33 @@
     "full_decode": "PASS",
     "casting_and_acting_acceptance": false,
     "used_in_film_mix": false
-  }
+  },
+  "interrupted_render_states": [],
+  "completed_native_graphics": [
+    {
+      "shot": "E8-CARD",
+      "frames": 96,
+      "manifest": "production/codex_pipeline/deliverables/E8-CARD/DELIVERY.json",
+      "full_decode": "PASS",
+      "actual_browser_playback": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+      "decoded_frames": 96,
+      "dropped_frames": 0,
+      "original_audio_PCM_exact": true,
+      "all_delivered_file_hashes": "PASS",
+      "director_final_acceptance": false
+    },
+    {
+      "shot": "E9-CARD",
+      "frames": 96,
+      "manifest": "production/codex_pipeline/deliverables/E9-CARD/DELIVERY.json",
+      "full_decode": "PASS",
+      "actual_browser_playback": "ACTUAL_CHROMIUM_PLAYBACK_PASS",
+      "decoded_frames": 96,
+      "dropped_frames": 0,
+      "original_audio_PCM_exact": true,
+      "all_delivered_file_hashes": "PASS",
+      "director_final_acceptance": false
+    }
+  ],
+  "new_native_2D_render_frames": 192
 }

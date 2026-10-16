@@ -28,6 +28,7 @@ def main():
     p.add_argument('--shot',required=True);p.add_argument('--picture',type=Path,required=True)
     p.add_argument('--output',type=Path,required=True)
     p.add_argument('--e7-mix',type=Path)
+    p.add_argument('--output-label',default='3D',choices=['3D','2D'])
     args=p.parse_args();args.output.mkdir(parents=True,exist_ok=True)
     tl=json.loads((args.source/'project/full_picture_timeline.json').read_text());row=next(s for s in tl if s['id']==args.shot)
     start=row['start_frame']*2000;end=row['end_frame']*2000
@@ -35,7 +36,7 @@ def main():
     if args.shot.startswith('E7-') and args.e7_mix:
         mix=args.e7_mix;start-=16920*2000;end-=16920*2000
     expected=pcm(mix,start,end);assert len(expected)==(end-start)*8
-    master=args.output/(args.shot+'_3D_MASTER.mkv');review=args.output/(args.shot+'_3D_REVIEW.mp4')
+    master=args.output/(args.shot+'_'+args.output_label+'_MASTER.mkv');review=args.output/(args.shot+'_'+args.output_label+'_REVIEW.mp4')
     with tempfile.TemporaryDirectory(dir=args.output) as temp:
         stem=Path(temp)/'stem.flac'
         run(['ffmpeg','-v','error','-n','-i',mix,'-af',f'atrim=start_sample={start}:end_sample={end},asetpts=PTS-STARTPTS',

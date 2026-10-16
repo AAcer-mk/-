@@ -59,3 +59,17 @@ python3 -m venv /workspace/codex-runtime/venv
 `produce`默认按时间线、分辨率、采样与引擎检查已完整解码且SHA-256匹配的画面，保留原配置来源并复用，随后重新验证音轨和播放。`--refresh`才要求按当前代码指纹重建；不同变体均保留。新增环境场景、原字体及镜像符号代码纳入相应任务指纹。Blender脚本异常以非零状态传播，不把进程退出当成功。
 
 声音采用独立`/workspace/codex-runtime/voice-venv`与`requirements-voice.lock.txt`。`setup_voice_models.py`按原B06固定SHA-256复用或下载模型；`synthesize_voice_candidates.py`实际使用CPU执行ONNX，输出FLAC与来源/方法清单。权重保存在仓库外。四个候选未完成听审、情绪和角色身份验收，未混入正式时间线。
+
+## 既有原生字卡与状态刷新
+
+`render_native_cards.py --source /workspace/silent-protocol-source`使用恢复的`film_compositor.card`，按原时间线渲染E8-CARD/E9-CARD各96帧。文字逐字出现、原符号和原布局保持，明确登记为二维图形，不计入三维渲染帧数。成功产物使用2D命名，保留原声音窗口、实际播放记录和逐帧哈希。
+
+`refresh_progress.py --export-completed`校验完整交付并刷新机器账本；不赋予导演终验。它检查任务锁，避免跨会话把陈旧状态误报为仍在后台渲染。
+
+## 连续制作入口
+
+```bash
+/workspace/codex-runtime/venv/bin/python production/codex_pipeline/continue_production.py
+```
+
+该入口依次执行已实现三维镜头、两个原字卡、产物导出、账本刷新和全镜清单更新。发现另一个渲染持锁时保留原进程、更新真实状态并以75退出；没有计时停工或等待用户继续的闸门。首次活跃任务检测已实际验证。已有完好交付不覆盖；新变体须使用新的交付目录。当前实际进程结束后由Codex继续调度，不虚构平台守护服务。

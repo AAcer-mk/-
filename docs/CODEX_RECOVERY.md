@@ -41,3 +41,16 @@ python3 production/sol61/project/restore_payload.py artwork_manifest.json render
 ## 会话恢复
 
 读取`production/PROGRESS.json`、`production/SHOT_AUDIT.json`和`docs/CODEX_PRODUCTION_STATUS.md`。检查实际文件和哈希，不能假定进程跨会话存活。没有用户需要反复发送“继续”的阶段锁；有可执行任务就继续，具体阻断必须写入状态。
+
+## 本轮环境配置与生产账本
+
+`bash production/codex_pipeline/cloud_setup.sh`已在当前工作区实际运行通过：渲染/声音两个隔离环境的`pip check`、六项恢复保护检查、模型大小及SHA-256、Node Playwright与Chromium可用性均通过。首次缺少原资产时才获取固定提交并恢复，已存在的原资产和权重直接复用。当前验证不等于在新任务中验证了快照恢复。
+
+`refresh_progress.py`重新核对已交付文件的每个大小/SHA-256、完整解码/原声符合与实际播放回执；通过文件锁区分当前活跃渲染与陈旧的RENDERING状态。`--export-completed`只导出已经完成音轨符合与实际播放的新镜头，不覆盖既有交付。
+
+```bash
+/workspace/codex-runtime/venv/bin/python production/codex_pipeline/refresh_progress.py --export-completed
+/workspace/codex-runtime/venv/bin/python production/codex_pipeline/render_native_cards.py --source /workspace/silent-protocol-source
+```
+
+独立对象库已从GitHub重新读取提交`139fb56365d5c1b225d856031a26a76ec9b651c6`的374个交付文件，共117,014,918字节，全部与本地SHA-256一致；证据见`qa/REMOTE_PRODUCTION_SHOTS.json`。这验证远端字节保存，不代表新会话安装或影片终验。
