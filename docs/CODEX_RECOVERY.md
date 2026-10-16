@@ -54,3 +54,5 @@ python3 production/sol61/project/restore_payload.py artwork_manifest.json render
 ```
 
 独立对象库已从GitHub重新读取提交`139fb56365d5c1b225d856031a26a76ec9b651c6`的374个交付文件，共117,014,918字节，全部与本地SHA-256一致；证据见`qa/REMOTE_PRODUCTION_SHOTS.json`。这验证远端字节保存，不代表新会话安装或影片终验。
+
+安装脚本现已改为检查全部1,107个期望成员，能识别“时间线在但资产不全”的部分恢复。`verify_recovered_source.py`分别检查baseline/rounds/old；`ensure_recovery_objects.py`枚举本地对象，并只批量获取确实缺失的Blob。本次全部3,433个恢复对象已在本地，网络下载为0。缺哪组才重建哪组，已存在而内容不同的文件仍拒绝覆盖。
